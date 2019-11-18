@@ -1,16 +1,12 @@
 ---
 title: Présentation de l’application de bureau AEM
-seo-title: Documentation technique sur les applications de bureau Adobe Experience Manager et aide autonome
-description: Documentation technique et aide à comprendre comment l’application de bureau AEM peut optimiser le flux de travail des utilisateurs créatifs lors de l’utilisation de ressources d’entreprise directement depuis leur bureau.
-seo-description: Découvrez comment l’application AEM Desktop peut optimiser le flux de travail des utilisateurs créatifs lors de l’utilisation de ressources d’entreprise directement depuis leur bureau.
-contentOwner: asgupta
+description: Découvrez comment utiliser l’application de bureau AEM pour optimiser les processus de gestion des ressources pour les utilisateurs créatifs lors de l’utilisation des ressources AEM directement depuis leur bureau.
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
-index: y
-internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b74a3ff5c9a25ee1433dd661a1bce677271a5ebe
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
