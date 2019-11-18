@@ -1,18 +1,13 @@
 ---
 title: Utiliser l’application de bureau AEM
-seo-title: Utilisation de l’application de bureau Adobe Experience Manager
 description: Découvrez comment installer et utiliser l’application de bureau Adobe Experience Manager pour travailler sur des ressources AEM directement depuis votre bureau Win ou Mac. Connaître les bonnes pratiques et les informations de dépannage.
-seo-description: Découvrez comment installer et utiliser l’application de bureau Adobe Experience Manager pour travailler sur des ressources AEM directement depuis votre bureau Win ou Mac. Connaître les bonnes pratiques et les informations de dépannage.
 uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
-index: y
-internal: n
-snippet: y
-mini-toc-levels: '1'
+mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: b74a3ff5c9a25ee1433dd661a1bce677271a5ebe
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
