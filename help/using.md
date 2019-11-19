@@ -7,7 +7,7 @@ products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
+source-git-commit: f9c2347f8f17d32479207980fafba058825d986f
 
 ---
 
@@ -22,7 +22,7 @@ Lorsque vous ouvrez l’application après la déconnexion ou pour la première 
 
 Les tâches clés que vous effectuez à l’aide de l’application de bureau AEM sont les suivantes :
 
-![Processus et tâches que vous pouvez accomplir à l’aide de l’](assets/do-not-localize/whats-new-desktop-app-v2.png "application de bureau AEM Workflows et tâches que vous pouvez accomplir à l’aide de l’application")de bureau AEM Téléchargez [ce](assets/do-not-localize/aem_desktop_app_usecases_print.pdf) fichier PDF prêt pour l’impression.
+![Processus et tâches que vous pouvez accomplir à l’aide de l’](assets/aem_desktop_app_usecases_v2.png "application de bureau AEM Workflows et tâches que vous pouvez accomplir à l’aide de l’application")de bureau AEM Téléchargez [ce](assets/aem_desktop_app_usecases_print.pdf) fichier PDF prêt pour l’impression.
 
 ## Fonctionnement de l’application de bureau {#how-app-works2}
 
