@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
+source-git-commit: f9c2347f8f17d32479207980fafba058825d986f
 
 ---
 
@@ -84,7 +84,7 @@ Il est important de comprendre ce qui suit au sujet de l’application et de son
 
 Le diagramme suivant illustre le flux de ressources et de fichiers du cloud vers le système de fichiers local et vice versa, tel qu’il est initié par les actions de l’utilisateur.
 
-![Flux de ressources du serveur AEM vers des applications de bureau natives via une application de bureau](assets/do-not-localize/da20_flow_diagram.png)
+![Flux de ressources du serveur AEM vers des applications de bureau natives via une application de bureau](assets/da20_flow_diagram.png)
 
 ## Problèmes connus {#known-issues-v2}
 
