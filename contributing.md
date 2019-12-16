@@ -1,6 +1,6 @@
 ---
 source-git-commit: 463470ba99cd3adfabb5ff00211757d1f97de12e
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Contribution
@@ -17,7 +17,7 @@ implique le respect de ce code. Veuillez signaler tout comportement inacceptable
 
 ## Guide du contributeur
 
-Consultez le Guide [du](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)contributeur.
+Voir le [Guide du contributeur](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
 
 ## Vous avez une question ?
 
@@ -48,4 +48,4 @@ n’hésitez pas à contacter les validateurs pour en discuter.
 
 ## Problèmes de sécurité
 
-Les problèmes de sécurité ne doivent pas être signalés dans ce suivi de problèmes. Au lieu de cela, [soumettez un problème à nos experts en sécurité](https://helpx.adobe.com/security/alertus.html).
+Les problèmes de sécurité ne doivent pas être signalés dans ce suivi de problèmes. Au lieu de cela, [soumettez un problème à nos experts en sécurité](https://helpx.adobe.com/fr/security/alertus.html).
