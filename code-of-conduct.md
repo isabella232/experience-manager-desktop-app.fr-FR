@@ -1,6 +1,6 @@
 ---
 source-git-commit: 463470ba99cd3adfabb5ff00211757d1f97de12e
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Code de conduite d’Adobe
