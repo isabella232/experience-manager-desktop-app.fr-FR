@@ -8,7 +8,7 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
 
 ---
@@ -26,7 +26,7 @@ Observez les bonnes pratiques suivantes pour éviter certains problèmes courant
 
 * **Comprendre le fonctionnement de l’appli de bureau** : avant de commencer à utiliser l’application, consacrez quelques minutes à en découvrir le fonctionnement. Sachez comment fonctionne la liaison entre l’interface utilisateur web et de bureau, le mappage de référentiel, la mise en cache de ressources, l’enregistrement en local et le chargement en arrière-plan. Voir [Fonctionnement](release-notes.md#how-app-works).
 
-* **Evitez les caractères non pris en charge dans les noms** de dossier : N’utilisez pas d’espaces et de caractères non valides lors de la création ou du téléchargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans AEM Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). Certains cas d’utilisation d’AEM peuvent être affectés par la présence de caractères non pris en charge dans le nom du dossier.
+* **Éviter les caractères non pris en charge dans les noms de dossier** : n’utilisez pas d’espaces ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans AEM Assets](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). Certains cas d’utilisation d’AEM peuvent être affectés par la présence de caractères non pris en charge dans le nom du dossier.
 
 * **Bonnes pratiques pour éviter les conflits** : pour éviter des conflits potentiels lors de la collaboration sur plusieurs ressources, voir [Éviter les conflits de modification](using.md#adv-workflow-collaborate-avoid-conflicts).
 
