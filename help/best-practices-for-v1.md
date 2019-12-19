@@ -8,7 +8,7 @@ discoiquuid: 57d5cd78-abce-4ede-a50e-7c161ddb43ae
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
 
 ---
@@ -34,7 +34,7 @@ L’appli de bureau AEM utilise des partages réseau WebDAV (Windows) ou SMB (M
 
 ![Architecture de l’appli de bureau AEM](assets/chlimage_1.png)
 
-La mise en cache supplémentaire à l’écriture lors de l’enregistrement d’un fichier entraîne tout d’abord l’enregistrement local du fichier (de sorte que l’utilisateur n’attend pas le transfert réseau). Ensuite, après un délai prédéfini (30 s) le fichier est téléchargé vers AEM en arrière-plan, puis le fichier est téléchargé vers AEM. L’appli de bureau AEM fournit une interface utilisateur permettant de surveiller le statut des chargements de fichiers en arrière-plan.
+La mise en cache supplémentaire à l’écriture lors de l’enregistrement d’un fichier entraîne tout d’abord l’enregistrement local du fichier (de sorte que l’utilisateur n’attend pas le transfert réseau). Ensuite, après un délai prédéfini (30 s), le fichier est chargé vers AEM en arrière-plan, puis la ressource est chargée dans AEM. L’appli de bureau AEM fournit une interface utilisateur permettant de surveiller le statut des chargements de fichiers en arrière-plan.
 
 ## Utilisation recommandée de l’appli de bureau AEM {#recommended-use-of-aem-desktop-app}
 
@@ -64,19 +64,19 @@ Les fonctionnalités principales de l’appli de bureau AEM incluent :
 
 L’appli de bureau AEM fournit un accès virtuel à l’ensemble du référentiel DAM, mais il peut être compliqué pour les utilisateurs créatifs de trouver et d’accéder aux ressources appropriées sur leur bureau. Utilisez les meilleures pratiques de ce document pour simplifier ce processus.
 
-* Utilisez les fonctionnalités de collaboration de l’interface utilisateur web d’AEM Assets pour fournir aux utilisateurs créatifs un accès plus direct aux ressources appropriées. Le partage de dossiers ou de collections, la diffusion de collections dynamiques (recherches enregistrées) ou l’envoi de notifications avec des pointeurs vers les ressources appropriées sont quelques exemples de fonctionnalités de collaboration. Les utilisateurs créatifs peuvent alors utiliser les actions de bureau dans l’interface utilisateur Web pour accéder rapidement à ces ressources sur leur bureau.
+* Utilisez les fonctionnalités de collaboration de l’interface utilisateur web d’AEM Assets pour fournir aux utilisateurs créatifs un accès plus direct aux ressources appropriées. Le partage de dossiers ou de collections, la diffusion de collections dynamiques (recherches enregistrées) ou l’envoi de notifications avec des pointeurs vers les ressources appropriées sont quelques exemples de fonctionnalités de collaboration. Les utilisateurs créatifs peuvent ensuite utiliser des actions du bureau dans l’interface utilisateur web pour accéder rapidement à ces ressources sur leur bureau.
 * Tenez compte des autorisations appropriées relatives aux ressources (contrôle d’accès) afin de simplifier l’affichage dans le référentiel DAM pour les utilisateurs créatifs, en limitant essentiellement leur accès aux seules ressources dont ils ont besoin :
 
    * Certaines zones non pertinentes pour les utilisateurs créatifs peuvent ne pas être autorisées pour leur(s) groupe(s) d’utilisateurs, et supprimées de l’affichage, également sur le bureau
    * La plupart des ressources de la gestion des actifs numériques sont définitives et ne sont pas destinées à être modifiées. Elles doivent être en lecture seule pour les utilisateurs créatifs.
    * Seules les ressources nécessitant des modifications/retouches doivent être activées pour l’écriture pour les utilisateurs créatifs. Certaines organisations utilisent les projets AEM et les dossiers qu’ils créent pour héberger les ressources susceptibles d’être modifiées.
 
-### Recherche de ressources  {#searching-assets}
+### Recherche de ressources    {#searching-assets}
 
 Pour rechercher un fichier que vous souhaitez ouvrir sur le bureau :
 
 * Utilisez l’interface utilisateur web d’AEM Assets pour localiser la ressource. Dans AEM Assets, non seulement la fonctionnalité de recherche est puissante (facettes de recherche, recherches enregistrées), mais elle fournit également des fonctionnalités supplémentaires permettant de trouver la ressource appropriée. Il s’agit de filtres supplémentaires, comme la possibilité de rechercher des ressources en fonction de l’état (approbation, expiration), des collections, des tâches, des notifications, et de partager des dossiers/collections avec d’autres utilisateurs/groupes.
-* Une fois la ressource localisée, utilisez l’option Actions sur le Bureau de l’interface utilisateur d’AEM pour accéder à la ressource sur le    bureau.
+* Une fois la ressource localisée, utilisez l’option Actions sur le Bureau de l’interface utilisateur d’AEM pour accéder à la ressource sur le        bureau.
 
 ### Mise à jour des ressources ouvertes à l’aide de l’appli de bureau AEM {#updating-assets-opened-using-aem-desktop-app}
 
@@ -97,25 +97,25 @@ Si une ressource stockée dans AEM nécessite une mise à jour :
    * Travaillez sur le fichier et enregistrez-le par intermittence. Les modifications ne sont pas enregistrées dans AEM Assets.
    * Une fois les modifications terminées, déplacez, copiez ou enregistrez le fichier mappé à partir d’AEM pour le charger en tant que nouvelle version.
 
-## Performances du réseau  {#network-performance}
+## Performances du réseau    {#network-performance}
 
 L’expérience des utilisateurs de l’appli de bureau AEM dépend grandement d’une connectivité réseau stable et de bonne qualité entre leur bureau et le serveur AEM, ainsi que d’un serveur optimisé pour des performances élevées, en particulier lors du chargement et de la mise à jour des ressources. Ces recommandations s’appliquent aux équipes réseau/informatiques des organisations.
 
-### Remarques relatives au réseau   {#network-considerations}
+### Remarques relatives au réseau     {#network-considerations}
 
 Pour connaître les meilleures pratiques concernant la configuration réseau d’AEM Assets, reportez-vous au document [Remarques relatives au réseau pour AEM Assets](https://helpx.adobe.com/experience-manager/6-4/assets/using/assets-network-considerations.html). Voici certains aspects importants permettant d’optimiser l’expérience de l’appli de bureau AEM pour les utilisateurs :
 
 * **Utilisez un Dispatcher correctement configuré :** Utilisez un Dispatcher AEM pour plus de sécurité et assurez-vous qu’il est configuré pour une [connexion de l’appli de bureau AEM à AEM par l’intermédiaire d’un Dispatcher](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html#ConnectingtoAEMBehindaDispatcher).
 
-* **Économisez la bande passante :** envisagez de désactiver l’aperçu des icônes dans le Finder sous Mac lorsque vous parcourez le référentiel monté à l’aide du Finder. Le Finder demande à chaque fichier de générer un aperçu et entraîne l’appli de bureau à télécharger et à mettre en cache la ressource au niveau local. Veuillez noter que si vous économisez de la bande passante, cela diminuerait également l’expérience des utilisateurs sur le bureau. Il est donc conseillé de le faire lorsque vous travaillez avec des référentiels avec des ressources volumineuses et/ou une bande passante limitée.
+* **Économisez la bande passante :** envisagez de désactiver l’aperçu des icônes dans le Finder sous Mac lorsque vous parcourez le référentiel monté à l’aide du Finder. Le Finder demande à chaque fichier de générer un aperçu et entraîne l’appli de bureau à télécharger et à mettre en cache la ressource au niveau local. Veuillez noter que, tout en économisant de la bande passante, cette opération appauvrit également l’expérience des utilisateurs travaillant sur le bureau. Elle ne doit donc être effectuée que lorsque vous travaillez avec des référentiels comportant des ressources volumineuses et/ou une bande passante limitée.
 
 >[!NOTE]
 >
->Pour désactiver l’aperçu des icônes, dans le Finder, accédez à Affichage, sélectionnez Options d’affichage, puis désactivez l’option "Afficher l’aperçu de l’icône". Cette opération ne fonctionne que pour le dossier actuel. Pour en faire une option par défaut, cliquez sur le bouton « Utiliser par défaut » dans la même fenêtre.
+>Pour désactiver les aperçus d’icônes, dans le Finder, sélectionnez View (Afficher), puis View Options (Options d’affichage) et décochez la case Show icon preview (Afficher l’aperçu des icônes). Cette opération ne fonctionne que pour le dossier actuel. Pour en faire une option par défaut, cliquez sur le bouton « Utiliser par défaut » dans la même fenêtre.
 
-### Optimisation des performances du serveur   {#optimizing-server-performance}
+### Optimisation des performances du serveur     {#optimizing-server-performance}
 
-Pour savoir comment le serveur AEM Assets doit être optimisé en termes de performances, reportez-vous au [Guide d’optimisation des performances d’AEM Assets](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/performance-tuning-guidelines.html). Certains aspects importants relatifs aux performances du serveur pour l’appli de bureau AEM concernent l’optimisation de la configuration des processus afin d’assurer un bon fonctionnement en vue du chargement des ressources :
+Pour savoir comment le serveur AEM Assets doit être optimisé en termes de performances, reportez-vous au [Guide d’optimisation des performances d’AEM Assets](https://helpx.adobe.com/fr/experience-manager/6-4/assets/using/performance-tuning-guidelines.html). Certains aspects importants relatifs aux performances du serveur pour l’appli de bureau AEM concernent l’optimisation de la configuration des processus afin d’assurer un bon fonctionnement en vue du chargement des ressources :
 
 * **Chargement des ressources plus performant :** configurez le [modèle de processus de mise à jour des ressources AEM pour qu’il soit transitoire](https://helpx.adobe.com/experience-manager/6-4/assets/using/performance-tuning-guidelines.html#Workflows).
 
