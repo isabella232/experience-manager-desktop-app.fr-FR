@@ -1,5 +1,5 @@
 ---
-title: Installation et configuration de l’appli de bureau AEM version 1.x
+title: Installation et configuration de l’appli de bureau AEM version 1.x
 description: Installez et configurez l’appli de bureau AEM version 1.x pour qu’elle fonctionne avec des serveurs AEM Assets et mappez les ressources à monter en tant que lecteur sur votre bureau.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: AG
@@ -8,7 +8,7 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
 
 ---
@@ -26,13 +26,13 @@ Installez et configurez l’appli de bureau AEM pour qu’elle fonctionne avec 
 
 Pour plus d’informations, voir les [Notes de mise à jour de l’appli de bureau AEM](release-notes-of-v1.md).
 
-## Installation de l’appli de bureau AEM et connexion de l’application au serveur AEM {#install-and-connect-aem-desktop-app-to-aem-server}
+## Installation de l’appli de bureau AEM et connexion de l’application au serveur AEM {#install-and-connect-aem-desktop-app-to-aem-server}
 
 Pour plus d’informations, voir [Installation de l’appli de bureau AEM et connexion de l’application au serveur AEM](use-app-v1.md#installandconnect).
 
 >[!NOTE]
 >
->Une seule instance de l’appli de bureau AEM peut être installée et active à la fois.
+>Une seule instance de l’appli de bureau AEM peut être installée et active à la fois.
 
 ## Prise en charge des proxys {#proxy-support}
 
@@ -59,13 +59,13 @@ Dans la seconde phase, l’appli de bureau charge le fichier mis à jour sur le 
 
 ## Connexion à une instance AEM derrière un Dispatcher {#connect-to-an-aem-instance-behind-a-dispatcher}
 
-Les méthodes de copie et de déplacement de l’API Ressources nécessitent que les en-têtes supplémentaires suivants soient transmis à AEM :
+Les méthodes copy et move de l’API Assets nécessitent que les en-têtes supplémentaires suivantes soient transmises à AEM :
 
 * X-Destination
 * X-Depth
 * X-Overwrite
 
-L’appli de bureau AEM se connecte à AEM à l’aide d’une URL qui comprend le port par défaut. Par conséquent, le paramètre `virtualhosts` dans la configuration du Dispatcher doit inclure le numéro de port par défaut. For more information around `virtualhosts` configuration, see [Identifying Virtual Hosts](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+L’appli de bureau AEM se connecte à AEM à l’aide d’une URL qui comprend le port par défaut. Par conséquent, le paramètre `virtualhosts` dans la configuration du Dispatcher doit inclure le numéro de port par défaut. Pour plus d’informations sur la configuration de `virtualhosts`, voir [Identification des hôtes virtuels](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
 
 Pour plus d’informations sur la configuration du Dispatcher afin de transmettre ces en-têtes supplémentaires, voir [Spécification des en-têtes HTTP](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
 
@@ -78,7 +78,7 @@ Vous pouvez personnaliser la boîte de dialogue Asset Info (Informations sur les
 
 La nature du composant recouvert dépend de la nature de la personnalisation. Pour modifier les composants affichés dans la boîte de dialogue Asset Info (Informations sur les ressources), recouvrez la page de l’interface utilisateur Granite. Pour modifier le contenu HTML/CSS/JavaScript de la boîte de dialogue, recouvrez le composant HTL.
 
-## Gestion du cache  {#manage-cache}
+## Gestion du cache    {#manage-cache}
 
 Sous Windows, le cache se situe à l’emplacement `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`, où il existe une version codée de l’hôte AEM configuré dans l’appli de bureau AEM. Par exemple, `http://localhost:4502` s’affiche comme suit : `http%3A%2F%2Flocalhost%3A4502%2F`
 
@@ -86,13 +86,13 @@ Sous Mac OS X, un répertoire semblable est situé à l’emplacement suivant�
 
 ### Option dans l’application pour gérer le cache {#in-app-option-to-manage-cache}
 
- (Avancé &gt; Gérer le cache) Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur AEM Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Pour définir les options de votre choix, cliquez sur l’icône de l’application, puis sur **[!UICONTROL Advanced]** &gt; **[!UICONTROL Manage Cache]**. ****
+ Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur AEM Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Pour définir les options de votre choix, cliquez sur l’icône de l’application, puis sur **[!UICONTROL Advanced]** &gt; **[!UICONTROL Manage Cache]**. ****
 
 >[!NOTE]
 >
 >Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur AEM sont conservées.
 
-### Modification de l’emplacement du cache sous Windows   {#change-location-of-cache-on-windows}
+### Modification de l’emplacement du cache sous Windows     {#change-location-of-cache-on-windows}
 
 L’emplacement par défaut du cache de l’appli de bureau AEM est le suivant :
 
@@ -116,9 +116,9 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
 
 ## Ressources supplémentaires {#additional-resources}
 
-* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
+* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/fr/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
 * [Utilisation de l’appli de bureau AEM](use-app-v1.md)
 
-* [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [Utilisation de l’appli de bureau avec AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://helpx.adobe.com/fr/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Utilisation de l’appli de bureau avec AEM Assets](https://helpx.adobe.com/fr/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
 * [Résolution des problèmes liés à l’appli de bureau AEM](troubleshoot-app-v1.md)
