@@ -8,7 +8,7 @@ discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
 
 ---
@@ -36,7 +36,7 @@ Pour les pratiques recommandées, voir les [Bonnes pratiques d’utilisation de 
 
 ## Points de contact de l’appli de bureau AEM dans le processus de création {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
-L’application AEM Desktop, ainsi que les ressources AEM, s’intègrent à votre processus créatif et offre les points de contact suivants.
+L’appli de bureau AEM, avec AEM Assets, s’intègre dans votre processus de création et propose les points de contact suivants.
 
 ![Points de contact de l’appli de bureau AEM dans le processus de création](assets/aem_desktopapp_workflow.png)
 
@@ -62,7 +62,7 @@ Pour utiliser l’appli de bureau AEM, vérifiez que votre version du serveur A
 
 Une configuration détaillée peut s’avérer nécessaire en fonction des préférences de votre système et de votre réseau. Pour plus d’informations, voir [Installation et configuration de l’appli de bureau AEM](install-configure-app-v1.md).
 
-1. Rendez-vous sur la [page de téléchargement de l’appli de bureau AEM](https://helpx.adobe.com/experience-manager/kb/download-companion-app.html) et téléchargez le fichier binaire approprié à votre système d’exploitation.
+1. Rendez-vous sur la [page de téléchargement de l’appli de bureau AEM](https://helpx.adobe.com/fr/experience-manager/kb/download-companion-app.html) et téléchargez le fichier binaire approprié à votre système d’exploitation.
 1. Exécutez le fichier d’installation téléchargé et suivez les instructions affichées à l’écran pour installer l’application.
 
    >[!NOTE]
@@ -78,7 +78,7 @@ L’application accepte des paramètres pour se connecter aux serveurs AEM et s
 
 **Options** Cliquez/appuyez sur Options dans la barre d’état de l’appli de bureau AEM pour accéder aux paramètres permettant de lancer l’application au démarrage de votre système, de vous connecter au serveur AEM au lancement de l’appli et de modifier la lettre du lecteur local sur lequel AEM Assets est disponible après le montage.
 
-**Advanced &gt; Manage cache (Avancé &gt; Gérer le cache)** Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur AEM Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur AEM sont conservées.
+**Advanced &gt; Manage cache (Avancé &gt; Gérer le cache)** Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur AEM Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur AEM sont conservées.
 
 ### Connexion à un serveur AEM {#connect}
 
@@ -106,12 +106,12 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
    ![Activation de la case à cocher Afficher les actions de bureau pour les ressources afin d’activer les actions de bureau](assets/chlimage_1-3.png)
 
-   Cocher la case Show Desktop Actions For Assets pour activer les actions de bureau
+   Activation de la case à cocher Afficher les actions de bureau pour les ressources afin d’activer les actions de bureau
 
-## Accès aux ressources et ouverture de ces éléments sur votre ordinateur de bureau  {#openondesktop}
+## Accès aux ressources et ouverture de ces éléments sur votre ordinateur de bureau    {#openondesktop}
 
 >[!NOTE]
->Sous Windows, le [paramètre par défaut de Windows 7](https://support.microsoft.com/en-us/kb/2668751) empêche l’appli de bureau AEM de gérer les ressources de plus de 50 Mo.
+>Sous Windows, le [paramètre par défaut de Windows 7](https://support.microsoft.com/fr-fr/kb/2668751) empêche l’appli de bureau AEM de gérer les ressources de plus de 50 Mo.
 
 ### Affichage de l’emplacement des ressources mappées à partir de l’interface web AEM {#reveal-the-location-of-mapped-assets-from-aem-web-interface}
 
@@ -145,7 +145,7 @@ Sous Windows, sélectionnez Ouvrir sur le web dans le menu contextuel pour ouvri
 
 Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau AEM
 
-### Explication des états de ressources  {#understand-the-asset-statuses}
+### Explication des états de ressources    {#understand-the-asset-statuses}
 
 | ![Icône de l’appli par défaut Windows](assets/win_default.png) | L’application est connectée au serveur, et toutes les ressources sont synchronisées. |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -159,7 +159,7 @@ Options de menu contextuel permettant d’accéder à des ressources et de les o
 
 AEM Assets permet d’extraire des ressources pour les modifier et de les ré-archiver après y avoir apporté les modifications. Après avoir extrait une ressource, vous seul pouvez la modifier, l’annoter, la publier, la déplacer ou la supprimer. Le fait d’extraire une ressource entraîne son verrouillage et empêche les autres utilisateurs d’effectuer l’une de ces opérations. Vous avez besoin d’un accès en écriture à ces ressources pour être en mesure de les extraire ou de les archiver.
 
-Pour extraire des ressources à partir de l’interface web AEM, deux méthodes sont possibles. Pour obtenir des informations détaillées sur la première méthode, voir [Archivage et extraction de fichiers à partir de l’interface utilisateur Assets](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/check-out-and-submit-assets.html). Pour la deuxième méthode, suivez la procédure ci-dessous pour extraire et ouvrir la ressource quand l’appli de bureau AEM est installée.
+Pour extraire des ressources à partir de l’interface web AEM, deux méthodes sont possibles. Pour obtenir des informations détaillées sur la première méthode, voir [Archivage et extraction de fichiers à partir de l’interface utilisateur Assets](https://helpx.adobe.com/fr/experience-manager/6-4/assets/using/check-out-and-submit-assets.html). Pour la deuxième méthode, suivez la procédure ci-dessous pour extraire et ouvrir la ressource quand l’appli de bureau AEM est installée.
 
 1. Ouvrez l’interface d’AEM Assets et placez le pointeur sur un dossier ou une ressource afin d’afficher les actions de bureau sous la forme d’actions rapides dans le mode Carte.
 
@@ -181,7 +181,7 @@ Pour extraire des ressources à partir de l’interface web AEM, deux méthodes 
 1. Sélectionnez l’option de menu Open (Ouvrir). Les ressources sélectionnées sont ouvertes en mode d’aperçu.
 1. Pour modifier les ressources, sélectionnez l’option Edit (Modifier). Les ressources sont ouvertes en mode d’édition.
 
-### Extraction de ressources sous Mac   {#check-out-assets-on-mac}
+### Extraction de ressources sous Mac     {#check-out-assets-on-mac}
 
 L’application permet d’extraire des fichiers de ressource pour empêcher d’autres utilisateurs de modifier les fichiers sur lesquels vous travaillez.
 
@@ -196,11 +196,11 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
    ![Ouverture dans le menu contextuel d’AEM Assets sous Mac](assets/chlimage_1-5.png)
 
 1. Cliquez avec le bouton droit sur la ressource, puis choisissez More Assets Info (Plus d’infos sur la ressource) dans le menu contextuel.
-1. Dans la boîte de dialogue Asset Info (Informations sur les ressources), cliquez/appuyez sur l’icône Checkout (Extraire) pour extraire la ressource. L'icône Passage en caisse bascule vers l'icône d'arrivée lorsque vous cliquez ou appuyez dessus.
+1. Dans la boîte de dialogue Asset Info (Informations sur les ressources), cliquez/appuyez sur l’icône Checkout (Extraire) pour extraire la ressource. L’icône Checkout (Extraire) se change en icône Check-in (Archiver) une fois que vous cliquez/appuyez dessus.
 
    ![Accès à la ressource pour l’extraire](assets/chlimage_1-6.png)
 
-1. Pour archiver le fichier afin qu’il soit accessible aux autres utilisateurs, cliquez/appuyez sur l’icône d’archivage dans la boîte de dialogue Informations sur le fichier.
+1. Pour archiver la ressource afin qu’elle soit disponible pour les autres utilisateurs, cliquez/appuyez sur l’icône Check-in (Archiver) dans la boîte de dialogue Asset Info (Informations sur les ressources).
 
 ### Extraction de ressources sous Windows {#check-out-assets-on-windows}
 
@@ -212,7 +212,7 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
    ![Changement de l’icône Checkout (Extraire)](assets/chlimage_1-7.png)
 
 1. Cliquez avec le bouton droit sur la ressource, puis choisissez Ouvrir sur le web dans le menu contextuel.
-1. Dans la boîte de dialogue Asset Info (Informations sur les ressources), cliquez/appuyez sur l’icône Extraire. L'icône Passage en caisse bascule vers l'icône d'arrivée.
+1. Dans la boîte de dialogue Asset Info (Informations sur les ressources), cliquez/appuyez sur l’icône Extraire. L’icône Checkout (Extraire) se change en icône Check-in (Archiver).
 
    ![Changement de l’icône Checkout (Extraire)](assets/chlimage_1-8.png)
 
@@ -221,17 +221,17 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
    >[!NOTE]
    >Cette icône peut apparaître après quelques minutes. L’appli de bureau AEM met en cache les ressources en vue d’un accès rapide. La mise à jour de l’état Verrouillé peut donc prendre un certain temps.
 
-1. To check in the asset so it is available to other users, click/tap the check-in icon in the **Asset Info** dialog.
+1. Pour archiver la ressource afin qu’elle soit disponible pour les autres utilisateurs, cliquez/appuyez sur l’icône Check-in (Archiver) dans la boîte de dialogue **Asset Info** (Informations sur les ressources).
 
-### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web   {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
+### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web     {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
-Une fois la modification des ressources effectuée, enregistrez ces dernières dans votre application de bureau. Dans le menu contextuel, sélectionnez Plus d’informations sur les ressources, puis cliquez/appuyez sur Archiver.
+Une fois la modification des ressources effectuée, enregistrez ces dernières dans votre application de bureau. Dans le menu contextuel, sélectionnez More Assets Info (Autres infos sur les ressources) et cliquez/appuyez ensuite sur Check-in (Archiver).
 
-Les ressources sont transférées vers le serveur AEM. Vous pouvez éventuellement vérifier le statut du transfert en sélectionnant View Asset Status (Afficher le statut des ressources) à partir de l’icône de la barre d’état.
+Les ressources sont chargées vers le serveur AEM. Vous pouvez éventuellement vérifier le statut du transfert en sélectionnant View Asset Status (Afficher le statut des ressources) à partir de l’icône de la barre d’état.
 
 ![Fenêtre d’état de chargement et de transfert de fichiers de l’appli de bureau AEM](assets/aem_desktopapp_upload_status.png)
 
-Vous pouvez également archiver une ressource à partir de l’interface web AEM. Cliquez/appuyez sur les ressources extraites ou sélectionnez-les. From the toolbar, click/tap the check in icon ![check-in icon](assets/aemassets_icon_checkin.png).
+Vous pouvez également archiver une ressource à partir de l’interface web AEM. Cliquez/appuyez sur les ressources extraites ou sélectionnez-les. Dans la barre d’outils, cliquez/appuyez sur l’icône d’archivage ![Icône Check-in](assets/aemassets_icon_checkin.png).
 
 ### Chargement en masse de ressources et de dossiers vers le serveur AEM {#bulkupload}
 
@@ -256,7 +256,7 @@ Si vous préférez utiliser l’ordinateur de bureau, une autre solution consist
 
 >[!MORELIKETHIS]
 >
->* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
->* [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+>* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/fr/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
+>* [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://helpx.adobe.com/fr/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
 >* [Résolution des problèmes relatifs à l’application de bureau AEM](troubleshoot-app-v1.md)
 
