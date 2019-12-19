@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour des applications de bureau AEM
-description: Détails de la version, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’application de bureau AEM.
+title: Notes de mise à jour de l’appli de bureau AEM
+description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau AEM.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -9,20 +9,20 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b2015bd65db70a25e4c52e62a4de45a01a6748d5
 
 ---
 
 
-# AEM desktop app release notes {#release-notes-v2}
+# Notes de mise à jour de l’appli de bureau AEM {#release-notes-v2}
 
 | Produits | Appli de bureau Adobe Experience Manager (AEM) |
 |---------------|--------------------------------------------------------------------|
 | Version de l’application (révision) | 2.0 (2.0.1.1) |
 | Versions d’AEM prises en charge | AEM 6.5, AEM 6.4, AEM 6.3 (avec package de compatibilité) |
 | Type | Version mineure |
-| Date de publication | 12 décembre 2019 (Mac et Win) |
+| Date de publication | 12 décembre 2019 (Mac et Windows) |
 | URL de téléchargement | [MacOS 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.1.1.dmg) ; [Windows 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.1.1.exe) ; [Windows 32 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.1.1.exe) |
 
 ## Configuration requise et conditions préalables {#system-requirements-and-prerequisites-v2}
@@ -34,18 +34,18 @@ L’appli de bureau AEM est compatible avec les systèmes d’exploitation suiva
 
 L’application fonctionne avec les versions d’AEM suivantes, qu’elles soient déployées sur site ou sur Adobe Managed Services (AMS) :
 
-* [AEM 6.5.0 ](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) ou version ultérieure
-* [AEM 6.4.4 ](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) ou version ultérieure
+* [AEM 6.5.0 ](https://helpx.adobe.com/fr/experience-manager/6-5/release-notes.html ) ou version ultérieure
+* [AEM 6.4.4 ](https://helpx.adobe.com/fr/experience-manager/6-4/release-notes/sp-release-notes.html) ou version ultérieure
 * AEM 6.4.0 - 6.4.3 avec [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
 >
->La prise en charge des applications de bureau pour AEM 6.3 est obsolète. Adobe recommande la mise à niveau vers une version plus récente et prise en charge d’AEM.
->AEM 6.3.3.1 ou version ultérieure fonctionne avec l’application de bureau après l’installation du package [de](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)compatibilité. Aucun pack de ce type n’est disponible pour AEM 6.3, car aucun [Service Packs n’est planifié](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
+>La prise en charge de l’appli de bureau pour AEM 6.3 est obsolète. Adobe recommande la mise à niveau vers une version plus récente et prise en charge d’AEM.
+>AEM 6.3.3.1 ou version ultérieure fonctionne avec l’appli de bureau après l’installation du [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). Aucun pack de ce type n’est disponible pour AEM 6.3, car aucun [Service Pack n’est planifié](https://helpx.adobe.com/fr/experience-manager/maintenance-releases-roadmap.html).
 
 La version que vous prévoyez d’installer sur votre ordinateur local nécessite une version spécifique du serveur Adobe Experience Manager/des composants supplémentaires côté serveur (Service Packs, correctifs logiciels ou Feature Packs). Contactez votre administrateur AEM pour obtenir de l’aide.
 
-### Support for different assets and file types {#support-for-file-types}
+### Prise en charge de différents types de ressources et de fichiers {#support-for-file-types}
 
 L’application prend en charge les ressources stockées dans AEM qui représentent un fichier binaire pour ses opérations de base. L’ouverture de fichiers dans l’application de bureau native dépend de l’association du système d’exploitation des types de fichiers spécifiques (par exemple, PNG ou JPG) à des applications spécifiques (par exemple, Mac Preview ou Adobe Photoshop).
 
@@ -55,21 +55,21 @@ Certains types de fichiers prennent en charge le placement de ressources liées 
 * Fichiers Adobe Illustrator (format AI)
 * Fichiers Adobe Photoshop (format PS)
 
-Cette fonctionnalité est prise en charge avec Adobe Creative Cloud 2018 et les versions Adobe Creative Cloud 2019 de l’application ci-dessus. L’application utilise une approche heuristique et de la meilleure correspondance pour mapper les chemins d’accès de bureau locaux des ressources liées aux URL sur le serveur AEM. Elle se base sur quelques hypothèses :
+Cette fonctionnalité est prise en charge avec Adobe Creative Cloud 2018 et les versions Creative Cloud 2019 de l’application ci-dessus. L’application utilise une approche heuristique et de la meilleure correspondance pour mapper les chemins d’accès de bureau locaux des ressources liées aux URL sur le serveur AEM. Elle se base sur quelques hypothèses :
 
-* Paths to placed files in the native application use a global desktop path (placed from the local network share shown with [!UICONTROL Reveal] option).
+* Les chemins d’accès aux fichiers placés dans l’application native utilisent un chemin d’accès de bureau global (placé à partir du partage réseau local illustré par l’option [!UICONTROL Reveal]).
 * Les chemins sont stockés dans l’enregistrement XMP du fichier par l’application native.
-* AEM a extrait l’enregistrement XMP avec les chemins d’accès à l’enregistrement de métadonnées de la ressource.
-* Les chemins d’accès peuvent être associés à des ressources dans AEM, c’est-à-dire que les fichiers placés sont également dans AEM sous un chemin d’accès correspondant).
+* AEM a extrait l’enregistrement XMP avec les chemins d’accès dans l’enregistrement de métadonnées de la ressource.
+* Les chemins d’accès peuvent être associés aux ressources dans AEM, en d’autres termes, les fichiers placés se trouvent également dans AEM sous un chemin d’accès correspondant.
 
 ## Nouvelles fonctionnalités et améliorations {#whats-new-added}
 
-To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
+Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#whats-new-v2).
 
-Les correctifs et mises à jour de la version v 2.0.1 sont les suivants :
+Les correctifs et mises à jour de la version v2.0.1 sont les suivants :
 
-* Autoriser l’option de configuration du `%Temp%` répertoire pour qu’il corresponde au `%APPDATA%` chemin d’accès. <!-- CQ-4282665 -->
-* Permet aux utilisateurs de se connecter à AEM Author via l’authentification SAML okta. <!-- CQ-4278134 -->
+* Option permettant de configurer le répertoire `%Temp%` de façon à ce qu’il corresponde au chemin d’accès à `%APPDATA%`. <!-- CQ-4282665 -->
+* Permet aux utilisateurs de se connecter à l’instance Auteur AEM via l’authentification SAML Okta. <!-- CQ-4278134 -->
 
 
 ## Instructions d’installation {#installation-instructions-v2}
@@ -100,8 +100,8 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 
 **Problèmes liés à l’interface utilisateur :**
 
-* Parfois, l’interface de l’application de bureau peut devenir vide. Right-click and click [!UICONTROL Refresh] to re-load the application. Après une telle actualisation, vous démarrez à la racine du référentiel DAM. Les mises à jour ou les états de vos ressources sont conservés. <!-- CQ-4270267 -->
-* Difficile de naviguer dans les dossiers/résultats de recherche sans un pavé de suivi ou un pointeur de la souris. The scroll-bar might not appear with mouse devices without mouse wheel. <!-- CQ-4269947 -->
+* Parfois, l’interface de l’appli de bureau peut devenir vide. Cliquez avec le bouton droit, puis cliquez sur [!UICONTROL Refresh] pour recharger l’application. Après une telle actualisation, vous démarrez à la racine du référentiel DAM. Les mises à jour ou les états de vos ressources sont conservés. <!-- CQ-4270267 -->
+* Difficulté à naviguer dans les dossiers/résultats de recherche sans pavé tactile ni pointeur de souris. Il se peut que la barre de défilement ne s’affiche pas avec les dispositifs de souris sans molette. <!-- CQ-4269947 -->
 * Rarement, la barre de progression ne s’affiche pas correctement lorsque la ressource de téléchargement change.
 * Après avoir appliqué et supprimé le filtre pour rechercher toutes les ressources modifiées localement, l’application n’amène pas l’utilisateur à ses résultats de recherche ou à la vue de dossiers par laquelle il a commencé. L’application affiche le dossier racine du référentiel DAM.
 * Parfois, lorsque vous vous connectez à une URL pour laquelle le serveur AEM n’est pas en cours d’exécution, l’écran de connexion ne répond plus. Quittez l’application et redémarrez-la.
@@ -109,7 +109,7 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 **Problèmes CRUD (Create, Read, Update, and Delete) :**
 
 * L’application tente de télécharger des fichiers même avec des caractères non valides, ce qui peut entraîner l’échec du chargement côté serveur. <!-- CQ-4273652 -->
-* Lors du téléchargement de modifications dans un fichier avec des commentaires, les commentaires sont stockés avec le fichier dans AEM, mais ne sont pas visibles en tant que commentaires de contrôle de version. Ce problème est résolu dans AEM 6.4.5 et AEM 6.5.1. Adobe recommande vivement d’installer les derniers Service Packs. <!-- CQ-4268990 -->
+* Lors du chargement de modifications avec commentaires d’une ressource, les commentaires sont stockés avec la ressource dans AEM, mais ne sont pas visibles en tant que commentaires de contrôle de version. Ce problème est résolu dans AEM 6.4.5 et 6.5.1. Adobe recommande vivement d’installer les derniers Service Packs. <!-- CQ-4268990 -->
 * Les transferts de ressources ne peuvent pas être annulés par l’utilisateur. Si vous avez déclenché involontairement un transfert volumineux, quittez l’application et redémarrez-la. <!-- CQ-4278940 -->
 
 **Problèmes de plateforme :**
@@ -118,9 +118,9 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 
 >[!MORELIKETHIS]
 >
->* [Documentation d’AEM 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html)
+>* [Documentation d’AEM 6.5](https://helpx.adobe.com/fr/support/experience-manager/6-5.html)
 >* [Documentation d’AEM Assets 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html)
->* [Utilisation de l’application de bureau AEM](using.md)
+>* [Comment utiliser l’appli de bureau AEM](using.md)
 >* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
 >* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
 
