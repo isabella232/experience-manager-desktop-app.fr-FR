@@ -8,7 +8,7 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75e7cbaaa23b441b5e3a6e55381cd5f548231537
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 75e7cbaaa23b441b5e3a6e55381cd5f548231537
 
 # Notes de mise à jour de l’appli de bureau AEM v1.x{#aem-desktop-app-release-notes}
 
-Pour la version 1.x de l’application de bureau, voici les liens de téléchargement et les informations de compatibilité d’AEM.
+Pour la version 1.x de l’appli de bureau, voici les liens de téléchargement et les informations de compatibilité d’AEM.
 
 | Produits | Appli de bureau Adobe Experience Manager (AEM) |
 |---------------|--------------------------------------------------------------------|
@@ -24,7 +24,7 @@ Pour la version 1.x de l’application de bureau, voici les liens de télécharg
 | Type | Version mineure |
 | Date | 31 août 2018 |
 | URL de téléchargement | [Mac OS X 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.3.dmg) ; [Windows 32 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe) ; [Windows 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
-| Compatibilité | AEM 6.5.x; AEM 6.4.x; AEM 6.3 SP2 ; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
+| Compatibilité | AEM 6.5.x ; AEM 6.4.x ; AEM 6.3 SP2 ; AEM 6.2 SP1 CFP2+ ; AEM 6.1 SP2 CFP7+ |
 
 >[!NOTE]
 >
@@ -37,9 +37,9 @@ L’appli de bureau AEM est compatible avec les systèmes d’exploitation suiva
 * Mac OS X 10.10 ou version ultérieure, avec les correctifs de bogues les plus récents.
 * Windows 7 et Windows 10 avec les Service Packs et les correctifs de bogues les plus récents.
 
-Adobe recommande vivement d’utiliser la dernière version de l’application de bureau AEM pour bénéficier des dernières fonctionnalités, des derniers correctifs de bogues et des meilleures performances possibles.
+Adobe recommande vivement d’utiliser la version la plus récente de l’appli de bureau AEM pour bénéficier des dernières fonctionnalités, des correctifs de bogues les plus récents et d’un niveau de performance optimal.
 
-La version de l’application de bureau AEM que vous prévoyez d’installer sur votre ordinateur local requiert une version spécifique du serveur AEM/des composants supplémentaires côté serveur (Service Packs, correctifs ou Feature Packs). Assurez-vous que le serveur AEM est configuré correctement avant de vous y connecter pour la première fois. Si vous avez besoin d’aide, contactez votre administrateur AEM.
+La version de l’appli de bureau AEM que vous prévoyez d’installer sur votre ordinateur local nécessite une version spécifique du serveur AEM/des composants supplémentaires côté serveur (Service Packs, correctifs logiciels ou Feature Packs). Assurez-vous que le serveur AEM est configuré correctement avant de vous y connecter pour la première fois. Si vous avez besoin d’aide, contactez votre administrateur AEM.
 
 Consultez le [tableau de compatibilité détaillé](#compatibilitymatrix) à la fin de ce document pour évaluer les conditions préalables à la configuration.
 
@@ -55,7 +55,7 @@ L’appli de bureau AEM 1.10 met l’accent sur l’amélioration de l’expér
 
 **Notifications de conflits de mise à jour** : si l’application détecte un conflit en essayant de mettre à jour une ressource, elle affiche une notification, de sorte que l’utilisateur puisse examiner ce conflit sans avoir à surveiller la fenêtre de statut. Au démarrage, l’application recherche d’éventuels conflits, de sorte que l’utilisateur puisse les résoudre.
 
-**Meilleur traitement des pertes de connexion** : les téléchargements en masse sont interrompus en cas de perte de connexion et l’utilisateur est en mesure de reprendre l’opération ultérieurement. Un bouton Réessayer est disponible pour tenter de relancer un téléchargement d’un fichier en échec.
+**Meilleur traitement des pertes de connexion** : les téléchargements en masse sont interrompus en cas de perte de connexion et l’utilisateur est en mesure de reprendre l’opération ultérieurement. Un bouton Retry (Réessayer) est disponible pour effectuer une nouvelle tentative en cas d’échec du téléchargement d’un fichier.
 
 ## Instructions d’installation {#installation-instructions}
 
@@ -102,7 +102,7 @@ Téléchargements
 * Affiche les téléchargements en cours, y compris la vitesse de transfert et la taille transférée jusqu’à présent.
 * Téléchargements terminés affichés avec le volume transféré final, le débit final et une icône qui ouvre le fichier lorsque l’utilisateur clique sur celle-ci (disponible uniquement pour les fichiers uniques).
 * Les téléchargements ayant échoué sont accompagnés d’un message d’erreur et d’informations sur le transfert, le cas échéant.
-* Le pied de page affiche le nombre total de fichiers téléchargés, ainsi que la vitesse de transfert moyenne..
+* Le pied de page affiche le nombre total de fichiers téléchargés, ainsi que la vitesse de transfert moyenne.
 * Si un utilisateur choisit d’ouvrir ou de modifier plusieurs fichiers à partir de l’interface utilisateur web AEM Assets, ceux-ci sont regroupés et affichés (par exemple, sous la forme « myasset.jpeg and 4 more file(s) » (myasset.jpeg et 4 autres fichiers)).
 * Lorsque vous téléchargez des documents InDesign comprenant des ressources liées stockées dans AEM Assets, l’application télécharge l’ensemble des ressources liées avant d’ouvrir le document InDesign et d’indiquer le téléchargement des ressources liées sous la forme (5 sur 24), par exemple.
 
@@ -116,8 +116,9 @@ Bulk Uploads (Téléchargements en masse) : cette boîte de dialogue s’affich
 **Icônes indiquant le statut des opérations en arrière-plan**
 L’icône de l’application indique le statut des opérations en arrière-plan afin de fournir un meilleur indice visuel aux utilisateurs. Par exemple, lorsque l’application n’est pas connectée à AEM, l’icône est grisée. Lorsqu’un téléchargement est actif, une incrustation « sync » est affichée, etc.
 
-**Prérécupération des ressources**liées Pour améliorer l’expérience utilisateur lors de l’utilisation de documents InDesign qui incluent des ressources liées stockées dans AEM, l’application de bureau tente de prérécupérer ces fichiers liés dans le cache local avant de télécharger et d’ouvrir le document InDesign. L’utilisateur dispose ainsi des fichiers liés en local et ne doit pas attendre longtemps pour y accéder dans InDesign (dans le panneau Links (Liens)).
-Notez que la prérécupération ne fonctionne que si AEM reconnaît les liens côté serveur. Dans le cas d’une ressource contenant des liens reconnus, une liste de « Références » figure dans la vue Propriétés de la ressource InDesign.
+**Pré-récupération des ressources liées**
+Pour améliorer l’expérience utilisateur lors de l’utilisation de documents InDesign contenant des ressources liées stockées dans AEM, l’appli de bureau tente d’effectuer une pré-récupération de ces fichiers liés dans le cache local avant de télécharger et d’ouvrir le document InDesign. L’utilisateur dispose ainsi des fichiers liés en local et ne doit pas attendre longtemps pour y accéder dans InDesign (dans le panneau Links (Liens)).
+Veuillez noter que la pré-récupération ne fonctionne que si AEM reconnaît les liens du côté serveur. Dans le cas d’une ressource contenant des liens reconnus, une liste de « Références » figure dans la vue Propriétés de la ressource InDesign.
 
 ### Améliorations disponibles depuis l’appli de bureau AEM 1.8.x{#enhancements-available-since-aem-desktop-app-18x}
 
@@ -133,8 +134,8 @@ L’appli de bureau AEM 1.8.1 s’accompagnait d’améliorations au niveau de 
    * lors de l’expiration d’une session AEM, l’utilisateur en est maintenant informé et peut cliquer sur la notification pour se reconnecter (CQ-4202028)
    * (Mac) Ajout d’une prise en charge pour se connecter à AEM à l’aide d’une configuration de proxy .pac (CQ-4233430)
    * (Windows) Résolution de problèmes relatifs à la boîte de dialogue Advanced &gt; Login URL (Avancé &gt; URL de connexion) (CQ-4236061)
-* Correctifs :
-   * Plus d’infos sur les ressources, boîte de dialogue : parfois, la barre d’action n’était pas visible (CQ-4208540)
+* Correctifs :
+   * Boîte de dialogue More Asset Info (Plus d’informations sur la ressource) : dans certains cas, la barre d’actions n’était pas visible (CQ-4208540)
    * (Windows) Le fichier peut maintenant être synchronisé après rétablissement d’une version antérieure à partir de l’interface utilisateur AEM Assets (CQ-4216411)
 
 ### Améliorations disponibles depuis l’appli de bureau AEM 1.7{#Enhancements-Available-Since-AEM-Desktop-App-17}
@@ -159,7 +160,7 @@ L’appli de bureau AEM 1.8.1 s’accompagnait d’améliorations au niveau de 
 
 ### Améliorations disponibles depuis l’appli de bureau AEM 1.6{#Enhancements-Available-Since-AEM-Desktop-App-16}
 
-* Documentation : nouvelles [Bonnes pratiques pour la documentation de l’application v1.x](https://helpx.adobe.com/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html)
+* Documentation : nouvelles [Bonnes pratiques pour la documentation de l’application v1.x](https://helpx.adobe.com/fr/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html)
 * Amélioration du processus de connexion à AEM :
    * Amélioration de la prise en charge du format SAML * - assouplissement des règles (CQ-4202781).
    * Ajout de la possibilité de configurer une URL de connexion distincte dans les préférences (CQ-4214052, CQ-4214051).
@@ -200,7 +201,7 @@ Remarque concernant les avertissements relatifs aux liens : les applications Cr
 
 Ce comportement est identique pour les ressources du disque local et celles du répertoire monté de l’appli de bureau AEM, avec les exceptions suivantes :
 
-* Si une ressource importée est modifiée par un autre utilisateur, l’icône d’avertissement s’affiche la première fois que l’autre utilisateur ouvre un document contenant cette ressource. Cela se produira uniquement si la ressource importée a déjà été mise en cache localement..
+* Si une ressource importée est modifiée par un autre utilisateur, l’icône d’avertissement s’affiche la première fois que l’autre utilisateur ouvre un document contenant cette ressource. Cela se produira uniquement si la ressource importée a déjà été mise en cache localement.
 * Si un utilisateur modifie une ressource importée par l’intermédiaire du répertoire monté de l’appli de bureau AEM, puis efface le cache local, la ressource est signalée comme obsolète.
 
 Ces deux cas sont attendus et sont des répercussions secondaires de l’architecture « synchronisation différée » de l’appli de bureau AEM.
@@ -240,19 +241,19 @@ Ces deux cas sont attendus et sont des répercussions secondaires de l’archite
 * Amélioration de l’intégration du Finder, qui offre une amélioration de la stabilité et un accès aux fonctionnalités telles que les miniatures
 * Améliorations de la mise en cache et des performances
 * Amélioration de la prise en charge de l’enregistrement directement depuis les applications de bureau (PS, ID, AI, etc.)
-* Amélioration de l’intégration avec Mac OS (le protocole du lecteur réseau local est passé de WebDAV à SMB1, plus stable).
+* Amélioration de l’intégration avec Mac OS (le protocole du lecteur réseau local est passé de WebDAV à SMB1, plus stable)
 * L’appli de bureau se connecte au serveur AEM à l’aide du protocole HTTP RESTful natif d’AEM.
 * Les fichiers sont d’abord enregistrés localement puis transférés vers AEM en arrière-plan après une période prédéfinie (30 secondes). Cela réduit le temps d’enregistrement des fichiers.
 * Amélioration de la gestion des applications de bureau qui utilisent des opérations de fichiers intermédiaires pour enregistrer un fichier (enregistrements partiels et fichiers temporaires), ce qui permet à la chronologie d’AEM Assets d’afficher les informations correctes de version et de chargement des ressources.
 * Boîte de dialogue fournie pour effectuer le suivi de l’état des tâches de chargement en arrière-plan.
 
-## Liste des modifications   {#list-of-changes}
+## Liste des modifications     {#list-of-changes}
 
 ### Point de montage sous Mac {#mount-point-on-mac}
 
 Depuis MacOS 10.12 (Sierra), Apple a modifié les autorisations, de manière plus restrictive, pour le dossier /Volumes utilisé pour monter les lecteurs et périphériques réseau. La création d’un point de montage requiert désormais des droits d’administration. Ce problème a été résolu dans la version 10.12.5 de MacOS.
 
-Comme l’application de bureau AEM doit s’exécuter pour les utilisateurs qui n’ont pas de droits d’administrateur sur l’ordinateur local, le point de montage du référentiel AEM Assets a été modifié dans les versions 1.4 et 1.5 en sous-dossier DAM dans le dossier local de l’utilisateur sous MacOS (CQ-104183).
+Comme l’appli de bureau AEM doit fonctionner pour les utilisateurs ne disposant pas de droits d’administration pour l’ordinateur local, le point de montage du référentiel AEM Assets a été remplacé dans les versions 1.4 et 1.5 par un sous-dossier DAM du dossier local de l’utilisateur sous MacOS (CQ-104183).
 
 Comme le dossier /Volumes ne nécessite plus de droits d’administration, cette modification a été annulée dans la version 1.5.1. Cela permet également aux utilisateurs de MacOS de partager des documents InDesign disposant de ressources AEM importées.
 
@@ -304,9 +305,9 @@ Comme le dossier /Volumes ne nécessite plus de droits d’administration, cette
    * Les noms de fichiers et de dossiers comportant des caractères réservés ne sont pas gérés correctement. Veillez à utiliser les noms de fichiers et de dossiers qui correspondent aux exigences d’AEM (CQ-93361, CQ-93308, CQ-89276, CQ-4217183).
    * Certaines applications telles que Adobe Illustrator peuvent créer des fichiers dont les noms ne sont pas pris en charge dans AEM. Par exemple, ajouter `Converted` après la conversion d’un fichier empêche son chargement (CQ-4216985).
    * Les ressources avec des noms internationaux peuvent apparaître et disparaître toutes les quelques secondes.
-* Arrivée et départ :
+* Archivage et extraction :
    * Une ressource extraite par un utilisateur ne peut pas être ouverte pour un autre utilisateur, que ce soit par l’option Open (Ouvrir) de l’interface utilisateur tactile ou directement sur le bureau. Certaines applications peuvent la signaler comme verrouillée, mais aussi corrompue ou même bloquée lors d’une tentative d’ouverture. (CQ-4199234)
-   * La modification simultanée de fichiers par plusieurs utilisateurs peut entraîner la perte de certaines modifications. La solution consiste à utiliser la fonctionnalité    fonctionnalité d’archivage et de passage en caisse pour empêcher plusieurs utilisateurs de modifier le même fichier (CQ-97035)
+   * La modification simultanée de fichiers par plusieurs utilisateurs peut entraîner la perte de certaines modifications. La solution consiste à utiliser la fonctionnalité        D’archivage/d’extraction pour empêcher plusieurs utilisateurs de modifier le même fichier (CQ-97035).
    * Certaines applications ne prennent pas en charge correctement l’indicateur de lecture seule, ce qui permet à un utilisateur d’enregistrer un fichier extrait par un autre utilisateur. Le fichier modifié n’est pas transféré tant que l’autre utilisateur n’a pas archivé le fichier. Les deux modifications sont disponibles dans AEM sous la forme de versions différentes de la ressource (CQ-89551, CQ-87572, CQ-89615).
    * Les états « extrait » et « en lecture seule » sont signalés indépendamment dans le Finder. Cela entraîne l’affichage de 2 icônes de verrouillage lorsqu’un utilisateur extrait une ressource (CQ-89507).
 * Intégration du Finder :
@@ -323,17 +324,17 @@ Comme le dossier /Volumes ne nécessite plus de droits d’administration, cette
 
 ## Ressources utiles {#helpful-resources}
 
-* [Documentation AEM](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [Documentation AEM](https://helpx.adobe.com/fr/support/experience-manager/6-4.html)
 * [Utilisation de l’appli de bureau AEM v1.x](use-app-v1.md)
-* [Bonnes pratiques de l’appli de bureau v1.x](best-practices-for-v1.md)
+* [Bonnes pratiques relatives à l’appli de bureau v1.x](best-practices-for-v1.md)
 
-## Compatibility matrix and prerequisites {#compatibilitymatrix}
+## Tableau de compatibilité et conditions préalables {#compatibilitymatrix}
 
-L’application de bureau AEM fonctionne avec différentes versions d’AEM. Voir le tableau de compatibilité pour connaître les versions prises en charge.
+L’appli de bureau AEM fonctionne avec différentes versions d’AEM. Voir le tableau de compatibilité pour connaître les versions prises en charge.
 
 | Version | Révision | Date de publication | Compatibilité |
 |---------|------------------------|--------------|-------------------------------------------------------------|
-| 1.10 | 1.10.0.3 (Mac et Windows) | 31 août 2018 | AEM 6.5; AEM 6.4 SP1 ; AEM 6.3 SP2 ; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
+| 1.10 | 1.10.0.3 (Mac et Windows) | 31 août 2018 | AEM 6.5 ; AEM 6.4 SP1 ; AEM 6.3 SP2 ; AEM 6.2 SP1 CFP2+ ; AEM 6.1 SP2 CFP7+ |
 | 1.9 | 1.9.1.1 (Mac et Windows) | 21 juin 2018 | AEM 6.4 ; AEM 6.3 SP1 ; AEM 6.2 SP1 CFP2+ ; AEM 6.1 SP2 CFP7+ |
 | 1.8 | 1.8.1.0 (Mac et Windows) | 28 mars 2018 | AEM 6.4 ; AEM 6.3 SP1 ; AEM 6.2 SP1 CFP2+ ; AEM 6.1 SP2 CFP7+ |
 | 1.7 | 1.7.0.3 (Mac et Windows) | Jan 10, 2018 |  AEM 6.3 SP1 ; AEM 6.2 SP1 CFP2+ ; AEM 6.1 SP2 CFP7+ |
