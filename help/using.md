@@ -6,7 +6,7 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
 
 ---
@@ -41,9 +41,9 @@ Avant de commencer à utiliser l’application, vous devez comprendre le [Foncti
 
 * Le statut du fichier est **[!UICONTROL Modified remotely]** : l’application indique si une ressource que vous avez téléchargée est modifiée sur le serveur AEM. L’application permet également de télécharger la dernière version et de mettre à jour votre copie locale. Découvrez [comment éviter les conflits de modification](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **[!UICONTROL Check-out]**: Si vous modifiez un fichier ou envisagez de le modifier, vous devez activer/désactiver l’état d’extraction. Une icône de verrouillage apparaît sur la ressource dans l’application et dans l’interface web d’AEM. Cette icône indique aux autres utilisateurs d’éviter de modifier simultanément la même ressource, car cela entraînerait un conflit de modification.
+* **[!UICONTROL Check-out]** : si vous modifiez un fichier ou envisagez de le modifier, faites-le passer au statut d’extraction. Une icône de verrouillage apparaît sur la ressource dans l’application et dans l’interface web d’AEM. Cette icône indique aux autres utilisateurs d’éviter de modifier simultanément la même ressource, car cela entraînerait un conflit de modification.
 
-* **[!UICONTROL Check-in]**: Marquez le fichier comme étant sécurisé pour que d’autres utilisateurs puissent le modifier sans provoquer de conflit de modification. Lorsque vous chargez vos modifications, l’icône de verrouillage disparaît automatiquement. Activer le statut d’archivage supprime également l’icône de verrouillage, bien qu’il soit recommandé de ne pas effectuer d’archivage manuel sans charger les modifications. Si vous annulez vos modifications, activez manuellement le statut d’archivage.
+* **[!UICONTROL Check-in]** : marquez la ressource comme étant sécurisée pour que d’autres utilisateurs puissent la modifier sans provoquer de conflit de modification. Lorsque vous chargez vos modifications, l’icône de verrouillage disparaît automatiquement. Activer le statut d’archivage supprime également l’icône de verrouillage, bien qu’il soit recommandé de ne pas effectuer d’archivage manuel sans charger les modifications. Si vous annulez vos modifications, activez manuellement le statut d’archivage.
 
 * Action **[!UICONTROL Open]** : ouvrez simplement la ressource pour la prévisualiser dans l’application native. Il n’est pas recommandé de modifier la ressource à l’aide de cette action, car cette dernière n’extrait pas la ressource et d’autres utilisateurs peuvent apporter des modifications, ce qui provoque des conflits de modification.
 
@@ -67,7 +67,7 @@ Avant de commencer à utiliser l’application, vous devez comprendre le [Foncti
 1. Cliquez/appuyez sur **[!UICONTROL My Preferences]** pour afficher la boîte de dialogue **[!UICONTROL Preferences]**.
 1. Dans la boîte de dialogue User Preference (Préférences utilisateur), sélectionnez **[!UICONTROL Show Desktop Actions For Assets]**. Cliquez/appuyez sur **[!UICONTROL Accept]**.
 
-   ![Cocher la case Show Desktop Actions For Assets pour activer les actions de bureau](assets/chlimage_1-3.png)
+   ![Activation de la case à cocher Afficher les actions de bureau pour les ressources afin d’activer les actions de bureau](assets/chlimage_1-3.png)
 
    Cocher la case [!UICONTROL Show Desktop Actions For Assets] pour activer les actions de bureau
 
@@ -133,7 +133,7 @@ Dans certains cas (par exemple, lorsque vous importez un fichier dans un documen
 
 ![Action Reveal File pour une ressource](assets/revealfile_action_da2.png "Action Reveal File pour une ressource")
 
-Cliquez sur **[!UICONTROL Reveal File]**, ou sur **[!UICONTROL Reveal Folder]** sur un dossier, pour ouvrir l’Explorateur Windows ou le Finder Mac avec le fichier ou le dossier présélectionné sur votre ordinateur local. Cette option est utile, par exemple, pour placer les fichiers AEM dans les applications natives qui prennent en charge le placement ou la liaison de fichiers locaux. Pour savoir comment placer des fichiers dans Adobe InDesign, voir [Placement de graphiques](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+Cliquez sur **[!UICONTROL Reveal File]**, ou sur **[!UICONTROL Reveal Folder]** sur un dossier, pour ouvrir l’Explorateur Windows ou le Finder Mac avec le fichier ou le dossier présélectionné sur votre ordinateur local. Cette option est utile, par exemple, pour placer les fichiers AEM dans les applications natives qui prennent en charge le placement ou la liaison de fichiers locaux. Pour savoir comment placer des fichiers dans Adobe InDesign, voir [Placement de graphiques](https://helpx.adobe.com/fr/indesign/using/placing-graphics.html).
 
 L’action **[!UICONTROL Reveal File]** ouvre un partage réseau local qui affiche uniquement les ressources disponibles localement (c’est-à-dire les ressources qui ont été affichées, téléchargées ou ouvertes/modifiées à l’aide de l’application). Le partage réseau local ne charge aucune modification dans AEM. Pour charger les modifications, utilisez explicitement les actions **[!UICONTROL Upload Changes]** ou **[!UICONTROL Upload]** dans l’application.
 
@@ -156,7 +156,7 @@ Utilisez **[!UICONTROL Toggle Check-out]** pour verrouiller la ressource afin d�
 * Vous avez commencé à modifier une ressource sans d’abord l’extraire (vous l’avez simplement ouverte).
 * Vous vous préparez à modifier une ressource et ne souhaitez pas que d’autres personnes le fassent.
 
-Une fois les modifications effectuées, l’application affiche le statut **[!UICONTROL Edited Locally]** pour les ressources modifiées. Toutes les modifications enregistrées dans les ressources sont en local uniquement jusqu’à ce que vous les chargiez dans AEM. Pour charger une ressource spécifique ou quelques ressources une par une, cliquez sur **[!UICONTROL Upload Changes]** dans les options d’une ressource. Une version de la ressource est alors créée dans AEM. L’interface web d’AEM Assets vous permet d’afficher l’historique des ressources dans la [vue de journal](https://helpx.adobe.com/experience-manager/6-5/assets/using/activity-stream.html).
+Une fois les modifications effectuées, l’application affiche le statut **[!UICONTROL Edited Locally]** pour les ressources modifiées. Toutes les modifications enregistrées dans les ressources sont en local uniquement jusqu’à ce que vous les chargiez dans AEM. Pour charger une ressource spécifique ou quelques ressources une par une, cliquez sur **[!UICONTROL Upload Changes]** dans les options d’une ressource. Une version de la ressource est alors créée dans AEM. L’interface web d’AEM Assets vous permet d’afficher l’historique des ressources dans la [vue de journal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/activity-stream.html).
 
 ![Option de chargement des modifications dans l’appli](assets/upload_changes_single1_da2.png "Option de chargement des modifications dans l’appli")
 
@@ -174,7 +174,7 @@ Si nécessaire, activez l’extraction. La ressource mise à jour est supprimée
 
 ## Charger et ajouter de nouvelles ressources dans AEM {#upload-and-add-new-assets-to-aem}
 
-Les utilisateurs peuvent ajouter de nouvelles ressources au référentiel DAM. Par exemple, vous êtes un photographe d’agence ou un entrepreneur souhaitant ajouter au référentiel AEM un grand nombre de photos d’une séance photo. Pour ajouter du contenu neuf à AEM, cliquez sur ![Icône Upload to cloud](assets/do-not-localize/upload_to_cloud_da2.png) dans la barre supérieure de l’application. Accédez aux fichiers de ressources du système de fichiers local et cliquez sur **[!UICONTROL Select]**. L’application commence à charger la ressource et affiche une barre de progression au bas de l’écran si le chargement de la ressource prend plus de temps. N’utilisez pas d’espaces blancs ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans AEM Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders).
+Les utilisateurs peuvent ajouter de nouvelles ressources au référentiel DAM. Par exemple, vous êtes un photographe d’agence ou un entrepreneur souhaitant ajouter au référentiel AEM un grand nombre de photos d’une séance photo. Pour ajouter du contenu neuf à AEM, cliquez sur ![Icône Upload to cloud](assets/do-not-localize/upload_to_cloud_da2.png) dans la barre supérieure de l’application. Accédez aux fichiers de ressources du système de fichiers local et cliquez sur **[!UICONTROL Select]**. L’application commence à charger la ressource et affiche une barre de progression au bas de l’écran si le chargement de la ressource prend plus de temps. N’utilisez pas d’espaces blancs ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans AEM Assets](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
@@ -219,7 +219,7 @@ L’application fournit une vue, appelée **[!UICONTROL Edited locally]**, qui v
 
 ### Chargement en masse de ressources {#bulk-upload-assets}
 
-Les utilisateurs ou les organisations, tels que les photographes ou les agences de création, peuvent créer de nombreuses ressources locales dans des scénarios, tels que des séances photo, des retouches ou une sélection à partir d’un ensemble plus grand effectué en dehors d’AEM. Ils peuvent charger ces dossiers locaux volumineux dans AEM Assets directement depuis l’appli de bureau. Les hiérarchies de dossiers sont conservées et tous les sous-dossiers imbriqués et les fichiers inclus sont téléchargés. Les ressources chargées sont immédiatement disponibles pour être utilisées par d’autres utilisateurs du même serveur. Les ressources sont chargées à l’arrière-plan et, par conséquent, l’opération n’est pas associée à une session du navigateur web.
+Les utilisateurs ou les organisations, tels que les photographes ou les agences de création, peuvent créer de nombreuses ressources locales dans des scénarios, tels que des séances photo, des retouches ou une sélection à partir d’un ensemble plus grand effectué en dehors d’AEM. Ils peuvent charger ces dossiers locaux volumineux dans AEM Assets directement depuis l’appli de bureau. Les hiérarchies de dossiers sont conservées et l’ensemble des sous-dossiers imbriqués et des ressources incluses est chargé. Les ressources chargées sont immédiatement disponibles pour être utilisées par d’autres utilisateurs du même serveur. Les ressources sont chargées à l’arrière-plan et, par conséquent, l’opération n’est pas associée à une session du navigateur web.
 
 ![Chargement en masse de plusieurs dossiers locaux du bureau vers AEM](assets/upload_local_folders_da2.png "Chargement en masse de plusieurs dossiers locaux du bureau vers AEM")
 
@@ -227,7 +227,7 @@ Après le chargement, si les modifications attendues ne sont pas reflétées dan
 
 >[!NOTE]
 >
->N’utilisez pas la fonctionnalité de chargement pour migrer des ressources sur deux déploiements AEM. Consultez plutôt le [guide de migration](https://helpx.adobe.com/experience-manager/6-5/assets/using/assets-migration-guide.html).
+>N’utilisez pas la fonctionnalité de chargement pour migrer des ressources sur deux déploiements AEM. Consultez plutôt le [guide de migration](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/assets-migration-guide.html).
 
 ### Liste des ressources transférées {#list-of-transferred-assets}
 
@@ -296,7 +296,7 @@ Pour connaître les limites de ce processus, voir la [configuration requise et l
 
 Pour tester ce processus avec une ressource d’image et InDesign, procédez comme suit :
 
-1. Conservez à portée de main un fichier INDD avec des ressources placées dans AEM. Pour savoir comment créer un tel fichier INDD, voir [Placement de graphiques](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+1. Conservez à portée de main un fichier INDD avec des ressources placées dans AEM. Pour savoir comment créer un tel fichier INDD, voir [Placement de graphiques](https://helpx.adobe.com/fr/indesign/using/placing-graphics.html).
 1. Depuis l’appli de bureau, exécutez l’action **[!UICONTROL Edit]** sur le fichier INDD avec les ressources placées dans AEM.
 1. L’application télécharge à la fois le fichier InDesign et les ressources liées. Lorsque InDesign ouvre le document, les liens sont résolus et les ressources sont téléchargées et s’affichent dans le document InDesign.
 1. Pour placer un nouveau graphique dans le fichier InDesign, exécutez l’action **[!UICONTROL Reveal File]** sur la ressource. L’action télécharge la ressource localement et ouvre l’emplacement du partage réseau local dans l’Explorateur Windows ou le Finder Mac.
