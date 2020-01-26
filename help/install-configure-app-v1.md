@@ -8,15 +8,19 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
+translation-type: tm+mt
+source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
 
 ---
 
 
 # Installation et configuration de l’appli de bureau AEM v1.x {#install-and-configure-aem-desktop-app}
 
-Installez et configurez l’appli de bureau AEM pour qu’elle fonctionne avec les serveurs AEM Assets et téléchargez les ressources sur votre système de fichiers local. Pour utiliser l’appli de bureau AEM :
+A l’aide de l’application de bureau AEM, les ressources d’AEM sont facilement accessibles sur votre bureau local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources peuvent être facilement dévoilées dans le Finder Mac ou l’Explorateur Windows, ouvertes dans les applications de bureau et modifiées localement - les modifications sont enregistrées dans AEM lorsque vous téléchargez et une nouvelle version est créée dans le référentiel.
+
+Cette intégration permet à différents rôles au sein de l’entreprise de gérer les ressources de manière centralisée dans AEM Assets, et d’y accéder dans Creative Cloud et d’autres applications, tout en facilitant la conformité avec les diverses normes, y compris la valorisation de marque.
+
+Pour utiliser l’appli de bureau AEM :
 
 * Assurez-vous que la version de votre serveur AEM est prise en charge par l’appli de bureau AEM. Voir le [tableau de compatibilité](release-notes-of-v1.md#compatibilitymatrix).
 * Téléchargez et installez l’application.
@@ -38,7 +42,7 @@ Pour plus d’informations, voir [Installation de l’appli de bureau AEM et co
 
 L’appli de bureau AEM utilise le proxy prédéfini du système pour se connecter à Internet par le biais du protocole HTTPS. L’application ne peut se connecter qu’à l’aide d’un proxy réseau ne nécessitant pas d’authentification supplémentaire.
 
-Si vous configurez ou modifiez les paramètres du serveur proxy pour Windows (Options Internet &gt; Paramètres réseau), redémarrez de l’appli de bureau AEM afin que les modifications soient prises en compte.
+Si vous configurez ou modifiez les paramètres du serveur proxy pour Windows (Options Internet > Paramètres réseau), redémarrez de l’appli de bureau AEM afin que les modifications soient prises en compte.
 
 Si votre proxy nécessite une authentification, l’équipe informatique peut mettre l’URL d’AEM Assets sur liste blanche dans les paramètres du serveur proxy afin d’autoriser le trafic de l’application.
 
@@ -86,7 +90,7 @@ Sous Mac OS X, un répertoire semblable est situé à l’emplacement suivant�
 
 ### Option dans l’application pour gérer le cache {#in-app-option-to-manage-cache}
 
- Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur AEM Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Pour définir les options de votre choix, cliquez sur l’icône de l’application, puis sur **[!UICONTROL Advanced]** &gt; **[!UICONTROL Manage Cache]**. ****
+ Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur AEM Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Pour définir les options de votre choix, cliquez sur l’icône de l’application, puis sur **[!UICONTROL Advanced]**>**[!UICONTROL Manage Cache]**. ****
 
 >[!NOTE]
 >
@@ -112,13 +116,13 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
 
    >[!NOTE]
    >
-   >L’application crée automatiquement un sous-répertoire *&lt;Point de terminaison AEM codé&gt;* ; ce comportement n’est pas configurable.
+   >L’application crée automatiquement un sous-répertoire *&lt;Point de terminaison AEM codé>* ; ce comportement n’est pas configurable.
 
 ## Ressources supplémentaires {#additional-resources}
 
-* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/fr/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
+* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
 * [Utilisation de l’appli de bureau AEM](use-app-v1.md)
 
-* [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://helpx.adobe.com/fr/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [Utilisation de l’appli de bureau avec AEM Assets](https://helpx.adobe.com/fr/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Utilisation de l’appli de bureau avec AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
 * [Résolution des problèmes liés à l’appli de bureau AEM](troubleshoot-app-v1.md)
