@@ -1,6 +1,6 @@
 ---
-title: Installation et configuration de l’appli de bureau AEM
-description: Installez et configurez l’appli de bureau AEM pour qu’elle fonctionne avec les serveurs AEM Assets et téléchargez les ressources sur votre système de fichiers local.
+title: Installation et configuration de l’application de bureau Adobe Experience Manager
+description: Installez et configurez l’application de bureau Adobe Experience Manager pour qu’elle fonctionne avec les serveurs Adobe Experience Manager Assets et téléchargez les ressources sur votre système de fichiers local.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -9,26 +9,26 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
+source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
 
 ---
 
 
-# Installation de l’appli de bureau AEM {#install-app-v2}
+# Install Adobe Experience Manager desktop app {#install-app-v2}
 
-A l’aide de l’application de bureau AEM, les ressources d’AEM sont facilement accessibles sur votre bureau local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources peuvent être facilement dévoilées dans le Finder Mac ou l’Explorateur Windows, ouvertes dans les applications de bureau et modifiées localement - les modifications sont enregistrées dans AEM lorsque vous téléchargez et une nouvelle version est créée dans le référentiel.
+A l’aide de l’application de bureau Adobe Experience Manager, les ressources d’Experience Manager sont facilement accessibles sur votre bureau local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources peuvent être facilement affichées dans le Finder Mac ou l’Explorateur Windows, ouvertes dans les applications de bureau et modifiées localement. Les modifications sont enregistrées dans Experience Manager lorsque vous téléchargez et une nouvelle version est créée dans le référentiel.
 
-Cette intégration permet à différents rôles au sein de l’entreprise de gérer les ressources de manière centralisée dans AEM Assets, et d’y accéder dans Creative Cloud et d’autres applications, tout en facilitant la conformité avec les diverses normes, y compris la valorisation de marque.
+Une telle intégration permet à différents rôles de l’entreprise de gérer les ressources de manière centralisée dans Adobe Experience Manager Assets et de les accéder à Creative Cloud et à d’autres applications, tout en facilitant l’adhésion aux différentes normes, notamment en matière de marque.
 
-Pour utiliser l’appli de bureau AEM :
+Pour utiliser l’application de bureau Experience Manager,
 
-* Assurez-vous que la version de votre serveur AEM est prise en charge par l’appli de bureau AEM. Voir le [tableau de compatibilité](release-notes-of-v1.md#compatibilitymatrix).
+* Vérifiez que la version de votre serveur Experience Manager est prise en charge par l’application de bureau Experience Manager. Voir le [tableau de compatibilité](release-notes-of-v1.md#compatibilitymatrix).
 * Téléchargez et installez l’application.
 * Testez la connexion à l’aide de quelques ressources. Voir [Accès aux ressources et ouverture de ces éléments sur votre ordinateur de bureau](use-app-v1.md#openondesktop).
 
-## System requirements prerequisites, and download links {#tech-specs-v2}
+## Configuration requise, conditions préalables et liens de téléchargement {#tech-specs-v2}
 
-Pour plus d’informations, voir les [Notes de mise à jour de l’appli de bureau AEM](release-notes.md).
+For detailed information, see the [Experience Manager desktop app release notes](release-notes.md).
 
 ## Mise à niveau de l’application v1.x vers l’application v2 {#upgrade-from-previous-version}
 
@@ -72,15 +72,15 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute in
 
 ## Définition des préférences {#set-preferences}
 
-Pour changer les préférences, cliquez sur ![Icône More options](assets/do-not-localize/more_options_da2.png) puis sur **[!UICONTROL Preference]**![Icône Preferences](assets/do-not-localize/preferences_icon_da2.png). Dans la fenêtre**[!UICONTROL Preferences]**, ajustez les valeurs des éléments suivants :
+Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-not-localize/more_options_da2.png) puis sur **[!UICONTROL Preference]**![Icône Préférences](assets/do-not-localize/preferences_icon_da2.png). Dans la fenêtre**[!UICONTROL Preferences]**, ajustez les valeurs des éléments suivants :
 
 * [!UICONTROL Launch application on login].
 * [!UICONTROL Show window when application starts].
-* **[!UICONTROL Cache Directory]** : emplacement du cache local de l’application (il contient les ressources téléchargées localement).
+* **[!UICONTROL Cache Directory]** : emplacement du cache local de l’application (il contient les ressources téléchargées en local).
 * **[!UICONTROL Network Drive Letter]** : lettre de lecteur utilisée pour mapper l’application à la gestion des ressources numériques AEM. Ne changez pas cette valeur si vous n’êtes pas sûr de vous. L’application peut se mapper à n’importe quelle lettre de lecteur sous Windows. Si deux utilisateurs placent des ressources à partir de lettres de lecteur différentes, aucun ne pourra voir les ressources placées par l’autre. Le chemin d’accès des ressources change. Les ressources demeurent placées dans le fichier binaire (par exemple, INDD) et ne sont pas supprimées. L’application répertorie toutes les lettres de lecteur disponibles et utilise par défaut la dernière lettre disponible, généralement`Z`.
-* **[!UICONTROL Maximum Cache Size]** : cache autorisé sur le disque dur (en Go) utilisé pour stocker les ressources téléchargées localement.
-* **[!UICONTROL Current cache size]** : taille de stockage des ressources téléchargées localement. Les informations ne s’affichent qu’une fois les ressources téléchargées à l’aide de l’application.
-* **[!UICONTROL Automatically download linked assets]** : les ressources placées dans les applications Creative Cloud natives prises en charge sont automatiquement récupérées si vous téléchargez le fichier d’origine.
+* **[!UICONTROL Maximum Cache Size]** : cache autorisé sur le disque dur (en Go) utilisé pour stocker les ressources téléchargées en local.
+* **[!UICONTROL Current cache size]** : taille de stockage des ressources téléchargées en local. Les informations ne s’affichent qu’une fois les ressources téléchargées à l’aide de l’application.
+* **[!UICONTROL Automatically download linked assets]** : les ressources placées dans les applications Creative Cloud natives prises en charge sont automatiquement récupérées si vous téléchargez le fichier d’origine.
 * **[!UICONTROL Maximum number of downloads]** : lorsque vous téléchargez des ressources pour la première fois (via les options Reveal (Afficher), Open (Ouvrir), Edit (Modifier), Download (Télécharger) ou autre option similaire), celles-ci ne sont téléchargées que si le lot contient moins de ressources que le nombre indiqué par cette valeur. La valeur par défaut est 50. Ne changez pas cette valeur si vous n’êtes pas sûr de vous. Augmenter cette valeur peut prolonger les délais d’attente et la diminuer peut vous empêcher de télécharger les ressources ou dossiers nécessaires en une seule fois.
 
 Pour mettre à jour les préférences non disponibles, déconnectez-vous du serveur AEM. Après avoir mis les préférences à jour, cliquez sur ![Save preferences](assets/do-not-localize/save_preferences_da2.png) pour les enregistrer.
