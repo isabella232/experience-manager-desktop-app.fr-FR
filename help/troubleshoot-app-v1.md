@@ -8,8 +8,8 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
+translation-type: tm+mt
+source-git-commit: ab63bfd7eea356be924e1ed62eef387796913e6c
 
 ---
 
@@ -67,6 +67,8 @@ L’appli de bureau AEM n’est pas adaptée aux manipulations intensives sur le
 
 En raison de restrictions au niveau du système d’exploitation, la taille de fichier est limitée à 4 294 967 295 octets (environ 4,29 Go) sous Windows. Cela est dû à un paramètre du Registre qui définit la taille maximale d’un fichier sur un partage réseau. La valeur du paramètre de Registre est un DWORD avec une taille maximale équivalant au nombre référencé.
 
+L’application de bureau Experience Manager ne dispose pas d’une valeur de délai d’expiration configurable qui déconnecte la connexion entre le serveur Experience Manager et l’application de bureau après un intervalle de temps fixe. Lors du téléchargement de fichiers volumineux, si la connexion expire au bout d’un certain temps, l’application tente à nouveau de télécharger le fichier plusieurs fois en augmentant le délai d’expiration du téléchargement. Il n’existe aucun moyen recommandé de modifier les paramètres de délai d’expiration par défaut.
+
 ## Mise en cache et communication avec AEM {#caching-and-communication-with-aem}
 
 L’appli de bureau AEM fournit des fonctions de chargement en arrière-plan et de mise en cache interne afin d’améliorer l’expérience de l’utilisateur final. Lorsque vous enregistrez un fichier volumineux, il est d’abord enregistré en local pour que vous puissiez continuer à travailler. Après un moment (30 secondes actuellement), le fichier est envoyé au serveur AEM en arrière-plan.
@@ -87,7 +89,7 @@ Toutes les opérations ne sont pas mises en cache localement. Les éléments sui
 
 ## Opérations distinctes    {#individual-operations}
 
-Pour résoudre des problèmes de performances affectant des utilisateurs individuels, consultez d’abord la section [Restrictions](https://helpx.adobe.com/fr/experience-manager/desktop-app/troubleshooting-desktop-app.html#limitations). Les sections suivantes contiennent des suggestions visant à améliorer les performances pour les utilisateurs.
+Pour résoudre des problèmes de performances affectant des utilisateurs individuels, consultez d’abord la section [Restrictions](https://helpx.adobe.com/experience-manager/desktop-app/troubleshooting-desktop-app.html#limitations). Les sections suivantes contiennent des suggestions visant à améliorer les performances pour les utilisateurs.
 
 ## Recommandations en termes de bande passante     {#bandwidth-recommendations}
 
@@ -97,7 +99,7 @@ Adobe recommande une vitesse de transfert proche de 10 Mbit/s pour un seul util
 
 ## Configurations spécifiques à Windows    {#windows-specific-configurations}
 
-Si vous exécutez AEM sous Windows, vous pouvez configurer le système d’exploitation de manière à améliorer les performances du client WebDAV. Pour plus d’informations, aller à [https://support.microsoft.com/fr-fr/kb/2445570](https://support.microsoft.com/fr-fr/kb/2445570).
+Si vous exécutez AEM sous Windows, vous pouvez configurer le système d’exploitation de manière à améliorer les performances du client WebDAV. Pour plus d’informations, aller à [https://support.microsoft.com/fr-fr/kb/2445570](https://support.microsoft.com/en-us/kb/2445570).
 
 Sous Windows 7, la modification des paramètres d’Internet Explorer peut améliorer les performances de WebDAV. Pour plus d’informations, consulter [http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/](http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
 
@@ -126,7 +128,7 @@ En cas de dégradation significative des performances WebDAV/SMB lorsque plusieu
 Vous pouvez améliorer les performances du côté AEM en activant les processus transitoires pour le processus Ressources de mise à jour de gestion des actifs numériques. L’activation de processus transitoires réduit la puissance de traitement requise pour mettre à jour des ressources lors de leur création ou de leur modification dans AEM.
 
 1. Accédez à `/miscadmin` dans l’instance AEM à configurer (par exemple, `http://[Server]:[Port]/miscadmin`).
-1. L’arborescence de navigation, développez **Outils** &gt; **Processus** &gt; **Modèles** &gt; **Gestion des actifs numériques**.
+1. L’arborescence de navigation, développez **Outils** > **Processus** > **Modèles** > **Gestion des actifs numériques**.
 1. Double-cliquez sur **Ressources de mise à jour de gestion des actifs numériques**.
 1. Depuis le panneau d’outils flottant, basculez vers l’onglet **Page**, puis cliquez sur **Propriétés de la page**.
 1. Cochez la case **Processus transitoire**, puis cliquez sur **OK**.
@@ -218,7 +220,7 @@ Mac : ~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/
 
 Toutefois, l’emplacement peut varier en fonction du point de terminaison AEM configuré de l’appli de bureau AEM. La valeur est une version codée de l’URL ciblée. Par exemple, si l’application cible est `http://localhost:4502`, le nom du répertoire est `http%3A%2F%2Flocalhost%3A4502%2F`.
 
-Pour effacer le cache, supprimez le répertoire &lt;Point de terminaison AEM codé&gt;.
+Pour effacer le cache, supprimez le répertoire &lt;Point de terminaison AEM codé>.
 
 >[!NOTE]
 >
