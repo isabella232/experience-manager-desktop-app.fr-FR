@@ -8,7 +8,7 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
 
 ---
@@ -16,9 +16,9 @@ source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
 
 # Installation et configuration de l’appli de bureau AEM v1.x {#install-and-configure-aem-desktop-app}
 
-A l’aide de l’application de bureau AEM, les ressources d’AEM sont facilement accessibles sur votre bureau local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources peuvent être facilement dévoilées dans le Finder Mac ou l’Explorateur Windows, ouvertes dans les applications de bureau et modifiées localement - les modifications sont enregistrées dans AEM lorsque vous téléchargez et une nouvelle version est créée dans le référentiel.
+À l’aide de l’appli de bureau AEM, les ressources d’AEM sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources peuvent être facilement affichées dans le Finder de Mac ou l’Explorateur Windows, ouvertes dans des applications de bureau et modifiées en local ; les modifications sont réenregistrées dans AEM lors du téléchargement et une nouvelle version est créée dans le référentiel.
 
-Cette intégration permet à différents rôles au sein de l’entreprise de gérer les ressources de manière centralisée dans AEM Assets, et d’y accéder dans Creative Cloud et d’autres applications, tout en facilitant la conformité avec les diverses normes, y compris la valorisation de marque.
+Cette intégration permet à différents rôles au sein de l’entreprise de gérer les ressources de manière centralisée dans AEM Assets, et d’y accéder dans Creative Cloud et d’autres applications, tout en facilitant la conformité avec les diverses normes, y compris le branding.
 
 Pour utiliser l’appli de bureau AEM :
 
@@ -82,7 +82,7 @@ Vous pouvez personnaliser la boîte de dialogue Asset Info (Informations sur les
 
 La nature du composant recouvert dépend de la nature de la personnalisation. Pour modifier les composants affichés dans la boîte de dialogue Asset Info (Informations sur les ressources), recouvrez la page de l’interface utilisateur Granite. Pour modifier le contenu HTML/CSS/JavaScript de la boîte de dialogue, recouvrez le composant HTL.
 
-## Gestion du cache    {#manage-cache}
+## Gestion du cache     {#manage-cache}
 
 Sous Windows, le cache se situe à l’emplacement `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`, où il existe une version codée de l’hôte AEM configuré dans l’appli de bureau AEM. Par exemple, `http://localhost:4502` s’affiche comme suit : `http%3A%2F%2Flocalhost%3A4502%2F`
 
@@ -90,13 +90,13 @@ Sous Mac OS X, un répertoire semblable est situé à l’emplacement suivant�
 
 ### Option dans l’application pour gérer le cache {#in-app-option-to-manage-cache}
 
- Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur AEM Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Pour définir les options de votre choix, cliquez sur l’icône de l’application, puis sur **[!UICONTROL Advanced]**>**[!UICONTROL Manage Cache]**. ****
+ Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur AEM Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Pour définir les options de votre choix, cliquez sur l’icône de l’application, puis sur **[!UICONTROL Advanced]** >**[!UICONTROL Manage Cache]**. ****
 
 >[!NOTE]
 >
 >Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur AEM sont conservées.
 
-### Modification de l’emplacement du cache sous Windows     {#change-location-of-cache-on-windows}
+### Modification de l’emplacement du cache sous Windows      {#change-location-of-cache-on-windows}
 
 L’emplacement par défaut du cache de l’appli de bureau AEM est le suivant :
 
@@ -120,9 +120,9 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
 
 ## Ressources supplémentaires {#additional-resources}
 
-* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
+* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/fr/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
 * [Utilisation de l’appli de bureau AEM](use-app-v1.md)
 
-* [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [Utilisation de l’appli de bureau avec AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://helpx.adobe.com/fr/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Utilisation de l’appli de bureau avec AEM Assets](https://helpx.adobe.com/fr/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
 * [Résolution des problèmes liés à l’appli de bureau AEM](troubleshoot-app-v1.md)
