@@ -1,6 +1,6 @@
 ---
-title: Installation et configuration de l’application de bureau Adobe Experience Manager
-description: Installez et configurez l’application de bureau Adobe Experience Manager pour qu’elle fonctionne avec les serveurs Adobe Experience Manager Assets et téléchargez les ressources sur votre système de fichiers local.
+title: Installation et configuration de l’appli de bureau Adobe Experience Manager
+description: Installez et configurez l’appli de bureau Adobe Experience Manager pour qu’elle fonctionne avec les serveurs Adobe Experience Manager Assets et téléchargez les ressources sur votre système de fichiers local.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -8,27 +8,27 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
 
 ---
 
 
-# Install Adobe Experience Manager desktop app {#install-app-v2}
+# Installation de l’appli de bureau Adobe Experience Manager {#install-app-v2}
 
-A l’aide de l’application de bureau Adobe Experience Manager, les ressources d’Experience Manager sont facilement accessibles sur votre bureau local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources peuvent être facilement affichées dans le Finder Mac ou l’Explorateur Windows, ouvertes dans les applications de bureau et modifiées localement. Les modifications sont enregistrées dans Experience Manager lorsque vous téléchargez et une nouvelle version est créée dans le référentiel.
+Avec l’appli de bureau Adobe Experience Manager, les ressources d’Experience Manager sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources peuvent être facilement affichées dans le Finder de Mac ou l’Explorateur Windows, ouvertes dans des applications de bureau et modifiées en local ; les modifications sont réenregistrées dans Experience Manager lors du chargement et une nouvelle version est créée dans le référentiel.
 
-Une telle intégration permet à différents rôles de l’entreprise de gérer les ressources de manière centralisée dans Adobe Experience Manager Assets et de les accéder à Creative Cloud et à d’autres applications, tout en facilitant l’adhésion aux différentes normes, notamment en matière de marque.
+Cette intégration permet à différents rôles au sein de l’entreprise de gérer les ressources de manière centralisée dans Adobe Experience Manager Assets, et d’y accéder dans Creative Cloud et d’autres applications, tout en facilitant la conformité avec les diverses normes, y compris le branding.
 
-Pour utiliser l’application de bureau Experience Manager,
+Pour utiliser l’appli de bureau Experience Manager :
 
-* Vérifiez que la version de votre serveur Experience Manager est prise en charge par l’application de bureau Experience Manager. Voir le [tableau de compatibilité](release-notes-of-v1.md#compatibilitymatrix).
+* Vérifiez que la version de votre serveur Experience Manager est prise en charge par l’appli de bureau Experience Manager. Voir le [tableau de compatibilité](release-notes-of-v1.md#compatibilitymatrix).
 * Téléchargez et installez l’application.
 * Testez la connexion à l’aide de quelques ressources. Voir [Accès aux ressources et ouverture de ces éléments sur votre ordinateur de bureau](use-app-v1.md#openondesktop).
 
 ## Configuration requise, conditions préalables et liens de téléchargement {#tech-specs-v2}
 
-For detailed information, see the [Experience Manager desktop app release notes](release-notes.md).
+Pour plus d’informations, voir les [Notes de mise à jour de l’appli de bureau Experience Manager](release-notes.md).
 
 ## Mise à niveau de l’application v1.x vers l’application v2 {#upgrade-from-previous-version}
 
@@ -50,11 +50,11 @@ Pour mettre la version 1.x à niveau vers la dernière version de l’applicati
 Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute instance de l’appli de bureau Adobe Experience Manager v1.x avant d’installer la dernière application. Pour plus d’informations, voir ci-dessus.
 
 1. Conservez l’URL et les informations d’identification de votre déploiement d’AEM à portée de main.
-1. Ignorez cette étape si vous utilisez AEM 6.4.4 et versions ultérieures ou AEM 6.5.0 ou versions ultérieures. Assurez-vous que votre configuration d’AEM respecte les exigences de compatibilité mentionnées dans les notes de mise à jour. Si nécessaire, téléchargez le [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicable et installez-le à l’aide d’AEM Package Manager en tant qu’administrateur AEM. Pour installer un package, voir [Comment travailler avec des packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
+1. Ignorez cette étape si vous utilisez AEM 6.4.4 et versions ultérieures ou AEM 6.5.0 ou versions ultérieures. Assurez-vous que votre configuration d’AEM respecte les exigences de compatibilité mentionnées dans les notes de mise à jour. Si nécessaire, téléchargez le [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicable et installez-le à l’aide d’AEM Package Manager en tant qu’administrateur AEM. Pour installer un package, voir [Comment travailler avec des packages](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/package-manager.html).
 1. Exécutez le fichier binaire du programme d’installation et suivez les instructions à l’écran pour procéder à l’installation.
-1. Sous Windows, il se peut que le programme d’installation vous invite à installer `Visual Studio C++ Redistributable 2015`. Suivez les instructions affichées à l’écran pour installer ce programme. Si l’installation échoue, procédez manuellement. Téléchargez le programme d’installation [ici](https://www.microsoft.com/en-us/download/details.aspx?id=52685) et installez les fichiers `vc_redist.x64.exe` et `vc_redist.x86.exe`. Réexécutez le programme d’installation de l’appli de bureau AEM.
+1. Sous Windows, il se peut que le programme d’installation vous invite à installer `Visual Studio C++ Redistributable 2015`. Suivez les instructions affichées à l’écran pour installer ce programme. Si l’installation échoue, procédez manuellement. Téléchargez le programme d’installation [ici](https://www.microsoft.com/fr-fr/download/details.aspx?id=52685) et installez les fichiers `vc_redist.x64.exe` et `vc_redist.x86.exe`. Réexécutez le programme d’installation de l’appli de bureau AEM.
 1. Redémarrez l’ordinateur conformément aux instructions. Lancez l’appli de bureau pour la configurer.
-1. Pour connecter l’application à un référentiel AEM, cliquez sur l’icône de l’application dans la barre d’état pour lancer l’application. Indiquez l’adresse de l’instance AEM. Cliquez sur **[!UICONTROL Connect]**et saisissez les informations d’identification.
+1. Pour connecter l’application à un référentiel AEM, cliquez sur l’icône de l’application dans la barre d’état pour lancer l’application. Indiquez l’adresse de l’instance AEM. Cliquez sur **[!UICONTROL Connect]** et saisissez les informations d’identification.
 
    ![Écran de connexion de l’appli de bureau pour saisir l’adresse du serveur](assets/connect_da2.png "Écran de connexion de l’appli de bureau pour saisir l’adresse du serveur")
 
@@ -66,18 +66,18 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute in
 
    ![À la connexion, l’appli affiche le contenu DAM](assets/firstview_da2.png "À la connexion, l’appli affiche le contenu DAM")
 
-1. (AEM 6.5.1 ou version ultérieure) Si vous utilisez une appli de bureau avec AEM 6.5.1 ou version ultérieure, mettez à niveau le connecteur Azure ou S3 vers la version 1.10.4 ou ultérieure. Voir [Connecteur Azure](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html#AzureDataStore) ou [Connecteur S3](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html#AmazonS3DataStore).
+1. (AEM 6.5.1 ou version ultérieure) Si vous utilisez une appli de bureau avec AEM 6.5.1 ou version ultérieure, mettez à niveau le connecteur Azure ou S3 vers la version 1.10.4 ou ultérieure. Voir [Connecteur Azure](https://helpx.adobe.com/fr/experience-manager/6-5/sites/deploying/using/data-store-config.html#AzureDataStore) ou [Connecteur S3](https://helpx.adobe.com/fr/experience-manager/6-5/sites/deploying/using/data-store-config.html#AmazonS3DataStore).
 
    Si vous êtes un client d’Adobe Managed Services (AMS), contactez l’Assistance clientèle d’Adobe.
 
 ## Définition des préférences {#set-preferences}
 
-Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-not-localize/more_options_da2.png) puis sur **[!UICONTROL Preference]**![Icône Préférences](assets/do-not-localize/preferences_icon_da2.png). Dans la fenêtre**[!UICONTROL Preferences]**, ajustez les valeurs des éléments suivants :
+Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-not-localize/more_options_da2.png) puis sur **[!UICONTROL Preference]**![ Icône Préférences](assets/do-not-localize/preferences_icon_da2.png). Dans la fenêtre **[!UICONTROL Preferences]**, ajustez les valeurs des éléments suivants :
 
 * [!UICONTROL Launch application on login].
 * [!UICONTROL Show window when application starts].
 * **[!UICONTROL Cache Directory]** : emplacement du cache local de l’application (il contient les ressources téléchargées en local).
-* **[!UICONTROL Network Drive Letter]** : lettre de lecteur utilisée pour mapper l’application à la gestion des ressources numériques AEM. Ne changez pas cette valeur si vous n’êtes pas sûr de vous. L’application peut se mapper à n’importe quelle lettre de lecteur sous Windows. Si deux utilisateurs placent des ressources à partir de lettres de lecteur différentes, aucun ne pourra voir les ressources placées par l’autre. Le chemin d’accès des ressources change. Les ressources demeurent placées dans le fichier binaire (par exemple, INDD) et ne sont pas supprimées. L’application répertorie toutes les lettres de lecteur disponibles et utilise par défaut la dernière lettre disponible, généralement`Z`.
+* **[!UICONTROL Network Drive Letter]** : lettre de lecteur utilisée pour mapper l’application à la gestion des ressources numériques AEM. Ne changez pas cette valeur si vous n’êtes pas sûr de vous. L’application peut se mapper à n’importe quelle lettre de lecteur sous Windows. Si deux utilisateurs placent des ressources à partir de lettres de lecteur différentes, aucun ne pourra voir les ressources placées par l’autre. Le chemin d’accès des ressources change. Les ressources demeurent placées dans le fichier binaire (par exemple, INDD) et ne sont pas supprimées. L’application répertorie toutes les lettres de lecteur disponibles et utilise par défaut la dernière lettre disponible, généralement `Z`.
 * **[!UICONTROL Maximum Cache Size]** : cache autorisé sur le disque dur (en Go) utilisé pour stocker les ressources téléchargées en local.
 * **[!UICONTROL Current cache size]** : taille de stockage des ressources téléchargées en local. Les informations ne s’affichent qu’une fois les ressources téléchargées à l’aide de l’application.
 * **[!UICONTROL Automatically download linked assets]** : les ressources placées dans les applications Creative Cloud natives prises en charge sont automatiquement récupérées si vous téléchargez le fichier d’origine.
