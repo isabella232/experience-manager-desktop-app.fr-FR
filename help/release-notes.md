@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour de l’application de bureau Adobe Experience Manager
-description: Détails de la version, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’application de bureau Adobe Experience Manager.
+title: Notes de mise à jour de l’appli de bureau Adobe Experience Manager
+description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau Adobe Experience Manager.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -9,13 +9,13 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
 
 ---
 
 
-# Notes de mise à jour de l’application de bureau Adobe Experience Manager {#release-notes-v2}
+# Notes de mise à jour de l’appli de bureau Adobe Experience Manager {#release-notes-v2}
 
 | Produits | Appli de bureau Adobe Experience Manager (AEM) |
 |---------------|--------------------------------------------------------------------|
@@ -27,40 +27,40 @@ source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
 
 ## Configuration requise et conditions préalables {#system-requirements-and-prerequisites-v2}
 
-L’application de bureau Adobe Experience Manager est compatible avec les systèmes d’exploitation suivants :
+L’appli de bureau Adobe Experience Manager est compatible avec les systèmes d’exploitation suivants :
 
 * Mac OS X 10.10 ou version ultérieure, avec les correctifs de bogues les plus récents.
 * Windows 7 et Windows 10 avec les Service Packs et les correctifs de bogues les plus récents.
 
-L’application fonctionne avec les versions d’Experience Manager suivantes, qu’elles soient déployées sur site ou sur Adobe Managed Services (AMS) :
+L’application fonctionne avec les versions d’Experience Manager suivantes, qu’elles soient déployées On-Premise ou sur Adobe Managed Services (AMS) :
 
-* [Experience Manager 6.5.0](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) ou version ultérieure
-* [Experience Manager 6.4.4](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) ou version ultérieure
-* Experience Manager 6.4.0 - 6.4.3 avec package de [compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
+* [Experience Manager 6.5.0](https://helpx.adobe.com/fr/experience-manager/6-5/release-notes.html ) ou version ultérieure
+* [Experience Manager 6.4.4](https://helpx.adobe.com/fr/experience-manager/6-4/release-notes/sp-release-notes.html) ou version ultérieure
+* Experience Manager 6.4.0–6.4.3 avec [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
 >
->La prise en charge des applications de bureau pour Experience Manager 6.3 est obsolète. Adobe recommande d’effectuer la mise à niveau vers une version plus récente et prise en charge d’Adobe Experience Manager.
->Experience Manager 6.3.3.1 or later works with desktop app after installing the [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). No such package is available for Experience Manager 6.3 as no [service packs are planned](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
+>La prise en charge de l’appli de bureau pour Experience Manager 6.3 est obsolète. Adobe recommande la mise à niveau vers une version plus récente et prise en charge d’Adobe Experience Manager.
+>Experience Manager 6.3.3.1 ou version ultérieure fonctionne avec l’appli de bureau après l’installation du [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). Aucun package de ce type n’est disponible pour Experience Manager 6.3, car aucun [Service Pack n’est planifié](https://helpx.adobe.com/fr/experience-manager/maintenance-releases-roadmap.html).
 
-La version que vous prévoyez d’installer sur votre ordinateur local nécessite une version spécifique du serveur Adobe Experience Manager/des composants supplémentaires côté serveur (Service Packs, correctifs logiciels ou Feature Packs). Contactez votre administrateur Adobe Experience Manager pour obtenir de l’aide.
+La version que vous prévoyez d’installer sur votre ordinateur local nécessite une version spécifique du serveur Adobe Experience Manager/des composants supplémentaires côté serveur (Service Packs, correctifs logiciels ou Feature Packs). Contactez votre administrateur Adobe Experience Manager pour obtenir de l’aide.
 
 ### Prise en charge de différents types de ressources et de fichiers {#support-for-file-types}
 
-L’application prend en charge les ressources stockées dans Adobe Experience Manager qui représentent un fichier binaire pour ses opérations de base. L’ouverture de fichiers dans l’application de bureau native dépend de l’association du système d’exploitation des types de fichiers spécifiques (par exemple, PNG ou JPG) à des applications spécifiques (par exemple, Mac Preview ou Adobe Photoshop).
+L’application prend en charge les ressources stockées dans Adobe Experience Manager qui représentent un fichier binaire pour ses opérations de base. L’ouverture de fichiers dans l’application de bureau native dépend de l’association du système d’exploitation des types de fichiers spécifiques (par exemple, PNG ou JPG) à des applications spécifiques (par exemple, Mac Preview ou Adobe Photoshop).
 
-Certains types de fichiers prennent en charge le placement de ressources liées dans le fichier binaire. L’application prétélécharge les ressources liées si la ressource est présente dans le référentiel Experience Manager lorsque de tels fichiers binaires sont ouverts à l’aide de l’application de bureau. Les types de fichiers actuellement pris en charge sont les suivants :
+Certains types de fichiers prennent en charge le placement de ressources liées dans le fichier binaire. L’application pré-télécharge les ressources liées si la ressource est présente dans le référentiel Experience Manager lorsque ces fichiers binaires sont ouverts à l’aide de l’appli de bureau. Les types de fichiers actuellement pris en charge sont les suivants :
 
 * Fichiers Adobe InDesign (format INDD)
 * Fichiers Adobe Illustrator (format AI)
 * Fichiers Adobe Photoshop (format PS)
 
-Cette fonctionnalité est prise en charge avec Adobe Creative Cloud 2018 et les versions Creative Cloud 2019 de l’application ci-dessus. L’application utilise une approche heuristique et de la meilleure correspondance pour mapper les chemins d’accès locaux des fichiers liés aux URL sur le serveur Experience Manager. Elle se base sur quelques hypothèses :
+Cette fonctionnalité est prise en charge avec Adobe Creative Cloud 2018 et les versions Creative Cloud 2019 de l’application ci-dessus. L’application utilise une approche heuristique et de la meilleure correspondance pour mapper les chemins d’accès de bureau locaux des ressources liées aux URL sur le serveur Experience Manager. Elle se base sur quelques hypothèses :
 
 * Les chemins d’accès aux fichiers placés dans l’application native utilisent un chemin d’accès de bureau global (placé à partir du partage réseau local illustré par l’option [!UICONTROL Reveal]).
 * Les chemins sont stockés dans l’enregistrement XMP du fichier par l’application native.
-* Experience Manager a extrait l’enregistrement XMP avec les chemins d’accès à l’enregistrement de métadonnées de la ressource.
-* Les chemins d’accès peuvent être associés à des ressources dans Experience Manager, c’est-à-dire que les fichiers placés sont également dans Experience Manager sous un chemin d’accès correspondant).
+* Experience Manager a extrait l’enregistrement XMP avec les chemins d’accès dans l’enregistrement de métadonnées de la ressource.
+* Les chemins d’accès peuvent être associés aux ressources dans Experience Manager. En d’autres termes, les fichiers placés se trouvent également dans Experience Manager sous un chemin d’accès correspondant.
 
 ## Nouvelles fonctionnalités et améliorations {#whats-new-added}
 
@@ -73,9 +73,9 @@ Les correctifs et mises à jour de la version v2.0.1 sont les suivants :
 
 ## Instructions d’installation {#installation-instructions-v2}
 
-To know how to install and configure the app, see [Install Experience Manager desktop app](install-upgrade.md).
+Pour savoir comment installer et configurer l’application, voir [Installation de l’appli de bureau Experience Manager](install-upgrade.md).
 
-If you are upgrading from a previous Experience Manager desktop app, you must follow these best practices for transitioning that are listed at [upgrade from previous version](install-upgrade.md#upgrade-from-previous-version).
+Si vous effectuez une mise à niveau à partir d’une version précédente de l’appli de bureau Experience Manager, vous devez observer les bonnes pratiques de transition répertoriées dans [Mise à niveau à partir d’une version précédente](install-upgrade.md#upgrade-from-previous-version).
 
 ## Remarques importantes sur le fonctionnement de l’application {#how-app-works}
 
@@ -117,9 +117,9 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 
 >[!MORELIKETHIS]
 >
->* [Documentation d’AEM 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html)
+>* [Documentation d’AEM 6.5](https://helpx.adobe.com/fr/support/experience-manager/6-5.html)
 >* [Documentation d’AEM Assets 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html)
->* [Utilisation de l’application de bureau Experience Manager](using.md)
+>* [Utilisation de l’appli de bureau Experience Manager](using.md)
 >* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
 >* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
 
