@@ -1,5 +1,5 @@
 ---
-title: Meilleures pratiques et dépannage de l’application de bureau Adobe Experience Manager
+title: Bonnes pratiques et résolution des problèmes liés à l’appli de bureau Adobe Experience Manager
 description: Suivez les bonnes pratiques et les solutions de dépannage pour résoudre les problèmes occasionnels liés à l’installation, à la mise à niveau, à la configuration, etc.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: AG
@@ -8,15 +8,15 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
 
 ---
 
 
-# Troubleshoot Adobe Experience Manager desktop app {#troubleshoot-v2}
+# Résolution des problèmes liés à l’appli de bureau Adobe Experience Manager {#troubleshoot-v2}
 
-L’application de bureau Adobe Experience Manager (AEM) se connecte au référentiel de gestion des actifs numériques (DAM) d’un déploiement distant d’Experience Manager. L’appli récupère les informations du référentiel et les résultats de la recherche sur votre ordinateur, télécharge et charge les fichiers et les dossiers, et inclut des fonctionnalités de gestion des conflits avec l’interface utilisateur d’AEM Assets.
+L’appli de bureau Adobe Experience Manager (AEM) se connecte à un référentiel de gestion des ressources numériques (DAM) d’un déploiement Experience Manager distant. L’appli récupère les informations du référentiel et les résultats de la recherche sur votre ordinateur, télécharge et charge les fichiers et les dossiers, et inclut des fonctionnalités de gestion des conflits avec l’interface utilisateur d’AEM Assets.
 
 Lisez la suite de cette section pour résoudre les problèmes de l’application, découvrir les bonnes pratiques et connaître les limites.
 
@@ -26,21 +26,21 @@ Observez les bonnes pratiques suivantes pour éviter certains problèmes courant
 
 * **Comprendre le fonctionnement de l’appli de bureau** : avant de commencer à utiliser l’application, consacrez quelques minutes à en découvrir le fonctionnement. Sachez comment fonctionne la liaison entre l’interface utilisateur web et de bureau, le mappage de référentiel, la mise en cache de ressources, l’enregistrement en local et le chargement en arrière-plan. Voir [Fonctionnement](release-notes.md#how-app-works).
 
-* **Éviter les caractères non pris en charge dans les noms de dossier** : n’utilisez pas d’espaces ni de caractères non valides lors de la création ou du chargement de dossiers. See a list of characters at [Create folders in Experience Manager Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). Certains cas d’utilisation d’Adobe Experience Manager peuvent être affectés par des caractères non pris en charge dans le nom du dossier.
+* **Éviter les caractères non pris en charge dans les noms de dossier** : n’utilisez pas d’espaces ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans Experience Manager Assets](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). Certains cas d’utilisation d’Adobe Experience Manager peuvent être affectés par la présence de caractères non pris en charge dans le nom du dossier.
 
-* **Bonnes pratiques pour éviter les conflits** : pour éviter des conflits potentiels lors de la collaboration sur plusieurs ressources, voir [Éviter les conflits de modification](using.md#adv-workflow-collaborate-avoid-conflicts).
+* **Bonnes pratiques pour éviter les conflits** : pour éviter les éventuels conflits lors de la collaboration sur plusieurs ressources, voir [Éviter les conflits de modification](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **Utilisez le téléchargement de dossiers pour les dossiers** hiérarchiques volumineux : Au lieu d’utiliser l’interface Web Ressources ou d’autres méthodes, utilisez l’application de bureau Experience Manager pour télécharger des dossiers volumineux. L’appli charge les ressources en arrière-plan avec journalisation et surveillance. Voir [Chargement en masse de ressources](using.md#bulk-upload-assets).
+* **Utiliser le chargement de dossiers pour les dossiers hiérarchiques volumineux** : au lieu d’utiliser l’interface web d’Assets ou d’autres méthodes, utilisez l’appli de bureau Experience Manager pour charger les dossiers volumineux. L’appli charge les ressources en arrière-plan avec journalisation et surveillance. Voir [Chargement en masse de ressources](using.md#bulk-upload-assets).
 
-* **Utilisez la dernière version**: Utilisez la dernière version de l’application et vérifiez toujours la compatibilité avant d’installer une nouvelle version de l’application ou avant de procéder à la mise à niveau vers une nouvelle version d’Adobe Experience Manager. Voir les [notes de mise à jour](release-notes.md).
+* **Utiliser la dernière version** : utilisez la dernière version de l’application et vérifiez toujours la compatibilité avant d’installer une nouvelle version de l’application ou de procéder à une mise à niveau vers une nouvelle version d’Adobe Experience Manager. Voir les [notes de mise à jour](release-notes.md).
 
-* **Utilisez la même lettre** de lecteur : Utilisez la même lettre de lecteur à l’échelle d’une entreprise pour effectuer une correspondance avec la gestion des actifs numériques d’Adobe Experience Manager. Pour l’affichage des ressources placées par d’autres utilisateurs, les chemins d’accès doivent être identiques. L’utilisation de la même lettre de lecteur garantit un chemin constant vers les ressources DAM. Les ressources demeurent placées et ne sont pas supprimées même si des lettres de lecteur différentes sont utilisées par des utilisateurs différents.
+* **Utiliser la même lettre de lecteur** : utilisez la même lettre de lecteur dans toute l’entreprise pour procéder à un mappage sur le DAM Adobe Experience Manager. Pour l’affichage des ressources placées par d’autres utilisateurs, les chemins d’accès doivent être identiques. L’utilisation de la même lettre de lecteur garantit un chemin constant vers les ressources DAM. Les ressources demeurent placées et ne sont pas supprimées même si des lettres de lecteur différentes sont utilisées par des utilisateurs différents.
 
-* **Pensez au réseau**: Les performances réseau sont essentielles aux performances de l’application de bureau Experience Manager. Si vous obtenez une réponse ralentie aux transferts de fichiers ou aux opérations en masse, désactivez les fonctionnalités ou les applications susceptibles d’entraîner un trafic réseau important.
+* **Penser au réseau** : les performances réseau sont essentielles aux performances de l’appli de bureau Experience Manager. Si vous obtenez une réponse ralentie aux transferts de fichiers ou aux opérations en masse, désactivez les fonctionnalités ou les applications susceptibles d’entraîner un trafic réseau important.
 
 * **Cas d’utilisation non pris en charge pour l’appli de bureau** : n’utilisez pas l’application pour la migration des ressources (celle-ci nécessite une planification et d’autres outils) ; pour les opérations de gestion des ressources numériques lourdes (par exemple, déplacement de dossiers volumineux, chargements volumineux, recherche de fichiers à l’aide d’une recherche de métadonnées avancée) ; et en tant que client de synchronisation (les principes de conception et les modèles d’utilisation sont différents des clients synchronisés tels que Microsoft OneDrive ou Adobe Creative Cloud Desktop Sync).
 
-* **Délai d’expiration**: Actuellement, l’application de bureau ne dispose pas d’une valeur de délai d’expiration configurable qui déconnecte la connexion entre le serveur Experience Manager et l’application de bureau après un intervalle de temps fixe. Lors du téléchargement de fichiers volumineux, si la connexion expire au bout d’un certain temps, l’application tente à nouveau de télécharger le fichier plusieurs fois en augmentant le délai d’expiration du téléchargement. Il n’existe aucun moyen recommandé de modifier les paramètres de délai d’expiration par défaut.
+* **Délai d’expiration** : actuellement, l’appli de bureau ne dispose pas d’une valeur de délai d’expiration configurable qui déconnecte l’appli de bureau du serveur Experience Manager après un temps donné. Lors du chargement de ressources volumineuses, si la connexion expire au bout d’un certain temps, l’application tente à nouveau de charger la ressource plusieurs fois en augmentant le délai d’expiration du chargement. Il n’existe aucun moyen recommandé de modifier les paramètres de délai d’expiration par défaut.
 
 ## Comment résoudre les problèmes {#troubleshooting-prep}
 
@@ -82,7 +82,7 @@ Toutefois, l’emplacement peut varier en fonction du point de terminaison AEM c
 
 ### Connaître la version de l’appli de bureau AEM {#know-app-version-v2}
 
-Cliquez sur ![App menu](assets/do-not-localize/more_options_da2.png) pour ouvrir le menu de l’application et cliquez sur **[!UICONTROL Help]**>**[!UICONTROL About]**.
+Cliquez sur ![App menu](assets/do-not-localize/more_options_da2.png) pour ouvrir le menu de l’application et cliquez sur **[!UICONTROL Help]** > **[!UICONTROL About]**.
 
 ## Impossible de voir les ressources importées {#placed-assets-missing}
 
