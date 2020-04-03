@@ -1,17 +1,17 @@
 ---
 cloud: experience-cloud
 solution-title: Formation et assistance
-solution-hub-url: https://helpx.adobe.com/fr/support/experience-manager/6-4.html
+solution-hub-url: https://helpx.adobe.com/fr/support/experience-manager/6-5.html
 solution-icon: assets/experience-cloud-logo-24.png
 getting-started-title: Prise en main
 getting-started-url: https://helpx.adobe.com/experience-manager/tutorials.html
 tutorials-title: Tutoriels
-tutorials-url: https://helpx.adobe.com/fr/experience-manager/kt/index/aem-6-4-videos.html
-mini-toc-levels: 2
+tutorials-url: https://helpx.adobe.com/fr/experience-manager/kt/index/aem-6-5-videos.html
+mini-toc-levels: 1
 git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.en
-index: n
+index: y
 translation-type: tm+mt
-source-git-commit: f42f9437de9d9b96d1fcf1c3e1730fd74548eec1
+source-git-commit: e5e7f60d97bfb24bb4c668cd074430218a657db4
 
 ---
 
@@ -23,9 +23,9 @@ Le fichier metadata.md comprend des métadonnées de niveau référentiel qui tr
 | metadata | effets |
 |--- |--- |
 | solution-title | Utilisé dans l’en-tête de l’article en tant que lien. |
-| solution-hub-url | Ouvre la page hub helpx. |
+| solution-hub-url | Ouvre la page concentrateur d&#39;assistance |
 | solution-icon | Affiche l’icône de solution en regard du titre de la solution. Pas encore implémenté |
-| getting-started-url | Lien vers la page de démarrage helpx. |
+| getting-started-url | Lien vers la page de prise en main |
 | tutorials-url | Lien vers les tutoriels vidéo : tutoriels helpx ou KT. |
 | mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail droit. La valeur par défaut est 2. |
 | git-repo | Spécifie l’emplacement du référentiel principal pour une utilisation interne. |
