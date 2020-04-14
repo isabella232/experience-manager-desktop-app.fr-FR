@@ -8,8 +8,8 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 75e7cbaaa23b441b5e3a6e55381cd5f548231537
+translation-type: tm+mt
+source-git-commit: f69ccbf7acaa277a7f4d07fabba2094459e4ea23
 
 ---
 
@@ -20,10 +20,10 @@ Pour la version 1.x de l’appli de bureau, voici les liens de téléchargement
 
 | Produits | Appli de bureau Adobe Experience Manager (AEM) |
 |---------------|--------------------------------------------------------------------|
-| Version | 1.10 (1.10.0.3 sous Mac et Windows) |
+| Version | 1.10 (1.10.0.6 sous Mac et 1.10.0.3 sous Windows) |
 | Type | Version mineure |
-| Date | 31 août 2018 |
-| URL de téléchargement | [Mac OS X 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.3.dmg) ; [Windows 32 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe) ; [Windows 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
+| Date | 1.10.0.6 (Mac) : 15 avril 2020; 1.10.0.3 (Win) : 31 août 2018 |
+| URL de téléchargement | [Mac OS X 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.6.dmg) ; [Windows 32 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe) ; [Windows 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
 | Compatibilité | AEM 6.5.x ; AEM 6.4.x ; AEM 6.3 SP2 ; AEM 6.2 SP1 CFP2+ ; AEM 6.1 SP2 CFP7+ |
 
 >[!NOTE]
@@ -46,6 +46,10 @@ Consultez le [tableau de compatibilité détaillé](#compatibilitymatrix) à la 
 ## Nouveautés de l’appli de bureau AEM 1.10 {#what-s-new-in-aem-desktop-app}
 
 L’appli de bureau AEM 1.10 met l’accent sur l’amélioration de l’expérience utilisateur en ce qui concerne les chargements volumineux, les informations relatives aux opérations en arrière-plan et une expérience optimisée lors de l’ouverture de ressources avec des fichiers liés (comme InDesign).
+
+>[!NOTE]
+>
+>Si vous utilisez macOS 10.15.4 ou version ultérieure, utilisez au moins la version 1.10.0.6 de l’application. Cette version de correctif est conforme aux exigences [de notation d’](https://developer.apple.com/news/?id=04102019a)Apple.
 
 **Modification/extraction locale** : les chargements automatiques des modifications enregistrées dans les ressources peuvent être désactivés dans la fenêtre de statut. De cette façon, l’utilisateur peut continuer à traiter des fichiers et à enregistrer des modifications puis, lorsque tout est prêt, décider de transférer toutes les modifications.
 
@@ -102,11 +106,11 @@ Téléchargements
 * Affiche les téléchargements en cours, y compris la vitesse de transfert et la taille transférée jusqu’à présent.
 * Téléchargements terminés affichés avec le volume transféré final, le débit final et une icône qui ouvre le fichier lorsque l’utilisateur clique sur celle-ci (disponible uniquement pour les fichiers uniques).
 * Les téléchargements ayant échoué sont accompagnés d’un message d’erreur et d’informations sur le transfert, le cas échéant.
-* Le pied de page affiche le nombre total de fichiers téléchargés, ainsi que la vitesse de transfert moyenne.
+* Le pied de page affiche le nombre total de fichiers téléchargés, ainsi que la vitesse de transfert moyenne..
 * Si un utilisateur choisit d’ouvrir ou de modifier plusieurs fichiers à partir de l’interface utilisateur web AEM Assets, ceux-ci sont regroupés et affichés (par exemple, sous la forme « myasset.jpeg and 4 more file(s) » (myasset.jpeg et 4 autres fichiers)).
 * Lorsque vous téléchargez des documents InDesign comprenant des ressources liées stockées dans AEM Assets, l’application télécharge l’ensemble des ressources liées avant d’ouvrir le document InDesign et d’indiquer le téléchargement des ressources liées sous la forme (5 sur 24), par exemple.
 
-Bulk Uploads (Téléchargements en masse) : cette boîte de dialogue s’affiche lorsque vous chargez des hiérarchies de dossiers de grande taille par le biais de l’option Create &gt; Upload Folder (Créer &gt; Transférer un dossier) dans l’interface utilisateur web AEM ou lorsque vous copiez et sélectionnez Paste Assets (Coller des ressources) dans le Finder ou l’Explorateur dans le menu contextuel de l’appli de bureau.
+Bulk Uploads (Téléchargements en masse) : cette boîte de dialogue s’affiche lorsque vous chargez des hiérarchies de dossiers de grande taille par le biais de l’option Create > Upload Folder (Créer > Transférer un dossier) dans l’interface utilisateur web AEM ou lorsque vous copiez et sélectionnez Paste Assets (Coller des ressources) dans le Finder ou l’Explorateur dans le menu contextuel de l’appli de bureau.
 
 * Affiche les transferts en cours, y compris une barre de progression et le nom du fichier en cours de transfert.
 * Les transferts en cours s’accompagnent d’une icône qui annule l’opération lorsque l’utilisateur clique sur celle-ci. Le transfert s’arrête une fois le transfert du fichier en cours terminé.
@@ -133,7 +137,7 @@ L’appli de bureau AEM 1.8.1 s’accompagnait d’améliorations au niveau de 
 * Réseau :
    * lors de l’expiration d’une session AEM, l’utilisateur en est maintenant informé et peut cliquer sur la notification pour se reconnecter (CQ-4202028)
    * (Mac) Ajout d’une prise en charge pour se connecter à AEM à l’aide d’une configuration de proxy .pac (CQ-4233430)
-   * (Windows) Résolution de problèmes relatifs à la boîte de dialogue Advanced &gt; Login URL (Avancé &gt; URL de connexion) (CQ-4236061)
+   * (Windows) Résolution de problèmes relatifs à la boîte de dialogue Advanced > Login URL (Avancé > URL de connexion) (CQ-4236061)
 * Correctifs :
    * Boîte de dialogue More Asset Info (Plus d’informations sur la ressource) : dans certains cas, la barre d’actions n’était pas visible (CQ-4208540)
    * (Windows) Le fichier peut maintenant être synchronisé après rétablissement d’une version antérieure à partir de l’interface utilisateur AEM Assets (CQ-4216411)
@@ -201,7 +205,7 @@ Remarque concernant les avertissements relatifs aux liens : les applications Cr
 
 Ce comportement est identique pour les ressources du disque local et celles du répertoire monté de l’appli de bureau AEM, avec les exceptions suivantes :
 
-* Si une ressource importée est modifiée par un autre utilisateur, l’icône d’avertissement s’affiche la première fois que l’autre utilisateur ouvre un document contenant cette ressource. Cela se produira uniquement si la ressource importée a déjà été mise en cache localement.
+* Si une ressource importée est modifiée par un autre utilisateur, l’icône d’avertissement s’affiche la première fois que l’autre utilisateur ouvre un document contenant cette ressource. Cela se produira uniquement si la ressource importée a déjà été mise en cache localement..
 * Si un utilisateur modifie une ressource importée par l’intermédiaire du répertoire monté de l’appli de bureau AEM, puis efface le cache local, la ressource est signalée comme obsolète.
 
 Ces deux cas sont attendus et sont des répercussions secondaires de l’architecture « synchronisation différée » de l’appli de bureau AEM.
@@ -225,7 +229,7 @@ Ces deux cas sont attendus et sont des répercussions secondaires de l’archite
 
 ### Améliorations disponibles depuis l’appli de bureau AEM 1.4{#Enhancements-Available-Since-AEM-Desktop-App-14}
 
-* Simplification du chargement des dossiers hiérarchiques par l’intermédiaire de la nouvelle opération Create &gt; Upload Folder (Créer &gt; Charger le dossier) de l’interface utilisateur tactile
+* Simplification du chargement des dossiers hiérarchiques par l’intermédiaire de la nouvelle opération Create > Upload Folder (Créer > Charger le dossier) de l’interface utilisateur tactile
    * L’action lance un chargement de dossier effectué par l’appli de bureau
    * L’appli de bureau traverse la hiérarchie de dossiers donnée sur le bureau en arrière-plan et charge les fichiers dans AEM Assets.
    * L’utilisateur peut surveiller la progression dans la nouvelle fenêtre d’état de la file d’attente des chargements à l’aide d’une barre de progression pour les opérations en cours.
@@ -241,7 +245,7 @@ Ces deux cas sont attendus et sont des répercussions secondaires de l’archite
 * Amélioration de l’intégration du Finder, qui offre une amélioration de la stabilité et un accès aux fonctionnalités telles que les miniatures
 * Améliorations de la mise en cache et des performances
 * Amélioration de la prise en charge de l’enregistrement directement depuis les applications de bureau (PS, ID, AI, etc.)
-* Amélioration de l’intégration avec Mac OS (le protocole du lecteur réseau local est passé de WebDAV à SMB1, plus stable)
+* Amélioration de l’intégration avec Mac OS (le protocole du lecteur réseau local est passé de WebDAV à SMB1, plus stable).
 * L’appli de bureau se connecte au serveur AEM à l’aide du protocole HTTP RESTful natif d’AEM.
 * Les fichiers sont d’abord enregistrés localement puis transférés vers AEM en arrière-plan après une période prédéfinie (30 secondes). Cela réduit le temps d’enregistrement des fichiers.
 * Amélioration de la gestion des applications de bureau qui utilisent des opérations de fichiers intermédiaires pour enregistrer un fichier (enregistrements partiels et fichiers temporaires), ce qui permet à la chronologie d’AEM Assets d’afficher les informations correctes de version et de chargement des ressources.
