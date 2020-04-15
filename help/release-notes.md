@@ -9,21 +9,21 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
+translation-type: tm+mt
+source-git-commit: aca68b0c2eb363e33c8a6edec2370758124a4b9e
 
 ---
 
 
 # Notes de mise à jour de l’appli de bureau Adobe Experience Manager {#release-notes-v2}
 
-| Produits | Appli de bureau Adobe Experience Manager (AEM) |
-|---------------|--------------------------------------------------------------------|
-| Version de l’application (révision) | 2.0 (2.0.1.1) |
-| Versions d’AEM prises en charge | AEM 6.5, AEM 6.4, AEM 6.3 (avec package de compatibilité) |
+| Produits | Appli de bureau Adobe Experience Manager |
+|----|----|
+| Version de l’application (révision) | 2.0 (2.0.2.0) |
+| Versions d’AEM prises en charge | AEM en tant que service Cloud ; AEM 6.5; AEM 6.4; AEM 6.3 (avec package de compatibilité) |
 | Type | Version mineure |
-| Date de publication | 12 décembre 2019 (Mac et Windows) |
-| URL de téléchargement | [MacOS 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.1.1.dmg) ; [Windows 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.1.1.exe) ; [Windows 32 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.1.1.exe) |
+| Date de publication | 15 avril 2020 (Mac et Windows) |
+| URL de téléchargement | [macOS 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.2.0.dmg); [Windows 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.2.0.exe); [Windows 32 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.2.0.exe) |
 
 ## Configuration requise et conditions préalables {#system-requirements-and-prerequisites-v2}
 
@@ -32,10 +32,11 @@ L’appli de bureau Adobe Experience Manager est compatible avec les systèmes
 * Mac OS X 10.10 ou version ultérieure, avec les correctifs de bogues les plus récents.
 * Windows 7 et Windows 10 avec les Service Packs et les correctifs de bogues les plus récents.
 
-L’application fonctionne avec les versions d’Experience Manager suivantes, qu’elles soient déployées On-Premise ou sur Adobe Managed Services (AMS) :
+L’application fonctionne avec les versions d’Experience Manager suivantes, qu’elles soient déployées en tant que service Cloud, sur Adobe Managed Services (AMS) ou sur site :
 
-* [Experience Manager 6.5.0](https://helpx.adobe.com/fr/experience-manager/6-5/release-notes.html ) ou version ultérieure
-* [Experience Manager 6.4.4](https://helpx.adobe.com/fr/experience-manager/6-4/release-notes/sp-release-notes.html) ou version ultérieure
+* [Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/home.html)
+* [Experience Manager 6.5.0+](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/release-notes.html) ou version ultérieure
+* [Experience Manager 6.4.4+](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) ou version ultérieure
 * Experience Manager 6.4.0–6.4.3 avec [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
@@ -60,13 +61,25 @@ Cette fonctionnalité est prise en charge avec Adobe Creative Cloud 2018 et l
 * Les chemins d’accès aux fichiers placés dans l’application native utilisent un chemin d’accès de bureau global (placé à partir du partage réseau local illustré par l’option [!UICONTROL Reveal]).
 * Les chemins sont stockés dans l’enregistrement XMP du fichier par l’application native.
 * Experience Manager a extrait l’enregistrement XMP avec les chemins d’accès dans l’enregistrement de métadonnées de la ressource.
-* Les chemins d’accès peuvent être associés aux ressources dans Experience Manager. En d’autres termes, les fichiers placés se trouvent également dans Experience Manager sous un chemin d’accès correspondant.
+* Les chemins d’accès peuvent être associés à des ressources dans Experience Manager, c’est-à-dire que les fichiers importés se trouvent également dans Experience Manager sous un chemin d’accès correspondant.
 
 ## Nouvelles fonctionnalités et améliorations {#whats-new-added}
 
 Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#whats-new-v2).
 
-Les correctifs et mises à jour de la version v2.0.1 sont les suivants :
+**Mises à jour dans la version v2.0.2 de l’application**
+
+Les correctifs et mises à jour sont les suivants :
+
+* Pour améliorer les performances de transfert, augmentez l’accélération du transfert dans [!UICONTROL Preferences]. Lorsque ce paramètre est activé, l’application utilise davantage de threads CPU locaux et consomme plus de ressources.
+* Correction d’un problème lié aux téléchargements de fichiers lorsque les noms de fichier ou les chemins d’accès contenaient certains caractères GB18030. <!-- CQ-4283494 -->
+* L’option Trier par pertinence est disponible après le passage à un autre type de tri dans les résultats de la recherche. <!-- CQ-4286874 -->
+* L’application de bureau désormais les sous-dossiers  sans avoir à les actualiser explicitement. <!-- CQ-4285711 -->
+* (Windows) Correction d’un rare problème d’interface d’application inutilisable sur certains ordinateurs Windows. Les utilisateurs ne peuvent pas cliquer sur l’interface de l’application, car elle semble déformée par le décalage de la zone de clic des éléments de l’interface. <!-- CQ-4280785 -->
+
+**Mises à jour dans la version v2.0.1 de l’application**
+
+Les correctifs et mises à jour sont les suivants :
 
 * Option permettant de configurer le répertoire `%Temp%` de façon à ce qu’il corresponde au chemin d’accès à `%APPDATA%`. <!-- CQ-4282665 -->
 * Permet aux utilisateurs de se connecter à l’instance Auteur AEM via l’authentification SAML Okta. <!-- CQ-4278134 -->
@@ -117,8 +130,8 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 
 >[!MORELIKETHIS]
 >
->* [Documentation d’AEM 6.5](https://helpx.adobe.com/fr/support/experience-manager/6-5.html)
->* [Documentation d’AEM Assets 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html)
+>* [Documentation d’AEM en tant que service cloud](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
+>* [Documentation d’AEM en tant que ressources de service cloud](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/home.html)
 >* [Utilisation de l’appli de bureau Experience Manager](using.md)
 >* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
 >* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
