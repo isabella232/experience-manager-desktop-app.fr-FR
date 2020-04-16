@@ -6,8 +6,8 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: e706fe5fe148deff519cadc72b724572f11ddf3c
+translation-type: tm+mt
+source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
 
 ---
 
@@ -184,6 +184,8 @@ Vous pouvez charger des dossiers ou des fichiers spécifiques depuis votre syst�
 Pour afficher la liste des ressources transférées au cours d’une session donnée, cliquez sur **[!UICONTROL View]** > **[!UICONTROL Assets transfers]**. La liste vous permet d’afficher et de vérifier rapidement les transferts de fichiers de la session en cours.
 
 ![Liste des ressources transférées dans une session particulière](assets/assets_transfered_da2.png "Liste des ressources transférées dans une session particulière")
+
+Vous pouvez contrôler la simultanéité du transfert (accélération) dans **[!UICONTROL Preferences]** > paramètre **[!UICONTROL Upload acceleration]** . Une plus grande simultanéité permet généralement des transferts plus rapides, mais elle peut être gourmande en ressources et consommer davantage de puissance de traitement de l’ordinateur local. Si vous rencontrez un système lent, effectuez une nouvelle tentative de téléchargement à l’aide d’une valeur d’accès simultané inférieure.
 
 >[!NOTE]
 >
