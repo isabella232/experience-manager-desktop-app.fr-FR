@@ -8,8 +8,8 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
+translation-type: tm+mt
+source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
 
 ---
 
@@ -56,15 +56,15 @@ Pour résoudre les problèmes, vous pouvez activer le mode de débogage et obten
 
 ### Emplacement des fichiers journaux {#check-log-files-v2}
 
-Vous trouverez les fichiers journaux de l’appli de bureau AEM aux emplacements ci-dessous. Lors du téléchargement de nombreuses ressources, si le chargement de certains fichiers échoue, reportez-vous au fichier `backend.log` à l’emplacement ci-dessus pour identifier les chargements ayant échoué.
+Vous trouverez les fichiers journaux de l’appli de bureau AEM aux emplacements ci-dessous. When uploading many assets, if some files fail to upload, see `backend.log` file to identify the failed uploads.
 
-* Sous Windows :`%LocalAppData%\Adobe\AssetsCompanion\Logs`
+* Chemin sous Windows : `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
-* Sous Mac : `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+* Chemin sous Mac : `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
 >[!NOTE]
 >
->Lorsque vous travaillez avec l’Assistance clientèle d’Adobe sur une demande/un ticket d’assistance, vous serez peut-être invité à fournir les fichiers journaux pour aider l’équipe d’assistance à comprendre le problème. Archivez le dossier `Logs` entier et fournissez-le à l’Assistance clientèle.
+>Lorsque vous travaillez avec le service à la clientèle d’Adobe sur une demande d’assistance/un ticket, vous pouvez être invité à partager les fichiers journaux pour aider l’équipe du service à la clientèle à comprendre le problème. Archive the entire `Logs` folder and share it with your Customer Care contact.
 
 ### Effacer le cache {#clear-cache-v2}
 
