@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
+source-git-commit: 9ae1580475569538838c58f642a7df43f2526d16
 
 ---
 
@@ -48,11 +48,25 @@ Pour résoudre les problèmes liés à l’appli de bureau, tenez compte des inf
 
 ### Activation du mode de débogage {#enable-debug-mode}
 
-Pour résoudre les problèmes, vous pouvez activer le mode de débogage et obtenir plus d’informations dans les journaux. Pour exécuter l’application en mode de débogage, utilisez les options de ligne de commande suivantes dans un terminal ou à l’invite de commandes.
+Pour résoudre les problèmes, vous pouvez activer le mode de débogage et obtenir plus d’informations dans les journaux. To use the app in debug mode on Mac, use the following command line options in a terminal or at the command prompt: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
 
-* Sous Windows :`SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
+Pour activer le mode de débogage sous Windows, procédez comme suit :
 
-* Sous Mac : `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
+1. Localisez `Adobe Experience Manager Desktop.exe.config` le fichier dans le dossier d’installation de votre application de bureau. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop`. Enregistrez et fermez le fichier 
+
+1. Localisez `<level value="INFO"/>` le fichier vers la fin. Remplacez la valeur par `DEBUG`, c&#39;est-à-dire `<level value="DEBUG"/>`.
+
+1. Localisez `logging.json` le fichier dans le dossier d’installation de votre application de bureau. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
+
+1. Dans `logging.json` le fichier, recherchez toutes les instances du `level` paramètre. Remplacez les valeurs `info` par `debug`. Enregistrez et fermez le fichier 
+
+1. Effacez les répertoires mis en cache qui se trouvent à l’emplacement défini dans les préférences de l’application.
+
+1. Redémarrez l’application de bureau.
+
+<!-- The Windows command doesn't work for now.
+* On Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
+-->
 
 ### Emplacement des fichiers journaux {#check-log-files-v2}
 
