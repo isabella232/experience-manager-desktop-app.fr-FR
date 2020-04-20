@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
+source-git-commit: 0301538b5cc00a187709b484bed8f0ca7b799f03
 
 ---
 
@@ -33,26 +33,28 @@ Pour utiliser l’appli de bureau Experience Manager :
 
 Pour plus d’informations, voir les [Notes de mise à jour de l’appli de bureau Experience Manager](release-notes.md).
 
-## Mise à niveau de l’application v1.x vers l’application v2 {#upgrade-from-previous-version}
+## Upgrade from a previous version {#upgrade-from-previous-version}
 
-Si vous utilisez déjà l’application, vous devez comprendre les différences et les similitudes existant entre la version précédente et la dernière version. Suivez également ces instructions pour de la version 1.x à la version la plus récente.
+Si vous utilisez la version 1.x de l’application de bureau, vous devez comprendre les différences et les similitudes entre la version précédente et la dernière version de l’application. Découvrez [les nouveautés de l’application](introduction.md#whats-new-v2) de bureau et [le fonctionnement de l’application](release-notes.md#how-app-works)
 
 >[!NOTE]
 >
->Les applications de bureau v1.x et v2 ne peuvent pas coexister sur un ordinateur. Avant d’installer une version, désinstallez l’autre version.
+>Deux versions de l’application de bureau ne peuvent pas coexister sur un ordinateur. Avant d’installer une version, désinstallez l’autre version.
 
-Pour mettre la version 1.x à niveau vers la dernière version de l’application, procédez comme suit :
+Pour effectuer une mise à niveau à partir d’une version précédente de l’application, suivez les instructions suivantes :
 
-1. Avant la mise à niveau, synchronisez toutes vos ressources. Téléchargez toutes les modifications à l’aide de l’application v1.x. Vous éviterez ainsi de perdre des modifications lors de la désinstallation de l’application v1.x.
-1. Désinstallez l’application v1.x tout en vidant le cache.
+1. Avant de procéder à la mise à niveau, synchronisez toutes vos ressources et téléchargez vos modifications dans Experience Manager. Cela permet d’éviter de perdre des modifications lors de la désinstallation de l’application.
+1. Désinstallez la version précédente de l’application. Lors de la désinstallation, sélectionnez l’option permettant d’effacer le cache.
 1. Redémarrez votre ordinateur.
-1. Téléchargez et installez la dernière application. Suivez les instructions ci-dessous.
+1. [Téléchargez et installez la dernière application. ](release-notes.md)[](#install-v2) Suivez les instructions ci-dessous.
 
 ## Installation de la version {#install-v2}
 
 Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute instance de l’appli de bureau Adobe Experience Manager v1.x avant d’installer la dernière application. Pour plus d’informations, voir ci-dessus.
 
+1. Téléchargez le programme d’installation le plus récent à partir de la page des notes [de](release-notes.md) mise à jour.
 1. Conservez à portée de main l’URL et les informations d’identification de votre déploiement d’Experience Manager.
+1. Si vous effectuez une mise à niveau à partir d’une autre version de l’application, voir [Mise à niveau de l’application](#upgrade-from-previous-version)de bureau.
 1. Ignorez cette étape si vous utilisez Experience Manager en tant que service Cloud, Experience Manager 6.4.4 ou version ultérieure ou Experience Manager 6.5.0 ou version ultérieure. Ensure that your Experience Manager setup meets the compatibility requirements mentioned in the [release notes](release-notes.md). If necessary, download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the Experience Manager Package Manager as an Experience Manager administrator. Pour installer un package, voir [Comment travailler avec des packages](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/package-manager.html).
 1. Exécutez le fichier binaire du programme d’installation et suivez les instructions à l’écran pour procéder à l’installation.
 1. Sous Windows, il se peut que le programme d’installation vous invite à installer `Visual Studio C++ Redistributable 2015`. Suivez les instructions affichées à l’écran pour installer ce programme. Si l’installation échoue, procédez manuellement. Téléchargez le programme d’installation [ici](https://www.microsoft.com/fr-fr/download/details.aspx?id=52685) et installez les fichiers `vc_redist.x64.exe` et `vc_redist.x86.exe`. Réexécutez le programme d’installation de l’appli de bureau AEM.
