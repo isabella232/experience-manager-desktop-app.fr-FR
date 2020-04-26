@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: bb71cfdfef674be25d059f104a37a9199681358c
 
 ---
 
@@ -118,11 +118,10 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
    >
    >L’application crée automatiquement un sous-répertoire *&lt;Point de terminaison AEM codé>* ; ce comportement n’est pas configurable.
 
-## Ressources supplémentaires {#additional-resources}
-
+>[!MORELIKETHIS]
 * [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
 * [Utilisation de l’appli de bureau AEM](use-app-v1.md)
-
 * [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [Utilisation de l’appli de bureau avec AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [Résolution des problèmes liés à l’appli de bureau AEM](troubleshoot-app-v1.md)
+
