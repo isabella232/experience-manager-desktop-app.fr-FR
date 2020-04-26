@@ -9,25 +9,25 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0301538b5cc00a187709b484bed8f0ca7b799f03
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
 
 # Installation de l’appli de bureau Adobe Experience Manager {#install-app-v2}
 
-A l’aide de l’application de bureau Adobe Experience Manager, les ressources d’Experience Manager sont facilement disponibles sur votre bureau local et peuvent être utilisées dans n’importe quelle application de bureau native. Les ressources peuvent être prévisualisées, ouvertes dans des applications de bureau natives, affichées dans le Finder Mac ou l’Explorateur Windows pour être placées dans d’autres  de et modifiées localement. Les modifications sont enregistrées dans Experience Manager lorsque vous téléchargez et une nouvelle version est créée dans le référentiel.
+Avec l’application de bureau Adobe Experience Manager, les ressources d’Experience Manager sont facilement disponibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources peuvent être prévisualisées, ouvertes dans des applications de bureau natives, affichées dans le Finder de Mac ou l’Explorateur Windows pour être utilisées dans d’autres documents, et modifiées en local. Les modifications sont réenregistrées dans Experience Manager lors du chargement et une nouvelle version est créée dans le référentiel.
 
-Une telle intégration permet à divers rôles de l&#39;organisation de :
+Une telle intégration permet à divers rôles de l’organisation de :
 
-* Gérez les ressources de manière centralisée dans Experience Manager Assets.
-* Accédez aux ressources dans n’importe quelle application de bureau native, y compris les applications tierces, et dans Adobe Creative Cloud. Cela permet aux utilisateurs de se conformer facilement aux différentes normes, y compris l’identité graphique.
+* gérer les ressources de manière centralisée dans Experience Manager Assets ;
+* accéder aux ressources dans n’importe quelle application de bureau native, y compris les applications tierces, ainsi que dans Adobe Creative Cloud. Cela permet aux utilisateurs de se conformer facilement aux différentes normes, y compris au branding.
 
-Pour utiliser l’appli de bureau Experience Manager :
+Pour utiliser l’application de bureau Experience Manager :
 
-* Vérifiez que votre version d’Experience Manager est prise en charge par l’application de bureau Experience Manager. Voir la configuration requise [pour le](release-notes.md#system-requirements-and-prerequisites-v2) système ci-dessous.
-* Téléchargez et installez l’application. Reportez-vous à la section [Installation de l’application](#install-v2) de bureau ci-dessous.
-* Testez la connexion à l’aide de quelques ressources. Découvrez [comment rechercher des ressources](using.md#browse-search-preview-assets).
+* Vérifiez que votre version d’Experience Manager est prise en charge par l’application de bureau Experience Manager. Voir la [Configuration requise](release-notes.md#system-requirements-and-prerequisites-v2) ci-dessous.
+* Téléchargez et installez l’application. Voir [Installation de l’application de bureau](#install-v2) ci-dessous.
+* Testez la connexion à l’aide de quelques ressources. Découvrez [comment parcourir et rechercher des ressources](using.md#browse-search-preview-assets).
 
 ## Configuration requise, conditions préalables et liens de téléchargement {#tech-specs-v2}
 
@@ -53,9 +53,9 @@ Pour effectuer une mise à niveau à partir d’une version précédente de l’
 Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute instance de l’appli de bureau Adobe Experience Manager v1.x avant d’installer la dernière application. Pour plus d’informations, voir ci-dessus.
 
 1. Téléchargez le programme d’installation le plus récent à partir de la page des notes [de](release-notes.md) mise à jour.
-1. Conservez à portée de main l’URL et les informations d’identification de votre déploiement d’Experience Manager.
+1. Conservez l’URL et les informations d’identification de votre déploiement d’Experience Manager à portée de main.
 1. Si vous effectuez une mise à niveau à partir d’une autre version de l’application, voir [Mise à niveau de l’application](#upgrade-from-previous-version)de bureau.
-1. Ignorez cette étape si vous utilisez Experience Manager en tant que service Cloud, Experience Manager 6.4.4 ou version ultérieure ou Experience Manager 6.5.0 ou version ultérieure. Ensure that your Experience Manager setup meets the compatibility requirements mentioned in the [release notes](release-notes.md). If necessary, download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the Experience Manager Package Manager as an Experience Manager administrator. Pour installer un package, voir [Comment travailler avec des packages](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/package-manager.html).
+1. Ignorez cette étape si vous utilisez Experience Manager as a Cloud Service, Experience Manager 6.4.4 ou version ultérieure, ou Experience Manager 6.5.0 ou version ultérieure. Assurez-vous que votre configuration d’Experience Manager respecte les exigences de compatibilité mentionnées dans les [notes de mise à jour](release-notes.md). Si nécessaire, téléchargez le [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicable et installez-le à l’aide d’Experience Manager Package Manager en tant qu’administrateur Experience Manager. Pour installer un package, voir [Comment travailler avec des packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html).
 1. Exécutez le fichier binaire du programme d’installation et suivez les instructions à l’écran pour procéder à l’installation.
 1. Sous Windows, il se peut que le programme d’installation vous invite à installer `Visual Studio C++ Redistributable 2015`. Suivez les instructions affichées à l’écran pour installer ce programme. Si l’installation échoue, procédez manuellement. Téléchargez le programme d’installation [ici](https://www.microsoft.com/fr-fr/download/details.aspx?id=52685) et installez les fichiers `vc_redist.x64.exe` et `vc_redist.x86.exe`. Réexécutez le programme d’installation de l’appli de bureau AEM.
 1. Redémarrez l’ordinateur conformément aux instructions. Lancez et configurez l’application de bureau.
@@ -71,7 +71,7 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute in
 
    ![À la connexion, l’appli affiche le contenu DAM](assets/firstview_da2.png "À la connexion, l’appli affiche le contenu DAM")
 
-1. (Experience Manager 6.5.1 ou version ultérieure) Si vous utilisez une application de bureau avec Experience Manager 6.5.1 ou version ultérieure, mettez à niveau S3 ou le connecteur Azure vers la version 1.10.4 ou ultérieure. Voir [Connecteur Azure](https://helpx.adobe.com/fr/experience-manager/6-5/sites/deploying/using/data-store-config.html#AzureDataStore) ou [Connecteur S3](https://helpx.adobe.com/fr/experience-manager/6-5/sites/deploying/using/data-store-config.html#AmazonS3DataStore).
+1. (Experience Manager 6.5.1 ou version ultérieure) Si vous utilisez une application de bureau avec Experience Manager 6.5.1 ou version ultérieure, mettez à niveau le connecteur Azure ou S3 vers la version 1.10.4 ou ultérieure. Voir [Connecteur Azure](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore) ou [Connecteur S3](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore).
 
    Si vous êtes un client d’Adobe Managed Services (AMS), contactez l’Assistance clientèle d’Adobe.
 
@@ -87,7 +87,7 @@ Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-
 * **[!UICONTROL Current cache size]** : taille de stockage des ressources téléchargées en local. Les informations ne s’affichent qu’une fois les ressources téléchargées à l’aide de l’application.
 * **[!UICONTROL Automatically download linked assets]** : les ressources placées dans les applications Creative Cloud natives prises en charge sont automatiquement récupérées si vous téléchargez le fichier d’origine.
 * **[!UICONTROL Maximum number of downloads]** : lorsque vous téléchargez des ressources pour la première fois (via les options Reveal (Afficher), Open (Ouvrir), Edit (Modifier), Download (Télécharger) ou autre option similaire), celles-ci ne sont téléchargées que si le lot contient moins de ressources que le nombre indiqué par cette valeur. La valeur par défaut est 50. Ne changez pas cette valeur si vous n’êtes pas sûr de vous. Augmenter cette valeur peut prolonger les délais d’attente et la diminuer peut vous empêcher de télécharger les ressources ou dossiers nécessaires en une seule fois.
-* **[!UICONTROL Upload Acceleration]**: Lors du transfert de fichiers, l’application peut utiliser des transferts simultanés pour améliorer la vitesse de transfert. Vous pouvez augmenter la simultanéité du transfert en déplaçant le curseur vers la droite. Le curseur situé à l’extrême gauche signifie qu’il n’y a pas d’accès simultané (transfert à thread unique), que la position centrale correspond à 10 threads simultanés et que la limite maximale à l’extrême droite correspond à 20 threads simultanés. Une limite d’accès simultané plus élevée nécessite une consommation de ressources plus importante du processeur de l’ordinateur local.
+* **[!UICONTROL Upload Acceleration]** : lorsque vous chargez des ressources, l’application peut réaliser ces chargements de façon simultanée de façon à en accroître la vitesse. Vous pouvez augmenter la simultanéité du chargement en déplaçant le curseur vers la droite. Le curseur situé à l’extrême gauche signifie qu’il n’y a pas de simultanéité (chargement à thread unique), tandis que la position centrale correspond à 10 threads simultanés et la limite maximale à l’extrême à 20 threads simultanés. Une limite de simultanéité plus élevée consomme davantage de ressources au niveau du processeur de l’ordinateur local.
 
 Pour mettre à jour les préférences non disponibles, déconnectez-vous du serveur AEM. Après avoir mis les préférences à jour, cliquez sur ![Save preferences](assets/do-not-localize/save_preferences_da2.png) pour les enregistrer.
 
