@@ -8,8 +8,8 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
+translation-type: tm+mt
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
@@ -90,7 +90,7 @@ Sous Mac OS X, un répertoire semblable est situé à l’emplacement suivant�
 
 ### Option dans l’application pour gérer le cache {#in-app-option-to-manage-cache}
 
- Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur AEM Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Pour définir les options de votre choix, cliquez sur l’icône de l’application, puis sur **[!UICONTROL Advanced]** >**[!UICONTROL Manage Cache]**. ****
+ Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur AEM Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Pour définir les options de votre choix, cliquez sur l’icône de l’application, puis sur **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. ****
 
 >[!NOTE]
 >
@@ -120,9 +120,9 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
 
 ## Ressources supplémentaires {#additional-resources}
 
-* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/fr/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
+* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
 * [Utilisation de l’appli de bureau AEM](use-app-v1.md)
 
-* [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://helpx.adobe.com/fr/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [Utilisation de l’appli de bureau avec AEM Assets](https://helpx.adobe.com/fr/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
+* [Utilisation de l’appli de bureau avec AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [Résolution des problèmes liés à l’appli de bureau AEM](troubleshoot-app-v1.md)
