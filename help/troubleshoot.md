@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9ae1580475569538838c58f642a7df43f2526d16
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
@@ -26,7 +26,7 @@ Observez les bonnes pratiques suivantes pour éviter certains problèmes courant
 
 * **Comprendre le fonctionnement de l’appli de bureau** : avant de commencer à utiliser l’application, consacrez quelques minutes à en découvrir le fonctionnement. Sachez comment fonctionne la liaison entre l’interface utilisateur web et de bureau, le mappage de référentiel, la mise en cache de ressources, l’enregistrement en local et le chargement en arrière-plan. Voir [Fonctionnement](release-notes.md#how-app-works).
 
-* **Éviter les caractères non pris en charge dans les noms de dossier** : n’utilisez pas d’espaces ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans Experience Manager Assets](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). Certains cas d’utilisation d’Adobe Experience Manager peuvent être affectés par la présence de caractères non pris en charge dans le nom du dossier.
+* **Éviter les caractères non pris en charge dans les noms de dossier** : n’utilisez pas d’espaces ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans Experience Manager Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). Certains cas d’utilisation d’Adobe Experience Manager peuvent être affectés par la présence de caractères non pris en charge dans le nom du dossier.
 
 * **Bonnes pratiques pour éviter les conflits** : pour éviter les éventuels conflits lors de la collaboration sur plusieurs ressources, voir [Éviter les conflits de modification](using.md#adv-workflow-collaborate-avoid-conflicts).
 
@@ -70,15 +70,15 @@ Pour activer le mode de débogage sous Windows, procédez comme suit :
 
 ### Emplacement des fichiers journaux {#check-log-files-v2}
 
-Vous trouverez les fichiers journaux de l’appli de bureau AEM aux emplacements ci-dessous. When uploading many assets, if some files fail to upload, see `backend.log` file to identify the failed uploads.
+Vous trouverez les fichiers journaux de l’appli de bureau AEM aux emplacements ci-dessous. Lorsque de nombreuses ressources sont chargées, si le chargement de certains fichiers échoue, reportez-vous au fichier `backend.log` pour identifier les chargements ayant échoué.
 
-* Chemin sous Windows : `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+* Chemin sous Windows : `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
-* Chemin sous Mac : `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+* Chemin sous Mac : `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
 >[!NOTE]
 >
->Lorsque vous travaillez avec le service à la clientèle d’Adobe sur une demande d’assistance/un ticket, vous pouvez être invité à partager les fichiers journaux pour aider l’équipe du service à la clientèle à comprendre le problème. Archive the entire `Logs` folder and share it with your Customer Care contact.
+>Lorsque vous travaillez avec l’Assistance clientèle d’Adobe sur une demande/un ticket d’assistance, vous serez peut-être invité à fournir les fichiers journaux pour l’aider à comprendre le problème. Archivez le dossier `Logs` entier et fournissez-le au représentant de l’Assistance clientèle.
 
 ### Effacer le cache {#clear-cache-v2}
 
