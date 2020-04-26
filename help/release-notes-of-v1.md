@@ -8,13 +8,13 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f1ea381cc88b5382288b2479d26e976dc7289b88
+translation-type: tm+mt
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
 
-# Notes de mise à jour de l’appli de bureau AEM v1.x{#aem-desktop-app-release-notes}
+# Notes de mise à jour de l’appli de bureau AEM v1.x {#aem-desktop-app-release-notes}
 
 Pour la version 1.x de l’appli de bureau, voici les liens de téléchargement et les informations de compatibilité d’AEM.
 
@@ -106,7 +106,7 @@ Téléchargements
 * Affiche les téléchargements en cours, y compris la vitesse de transfert et la taille transférée jusqu’à présent.
 * Téléchargements terminés affichés avec le volume transféré final, le débit final et une icône qui ouvre le fichier lorsque l’utilisateur clique sur celle-ci (disponible uniquement pour les fichiers uniques).
 * Les téléchargements ayant échoué sont accompagnés d’un message d’erreur et d’informations sur le transfert, le cas échéant.
-* Le pied de page affiche le nombre total de fichiers téléchargés, ainsi que la vitesse de transfert moyenne.
+* Le pied de page affiche le nombre total de fichiers téléchargés, ainsi que la vitesse de transfert moyenne..
 * Si un utilisateur choisit d’ouvrir ou de modifier plusieurs fichiers à partir de l’interface utilisateur web AEM Assets, ceux-ci sont regroupés et affichés (par exemple, sous la forme « myasset.jpeg and 4 more file(s) » (myasset.jpeg et 4 autres fichiers)).
 * Lorsque vous téléchargez des documents InDesign comprenant des ressources liées stockées dans AEM Assets, l’application télécharge l’ensemble des ressources liées avant d’ouvrir le document InDesign et d’indiquer le téléchargement des ressources liées sous la forme (5 sur 24), par exemple.
 
@@ -124,7 +124,7 @@ L’icône de l’application indique le statut des opérations en arrière-plan
 Pour améliorer l’expérience utilisateur lors de l’utilisation de documents InDesign contenant des ressources liées stockées dans AEM, l’appli de bureau tente d’effectuer une pré-récupération de ces fichiers liés dans le cache local avant de télécharger et d’ouvrir le document InDesign. L’utilisateur dispose ainsi des fichiers liés en local et ne doit pas attendre longtemps pour y accéder dans InDesign (dans le panneau Links (Liens)).
 Veuillez noter que la pré-récupération ne fonctionne que si AEM reconnaît les liens du côté serveur. Dans le cas d’une ressource contenant des liens reconnus, une liste de « Références » figure dans la vue Propriétés de la ressource InDesign.
 
-### Améliorations disponibles depuis l’appli de bureau AEM 1.8.x{#enhancements-available-since-aem-desktop-app-18x}
+### Améliorations disponibles depuis l’appli de bureau AEM 1.8.x {#enhancements-available-since-aem-desktop-app-18x}
 
 L’appli de bureau AEM 1.8.1 s’accompagnait d’améliorations au niveau de l’ouverture simultanée de plusieurs fichiers à partir de l’interface utilisateur AEM vers la version 1.8 (CQ-4237747, CQ-4238780). Les améliorations apportées dans l’appli de bureau AEM 1.8 sont les suivantes :
 
@@ -142,7 +142,7 @@ L’appli de bureau AEM 1.8.1 s’accompagnait d’améliorations au niveau de 
    * Boîte de dialogue More Asset Info (Plus d’informations sur la ressource) : dans certains cas, la barre d’actions n’était pas visible (CQ-4208540)
    * (Windows) Le fichier peut maintenant être synchronisé après rétablissement d’une version antérieure à partir de l’interface utilisateur AEM Assets (CQ-4216411)
 
-### Améliorations disponibles depuis l’appli de bureau AEM 1.7{#Enhancements-Available-Since-AEM-Desktop-App-17}
+### Améliorations disponibles depuis l’appli de bureau AEM 1.7 {#Enhancements-Available-Since-AEM-Desktop-App-17}
 
 * Stabilité :
    * stabilité améliorée lorsque l’appli de bureau AEM se connecte à un serveur AEM surchargé (CQ-4224803)
@@ -162,7 +162,7 @@ L’appli de bureau AEM 1.8.1 s’accompagnait d’améliorations au niveau de 
 >
 >Problèmes détectés dans les chargements de l’appli de bureau AEM 1.7 bêta (les problèmes qui ne figuraient pas dans la version 1.6 ne sont pas repris dans les notes de mise à jour).
 
-### Améliorations disponibles depuis l’appli de bureau AEM 1.6{#Enhancements-Available-Since-AEM-Desktop-App-16}
+### Améliorations disponibles depuis l’appli de bureau AEM 1.6 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
 * Documentation : nouvelles [Bonnes pratiques pour la documentation de l’application v1.x](https://helpx.adobe.com/fr/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html)
 * Amélioration du processus de connexion à AEM :
@@ -186,7 +186,7 @@ L’appli de bureau AEM 1.8.1 s’accompagnait d’améliorations au niveau de 
    * Utilisation intensive du processeur (CQ-4218070).
    * Faire glisser et déposer des fichiers génère une erreur lors du chargement vers AEM (CQ-4217006).
 
-### Améliorations disponibles depuis l’appli de bureau AEM 1.5{#Enhancements-Available-Since-AEM-Desktop-App-15}
+### Améliorations disponibles depuis l’appli de bureau AEM 1.5 {#Enhancements-Available-Since-AEM-Desktop-App-15}
 
 **Version 1.5.1.5 pour Mac OS X :** La version 1.5.1.5 offre les avantages suivants :
 
@@ -205,7 +205,7 @@ Remarque concernant les avertissements relatifs aux liens : les applications Cr
 
 Ce comportement est identique pour les ressources du disque local et celles du répertoire monté de l’appli de bureau AEM, avec les exceptions suivantes :
 
-* Si une ressource importée est modifiée par un autre utilisateur, l’icône d’avertissement s’affiche la première fois que l’autre utilisateur ouvre un document contenant cette ressource. Cela se produira uniquement si la ressource importée a déjà été mise en cache localement.
+* Si une ressource importée est modifiée par un autre utilisateur, l’icône d’avertissement s’affiche la première fois que l’autre utilisateur ouvre un document contenant cette ressource. Cela se produira uniquement si la ressource importée a déjà été mise en cache localement..
 * Si un utilisateur modifie une ressource importée par l’intermédiaire du répertoire monté de l’appli de bureau AEM, puis efface le cache local, la ressource est signalée comme obsolète.
 
 Ces deux cas sont attendus et sont des répercussions secondaires de l’architecture « synchronisation différée » de l’appli de bureau AEM.
@@ -227,7 +227,7 @@ Ces deux cas sont attendus et sont des répercussions secondaires de l’archite
    * Diverses améliorations de la stabilité (CQ-4207539, CQ-4200378)
    * Amélioration de la gestion de l’URL d’AEM Assets dans les préférences (CQ-97388)
 
-### Améliorations disponibles depuis l’appli de bureau AEM 1.4{#Enhancements-Available-Since-AEM-Desktop-App-14}
+### Améliorations disponibles depuis l’appli de bureau AEM 1.4 {#Enhancements-Available-Since-AEM-Desktop-App-14}
 
 * Simplification du chargement des dossiers hiérarchiques par l’intermédiaire de la nouvelle opération Create > Upload Folder (Créer > Charger le dossier) de l’interface utilisateur tactile
    * L’action lance un chargement de dossier effectué par l’appli de bureau
@@ -239,13 +239,13 @@ Ces deux cas sont attendus et sont des répercussions secondaires de l’archite
 * Amélioration de la compatibilité avec les dernières versions du système d’exploitation
 * Correctifs signalés par le client
 
-### Améliorations disponibles depuis l’appli de bureau AEM 1.3{#Enhancements-Available-Since-AEM-Desktop-App-13}
+### Améliorations disponibles depuis l’appli de bureau AEM 1.3 {#Enhancements-Available-Since-AEM-Desktop-App-13}
 
 * Gains d’efficacité. Les utilisateurs passent moins de temps à attendre que les opérations réseau se terminent.
 * Amélioration de l’intégration du Finder, qui offre une amélioration de la stabilité et un accès aux fonctionnalités telles que les miniatures
 * Améliorations de la mise en cache et des performances
 * Amélioration de la prise en charge de l’enregistrement directement depuis les applications de bureau (PS, ID, AI, etc.)
-* Amélioration de l’intégration avec Mac OS (le protocole du lecteur réseau local est passé de WebDAV à SMB1, plus stable)
+* Amélioration de l’intégration avec Mac OS (le protocole du lecteur réseau local est passé de WebDAV à SMB1, plus stable).
 * L’appli de bureau se connecte au serveur AEM à l’aide du protocole HTTP RESTful natif d’AEM.
 * Les fichiers sont d’abord enregistrés localement puis transférés vers AEM en arrière-plan après une période prédéfinie (30 secondes). Cela réduit le temps d’enregistrement des fichiers.
 * Amélioration de la gestion des applications de bureau qui utilisent des opérations de fichiers intermédiaires pour enregistrer un fichier (enregistrements partiels et fichiers temporaires), ce qui permet à la chronologie d’AEM Assets d’afficher les informations correctes de version et de chargement des ressources.
