@@ -8,8 +8,8 @@ discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
+translation-type: tm+mt
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
@@ -78,7 +78,7 @@ L’application accepte des paramètres pour se connecter aux serveurs AEM et s
 
 **Options** Cliquez/appuyez sur Options dans la barre d’état de l’appli de bureau AEM pour accéder aux paramètres permettant de lancer l’application au démarrage de votre système, de vous connecter au serveur AEM au lancement de l’appli et de modifier la lettre du lecteur local sur lequel AEM Assets est disponible après le montage.
 
-**Advanced &gt; Manage cache (Avancé &gt; Gérer le cache)** Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur AEM Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur AEM sont conservées.
+**Advanced > Manage cache (Avancé > Gérer le cache)** Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur AEM Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur AEM sont conservées.
 
 ### Connexion à un serveur AEM {#connect}
 
@@ -102,7 +102,7 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
 1. Dans la console Assets, cliquez/appuyez sur l’icône **Utilisateur** dans la barre d’outils.
 1. Cliquez/appuyez sur **[!UICONTROL My Preferences]** pour afficher la boîte de dialogue **[!UICONTROL Preferences]**.
-1. Dans la boîte de dialogue User Preference (Préférences utilisateur), sélectionnez **[!UICONTROL Show Desktop Actions For Assets]**. Cliquez/appuyez sur **[!UICONTROL Accept]**.
+1. Dans la boîte de dialogue Préférences utilisateur, sélectionnez **[!UICONTROL Show Desktop Actions For Assets]**. Cliquez/appuyez sur **[!UICONTROL Accept]**.
 
    ![Activation de la case à cocher Afficher les actions de bureau pour les ressources afin d’activer les actions de bureau](assets/chlimage_1-3.png)
 
@@ -159,7 +159,7 @@ Options de menu contextuel permettant d’accéder à des ressources et de les o
 
 AEM Assets permet d’extraire des ressources pour les modifier et de les ré-archiver après y avoir apporté les modifications. Après avoir extrait une ressource, vous seul pouvez la modifier, l’annoter, la publier, la déplacer ou la supprimer. Le fait d’extraire une ressource entraîne son verrouillage et empêche les autres utilisateurs d’effectuer l’une de ces opérations. Vous avez besoin d’un accès en écriture à ces ressources pour être en mesure de les extraire ou de les archiver.
 
-Pour extraire des ressources à partir de l’interface web AEM, deux méthodes sont possibles. Pour obtenir des informations détaillées sur la première méthode, voir [Archivage et extraction de fichiers à partir de l’interface utilisateur Assets](https://helpx.adobe.com/fr/experience-manager/6-4/assets/using/check-out-and-submit-assets.html). Pour la deuxième méthode, suivez la procédure ci-dessous pour extraire et ouvrir la ressource quand l’appli de bureau AEM est installée.
+Pour extraire des ressources à partir de l’interface web AEM, deux méthodes sont possibles. Pour obtenir des informations détaillées sur la première méthode, voir [Archivage et extraction de fichiers à partir de l’interface utilisateur Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/check-out-and-submit-assets.html). Pour la deuxième méthode, suivez la procédure ci-dessous pour extraire et ouvrir la ressource quand l’appli de bureau AEM est installée.
 
 1. Ouvrez l’interface d’AEM Assets et placez le pointeur sur un dossier ou une ressource afin d’afficher les actions de bureau sous la forme d’actions rapides dans le mode Carte.
 
@@ -256,7 +256,7 @@ Si vous préférez utiliser l’ordinateur de bureau, une autre solution consist
 
 >[!MORELIKETHIS]
 >
->* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/fr/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
->* [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://helpx.adobe.com/fr/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+>* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
+>* [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 >* [Résolution des problèmes relatifs à l’application de bureau AEM](troubleshoot-app-v1.md)
 
