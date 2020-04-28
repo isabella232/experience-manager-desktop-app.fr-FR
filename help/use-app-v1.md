@@ -1,15 +1,9 @@
 ---
-title: Utilisation de l’appli de bureau AEM version 1.x
+title: Utilisation de l’appli de bureau AEM version 1.x.
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.x et optimiser votre utilisation des ressources du bureau.
-uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
 
 ---
 
@@ -22,19 +16,18 @@ Cette intégration permet à différents rôles au sein de l’entreprise de gé
 
 Les tâches clés que vous effectuez à l’aide de l’appli de bureau AEM v1 sont les suivantes :
 
-* [Connexion à un serveur AEM](#installandconnect)
+1. [Connexion à un serveur AEM](#installandconnect)
+1. [Ouverture directe de ressources sur l’ordinateur de bureau](#openondesktop)
+1. [Modification et extraction de ressources à partir de l’ordinateur de bureau](#workonassets)
+1. [Chargement en masse de ressources et de dossiers](#bulkupload)
 
-* [Ouverture directe de ressources sur l’ordinateur de bureau](#openondesktop)
-* [Modification et extraction de ressources à partir de l’ordinateur de bureau](#workonassets)
-
-* [Chargement en masse de ressources et de dossiers](#bulkupload)
-
-Pour les pratiques recommandées, voir les [Bonnes pratiques d’utilisation de l’application](best-practices-for-v1.md). Si vous rencontrez des problèmes lors de l’utilisation de l’application, consultez la page traitant du [dépannage de l’appli de bureau AEM](troubleshoot-app-v1.md).
+Pour les pratiques recommandées, voir les [Bonnes pratiques d’utilisation de l’application](best-practices-for-v1.md). If you face issues using the App, see how to [troubleshoot AEM desktop](troubleshoot-app-v1.md).
 
 >[!NOTE]
+>
 >L’appli de bureau AEM a été lancée avec la version 6.1 d’AEM, sous le nom d’AEM Assets Companion App.
 
-## Points de contact de l’appli de bureau AEM dans le processus de création {#aem-desktop-app-touch-points-in-the-creative-workflow}
+## AEM desktop app touch-points in the creative workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
 L’appli de bureau AEM, avec AEM Assets, s’intègre dans votre processus de création et propose les points de contact suivants.
 
@@ -98,22 +91,39 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
 ### Activation des actions de bureau dans l’interface web d’AEM {#desktopactions}
 
-À partir de l’interface utilisateur AEM Assets ouverte dans un navigateur, vous pouvez explorer l’emplacement des ressources ou extraire et en ouvrir une en vue de la modifier dans votre application de bureau. Ces options, qui sont appelées actions de bureau, ne sont pas activées par défaut. Procédez comme suit pour les activer.
+Dans l’interface utilisateur Ressources, vous pouvez explorer les emplacements des ressources ou les extraire et les ouvrir pour les modifier dans votre application de bureau. Ces options sont appelées actions de bureau et ne sont pas activées par défaut. Procédez comme suit pour les activer.
 
-1. Dans la console Assets, cliquez/appuyez sur l’icône **Utilisateur** dans la barre d’outils.
-1. Cliquez/appuyez sur **[!UICONTROL My Preferences]** pour afficher la boîte de dialogue **[!UICONTROL Preferences]**.
-1. Dans la boîte de dialogue Préférences utilisateur, sélectionnez **[!UICONTROL Show Desktop Actions For Assets]**. Cliquez/appuyez sur **[!UICONTROL Accept]**.
+1. Dans l’interface Ressources, cliquez/appuyez sur l’icône Utilisateur dans le coin supérieur droit de la barre d’outils.
+1. Cliquez sur **[!UICONTROL My Preferences]** pour afficher la **[!UICONTROL Preferences]** boîte de dialogue.
+
+   ![Interface d’AEM avec préférences utilisateur](assets/aem_ui_user_preferences.png)
+
+1. Dans la boîte de dialogue Préférences utilisateur, sélectionnez **[!UICONTROL Show Desktop Actions For Assets]**. Cliquez sur **[!UICONTROL Accept]**.
 
    ![Activation de la case à cocher Afficher les actions de bureau pour les ressources afin d’activer les actions de bureau](assets/chlimage_1-3.png)
 
-   Activation de la case à cocher Afficher les actions de bureau pour les ressources afin d’activer les actions de bureau
+   *Figure : Cochez la case Afficher les actions du bureau pour les ressources pour activer les actions du bureau.*
 
 ## Accès aux ressources et ouverture de ces éléments sur votre ordinateur de bureau    {#openondesktop}
+
+Lorsque vous cliquez sur **Ouvrir** pour ouvrir un fichier sur un ordinateur local, l’application télécharge le fichier dans son cache interne. L’application lance l’application de bureau native associée au type de fichier du fichier téléchargé.
+
+On Mac, select **Open** from the context menu to open an asset through AEM desktop app. Sous Windows, sélectionnez Ouvrir sur le web dans le menu contextuel pour ouvrir la ressource. Dans la fenêtre Asset Status (Statut de la ressource), cliquez/appuyez sur ![Icône Open on Desktop](assets/aemassets_icon_openondesktop.png) pour ouvrir la ressource.
+
+Pour les fichiers Adobe InDesign (INDD), sélectionnez **[!UICONTROL Open]** dans le menu contextuel. Lorsque vous cliquez sur cette option, l’application télécharge les ressources liées sur votre système de fichiers local, puis ouvre le fichier INDD dans Adobe InDesign. Cette méthode garantit que les ressources requises sont disponibles en local lors de la modification du fichier INDD.
+
+![Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau AEM](assets/aem_desktopapp_mac_context_menu.png)
+
+*Figure : Options du menu contextuel pour accéder aux ressources et les ouvrir à l’aide de l’application de bureau AEM.*
 
 >[!NOTE]
 >Sous Windows, le [paramètre par défaut de Windows 7](https://support.microsoft.com/fr-fr/kb/2668751) empêche l’appli de bureau AEM de gérer les ressources de plus de 50 Mo.
 
-### Affichage de l’emplacement des ressources mappées à partir de l’interface web AEM {#reveal-the-location-of-mapped-assets-from-aem-web-interface}
+>[!NOTE]
+>
+>Adobe vous recommande d’accéder aux options de  du Finder sous Mac et de désactiver les options **Afficher les informations** sur l’élément, **Afficher le** de l’élément et **Afficher la colonne** de  de l’élément pour le dossier AEM Assets monté. Il améliore les performances.
+
+### Options supplémentaires dans l’interface AEM {#additional-options-in-aem-assets}
 
 Après avoir mappé le référentiel AEM Assets sur votre lecteur local, vous pouvez activer des icônes supplémentaires, ainsi que la fonction de téléchargement de dossiers, afin qu’elles s’affichent pour les ressources et les dossiers mappés.
 
@@ -121,31 +131,17 @@ Après avoir mappé le référentiel AEM Assets sur votre lecteur local, vous p
 
    ![Dans l’interface utilisateur Assets, ouvrez le menu des actions rapides pour afficher les actions de bureau](assets/chlimage_1-4.png)
 
-   Dans l’interface utilisateur Assets, ouvrez le menu des actions rapides pour afficher les actions de bureau
+   *Figure : Dans l’interface utilisateur Ressources, ouvrez le menu Actions rapides pour afficher les actions du bureau.*
 
-   Ces actions de bureau sont également disponibles lorsque vous cliquez/appuyez sur l’icône **Desktop Actions** (Actions sur le bureau) dans la barre d’outils après la sélection de la ressource ou dans la barre d’outils de la page de la ressource.
+   These desktop actions are also available when you click the **Desktop Actions** icon in the toolbar after selecting the asset or from the toolbar in the asset page.
 
 1. Pour ouvrir la ressource dans l’application de bureau associée à l’extension de fichier spécifique, cliquez/appuyez sur l’action rapide **Open on desktop** (Ouvrir sur le bureau) ![Icône Open on Desktop](assets/aemassets_icon_openondesktop.png).
 
    Vous pouvez également sélectionner **Open** (Ouvrir) dans le menu **Desktop Actions** (Actions sur le Bureau) de la barre d’outils.
 
-1. Cliquez/appuyez sur l’action rapide **Reveal** (Afficher) ![Icône Reveal](assets/aemassets_reveal_icon.png) pour rechercher une ressource particulière dans votre système de fichiers local.
+Pour localiser le fichier en question sur votre système de fichiers local, cliquez sur l’icône **Révéler** l’action rapide ![Révéler](assets/aemassets_reveal_icon.png). Vous pouvez également sélectionner **Reveal** (Afficher) dans le menu **Desktop Actions** (Actions sur le Bureau) de la barre d’outils.
 
-   Vous pouvez également sélectionner **Reveal** (Afficher) dans le menu **Desktop Actions** (Actions sur le Bureau) de la barre d’outils.
-
-### Ouverture d’AEM Assets à partir du Finder ou de l’Explorateur {#open-aem-assets-from-the-finder-or-the-explorer}
-
-Sous Mac, sélectionnez Ouvrir dans le menu contextuel pour ouvrir une ressource via AEM Desktop.
-
-Pour les fichiers Adobe InDesign (INDD), sélectionnez **[!UICONTROL Open]** dans le menu contextuel. Lorsque vous cliquez sur cette option, l’application télécharge les ressources liées sur votre système de fichiers local, puis ouvre le fichier INDD dans Adobe InDesign. Cette méthode garantit que les ressources requises sont disponibles en local lors de la modification du fichier INDD.
-
-Sous Windows, sélectionnez Ouvrir sur le web dans le menu contextuel pour ouvrir la ressource. Dans la fenêtre Asset Status (Statut de la ressource), cliquez/appuyez sur ![Icône Open on Desktop](assets/aemassets_icon_openondesktop.png) pour ouvrir la ressource.
-
-![Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau AEM](assets/aem_desktopapp_mac_context_menu.png)
-
-Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau AEM
-
-### Explication des états de ressources    {#understand-the-asset-statuses}
+## Explication des états de ressources    {#understand-the-asset-statuses}
 
 | ![Icône de l’appli par défaut Windows](assets/win_default.png) | L’application est connectée au serveur, et toutes les ressources sont synchronisées. |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -181,7 +177,7 @@ Pour extraire des ressources à partir de l’interface web AEM, deux méthodes 
 1. Sélectionnez l’option de menu Open (Ouvrir). Les ressources sélectionnées sont ouvertes en mode d’aperçu.
 1. Pour modifier les ressources, sélectionnez l’option Edit (Modifier). Les ressources sont ouvertes en mode d’édition.
 
-### Extraction de ressources sous Mac     {#check-out-assets-on-mac}
+### Extraction de fichiers à partir du Finder sous Mac OS {#check-out-assets-on-mac}
 
 L’application permet d’extraire des fichiers de ressource pour empêcher d’autres utilisateurs de modifier les fichiers sur lesquels vous travaillez.
 
@@ -219,19 +215,17 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 1. Consultez la ressource dans l’Explorateur. L’icône de verrouillage sur la ressource ![Icône Asset lock](assets/aemassets_icon_lockcheckout.png) indique que vous avez extrait cette dernière.
 
    >[!NOTE]
-   >Cette icône peut apparaître après quelques minutes. L’appli de bureau AEM met en cache les ressources en vue d’un accès rapide. La mise à jour de l’état Verrouillé peut donc prendre un certain temps.
+   >L’icône de verrouillage peut s’afficher après un certain délai. L’application de bureau AEM met en cache les ressources pour y accéder rapidement, de sorte que la mise à jour de l’état verrouillé peut prendre quelques instants.
 
 1. Pour archiver la ressource afin qu’elle soit disponible pour les autres utilisateurs, cliquez/appuyez sur l’icône Check-in (Archiver) dans la boîte de dialogue **Asset Info** (Informations sur les ressources).
 
 ### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web     {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
-Une fois la modification des ressources effectuée, enregistrez ces dernières dans votre application de bureau. Dans le menu contextuel, sélectionnez More Assets Info (Autres infos sur les ressources) et cliquez/appuyez ensuite sur Check-in (Archiver).
+Une fois la modification des ressources effectuée, enregistrez ces dernières dans votre application de bureau. From the context menu, select **More Assets Info** and click check-in.
 
-Les ressources sont chargées vers le serveur AEM. Vous pouvez éventuellement vérifier le statut du transfert en sélectionnant View Asset Status (Afficher le statut des ressources) à partir de l’icône de la barre d’état.
+Les ressources sont chargées vers le serveur AEM. Optionally, you can check the status of the upload by selecting **View Asset Status** from the system tray icon. Vous pouvez également archiver une ressource à partir de l’interface web AEM. Cliquez sur les fichiers extraits ou sélectionnez-les. From the toolbar, click the check in icon ![check-in icon](assets/aemassets_icon_checkin.png).
 
-![Fenêtre d’état de chargement et de transfert de fichiers de l’appli de bureau AEM](assets/aem_desktopapp_upload_status.png)
-
-Vous pouvez également archiver une ressource à partir de l’interface web AEM. Cliquez/appuyez sur les ressources extraites ou sélectionnez-les. Dans la barre d’outils, cliquez/appuyez sur l’icône d’archivage ![Icône Check-in](assets/aemassets_icon_checkin.png).
+Une ressource est automatiquement téléchargée dans AEM après l’enregistrement local de toutes les modifications. L’archivage rend le fichier disponible pour modification pour les autres utilisateurs d’AEM.
 
 ### Chargement en masse de ressources et de dossiers vers le serveur AEM {#bulkupload}
 
@@ -250,13 +244,13 @@ L’appli de bureau AEM permet de télécharger un dossier entier de ressources
 
 1. Une fois le dossier transféré, fermez la boîte de dialogue et accédez à l’interface utilisateur Assets. Le dossier transféré s’affiche dans l’interface web.
 
-Notez qu’il est *déconseillé* de copier et de coller ou de faire glisser un grand nombre de fichiers/dossiers imbriqués depuis votre disque local dans le Finder ou l’Explorateur dans la zone de partage réseau mappée par l’appli de bureau AEM. Cette opération s’avère beaucoup moins fiable que la fonctionnalité Upload Folder (Charger un dossier) décrite ci-dessus.
+Adobe recommande de ne pas copier-coller ni faire glisser un plus grand nombre de fichiers ou de dossiers imbriqués, depuis le système de fichiers local, vers la zone de partage réseau. L’application ne peut pas contrôler le processus de téléchargement en raison de limitations techniques et de performances médiocres.
 
-Si vous préférez utiliser l’ordinateur de bureau, une autre solution consiste à sélectionner les fichiers/dossiers que vous souhaitez charger vers AEM dans le Finder ou l’Explorateur, à les copier dans le Presse-papiers du système, à accéder au dossier cible dans la zone de partage réseau et enfin à sélectionner Paste Assets (Coller les ressources) dans le menu contextuel de l’appli de bureau AEM. Ce faisant, l’appli de bureau AEM commence à charger les ressources collées de la même manière que la fonctionnalité Upload Folder (Charger un dossier) décrite ci-dessus.
+Vous pouvez également sélectionner les fichiers/dossiers que vous souhaitez télécharger vers AEM dans le Finder ou l’Explorateur, les copier dans le presse-papiers système, accéder au dossier  de la zone de partage réseau et, dans le menu contextuel de l’application de bureau AEM, sélectionner **Coller les ressources**. Ainsi, le d’applications de bureau AEM  télécharger les ressources collées, comme l’option **Télécharger le dossier** disponible dans l’interface Web d’AEM.
 
 >[!MORELIKETHIS]
 >
 >* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
->* [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
->* [Résolution des problèmes relatifs à l’application de bureau AEM](troubleshoot-app-v1.md)
+>* [Comprendre l&#39;archivage et l&#39;extraction avec l&#39;application de bureau AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
+>* [Résolution des problèmes de l&#39;application de bureau AEM](troubleshoot-app-v1.md)
 
