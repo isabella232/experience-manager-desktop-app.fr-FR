@@ -8,8 +8,8 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ab63bfd7eea356be924e1ed62eef387796913e6c
+translation-type: tm+mt
+source-git-commit: a18aa9c3dad8802c3de929ba4ebb1a1583b47165
 
 ---
 
@@ -77,6 +77,10 @@ Contrairement à Creative Cloud Desktop ou à d’autres solutions de synchron
 
 La mise en cache offre la possibilité de limiter la surcharge de stockage/réseau à un sous-ensemble de ressources pertinentes pour l’utilisateur.
 
+>[!CAUTION]
+>
+>Adobe recommande de désactiver la génération de miniatures pour accélérer la navigation. Si vous activez l’ des icônes, l’application met en cache les ressources numériques lorsque vous parcourez le dossier monté. L’application télécharge également des fichiers dont l’utilisateur ne se soucie pas, ce qui augmente la charge sur le serveur, consomme la bande passante de l’utilisateur et utilise davantage d’espace disque de l’utilisateur.
+
 Pour effectuer la mise en cache, l’appli de bureau AEM procède comme suit :
 
 * Lorsque vous ouvrez un dossier dans le Finder et que des vignettes/aperçus de fichiers sont affichés, ou lorsque vous ouvrez un fichier dans une application, l’appli de bureau AEM met en cache le binaire du fichier.
@@ -128,7 +132,7 @@ En cas de dégradation significative des performances WebDAV/SMB lorsque plusieu
 Vous pouvez améliorer les performances du côté AEM en activant les processus transitoires pour le processus Ressources de mise à jour de gestion des actifs numériques. L’activation de processus transitoires réduit la puissance de traitement requise pour mettre à jour des ressources lors de leur création ou de leur modification dans AEM.
 
 1. Accédez à `/miscadmin` dans l’instance AEM à configurer (par exemple, `http://[Server]:[Port]/miscadmin`).
-1. L’arborescence de navigation, développez **Outils** > **Processus** > **Modèles** > **Gestion des actifs numériques**.
+1. Dans l’arborescence de navigation, développez **Outils** > **Processus** > **Modèles** > **dam**.
 1. Double-cliquez sur **Ressources de mise à jour de gestion des actifs numériques**.
 1. Depuis le panneau d’outils flottant, basculez vers l’onglet **Page**, puis cliquez sur **Propriétés de la page**.
 1. Cochez la case **Processus transitoire**, puis cliquez sur **OK**.
