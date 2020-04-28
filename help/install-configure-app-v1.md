@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb71cfdfef674be25d059f104a37a9199681358c
+source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
 
 ---
 
@@ -38,14 +38,6 @@ Pour plus d’informations, voir [Installation de l’appli de bureau AEM et co
 >
 >Une seule instance de l’appli de bureau AEM peut être installée et active à la fois.
 
-## Prise en charge des proxys {#proxy-support}
-
-L’appli de bureau AEM utilise le proxy prédéfini du système pour se connecter à Internet par le biais du protocole HTTPS. L’application ne peut se connecter qu’à l’aide d’un proxy réseau ne nécessitant pas d’authentification supplémentaire.
-
-Si vous configurez ou modifiez les paramètres du serveur proxy pour Windows (Options Internet > Paramètres réseau), redémarrez de l’appli de bureau AEM afin que les modifications soient prises en compte.
-
-Si votre proxy nécessite une authentification, l’équipe informatique peut mettre l’URL d’AEM Assets sur liste blanche dans les paramètres du serveur proxy afin d’autoriser le trafic de l’application.
-
 ## Gestion des fichiers {#file-handling}
 
 Lorsque vous modifiez des fichiers à partir d’un partage réseau monté par l’appli de bureau AEM, les fichiers sont enregistrés à cet emplacement en deux phases. Au cours de la première phase, un fichier est enregistré en local. Un utilisateur peut enregistrer le fichier et continuer à travailler sur celui-ci, sans attendre la fin du transfert.
@@ -69,9 +61,21 @@ Les méthodes copy et move de l’API Assets nécessitent que les en-têtes sup
 * X-Depth
 * X-Overwrite
 
-L’appli de bureau AEM se connecte à AEM à l’aide d’une URL qui comprend le port par défaut. Par conséquent, le paramètre `virtualhosts` dans la configuration du Dispatcher doit inclure le numéro de port par défaut. Pour plus d’informations sur la configuration de `virtualhosts`, voir [Identification des hôtes virtuels](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+Le bureau AEM se connecte à AEM à l’aide d’une URL qui inclut le port par défaut. Par conséquent, le paramètre `virtualhosts` dans la configuration du Dispatcher doit inclure le numéro de port par défaut. For more information around `virtualhosts` configuration, see [identify virtual hosts](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
 
 Pour plus d’informations sur la configuration du Dispatcher afin de transmettre ces en-têtes supplémentaires, voir [Spécification des en-têtes HTTP](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
+
+### Prise en charge des proxys {#proxy-support}
+
+L’appli de bureau AEM utilise le proxy prédéfini du système pour se connecter à Internet par le biais du protocole HTTPS. L’application ne peut se connecter qu’à l’aide d’un proxy réseau ne nécessitant pas d’authentification supplémentaire.
+
+Si vous configurez ou modifiez les paramètres du serveur proxy pour Windows (Options Internet > Paramètres réseau), redémarrez de l’appli de bureau AEM afin que les modifications soient prises en compte.
+
+>[!NOTE]
+>
+>La configuration du proxy est appliquée uniquement lorsque vous  l’application de bureau. Fermez et relancez l’application pour que les modifications prennent effet.
+
+Si votre proxy nécessite une authentification, l’équipe informatique peut mettre l’URL d’AEM Assets sur liste blanche dans les paramètres du serveur proxy afin d’autoriser le trafic de l’application.
 
 ## Personnalisation de la boîte de dialogue Asset Info (Informations sur les ressources){#customize-the-asset-info-dialog}
 
