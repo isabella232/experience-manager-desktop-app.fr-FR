@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: a18aa9c3dad8802c3de929ba4ebb1a1583b47165
 
 ---
 
@@ -24,7 +24,7 @@ Lisez la suite de cette section pour résoudre les problèmes de l’application
 
 Observez les bonnes pratiques suivantes pour éviter certains problèmes courants et relatifs au dépannage.
 
-* **Comprendre le fonctionnement de l’appli de bureau** : avant de commencer à utiliser l’application, consacrez quelques minutes à en découvrir le fonctionnement. Sachez comment fonctionne la liaison entre l’interface utilisateur web et de bureau, le mappage de référentiel, la mise en cache de ressources, l’enregistrement en local et le chargement en arrière-plan. Voir [Fonctionnement](release-notes.md#how-app-works).
+* **Comprendre le fonctionnement** de l’application de bureau : Avant de commencer à utiliser l’application, passez quelques instants à connaître son fonctionnement. Connaissez la liaison entre l’interface Web d’Experience Manager et l’ordinateur de bureau, le mappage des référentiels, la mise en cache des ressources, l’enregistrement local et le téléchargement en arrière-plan. Voir [Fonctionnement](release-notes.md#how-app-works).
 
 * **Éviter les caractères non pris en charge dans les noms de dossier** : n’utilisez pas d’espaces ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans Experience Manager Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). Certains cas d’utilisation d’Adobe Experience Manager peuvent être affectés par la présence de caractères non pris en charge dans le nom du dossier.
 
@@ -48,17 +48,17 @@ Pour résoudre les problèmes liés à l’appli de bureau, tenez compte des inf
 
 ### Activation du mode de débogage {#enable-debug-mode}
 
-Pour résoudre les problèmes, vous pouvez activer le mode de débogage et obtenir plus d’informations dans les journaux. To use the app in debug mode on Mac, use the following command line options in a terminal or at the command prompt: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
+Pour résoudre les problèmes, vous pouvez activer le mode de débogage et obtenir plus d’informations dans les journaux. Pour exécuter l’application en mode de débogage sous Mac, utilisez les options de ligne de commande suivantes dans un terminal ou à l’invite de commandes : `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
 
-Pour activer le mode de débogage sous Windows, procédez comme suit :
+Pour activer le mode de débogage sous Windows, procédez comme suit :
 
-1. Localisez `Adobe Experience Manager Desktop.exe.config` le fichier dans le dossier d’installation de votre application de bureau. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop`. Enregistrez et fermez le fichier 
+1. Recherchez le fichier `Adobe Experience Manager Desktop.exe.config` dans le dossier d’installation de votre application de bureau. Par défaut, ce dossier est `C:\Program Files\Adobe\Adobe Experience Manager Desktop`. Enregistrez et fermez le fichier 
 
-1. Localisez `<level value="INFO"/>` le fichier vers la fin. Remplacez la valeur par `DEBUG`, c&#39;est-à-dire `<level value="DEBUG"/>`.
+1. Recherchez l’entrée `<level value="INFO"/>` qui se situe vers la fin du fichier. Remplacez la valeur par `DEBUG`, c’est-à-dire `<level value="DEBUG"/>`.
 
-1. Localisez `logging.json` le fichier dans le dossier d’installation de votre application de bureau. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
+1. Recherchez le fichier `logging.json` dans le dossier d’installation de votre application de bureau. Par défaut, ce dossier est `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
 
-1. Dans `logging.json` le fichier, recherchez toutes les instances du `level` paramètre. Remplacez les valeurs `info` par `debug`. Enregistrez et fermez le fichier 
+1. Dans le fichier `logging.json`, recherchez toutes les instances du paramètre `level`. Remplacez les valeurs `info` par `debug`. Enregistrez et fermez le fichier 
 
 1. Effacez les répertoires mis en cache qui se trouvent à l’emplacement défini dans les préférences de l’application.
 
@@ -134,8 +134,8 @@ Les bibliothèques utilisées par l’appli de bureau AEM pour les communication
 
 L’application risque rarement de ne plus répondre, d’afficher uniquement un écran blanc ou d’afficher une erreur au bas de l’interface sans aucune option. Procédez comme suit dans l’ordre :
 
-1. Cliquez avec le bouton droit sur l’interface de l’application et cliquez sur **[!UICONTROL Refresh]**.
-1. Quittez l’application et redémarrez-la.
+* Cliquez avec le bouton droit sur l’interface de l’application et cliquez sur **[!UICONTROL Refresh]**.
+* Quittez l’application et ouvrez-la à nouveau.
 
 Dans les deux méthodes, l’application démarre au dossier DAM racine.
 
