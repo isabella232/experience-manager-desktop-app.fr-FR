@@ -8,7 +8,7 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
@@ -33,29 +33,29 @@ Pour utiliser l’application de bureau Experience Manager :
 
 Pour plus d’informations, voir les [Notes de mise à jour de l’appli de bureau Experience Manager](release-notes.md).
 
-## Upgrade from a previous version {#upgrade-from-previous-version}
+## Mise à niveau depuis une version antérieure {#upgrade-from-previous-version}
 
-Si vous utilisez la version 1.x de l’application de bureau, vous devez comprendre les différences et les similitudes entre la version précédente et la dernière version de l’application. Découvrez [les nouveautés de l’application](introduction.md#whats-new-v2) de bureau et [le fonctionnement de l’application](release-notes.md#how-app-works)
+Si vous utilisez la version 1.x de l’application de bureau, vous devez comprendre les différences et les similitudes existant entre la version précédente et la version la plus récente. Découvrez les [nouveautés de l’application de bureau](introduction.md#whats-new-v2) et son [fonctionnement](release-notes.md#how-app-works).
 
 >[!NOTE]
 >
->Deux versions de l’application de bureau ne peuvent pas coexister sur un ordinateur. Avant d’installer une version, désinstallez l’autre version.
+>Deux versions de l’application de bureau ne peuvent pas coexister sur le même ordinateur. Avant d’installer une version, désinstallez l’autre version.
 
-Pour effectuer une mise à niveau à partir d’une version précédente de l’application, suivez les instructions suivantes :
+Pour effectuer une mise à niveau à partir d’une version antérieure de l’application, suivez les instructions ci-dessous :
 
-1. Avant de procéder à la mise à niveau, synchronisez toutes vos ressources et téléchargez vos modifications dans Experience Manager. Cela permet d’éviter de perdre des modifications lors de la désinstallation de l’application.
+1. Avant de procéder à la mise à niveau, synchronisez toutes vos ressources et téléchargez vos modifications vers Experience Manager. Cela vous permet d’éviter la perte de modifications lors de la désinstallation de l’application.
 1. Désinstallez la version précédente de l’application. Lors de la désinstallation, sélectionnez l’option permettant d’effacer le cache.
 1. Redémarrez votre ordinateur.
-1. [Téléchargez et installez la dernière application. ](release-notes.md)[](#install-v2) Suivez les instructions ci-dessous.
+1. [Téléchargez](release-notes.md) et [installez](#install-v2) la dernière version de l’application. Suivez les instructions ci-dessous.
 
 ## Installation de la version {#install-v2}
 
 Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute instance de l’appli de bureau Adobe Experience Manager v1.x avant d’installer la dernière application. Pour plus d’informations, voir ci-dessus.
 
-1. Téléchargez le programme d’installation le plus récent à partir de la page des notes [de](release-notes.md) mise à jour.
+1. Téléchargez la dernière version du programme d’installation à partir de la page des [notes de mise à jour](release-notes.md).
 1. Conservez l’URL et les informations d’identification de votre déploiement d’Experience Manager à portée de main.
-1. Si vous effectuez une mise à niveau à partir d’une autre version de l’application, voir [Mise à niveau de l’application](#upgrade-from-previous-version)de bureau.
-1. Ignorez cette étape si vous utilisez Experience Manager as a Cloud Service, Experience Manager 6.4.4 ou version ultérieure, ou Experience Manager 6.5.0 ou version ultérieure. Assurez-vous que votre configuration d’Experience Manager respecte les exigences de compatibilité mentionnées dans les [notes de mise à jour](release-notes.md). Si nécessaire, téléchargez le [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicable et installez-le à l’aide d’Experience Manager Package Manager en tant qu’administrateur Experience Manager. Pour installer un package, voir [Comment travailler avec des packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html).
+1. Si vous effectuez une mise à niveau à partir d’une autre version de l’application, reportez-vous à la section [Mise à niveau de l’application de bureau](#upgrade-from-previous-version).
+1. Ignorez cette étape si vous utilisez Experience Manager as a Cloud Service, Experience Manager 6.4.4 ou version ultérieure, ou Experience Manager 6.5.0 ou version ultérieure. Assurez-vous que votre configuration d’Experience Manager respecte les exigences de compatibilité mentionnées dans les [notes de mise à jour](release-notes.md). Si nécessaire, téléchargez le [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicable et installez-le à l’aide d’Experience Manager Package Manager en tant qu’administrateur Experience Manager. Pour installer un package, voir [Comment travailler avec des packages](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/administering/contentmanagement/package-manager.html).
 1. Exécutez le fichier binaire du programme d’installation et suivez les instructions à l’écran pour procéder à l’installation.
 1. Sous Windows, il se peut que le programme d’installation vous invite à installer `Visual Studio C++ Redistributable 2015`. Suivez les instructions affichées à l’écran pour installer ce programme. Si l’installation échoue, procédez manuellement. Téléchargez le programme d’installation [ici](https://www.microsoft.com/fr-fr/download/details.aspx?id=52685) et installez les fichiers `vc_redist.x64.exe` et `vc_redist.x86.exe`. Réexécutez le programme d’installation de l’appli de bureau AEM.
 1. Redémarrez l’ordinateur conformément aux instructions. Lancez et configurez l’application de bureau.
@@ -71,7 +71,7 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute in
 
    ![À la connexion, l’appli affiche le contenu DAM](assets/firstview_da2.png "À la connexion, l’appli affiche le contenu DAM")
 
-1. (Experience Manager 6.5.1 ou version ultérieure) Si vous utilisez une application de bureau avec Experience Manager 6.5.1 ou version ultérieure, mettez à niveau le connecteur Azure ou S3 vers la version 1.10.4 ou ultérieure. Voir [Connecteur Azure](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore) ou [Connecteur S3](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore).
+1. (Experience Manager 6.5.1 ou version ultérieure) Si vous utilisez une application de bureau avec Experience Manager 6.5.1 ou version ultérieure, mettez à niveau le connecteur Azure ou S3 vers la version 1.10.4 ou ultérieure. Voir [Connecteur Azure](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore) ou [Connecteur S3](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore).
 
    Si vous êtes un client d’Adobe Managed Services (AMS), contactez l’Assistance clientèle d’Adobe.
 
