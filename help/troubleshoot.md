@@ -8,7 +8,7 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a18aa9c3dad8802c3de929ba4ebb1a1583b47165
 
 ---
@@ -24,9 +24,9 @@ Lisez la suite de cette section pour résoudre les problèmes de l’application
 
 Observez les bonnes pratiques suivantes pour éviter certains problèmes courants et relatifs au dépannage.
 
-* **Comprendre le fonctionnement** de l’application de bureau : Avant de commencer à utiliser l’application, passez quelques instants à connaître son fonctionnement. Connaissez la liaison entre l’interface Web d’Experience Manager et l’ordinateur de bureau, le mappage des référentiels, la mise en cache des ressources, l’enregistrement local et le téléchargement en arrière-plan. Voir [Fonctionnement](release-notes.md#how-app-works).
+* **Comprendre le fonctionnement de l’appli de bureau** : avant de commencer à utiliser l’application, consacrez quelques minutes à en découvrir le fonctionnement. Découvrez comment fonctionne la liaison entre l’interface utilisateur web et de bureau Experience Manager, le mappage de référentiel, la mise en cache de ressources, l’enregistrement en local ainsi que le chargement en arrière-plan. Voir [Fonctionnement](release-notes.md#how-app-works).
 
-* **Éviter les caractères non pris en charge dans les noms de dossier** : n’utilisez pas d’espaces ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans Experience Manager Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). Certains cas d’utilisation d’Adobe Experience Manager peuvent être affectés par la présence de caractères non pris en charge dans le nom du dossier.
+* **Éviter les caractères non pris en charge dans les noms de dossier** : n’utilisez pas d’espaces ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans Experience Manager Assets](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). Certains cas d’utilisation d’Adobe Experience Manager peuvent être affectés par la présence de caractères non pris en charge dans le nom du dossier.
 
 * **Bonnes pratiques pour éviter les conflits** : pour éviter les éventuels conflits lors de la collaboration sur plusieurs ressources, voir [Éviter les conflits de modification](using.md#adv-workflow-collaborate-avoid-conflicts).
 
@@ -92,7 +92,7 @@ Toutefois, l’emplacement peut varier en fonction du point de terminaison AEM c
 
 >[!CAUTION]
 >
->Si vous effacez le cache de l’appli de bureau AEM, les modifications de ressource locales qui ne sont pas synchronisées avec AEM seront définitivement perdues.
+>Si vous effacez le cache de l’appli de bureau AEM, les modifications de ressource locales qui ne sont pas synchronisées avec le serveur AEM seront définitivement perdues.
 
 ### Connaître la version de l’appli de bureau AEM {#know-app-version-v2}
 
@@ -135,7 +135,7 @@ Les bibliothèques utilisées par l’appli de bureau AEM pour les communication
 L’application risque rarement de ne plus répondre, d’afficher uniquement un écran blanc ou d’afficher une erreur au bas de l’interface sans aucune option. Procédez comme suit dans l’ordre :
 
 * Cliquez avec le bouton droit sur l’interface de l’application et cliquez sur **[!UICONTROL Refresh]**.
-* Quittez l’application et ouvrez-la à nouveau.
+* Quittez l’application et redémarrez-la.
 
 Dans les deux méthodes, l’application démarre au dossier DAM racine.
 
