@@ -8,7 +8,7 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
 
 ---
@@ -61,7 +61,7 @@ Les méthodes copy et move de l’API Assets nécessitent que les en-têtes sup
 * X-Depth
 * X-Overwrite
 
-Le bureau AEM se connecte à AEM à l’aide d’une URL qui inclut le port par défaut. Par conséquent, le paramètre `virtualhosts` dans la configuration du Dispatcher doit inclure le numéro de port par défaut. For more information around `virtualhosts` configuration, see [identify virtual hosts](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+L’appli de bureau AEM se connecte à AEM à l’aide d’une URL qui comprend le port par défaut. Par conséquent, le paramètre `virtualhosts` dans la configuration du Dispatcher doit inclure le numéro de port par défaut. Pour plus d’informations sur la configuration de `virtualhosts`, voir [Identification des hôtes virtuels](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
 
 Pour plus d’informations sur la configuration du Dispatcher afin de transmettre ces en-têtes supplémentaires, voir [Spécification des en-têtes HTTP](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
 
@@ -73,7 +73,7 @@ Si vous configurez ou modifiez les paramètres du serveur proxy pour Windows (Op
 
 >[!NOTE]
 >
->La configuration du proxy est appliquée uniquement lorsque vous  l’application de bureau. Fermez et relancez l’application pour que les modifications prennent effet.
+>La configuration du proxy est appliquée uniquement lorsque vous démarrez l’appli de bureau. Fermez et relancez l’application pour que les modifications prennent effet.
 
 Si votre proxy nécessite une authentification, l’équipe informatique peut mettre l’URL d’AEM Assets sur liste blanche dans les paramètres du serveur proxy afin d’autoriser le trafic de l’application.
 
@@ -86,7 +86,7 @@ Vous pouvez personnaliser la boîte de dialogue Asset Info (Informations sur les
 
 La nature du composant recouvert dépend de la nature de la personnalisation. Pour modifier les composants affichés dans la boîte de dialogue Asset Info (Informations sur les ressources), recouvrez la page de l’interface utilisateur Granite. Pour modifier le contenu HTML/CSS/JavaScript de la boîte de dialogue, recouvrez le composant HTL.
 
-## Gestion du cache     {#manage-cache}
+## Gestion du cache      {#manage-cache}
 
 Sous Windows, le cache se situe à l’emplacement `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`, où il existe une version codée de l’hôte AEM configuré dans l’appli de bureau AEM. Par exemple, `http://localhost:4502` s’affiche comme suit : `http%3A%2F%2Flocalhost%3A4502%2F`
 
@@ -100,7 +100,7 @@ Sous Mac OS X, un répertoire semblable est situé à l’emplacement suivant�
 >
 >Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur AEM sont conservées.
 
-### Modification de l’emplacement du cache sous Windows      {#change-location-of-cache-on-windows}
+### Modification de l’emplacement du cache sous Windows       {#change-location-of-cache-on-windows}
 
 L’emplacement par défaut du cache de l’appli de bureau AEM est le suivant :
 
@@ -123,7 +123,7 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
    >L’application crée automatiquement un sous-répertoire *&lt;Point de terminaison AEM codé>* ; ce comportement n’est pas configurable.
 
 >[!MORELIKETHIS]
-* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
+* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/fr/customer-care-office-hours/aem/desktop-app.html)
 * [Utilisation de l’appli de bureau AEM](use-app-v1.md)
 * [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [Utilisation de l’appli de bureau avec AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
