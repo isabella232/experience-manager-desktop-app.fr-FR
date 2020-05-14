@@ -9,15 +9,18 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 63cb82b6bdafeb87d296a895d68cb3912045839a
+workflow-type: ht
+source-wordcount: '1318'
+ht-degree: 100%
 
 ---
 
 
 # Notes de mise à jour de l’appli de bureau Adobe Experience Manager {#release-notes-v2}
 
-| Produits | Application de bureau Adobe Experience Manager |
+| Produits | Appli de bureau Adobe Experience Manager |
 |----|----|
 | Version de l’application (révision) | 2.0 (2.0.2.0) |
 | Versions d’AEM prises en charge | AEM as a Cloud Service ; AEM 6.5 ; AEM 6.4 ; AEM 6.3 (avec package de compatibilité) |
@@ -75,7 +78,7 @@ Les correctifs de bogues et mises à jour sont les suivants :
 * Correction d’un problème lié au chargement de fichiers lorsque les noms de fichiers ou les chemins d’accès contenaient certains caractères GB18030. <!-- CQ-4283494 -->
 * L’option Trier par ordre de pertinence est disponible après le passage à un autre type de tri dans les résultats de la recherche. <!-- CQ-4286874 -->
 * L’application de bureau répertorie désormais les sous-dossiers sans avoir à les actualiser explicitement. <!-- CQ-4285711 -->
-* (Windows) Correction d’un rare problème d’interface d’application inutilisable sur certains ordinateurs Windows. Users cannot click on the app interface as it  appears distorted with the click-area of interface elements &#39;shifted&#39; sideway. <!-- CQ-4280785 -->
+* (Windows) Correction d’un rare problème d’interface d’application inutilisable sur certains ordinateurs Windows. Les utilisateurs ne peuvent pas cliquer sur l’interface de l’application, car elle semble déformée avec un décalage de la zone de clic des éléments de l’interface. <!-- CQ-4280785 -->
 
 **Mises à jour dans la version v2.0.1 de l’application**
 
