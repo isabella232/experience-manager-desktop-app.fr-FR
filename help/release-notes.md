@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: 63cb82b6bdafeb87d296a895d68cb3912045839a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2e634c13ef1bcb0cd1868100f5a2d7cb20c189be
+workflow-type: tm+mt
 source-wordcount: '1318'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -38,8 +38,8 @@ L’appli de bureau Adobe Experience Manager est compatible avec les systèmes
 L’application fonctionne avec les versions d’Experience Manager suivantes, qu’elles soient déployées en tant que Cloud Service, sur Adobe Managed Services (AMS) ou On-Premise :
 
 * [Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/release-notes/home.html)
-* [Experience Manager 6.5.0](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/release-notes/release-notes.html) ou version ultérieure
-* [Experience Manager 6.4.4](https://docs.adobe.com/content/help/fr-FR/experience-manager-64/release-notes/release-notes.html) ou version ultérieure
+* [Experience Manager 6.5.0](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/release-notes/release-notes.html) ou version ultérieure
+* [Experience Manager 6.4.4](https://docs.adobe.com/content/help/fr-FR/experience-manager-64/release-notes/release-notes.html) ou version ultérieure
 * Experience Manager 6.4.0–6.4.3 avec [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
