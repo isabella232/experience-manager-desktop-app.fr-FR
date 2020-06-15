@@ -8,8 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
+translation-type: tm+mt
+source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
+workflow-type: tm+mt
+source-wordcount: '992'
+ht-degree: 97%
 
 ---
 
@@ -75,7 +78,7 @@ Si vous configurez ou modifiez les paramètres du serveur proxy pour Windows (Op
 >
 >La configuration du proxy est appliquée uniquement lorsque vous démarrez l’appli de bureau. Fermez et relancez l’application pour que les modifications prennent effet.
 
-Si votre proxy nécessite une authentification, l’équipe informatique peut mettre l’URL d’AEM Assets sur liste blanche dans les paramètres du serveur proxy afin d’autoriser le trafic de l’application.
+Si votre proxy nécessite une authentification, l’équipe informatique peut autoriser l’URL des ressources d’Experience Manager dans les paramètres du serveur proxy pour permettre au trafic de l’application de passer.
 
 ## Personnalisation de la boîte de dialogue Asset Info (Informations sur les ressources){#customize-the-asset-info-dialog}
 
