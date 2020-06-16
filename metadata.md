@@ -8,13 +8,13 @@ getting-started-url: https://helpx.adobe.com/experience-manager/tutorials.html
 tutorials-title: Tutoriels
 tutorials-url: https://helpx.adobe.com/fr/experience-manager/kt/index/aem-6-5-videos.html
 mini-toc-levels: 1
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-desktop-app.fr-FR
+git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.en
 index: y
 translation-type: tm+mt
-source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
+source-git-commit: e9a59807d48ea2d8619d3b03255c4291fca85138
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 80%
+source-wordcount: '155'
+ht-degree: 67%
 
 ---
 
@@ -25,17 +25,17 @@ Le fichier metadata.md comprend des métadonnées de niveau référentiel qui tr
 
 | metadata | effets |
 |--- |--- |
-| solution-title | Utilisé dans l’en-tête de l’article en tant que lien. |
-| solution-hub-url | Ouvre la page hub d&#39;assistance |
-| solution-icon | Affiche l’icône de solution en regard du titre de la solution. Pas encore implémenté |
-| getting-started-url | Lien vers la page de prise en main |
-| tutorials-url | Lien vers les tutoriels vidéo : tutoriels helpx ou KT. |
-| mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail droit. La valeur par défaut est 2. |
-| git-repo | Spécifie l&#39;emplacement de la principale repo pour une utilisation interne |
+| solution-title | Utilisé dans l’en-tête de l’article en tant que lien.. |
+| solution-hub-url | Ouvre la page hub Formation et support. |
+| solution-icon | Affiche l’icône de solution en regard du titre de la solution. Pas encore implémenté. |
+| getting-started-url | Lien vers la page de prise en main. |
+| tutorials-url | Lien vers les didacticiels vidéo. |
+| mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail droit. La valeur par défaut est 2.   |
+| git-repo | Spécifie l&#39;emplacement du repo principal pour une utilisation interne. |
 
 Dans le fichier TOC.md
 
 | metadata | effets |
 |--- |--- |
-| guide-utilisateur-titre | Utilisé dans l’en-tête de l’article en tant que lien. |
-| user-guide-url | Ouvre la page hub helpx. |
+| guide-utilisateur-titre | Utilisé dans l’en-tête de l’article comme lien. |
+| user-guide-url | Ouvre la page hub Formation et support. |
