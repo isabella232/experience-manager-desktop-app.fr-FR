@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7a803edce0b6300b4a4142dcdc2f61d8347acea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1319'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 
 L’appli de bureau Adobe Experience Manager est compatible avec les systèmes d’exploitation suivants :
 
-* Mac OS X 10.14 ou version ultérieure, avec les derniers correctifs de bogues.
+* Mac OS X 10.14 ou version ultérieure, avec les correctifs de bogues les plus récents.
 * Windows 7 et Windows 10 avec les Service Packs et les correctifs de bogues les plus récents.
 
 L’application fonctionne avec les versions d’Experience Manager suivantes, qu’elles soient déployées en tant que Cloud Service, sur Adobe Managed Services (AMS) ou On-Premise :
