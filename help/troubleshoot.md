@@ -8,11 +8,11 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4e2926adfe46265c78f85b63696c98859f895134
+workflow-type: tm+mt
 source-wordcount: '1240'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -55,15 +55,15 @@ Pour résoudre les problèmes, vous pouvez activer le mode de débogage et obten
 
 Pour activer le mode de débogage sous Windows, procédez comme suit :
 
-1. Recherchez le fichier `Adobe Experience Manager Desktop.exe.config` dans le dossier d’installation de votre application de bureau. Par défaut, ce dossier est `C:\Program Files\Adobe\Adobe Experience Manager Desktop`. Enregistrez et fermez le fichier 
+1. Recherchez le fichier `Adobe Experience Manager Desktop.exe.config` dans le dossier d’installation de votre application de bureau. Par défaut, ce dossier est `C:\Program Files\Adobe\Adobe Experience Manager Desktop`.
 
-1. Recherchez l’entrée `<level value="INFO"/>` qui se situe vers la fin du fichier. Remplacez la valeur par `DEBUG`, c’est-à-dire `<level value="DEBUG"/>`.
+1. Recherchez l’entrée `<level value="INFO"/>` qui se situe vers la fin du fichier. Remplacez la valeur `INFO` par `DEBUG`, qui est `<level value="DEBUG"/>`. Enregistrez et fermez le fichier 
 
 1. Recherchez le fichier `logging.json` dans le dossier d’installation de votre application de bureau. Par défaut, ce dossier est `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
 
-1. Dans le fichier `logging.json`, recherchez toutes les instances du paramètre `level`. Remplacez les valeurs `info` par `debug`. Enregistrez et fermez le fichier 
+1. In `logging.json` file, locate all the instances of `"level": "info"`. Remplacez les valeurs `info` par `debug`. Enregistrez et fermez le fichier 
 
-1. Effacez les répertoires mis en cache qui se trouvent à l’emplacement défini dans les préférences de l’application.
+1. Clear the cached directories that are at the location set in the application [Preferences](/help/install-upgrade.md#set-preferences).
 
 1. Redémarrez l’application de bureau.
 
