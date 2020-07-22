@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 9954d0b290c4e1071a6068be4f858b29d26dc712
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -61,9 +61,9 @@ Pour activer le mode de débogage sous Windows, procédez comme suit :
 
 1. Recherchez le fichier `logging.json` dans le dossier d’installation de votre application de bureau. Par défaut, ce dossier est `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
 
-1. In `logging.json` file, locate all the instances of `"level": "info"`. Modifiez les valeurs de `info` à `debug`, c’est-à-dire `"level": "debug"`. Enregistrez et fermez le fichier 
+1. Dans le fichier `logging.json`, recherchez toutes les instances de `"level": "info"`. Change the values from `info` to `debug`, which is `"level": "debug"`. Enregistrez et fermez le fichier 
 
-1. Clear the cached directories that are at the location set in the application [Preferences](/help/install-upgrade.md#set-preferences).
+1. Effacez les répertoires mis en cache qui se trouvent à l’emplacement défini dans les [Préférences](/help/install-upgrade.md#set-preferences) de l’application.
 
 1. Redémarrez l’application de bureau.
 
