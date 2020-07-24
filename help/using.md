@@ -6,8 +6,11 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+translation-type: tm+mt
+source-git-commit: 27cc0ba26622016ce82b758fb0607652176f6992
+workflow-type: tm+mt
+source-wordcount: '3995'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,7 @@ Lorsque vous ouvrez l’application après vous être déconnecté ou lorsque vo
 
 L’appli de bureau Experience Manager vous permet d’effectuer les tâches clés suivantes :
 
-![Workflows et tâches pouvant être effectués avec l’appli de bureau Experience Manager](assets/aem_desktop_app_usecases_v2.png "Workflows et tâches pouvant être effectués avec l’appli de bureau Adobe Experience Manager")
+![[!DNL Experience Manager]Workflows et tâches pouvant être effectués avec l’appli de bureau ](assets/aem_desktop_app_usecases_v2.png "Workflows et tâches pouvant être effectués avec l’appli de bureau Adobe Experience Manager")
 Téléchargez [ce](assets/aem_desktop_app_usecases_print.pdf) fichier PDF prêt à être imprimé.
 
 ## Fonctionnement de l’appli de bureau {#how-app-works2}
