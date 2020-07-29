@@ -2,8 +2,11 @@
 title: Utilisation de l’appli de bureau AEM version 1.x.
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.x et optimiser votre utilisation des ressources du bureau.
 contentOwner: AG
-translation-type: ht
-source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
+translation-type: tm+mt
+source-git-commit: f1bd50a439059ac66e0368eeefc6af67ff160d9b
+workflow-type: tm+mt
+source-wordcount: '2516'
+ht-degree: 100%
 
 ---
 
@@ -47,6 +50,7 @@ Pour pouvoir commencer à créer ou modifier les ressources de création, connec
 L’appli de bureau AEM établit une connexion HTTPS au serveur AEM afin de transférer vos ressources de manière sécurisée.
 
 >[!NOTE]
+>
 >Pour une partie ou l’ensemble de la procédure d’installation et de configuration, il se peut que vous deviez demander l’aide de votre administrateur AEM ou de votre administrateur système.
 
 ### Installation de l’application {#installapp}
@@ -59,6 +63,7 @@ Une configuration détaillée peut s’avérer nécessaire en fonction des préf
 1. Exécutez le fichier d’installation téléchargé et suivez les instructions affichées à l’écran pour installer l’application.
 
    >[!NOTE]
+   >
    >Une seule instance de l’appli de bureau AEM peut être installée et active à la fois.
 
 ### Présentation des options et des préférences dans l’application {#inapppref}
@@ -117,6 +122,7 @@ Pour les fichiers Adobe InDesign (INDD), sélectionnez **[!UICONTROL Open]** da
 *Figure : Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau AEM.*
 
 >[!NOTE]
+>
 >Sous Windows, le [paramètre par défaut de Windows 7](https://support.microsoft.com/fr-fr/kb/2668751) empêche l’appli de bureau AEM de gérer les ressources de plus de 50 Mo.
 
 >[!NOTE]
@@ -168,6 +174,7 @@ Pour extraire des ressources à partir de l’interface web AEM, deux méthodes 
    Vous pouvez également sélectionner Open (Ouvrir) dans le menu Desktop Actions (Actions sur le Bureau) de la barre d’outils.
 
    >[!NOTE]
+   >
    >Lorsque vous modifiez un fichier qui est simplement ouvert, mais pas extrait, les autres utilisateurs ne savent pas que vous êtes en train de mettre à jour une ressource.
 
 1. Pour ouvrir une ressource en vue de la modifier dans une application Adobe Creative Cloud, cliquez/appuyez sur l’action rapide Edit desktop (Modifier le Bureau) ![Icône Edit Desktop](assets/aemassets_icon_editdesktop.png). Cette option extrait également la ressource en vue de la modifier. Après avoir procédé aux modifications, archivez la ressource pour mettre à jour les modifications dans AEM Assets.
@@ -215,6 +222,7 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 1. Consultez la ressource dans l’Explorateur. L’icône de verrouillage sur la ressource ![Icône Asset lock](assets/aemassets_icon_lockcheckout.png) indique que vous avez extrait cette dernière.
 
    >[!NOTE]
+   >
    >L’icône de verrouillage peut s’afficher après un certain délai. L’appli de bureau AEM met en cache les ressources en vue d’un accès rapide. La mise à jour de l’état Verrouillé peut donc prendre un certain temps.
 
 1. Pour archiver la ressource afin qu’elle soit disponible pour les autres utilisateurs, cliquez/appuyez sur l’icône Check-in (Archiver) dans la boîte de dialogue **Asset Info** (Informations sur les ressources).
@@ -240,6 +248,7 @@ L’appli de bureau AEM permet de télécharger un dossier entier de ressources
    Consultation du statut du chargement dans la fenêtre Asset Status (Statut de la ressource)
 
    >[!NOTE]
+   >
    >Vous pouvez suspendre ou annuler manuellement le chargement en cliquant/appuyant sur l’icône appropriée.
 
 1. Une fois le dossier transféré, fermez la boîte de dialogue et accédez à l’interface utilisateur Assets. Le dossier transféré s’affiche dans l’interface web.
