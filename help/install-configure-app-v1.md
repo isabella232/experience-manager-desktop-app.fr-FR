@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
-workflow-type: ht
-source-wordcount: '992'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+workflow-type: tm+mt
+source-wordcount: '997'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,9 @@ Cette intégration permet à différents rôles au sein de l’entreprise de gé
 Pour utiliser l’appli de bureau AEM :
 
 * Assurez-vous que la version de votre serveur AEM est prise en charge par l’appli de bureau AEM. Voir le [tableau de compatibilité](release-notes-of-v1.md#compatibilitymatrix).
+
 * Téléchargez et installez l’application.
+
 * Testez la connexion à l’aide de quelques ressources. Voir [Accès aux ressources et ouverture de ces éléments sur votre ordinateur de bureau](use-app-v1.md#openondesktop).
 
 ## Configuration requise, conditions préalables et liens de téléchargement {#system-requirements-prerequisites-and-download-links}
@@ -48,8 +50,11 @@ Lorsque vous modifiez des fichiers à partir d’un partage réseau monté par l
 Dans la seconde phase, l’appli de bureau charge le fichier mis à jour sur le serveur AEM après une période prédéfinie (par exemple, 30 s). Cette opération s’effectue en arrière-plan. Utilisez l’option View Asset Status (Afficher l’état des ressources) pour afficher l’état de l’opération de transfert. 
 
 1. Téléchargez une ressource vers AEM Assets.
+
 1. Cliquez/appuyez sur l’icône de l’appli de bureau AEM dans la barre d’outils.
+
 1. Sélectionnez l’option View Asset Status (Afficher le statut des ressources) dans le menu.
+
 1. Dans la boîte de dialogue, examinez le statut de l’opération de chargement.
 
 >[!NOTE]
@@ -84,10 +89,11 @@ Si votre proxy nécessite une authentification, l’équipe informatique peut au
 
 Vous pouvez personnaliser la boîte de dialogue Asset Info (Informations sur les ressources) en recouvrant l’un de ces composants, ou les deux :
 
-* La page de l’interface utilisateur Granite, située à l’adresse `/libs/dam/gui/content/assets/moreinfo`
-* Le composant `/css/javascript` HTL, situé à l’adresse `/libs/dam/gui/components/admin/moreinfo`
+* La page de l’interface utilisateur Granite, située à l’adresse `/libs/dam/gui/content/assets/moreinfo`.
 
-La nature du composant recouvert dépend de la nature de la personnalisation. Pour modifier les composants affichés dans la boîte de dialogue Asset Info (Informations sur les ressources), recouvrez la page de l’interface utilisateur Granite. Pour modifier le contenu HTML/CSS/JavaScript de la boîte de dialogue, recouvrez le composant HTL.
+* Le composant `/css/javascript` HTL, situé à l’adresse `/libs/dam/gui/components/admin/moreinfo`.
+
+La nature du composant recouvert dépend de la nature de la personnalisation. Pour modifier les composants affichés dans la boîte de dialogue Asset Info (Informations sur les ressources), recouvrez la page de l’interface utilisateur Granite. Pour modifier le contenu HTML, CSS ou JavaScript de la boîte de dialogue, superposez le composant HTML.
 
 ## Gestion du cache       {#manage-cache}
 
@@ -105,16 +111,18 @@ Sous Mac OS X, un répertoire semblable est situé à l’emplacement suivant�
 
 ### Modification de l’emplacement du cache sous Windows        {#change-location-of-cache-on-windows}
 
-L’emplacement par défaut du cache de l’appli de bureau AEM est le suivant :
+L’emplacement par défaut du cache de l’application de bureau AEM est le suivant :
 
-* Windows : `%LocalAppData%\Adobe\AssetsCompanion\Cache\EncodedAEMEndpoint`
-* Mac : `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`
+* Sous Windows, `%LocalAppData%\Adobe\AssetsCompanion\Cache\EncodedAEMEndpoint`.
+
+* Sous Mac, `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`.
 
 `EncodedAEMEndpoint` est l’URL de point de terminaison AEM configurée de l’appli de bureau AEM. La valeur est une version codée de l’URL de ciblage du serveur AEM. Par exemple, si l’application cible est `http://localhost:4502`, le nom du répertoire est `http%3A%2F%2Flocalhost%3A4502`. Le chemin d’accès Windows au répertoire du cache dans cet exemple est %LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502.
 
 Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez son fichier de configuration.
 
 1. Accédez au répertoire d’installation de l’application. L’emplacement par défaut sous Windows est `C:\Program Files (x86)\Adobe\Adobe Experience Manager Desktop`.
+
 1. Modifiez le fichier Desktop.exe.config d’Adobe Experience Manager à l’aide d’un éditeur de texte.
 
    Des privilèges d’administrateur sont nécessaires pour enregistrer les modifications apportées à ce fichier.
@@ -123,7 +131,7 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
 
    >[!NOTE]
    >
-   >L’application crée automatiquement un sous-répertoire *&lt;Point de terminaison AEM codé>* ; ce comportement n’est pas configurable.
+   >The app automatically creates an *&lt;Encoded AEM Endpoint>* subdirectory. This behavior is not configurable.
 
 >[!MORELIKETHIS]
 * [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/fr/customer-care-office-hours/aem/desktop-app.html)
