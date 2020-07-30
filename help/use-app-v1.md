@@ -3,7 +3,7 @@ title: Utilisation de l’appli de bureau AEM version 1.x.
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.x et optimiser votre utilisation des ressources du bureau.
 contentOwner: AG
 translation-type: tm+mt
-source-git-commit: f1bd50a439059ac66e0368eeefc6af67ff160d9b
+source-git-commit: 67e117648de8298f78992afea5ae0962fd2c698b
 workflow-type: tm+mt
 source-wordcount: '2516'
 ht-degree: 100%
@@ -113,7 +113,7 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
 Lorsque vous cliquez sur **Open** (Ouvrir) pour ouvrir une ressource sur l’ordinateur local, l’application la télécharge dans son cache interne. L’application lance l’appli de bureau native associée au type de fichier de la ressource téléchargée.
 
-Sous Mac, sélectionnez **Open** (Ouvrir) dans le menu contextuel pour ouvrir une ressource via l’appli de bureau AEM. Sous Windows, sélectionnez Ouvrir sur le web dans le menu contextuel pour ouvrir la ressource. Dans la fenêtre Asset Status (Statut de la ressource), cliquez/appuyez sur ![Icône Open on Desktop](assets/aemassets_icon_openondesktop.png) pour ouvrir la ressource.
+Sous Mac, sélectionnez **Open** (Ouvrir) dans le menu contextuel pour ouvrir une ressource via l’appli de bureau AEM. Sous Windows, sélectionnez Ouvrir sur le web dans le menu contextuel pour ouvrir la ressource. Dans la fenêtre Asset Status (Statut de la ressource), cliquez/appuyez sur ![Icône Open on Desktop](assets/do-not-localize/aemassets_icon_openondesktop.png) pour ouvrir la ressource.
 
 Pour les fichiers Adobe InDesign (INDD), sélectionnez **[!UICONTROL Open]** dans le menu contextuel. Lorsque vous cliquez sur cette option, l’application télécharge les ressources liées sur votre système de fichiers local, puis ouvre le fichier INDD dans Adobe InDesign. Cette méthode garantit que les ressources requises sont disponibles en local lors de la modification du fichier INDD.
 
@@ -141,19 +141,19 @@ Après avoir mappé le référentiel AEM Assets sur votre lecteur local, vous p
 
    Ces actions de bureau sont également disponibles lorsque vous cliquez/appuyez sur l’icône **Actions sur le Bureau** dans la barre d’outils après la sélection de la ressource ou dans la barre d’outils de la page de la ressource.
 
-1. Pour ouvrir la ressource dans l’application de bureau associée à l’extension de fichier spécifique, cliquez/appuyez sur l’action rapide **Open on desktop** (Ouvrir sur le bureau) ![Icône Open on Desktop](assets/aemassets_icon_openondesktop.png).
+1. Pour ouvrir la ressource dans l’application de bureau associée à l’extension de fichier spécifique, cliquez/appuyez sur l’action rapide **Open on desktop** (Ouvrir sur le bureau) ![Icône Open on Desktop](assets/do-not-localize/aemassets_icon_openondesktop.png).
 
    Vous pouvez également sélectionner **Open** (Ouvrir) dans le menu **Desktop Actions** (Actions sur le Bureau) de la barre d’outils.
 
-Pour localiser la ressource sur votre système de fichiers local, cliquez sur l’action rapide **Afficher** ![icône Afficher](assets/aemassets_reveal_icon.png). Vous pouvez également sélectionner **Afficher** dans le menu **Actions sur le Bureau** de la barre d’outils.
+Pour localiser la ressource sur votre système de fichiers local, cliquez sur l’action rapide **Afficher** ![icône Afficher](assets/do-not-localize/aemassets_reveal_icon.png). Vous pouvez également sélectionner **Afficher** dans le menu **Actions sur le Bureau** de la barre d’outils.
 
 ## Explication des états de ressources     {#understand-the-asset-statuses}
 
-| ![Icône de l’appli par défaut Windows](assets/win_default.png) | L’application est connectée au serveur, et toutes les ressources sont synchronisées. |
-|------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Icône de l’appli Windows désactivée](assets/win_disabled.png) | L’application est lancée, mais n’est pas connectée au serveur. Certaines ressources peuvent être en attente de synchronisation. |
-| ![Icône de synchronisation des fichiers Windows](assets/win_sync.png) | La synchronisation des ressources est en cours. Les fichiers sont en cours de transfert ou de téléchargement. Vous pouvez afficher les statuts précis et suspendre les transferts dans la fenêtre Asset Status (Statut de la ressource). |
-| ![Icône de reconnexion Windows](assets/win_refresh.png) | L’application effectue une tentative de reconnexion. Les problèmes réseau peuvent entraîner sa déconnexion. |
+| ![Icône de l’appli par défaut Windows](assets/do-not-localize/win_default.png) | L’application est connectée au serveur, et toutes les ressources sont synchronisées. |
+--- |--- |
+| ![Icône de l’appli Windows désactivée](assets/do-not-localize/win_disabled.png) | L’application est lancée, mais n’est pas connectée au serveur. Certaines ressources peuvent être en attente de synchronisation. |
+| ![Icône de synchronisation des fichiers Windows](assets/do-not-localize/win_sync.png) | La synchronisation des ressources est en cours. Les fichiers sont en cours de transfert ou de téléchargement. Vous pouvez afficher les statuts précis et suspendre les transferts dans la fenêtre Asset Status (Statut de la ressource). |
+| ![Icône de reconnexion Windows](assets/do-not-localize/win_refresh.png) | L’application effectue une tentative de reconnexion. Les problèmes réseau peuvent entraîner sa déconnexion. |
 
 ## Utilisation de vos ressources {#workonassets}
 
@@ -169,7 +169,7 @@ Pour extraire des ressources à partir de l’interface web AEM, deux méthodes 
 
    Ces actions de bureau sont également disponibles lorsque vous cliquez/appuyez sur l’icône Desktop Actions (Actions sur le Bureau) dans la barre d’outils après la sélection de la ressource ou dans la barre d’outils de la page de la ressource.
 
-1. Pour ouvrir la ressource, cliquez/appuyez sur l’action rapide Open on desktop (Ouvrir sur le Bureau) ![Icône Open on Desktop](assets/aemassets_icon_openondesktop.png).
+1. Pour ouvrir la ressource, cliquez/appuyez sur l’action rapide Open on desktop (Ouvrir sur le Bureau) ![Icône Open on Desktop](assets/do-not-localize/aemassets_icon_openondesktop.png).
 
    Vous pouvez également sélectionner Open (Ouvrir) dans le menu Desktop Actions (Actions sur le Bureau) de la barre d’outils.
 
@@ -177,7 +177,7 @@ Pour extraire des ressources à partir de l’interface web AEM, deux méthodes 
    >
    >Lorsque vous modifiez un fichier qui est simplement ouvert, mais pas extrait, les autres utilisateurs ne savent pas que vous êtes en train de mettre à jour une ressource.
 
-1. Pour ouvrir une ressource en vue de la modifier dans une application Adobe Creative Cloud, cliquez/appuyez sur l’action rapide Edit desktop (Modifier le Bureau) ![Icône Edit Desktop](assets/aemassets_icon_editdesktop.png). Cette option extrait également la ressource en vue de la modifier. Après avoir procédé aux modifications, archivez la ressource pour mettre à jour les modifications dans AEM Assets.
+1. Pour ouvrir une ressource en vue de la modifier dans une application Adobe Creative Cloud, cliquez/appuyez sur l’action rapide Edit desktop (Modifier le Bureau) ![Icône Edit Desktop](assets/do-not-localize/aemassets_icon_editdesktop.png). Cette option extrait également la ressource en vue de la modifier. Après avoir procédé aux modifications, archivez la ressource pour mettre à jour les modifications dans AEM Assets.
 
    Vous pouvez également sélectionner Edit (Modifier) dans le menu Desktop Actions (Actions sur le Bureau) de la barre d’outils.
 
@@ -219,7 +219,7 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 
    ![Changement de l’icône Checkout (Extraire)](assets/chlimage_1-8.png)
 
-1. Consultez la ressource dans l’Explorateur. L’icône de verrouillage sur la ressource ![Icône Asset lock](assets/aemassets_icon_lockcheckout.png) indique que vous avez extrait cette dernière.
+1. Consultez la ressource dans l’Explorateur. L’icône de verrouillage sur la ressource ![Icône Asset lock](assets/do-not-localize/aemassets_icon_lockcheckout.png) indique que vous avez extrait cette dernière.
 
    >[!NOTE]
    >
@@ -231,7 +231,7 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 
 Une fois la modification des ressources effectuée, enregistrez ces dernières dans votre application de bureau. Dans le menu contextuel, sélectionnez **More Assets Info** (Autres infos sur les ressources) et cliquez ensuite sur Check-in (Archiver).
 
-Les ressources sont chargées vers le serveur AEM. Vous pouvez vérifier le statut du chargement en sélectionnant **View Asset Status** (Afficher le statut des ressources) à partir de l’icône de la barre d’état. Vous pouvez également archiver une ressource à partir de l’interface web AEM. Cliquez sur les ressources extraites ou sélectionnez-les. Dans la barre d’outils, cliquez sur l’icône d’archivage ![Icône Archiver](assets/aemassets_icon_checkin.png).
+Les ressources sont chargées vers le serveur AEM. Vous pouvez vérifier le statut du chargement en sélectionnant **View Asset Status** (Afficher le statut des ressources) à partir de l’icône de la barre d’état. Vous pouvez également archiver une ressource à partir de l’interface web AEM. Cliquez sur les ressources extraites ou sélectionnez-les. Dans la barre d’outils, cliquez sur l’icône d’archivage ![Icône Archiver](assets/do-not-localize/aemassets_icon_checkin.png).
 
 Une ressource est automatiquement chargée vers AEM après l’enregistrement local de toutes les modifications. L’archivage rend la ressource disponible pour modification par d’autres utilisateurs AEM.
 
