@@ -5,8 +5,11 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 snippet: y
-translation-type: ht
-source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
+translation-type: tm+mt
+source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ Une telle intégration permet à différents rôles de l’organisation de gére
 La documentation de l’appli de bureau contient des informations sur les rôles et cas d’utilisation suivants.
 
 | Informations requises | Contenu de l’aide |
-|-------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+|--- |--- |
 | Vous souhaitez avoir un aperçu rapide des nouvelles fonctionnalités et des améliorations de la dernière version ? | [Nouveautés de l’application](#whats-new-v2) |
 | Vous voulez connaître les conditions préalables et les spécifications techniques ? Vous souhaitez des liens de téléchargement ? | [Notes de mise à jour](release-notes.md) |
 | Vous connaissez l’appli de bureau ? Vous procédez à une mise à niveau et souhaitez opérer une transition en douceur ? | [Mise à niveau depuis la version précédente](install-upgrade.md#upgrade-from-previous-version) |
@@ -41,8 +44,11 @@ La version 2.0 de l’application a été conçue de A à Z afin de fournir de 
 La nouvelle application apporte des améliorations substantielles à l’expérience utilisateur, tout en prenant en charge les mêmes cas d’utilisation qu’auparavant. Vous trouverez ci-dessous les améliorations principales de l’application.
 
 * Les utilisateurs découvrent les ressources en naviguant et en effectuant des recherches dans l’application dans un navigateur intégré, au lieu de faire appel au Finder de Mac ou à Windows Explorer pour afficher un partage réseau virtuel.
+
 * Des conseils clairs sur les actions sont à la disposition des utilisateurs.
+
 * Les performances sont améliorées par la réduction de l’utilisation de la bande passante. Les fichiers binaires d’origine ne sont téléchargés que si cela est nécessaire. Pour la navigation et la recherche au sein des ressources, seules les petites vignettes sont transférées.
+
 * Optimisation pour les opérations en masse, telles que le chargement en masse.
 
 L’illustration suivante relie les cas d’utilisation et les améliorations principaux de la nouvelle application au parcours du client.
