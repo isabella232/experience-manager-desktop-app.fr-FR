@@ -8,8 +8,11 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a18aa9c3dad8802c3de929ba4ebb1a1583b47165
+translation-type: tm+mt
+source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+workflow-type: tm+mt
+source-wordcount: '3374'
+ht-degree: 99%
 
 ---
 
@@ -142,7 +145,7 @@ Vous pouvez améliorer les performances du côté AEM en activant les processus 
 Pour améliorer les performances d’AEM, une autre méthode consiste à configurer le nombre maximum de tâches en parallèle pour la file d’attente des processus transitoires Granite. La valeur recommandée équivaut approximativement à la moitié du nombre de processeurs disponibles avec le serveur. Pour régler la valeur, procédez comme suit :
 
 1. Accédez à */system/console/configMgr* dans l’instance AEM à configurer (par exemple, <http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr>).
-1. Recherchez **QueueConfiguration**, puis cliquez pour ouvrir chaque tâche jusqu’à ce que vous ayez trouvé la tâche **Granite Transient Workflow Queue** (File d’attente des processus transitoires Granite). Cliquez sur l’icône Edit (Modifier) en regard de cette tâche.
+1. Recherchez **QueueConfiguration**, puis cliquez pour ouvrir chaque tâche jusqu’à ce que vous ayez trouvé la tâche **Granite Transient Workflow Queue** (File d’attente des processus transitoires Granite). Cliquez sur Modifier en regard de celui-ci.
 1. Modifiez la valeur **Maximum Parallel Jobs** (Nombre maximum de tâches en parallèle), puis cliquez sur **Enregistrer**.
 
 ## Configuration AWS        {#aws-configuration}
@@ -187,7 +190,7 @@ Une fois que vous avez installé l’appli de bureau AEM, l’icône de menu de 
 1. Saisissez la commande suivante et appuyez ensuite sur la touche Entrée :
 
    ```shell
-   rm -r com.adobe.aem.assetscompanion 
+   rm -r com.adobe.aem.assetscompanion
    ```
 
 1. Saisissez la commande suivante et appuyez ensuite sur la touche Entrée :
@@ -218,9 +221,10 @@ Pour remédier à ce problème, la méthode la plus simple consiste à ouvrir le
 
 L’effacement du cache de l’appli de bureau AEM est une tâche de dépannage préliminaire qui permet de résoudre plusieurs problèmes liés à l’application.
 
-Vous pouvez effacer le cache en supprimant le répertoire de cache de l’application aux emplacements suivants : Windows : %LocalAppData%\Adobe\AssetsCompanion\Cache\
+Vous pouvez vider le cache en supprimant le répertoire du cache de l’application aux emplacements suivants.
+Sous Windows, `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
 
-Mac : ~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/
+Sous Mac, `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 
 Toutefois, l’emplacement peut varier en fonction du point de terminaison AEM configuré de l’appli de bureau AEM. La valeur est une version codée de l’URL ciblée. Par exemple, si l’application cible est `http://localhost:4502`, le nom du répertoire est `http%3A%2F%2Flocalhost%3A4502%2F`.
 
