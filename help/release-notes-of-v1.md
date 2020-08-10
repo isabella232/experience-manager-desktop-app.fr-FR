@@ -8,11 +8,11 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3857'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -56,13 +56,13 @@ L’appli de bureau AEM 1.10 met l’accent sur l’amélioration de l’expér
 
 **Modification/extraction locale** : les chargements automatiques des modifications enregistrées dans les ressources peuvent être désactivés dans la fenêtre de statut. De cette façon, l’utilisateur peut continuer à traiter des fichiers et à enregistrer des modifications puis, lorsque tout est prêt, décider de transférer toutes les modifications.
 
-**Fenêtre d’état des ressources simplifiée**. La fenêtre d&#39;état a été simplifiée. L’ [!UICONTROL Uploads] onglet affiche désormais à la fois des fichiers individuels, ainsi que des téléchargements de dossiers ou en vrac. L’ancien onglet Transferts en bloc a été supprimé.
+**Fenêtre d’état des ressources simplifiée**. La fenêtre de statut a été simplifiée. L’onglet [!UICONTROL Uploads] affiche désormais à la fois les ressources individuelles et les téléchargements de dossiers ou massifs. L’ancien onglet Transferts en bloc a été supprimé.
 
-**Icône d’application pour indiquer les transferts en bloc**. L’icône de l’application indique qu’un chargement en vrac est en cours en affichant une incrustation de &quot;transfert&quot;.
+**Icône d’application pour indiquer les transferts en bloc**. L’icône d’application affichera une incrustation « transfert » pour indiquer qu’un téléchargement massif est en cours.
 
-**Notifications pour les conflits** de mise à jour. Lorsque l’application détecte un conflit lors de la mise à jour d’un fichier, elle affiche une notification afin que l’utilisateur puisse vérifier cela sans avoir à surveiller la fenêtre d’état. Au démarrage, l’application recherche d’éventuels conflits, de sorte que l’utilisateur puisse les résoudre.
+**Notifications de conflits de mise à jour**. Si l’application détecte un conflit en essayant de mettre à jour une ressource, elle affiche une notification, de sorte que l’utilisateur puisse examiner ce conflit sans avoir à surveiller la fenêtre de statut. Au démarrage, l’application recherche d’éventuels conflits, de sorte que l’utilisateur puisse les résoudre.
 
-**Meilleur traitement des pertes de connexion**. Les transferts en bloc sont interrompus en cas de perte de connexion et l’utilisateur est en mesure de reprendre l’opération ultérieurement. Un bouton Retry (Réessayer) est disponible pour effectuer une nouvelle tentative en cas d’échec du téléchargement d’un fichier.
+**Meilleur traitement des pertes de connexion**. Les téléchargements massifs sont interrompus en cas de perte de connexion et l’utilisateur est en mesure de reprendre l’opération ultérieurement. Un bouton Retry (Réessayer) est disponible pour effectuer une nouvelle tentative en cas d’échec du téléchargement d’un fichier.
 
 ## Instructions d’installation {#installation-instructions}
 
@@ -99,59 +99,60 @@ L’appli de bureau AEM 1.9 mettait l’accent sur l’amélioration de l’exp
 **Chargements pouvant reprendre**
 Une option disponible dans la nouvelle fenêtre Asset Status (Statut de la ressource) permet de suspendre/relancer les chargements dans le cas de fichiers volumineux.
 
-**Amélioration de la fenêtre** d&#39;état des ressources Une fenêtre d&#39;état des ressources améliorée fournit les informations suivantes sur les ressources.
+**Amélioration de la fenêtre de statut des ressources**
+Une fenêtre de statut des ressources améliorée fournit les informations suivantes sur les ressources.
 
 [!UICONTROL Changes]
 
-* Affiche les modifications en file d’attente.
+* Affiche les modifications placées actuellement en file d’attente.
 
-* Affiche les téléchargements en cours, y compris une barre de progression, le taux de transfert, la taille totale du fichier et la taille transférés jusqu’à présent.
+* Affiche les chargements en cours, y compris une barre de progression, la vitesse de transfert, la taille totale du fichier et la taille transférée jusqu’à présent.
 
-* Les téléchargements terminés sont affichés avec le taux total transféré et le taux final.
+* Chargements terminés affichés avec la taille totale transférée et le débit final.
 
-* Les téléchargements ayant échoué s’affichent avec un message d’erreur et des informations de transfert, le cas échéant.
+* Les chargements ayant échoué sont accompagnés d’un message d’erreur et d’informations de transfert, le cas échéant.
 
-* Les téléchargements qui ont échoué 3 fois affichent un message d’erreur.
+* Les chargements ayant échoué à trois reprises affichent un message d’erreur.
 
 * Les fichiers en conflit sont affichés avec une icône sur laquelle l’utilisateur peut cliquer. S’il clique sur cette icône, une boîte de dialogue s’ouvre avec une explication, et deux options lui sont proposées :
 
-   * [!UICONTROL Keep Mine] télécharge immédiatement le fichier sur le serveur.
+   * [!UICONTROL Keep Mine] charge immédiatement le fichier sur le serveur.
 
-   * [!UICONTROL Overwrite Mine] supprime immédiatement le fichier local et télécharge une nouvelle copie du serveur.
+   * [!UICONTROL Overwrite Mine] supprime immédiatement le fichier local et télécharge une nouvelle copie à partir du serveur.
 
 [!UICONTROL Downloads]
 
-* Affiche les téléchargements en cours, y compris le taux de transfert et la taille transférés jusqu’à présent.
+* Affiche les téléchargements en cours, y compris la vitesse de transfert et la taille transférée jusqu’à présent.
 
-* Téléchargements terminés affichés avec le total transféré, le taux final et une icône qui ouvrira le fichier lorsque vous cliquez dessus (disponible uniquement pour les fichiers uniques).
+* Téléchargements terminés affichés avec le volume transféré final, le débit final et une icône qui ouvre le fichier lorsque l’utilisateur clique sur celle-ci (disponible uniquement pour les fichiers uniques).
 
-* Les téléchargements ayant échoué s’affichaient avec un message d’erreur et des informations de transfert, le cas échéant.
+* Les téléchargements ayant échoué sont accompagnés d’un message d’erreur et d’informations sur le transfert, le cas échéant.
 
-* Le pied de page affiche le nombre total de fichiers téléchargés et le taux de transfert moyen.
+* Le pied de page affiche le nombre total de fichiers téléchargés, ainsi que la vitesse de transfert moyenne.
 
-* Si un utilisateur choisit d’ouvrir ou de modifier plusieurs fichiers à partir de l’interface Web des ressources du Experience Manager, ils seront regroupés. Par exemple, myasset.jpeg et 4 autres fichiers.
+* Si un utilisateur choisit d’ouvrir ou de modifier plusieurs fichiers à partir de l’interface web d’Experience Manager Assets, ils seront regroupés. Par exemple, myasset.jpeg et 4 autres fichiers.
 
-* When downloading InDesign Documents including linked assets that are stored in AEM Assets, the desktop app will download all of the linked Assets first, before opening the [!UICONTROL Adobe InDesign] document and indicate the download of linked assets. Par exemple, 5 sur 24.
+* Lorsque vous téléchargez des documents InDesign comprenant des ressources liées stockées dans AEM Assets, l’appli de bureau télécharge l’ensemble des ressources liées avant d’ouvrir le document [!UICONTROL Adobe InDesign] et d’indiquer le téléchargement des ressources liées. Par exemple, 5 sur 24.
 
 [!UICONTROL Bulk Uploads]
 
-Uploading large folder hierarchies via [!UICONTROL Create] > [!UICONTROL Upload Folder] in AEM web UI or copying and selecting &quot;Paste Assets&quot; in Finder or Explorer in the desktop app context menu will trigger usage of this dialog.
+Cette boîte de dialogue s’affiche lorsque vous chargez des hiérarchies de dossiers de grande taille par le biais de l’option [!UICONTROL Create] > [!UICONTROL Upload Folder] (Créer > Charger un dossier) dans l’interface utilisateur web AEM ou lorsque vous copiez et sélectionnez Paste Assets (Coller les ressources) dans le Finder ou l’Explorateur dans le menu contextuel de l’appli de bureau.
 
-* Affiche les téléchargements en cours, y compris une barre de progression et le nom du fichier en cours de transfert.
+* Affiche les chargements en cours, y compris une barre de progression et le nom du fichier en cours de transfert.
 
 * Les transferts en cours s’accompagnent d’une icône qui annule l’opération lorsque l’utilisateur clique sur celle-ci. Le transfert s’arrête une fois le transfert du fichier en cours terminé..
 
-* Les processus de transfert ayant échoué sont affichés avec un message d’erreur (uniquement si le transfert complet échoue).
+* Les processus de transfert qui ont échoué sont affichés, accompagnés d’un message d’erreur (uniquement si tout le transfert échoue).
 
 * Si le transfert d’un seul fichier échoue, il est affiché sur l’onglet sous la forme d’une erreur. Dans le cas contraire, les fichiers individuels ne sont pas affichés sur l’onglet ; une seule entrée est répertoriée pour l’ensemble du téléchargement.
 
 **Icônes indiquant l’état des opérations en arrière-plan**
 
-L’icône de l’application indique l’état des opérations en arrière-plan afin d’offrir une meilleure indication visuelle aux utilisateurs. Par exemple, lorsque l’application n’est pas connectée à AEM, l’icône est grisée. Lorsqu’un téléchargement est actif, une incrustation « sync » est affichée, etc.
+L’icône de l’application indique l’état des opérations en arrière-plan afin d’offrir une meilleure indication visuelle aux utilisateurs. Par exemple, lorsque l’application n’est pas connectée à AEM, l’icône est grisée. Lorsqu’un chargement est actif, une incrustation « sync » est affichée, etc.
 
 **Prérécupération des ressources liées**
 
-Pour améliorer l’expérience utilisateur lors de l’utilisation de documents d’InDesign qui incluent des ressources liées stockées dans AEM, l’application de bureau tente de prérécupérer ces fichiers liés dans le cache local avant de télécharger et d’ouvrir le document d’InDesign. L’utilisateur dispose ainsi des fichiers liés en local et ne doit pas attendre longtemps pour y accéder dans InDesign (dans le panneau Links (Liens)).
+Pour améliorer l’expérience utilisateur lors de l’utilisation de documents InDesign contenant des ressources liées stockées dans AEM, l’appli de bureau tente d’effectuer une prérécupération de ces fichiers liés dans le cache local avant de télécharger et d’ouvrir le document InDesign. L’utilisateur dispose ainsi des fichiers liés en local et ne doit pas attendre longtemps pour y accéder dans InDesign (dans le panneau Links (Liens)).
 Veuillez noter que la pré-récupération ne fonctionne que si AEM reconnaît les liens du côté serveur. Dans le cas d’une ressource contenant des liens reconnus, une liste de « Références » figure dans la vue Propriétés de la ressource InDesign.
 
 ### Améliorations disponibles depuis l’appli de bureau AEM 1.8.x {#enhancements-available-since-aem-desktop-app-18x}
@@ -162,7 +163,7 @@ L’appli de bureau AEM 1.8.1 s’accompagnait d’améliorations au niveau de 
 
    * Affichage de la taille actuelle du cache
 
-   * définir la taille maximale du cache avant l’envoi d’une notification
+   * Définition de la taille maximale du cache avant l’envoi d’une notification
 
    * La taille du cache est vérifiée uniquement au démarrage de l’appli de bureau, et une notification est envoyée si cette taille atteint la limite configurée
 
@@ -194,13 +195,13 @@ L’appli de bureau AEM 1.8.1 s’accompagnait d’améliorations au niveau de 
 
    * Mise à jour des ressources améliorée avec vérification supplémentaire (CQ-4228291).
 
-* Mise en cache:
+* Mise en cache :
 
    * Résolution des erreurs de disque et des problèmes d’ouverture de fichiers dans Photoshop, InDesign, Finder (CQ-4223993, CQ-4217603, CQ-4223717).
 
-   * Mise en cache améliorée pour éviter les binaires de taille nulle (CQ-4216599).
+   * Mise en cache améliorée pour éviter les fichiers binaires de taille nulle (CQ-4216599).
 
-* Connexion : Permettre la connexion avec le protocole SSL strict désactivé pour les configurations spéciales (comme les certificats émis localement) (CQ-4223949).
+* Connexion : autorisation de connexion avec l’option strictSSL désactivée pour les configurations spéciales (comme les certificats délivrés en local) (CQ-4223949).
 
 * Mise en réseau : prise en charge améliorée pour une connexion sur un serveur proxy de réseau (CQ-4223477, CQ-4221280, CQ-4206854).
 
@@ -286,7 +287,7 @@ Remarque concernant les avertissements relatifs aux liens : les applications Cr
 
 Ce comportement est identique pour les ressources du disque local et celles du répertoire monté de l’appli de bureau AEM, avec les exceptions suivantes :
 
-* Si une ressource importée est modifiée par un autre utilisateur, l’icône d’avertissement s’affiche la première fois que l’autre utilisateur ouvre un document contenant cette ressource. Cela se produira uniquement si la ressource importée a déjà été mise en cache localement..
+* Si une ressource importée est modifiée par un autre utilisateur, l’icône d’avertissement s’affiche la première fois que l’autre utilisateur ouvre un document contenant cette ressource. Cela se produira uniquement si la ressource importée a déjà été mise en cache localement.
 
 * Si un utilisateur modifie une ressource importée par l’intermédiaire du répertoire monté de l’appli de bureau AEM, puis efface le cache local, la ressource est signalée comme obsolète.
 
@@ -323,7 +324,7 @@ Ces deux cas sont attendus et sont des répercussions secondaires de l’archite
 
 ### Améliorations disponibles depuis l’appli de bureau AEM 1.4 {#Enhancements-Available-Since-AEM-Desktop-App-14}
 
-* Simplification du chargement des dossiers hiérarchiques par l’intermédiaire de la nouvelle opération Create > Upload Folder (Créer > Charger le dossier) de l’interface utilisateur tactile.
+* Simplification du chargement des dossiers hiérarchiques par l’intermédiaire de la nouvelle opération Create > Upload Folder (Créer > Charger un dossier) de l’interface utilisateur tactile.
    * L’action lance un chargement de dossier effectué par l’appli de bureau
    * L’appli de bureau traverse la hiérarchie de dossiers donnée sur le bureau en arrière-plan et charge les fichiers dans AEM Assets.
    * L’utilisateur peut surveiller la progression dans la nouvelle fenêtre d’état de la file d’attente des chargements à l’aide d’une barre de progression pour les opérations en cours.
@@ -339,13 +340,13 @@ Ces deux cas sont attendus et sont des répercussions secondaires de l’archite
 * Amélioration de l’intégration du Finder, qui offre une amélioration de la stabilité et un accès aux fonctionnalités telles que les miniatures
 * Améliorations de la mise en cache et des performances
 * Amélioration de la prise en charge de l’enregistrement directement depuis les applications de bureau (PS, ID, AI, etc.)
-* Amélioration de l’intégration avec Mac OS (le protocole du lecteur réseau local est passé de WebDAV à SMB1, plus stable).
+* Amélioration de l’intégration avec Mac OS (le protocole du lecteur réseau local est passé de WebDAV à SMB1, plus stable)
 * L’appli de bureau se connecte au serveur AEM à l’aide du protocole HTTP RESTful natif d’AEM.
 * Les fichiers sont d’abord enregistrés localement puis transférés vers AEM en arrière-plan après une période prédéfinie (30 secondes). Cela réduit le temps d’enregistrement des fichiers.
 * Amélioration de la gestion des applications de bureau qui utilisent des opérations de fichiers intermédiaires pour enregistrer un fichier (enregistrements partiels et fichiers temporaires), ce qui permet à la chronologie d’AEM Assets d’afficher les informations correctes de version et de chargement des ressources.
 * Boîte de dialogue fournie pour effectuer le suivi de l’état des tâches de chargement en arrière-plan.
 
-## Liste des modifications        {#list-of-changes}
+## Liste des modifications         {#list-of-changes}
 
 ### Point de montage sous Mac {#mount-point-on-mac}
 
@@ -405,7 +406,7 @@ Comme le dossier /Volumes ne nécessite plus de droits d’administration, cette
    * Les ressources avec des noms internationaux peuvent apparaître et disparaître toutes les quelques secondes.
 * Archivage et extraction :
    * Une ressource extraite par un utilisateur ne peut pas être ouverte pour un autre utilisateur, que ce soit par l’option Open (Ouvrir) de l’interface utilisateur tactile ou directement sur le bureau. Certaines applications peuvent la signaler comme verrouillée, mais aussi corrompue ou même bloquée lors d’une tentative d’ouverture. (CQ-4199234)
-   * La modification simultanée de fichiers par plusieurs utilisateurs peut entraîner la perte de certaines modifications. La solution consiste à utiliser la fonctionnalité              D’archivage/d’extraction pour empêcher plusieurs utilisateurs de modifier le même fichier (CQ-97035).
+   * La modification simultanée de fichiers par plusieurs utilisateurs peut entraîner la perte de certaines modifications. La solution consiste à utiliser la fonctionnalité                D’archivage/d’extraction pour empêcher plusieurs utilisateurs de modifier le même fichier (CQ-97035).
    * Certaines applications ne prennent pas en charge correctement l’indicateur de lecture seule, ce qui permet à un utilisateur d’enregistrer un fichier extrait par un autre utilisateur. Le fichier modifié n’est pas transféré tant que l’autre utilisateur n’a pas archivé le fichier. Les deux modifications sont disponibles dans AEM sous la forme de versions différentes de la ressource (CQ-89551, CQ-87572, CQ-89615).
    * Les états « extrait » et « en lecture seule » sont signalés indépendamment dans le Finder. Cela entraîne l’affichage de 2 icônes de verrouillage lorsqu’un utilisateur extrait une ressource (CQ-89507).
 * Intégration du Finder :
