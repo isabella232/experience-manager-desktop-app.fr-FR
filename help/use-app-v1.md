@@ -2,9 +2,9 @@
 title: Utilisation de l’appli de bureau AEM version 1.x.
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.x et optimiser votre utilisation des ressources du bureau.
 contentOwner: AG
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 67e117648de8298f78992afea5ae0962fd2c698b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2516'
 ht-degree: 100%
 
@@ -32,11 +32,11 @@ Pour les pratiques recommandées, voir les [Bonnes pratiques d’utilisation de 
 
 ## Points de contact de l’appli de bureau AEM dans le workflow de création {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
-L’appli de bureau AEM, avec AEM Assets, s’intègre dans votre processus de création et propose les points de contact suivants.
+L’appli de bureau AEM, avec AEM Assets, s’intègre dans votre workflow créatif et propose les points de contact suivants.
 
-![Points de contact de l’appli de bureau AEM dans le processus de création](assets/aem_desktopapp_workflow.png)
+![Points de contact de l’appli de bureau AEM dans le workflow créatif](assets/aem_desktopapp_workflow.png)
 
-Points de contact de l’appli de bureau AEM dans le processus de création
+Points de contact de l’appli de bureau AEM dans le workflow créatif
 
 ## Installation de l’appli de bureau AEM et connexion de l’application au serveur AEM {#installandconnect}
 
@@ -109,7 +109,7 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
    *Figure : Activation de la case à cocher Afficher les actions de bureau pour Assets afin d’activer les actions de bureau.*
 
-## Accès aux ressources et ouverture de ces éléments sur votre ordinateur de bureau     {#openondesktop}
+## Accès aux ressources et ouverture de ces éléments sur votre ordinateur de bureau       {#openondesktop}
 
 Lorsque vous cliquez sur **Open** (Ouvrir) pour ouvrir une ressource sur l’ordinateur local, l’application la télécharge dans son cache interne. L’application lance l’appli de bureau native associée au type de fichier de la ressource téléchargée.
 
@@ -147,7 +147,7 @@ Après avoir mappé le référentiel AEM Assets sur votre lecteur local, vous p
 
 Pour localiser la ressource sur votre système de fichiers local, cliquez sur l’action rapide **Afficher** ![icône Afficher](assets/do-not-localize/aemassets_reveal_icon.png). Vous pouvez également sélectionner **Afficher** dans le menu **Actions sur le Bureau** de la barre d’outils.
 
-## Explication des états de ressources     {#understand-the-asset-statuses}
+## Explication des états de ressources       {#understand-the-asset-statuses}
 
 | ![Icône de l’appli par défaut Windows](assets/do-not-localize/win_default.png) | L’application est connectée au serveur, et toutes les ressources sont synchronisées. |
 --- |--- |
@@ -227,7 +227,7 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 
 1. Pour archiver la ressource afin qu’elle soit disponible pour les autres utilisateurs, cliquez/appuyez sur l’icône Check-in (Archiver) dans la boîte de dialogue **Asset Info** (Informations sur les ressources).
 
-### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web      {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
+### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web        {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
 Une fois la modification des ressources effectuée, enregistrez ces dernières dans votre application de bureau. Dans le menu contextuel, sélectionnez **More Assets Info** (Autres infos sur les ressources) et cliquez ensuite sur Check-in (Archiver).
 
