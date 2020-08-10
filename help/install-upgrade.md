@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1239'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -77,9 +77,9 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute in
 
 1. Pour connecter l’application à un référentiel AEM, cliquez sur l’icône de l’application dans la barre d’état pour lancer l’application. Indiquez l’adresse de l’instance AEM. Cliquez sur **[!UICONTROL Connect]** et saisissez les informations d’identification.
 
-   ![Ecran de connexion de l’application de bureau à l’adresse du serveur d’entrée](assets/connect_da2.png)
+   ![Écran de connexion de l’appli de bureau pour saisir l’adresse du serveur](assets/connect_da2.png)
 
-   *Figure : Ecran de connexion à l’adresse du serveur d’entrée*
+   *Figure : Écran de connexion pour saisir l’adresse du serveur*
 
    >[!CAttention]
    >
@@ -87,9 +87,9 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute in
 
 1. Une fois la connexion établie, vous pouvez afficher la liste des dossiers et des ressources disponibles dans le dossier racine de la gestion des ressources numériques AEM. Vous pouvez parcourir les dossiers depuis l’application.
 
-   ![Lors de la connexion, l’application affiche le contenu de la gestion des actifs numériques.](assets/firstview_da2.png)
+   ![Lors de la connexion, l’application affiche le contenu de la gestion des actifs numériques](assets/firstview_da2.png)
 
-   *Figure : L’application affiche le contenu du DAM après la connexion.*
+   *Figure : L’application affiche le contenu de la gestion des actifs numériques après la connexion*
 
 1. (Experience Manager 6.5.1 ou version ultérieure) Si vous utilisez une application de bureau avec Experience Manager 6.5.1 ou version ultérieure, mettez à niveau le connecteur Azure ou S3 vers la version 1.10.4 ou ultérieure. Voir [Connecteur Azure](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore) ou [Connecteur S3](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore).
 
@@ -119,9 +119,9 @@ Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-
 
 Pour mettre à jour les préférences non disponibles, déconnectez-vous du serveur AEM. Après avoir mis les préférences à jour, cliquez sur ![Save preferences](assets/do-not-localize/save_preferences_da2.png) pour les enregistrer.
 
-![Préférences et paramètres de l’application de bureau](assets/preferences_da2.png)
+![Préférences et paramètres de l’appli de bureau](assets/preferences_da2.png)
 
-*Figure : Préférences de l’application de bureau*
+*Figure : Préférences de l’appli de bureau*
 
 ## Désinstallation de l’application {#uninstall-the-app}
 
@@ -144,7 +144,6 @@ Pour désinstaller l’application sous Mac, procédez comme suit :
 1. Supprimez le fichier `Adobe Experience Manager Desktop.app` du dossier `/Applications`.
 
 Vous pouvez également, pour nettoyer les caches d’application internes sous Mac et désinstaller l’application, exécuter la commande suivante dans le terminal :
-
 
 ```shell
 /Applications/Adobe Experience Manager Desktop/Contents/Resources/uninstall-osx/uninstall.sh
