@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1320'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -59,9 +59,9 @@ L’application prend en charge les ressources stockées dans Adobe Experience�
 
 Certains types de fichiers prennent en charge le placement de ressources liées dans le fichier binaire. L’application pré-télécharge les ressources liées si la ressource est présente dans le référentiel Experience Manager lorsque ces fichiers binaires sont ouverts à l’aide de l’appli de bureau. Les types de fichiers actuellement pris en charge sont les suivants :
 
-* [!DNL Adobe InDesign] fichiers (format INDD)
-* [!DNL Adobe Illustrator] fichiers (format AI)
-* [!DNL Adobe Photoshop] fichiers (format PS)
+* Fichiers [!DNL Adobe InDesign] (format INDD)
+* Fichiers [!DNL Adobe Illustrator] (format AI)
+* Fichiers [!DNL Adobe Photoshop] (format PS)
 
 Cette fonctionnalité est prise en charge avec Adobe Creative Cloud 2018 et les versions Creative Cloud 2019 de l’application ci-dessus. L’application utilise une approche heuristique et de la meilleure correspondance pour mapper les chemins d’accès de bureau locaux des ressources liées aux URL sur le serveur Experience Manager. Elle se base sur quelques hypothèses :
 
