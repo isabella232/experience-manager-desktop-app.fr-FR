@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '997'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -93,9 +93,9 @@ Vous pouvez personnaliser la boîte de dialogue Asset Info (Informations sur les
 
 * Le composant `/css/javascript` HTL, situé à l’adresse `/libs/dam/gui/components/admin/moreinfo`.
 
-La nature du composant recouvert dépend de la nature de la personnalisation. Pour modifier les composants affichés dans la boîte de dialogue Asset Info (Informations sur les ressources), recouvrez la page de l’interface utilisateur Granite. Pour modifier le contenu HTML, CSS ou JavaScript de la boîte de dialogue, superposez le composant HTML.
+La nature du composant recouvert dépend de la nature de la personnalisation. Pour modifier les composants affichés dans la boîte de dialogue Asset Info (Informations sur les ressources), recouvrez la page de l’interface utilisateur Granite. Pour modifier le contenu HTML/CSS ou JavaScript de la boîte de dialogue, recouvrez le composant HTL.
 
-## Gestion du cache       {#manage-cache}
+## Gestion du cache        {#manage-cache}
 
 Sous Windows, le cache se situe à l’emplacement `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`, où il existe une version codée de l’hôte AEM configuré dans l’appli de bureau AEM. Par exemple, `http://localhost:4502` s’affiche comme suit : `http%3A%2F%2Flocalhost%3A4502%2F`
 
@@ -109,9 +109,9 @@ Sous Mac OS X, un répertoire semblable est situé à l’emplacement suivant�
 >
 >Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur AEM sont conservées.
 
-### Modification de l’emplacement du cache sous Windows        {#change-location-of-cache-on-windows}
+### Modification de l’emplacement du cache sous Windows         {#change-location-of-cache-on-windows}
 
-L’emplacement par défaut du cache de l’application de bureau AEM est le suivant :
+L’emplacement par défaut du cache de l’appli de bureau AEM est le suivant :
 
 * Sous Windows, `%LocalAppData%\Adobe\AssetsCompanion\Cache\EncodedAEMEndpoint`.
 
@@ -131,7 +131,7 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
 
    >[!NOTE]
    >
-   >The app automatically creates an *&lt;Encoded AEM Endpoint>* subdirectory. This behavior is not configurable.
+   >L’application crée automatiquement un sous-répertoire *&lt;Point d’entrée AEM codé>* ; ce comportement n’est pas configurable.
 
 >[!MORELIKETHIS]
 * [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/fr/customer-care-office-hours/aem/desktop-app.html)
