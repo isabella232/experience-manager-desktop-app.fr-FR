@@ -8,11 +8,11 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: ht
-source-wordcount: '3857'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9de9d086be4c0eccda7a60bd3dcbe68735394fad
+workflow-type: tm+mt
+source-wordcount: '3869'
+ht-degree: 99%
 
 ---
 
@@ -35,10 +35,15 @@ Pour la version 1.x de l’appli de bureau, voici les liens de téléchargement
 
 ## Configuration requise et conditions préalables {#system-requirements-and-prerequisites}
 
-L’appli de bureau AEM est compatible avec les systèmes d’exploitation suivants :
+[!DNL Adobe Experience Manager]L’appli de bureau est compatible avec les systèmes d’exploitation suivants :
 
-* Mac OS X 10.10 ou version ultérieure, avec les correctifs de bogues les plus récents.
-* Windows 7 et Windows 10 avec les Service Packs et les correctifs de bogues les plus récents.
+* Mac OS X 10.10 ou version ultérieure, avec les derniers correctifs de bogues.
+
+* Windows 10 avec les derniers Service Packs et correctifs.
+
+>[!NOTE]
+>
+>Windows 7 n’est plus pris en charge par le fournisseur (https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 Adobe recommande vivement d’utiliser la version la plus récente de l’appli de bureau AEM pour bénéficier des dernières fonctionnalités, des correctifs de bogues les plus récents et d’un niveau de performance optimal.
 
@@ -287,7 +292,7 @@ Remarque concernant les avertissements relatifs aux liens : les applications Cr
 
 Ce comportement est identique pour les ressources du disque local et celles du répertoire monté de l’appli de bureau AEM, avec les exceptions suivantes :
 
-* Si une ressource importée est modifiée par un autre utilisateur, l’icône d’avertissement s’affiche la première fois que l’autre utilisateur ouvre un document contenant cette ressource. Cela se produira uniquement si la ressource importée a déjà été mise en cache localement.
+* Si une ressource importée est modifiée par un autre utilisateur, l’icône d’avertissement s’affiche la première fois que l’autre utilisateur ouvre un document contenant cette ressource. Cela se produira uniquement si la ressource importée a déjà été mise en cache localement..
 
 * Si un utilisateur modifie une ressource importée par l’intermédiaire du répertoire monté de l’appli de bureau AEM, puis efface le cache local, la ressource est signalée comme obsolète.
 
@@ -340,7 +345,7 @@ Ces deux cas sont attendus et sont des répercussions secondaires de l’archite
 * Amélioration de l’intégration du Finder, qui offre une amélioration de la stabilité et un accès aux fonctionnalités telles que les miniatures
 * Améliorations de la mise en cache et des performances
 * Amélioration de la prise en charge de l’enregistrement directement depuis les applications de bureau (PS, ID, AI, etc.)
-* Amélioration de l’intégration avec Mac OS (le protocole du lecteur réseau local est passé de WebDAV à SMB1, plus stable)
+* Amélioration de l’intégration avec Mac OS (le protocole du lecteur réseau local est passé de WebDAV à SMB1, plus stable).
 * L’appli de bureau se connecte au serveur AEM à l’aide du protocole HTTP RESTful natif d’AEM.
 * Les fichiers sont d’abord enregistrés localement puis transférés vers AEM en arrière-plan après une période prédéfinie (30 secondes). Cela réduit le temps d’enregistrement des fichiers.
 * Amélioration de la gestion des applications de bureau qui utilisent des opérations de fichiers intermédiaires pour enregistrer un fichier (enregistrements partiels et fichiers temporaires), ce qui permet à la chronologie d’AEM Assets d’afficher les informations correctes de version et de chargement des ressources.
