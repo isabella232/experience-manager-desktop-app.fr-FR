@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 91de08ba317de97a1d1900dc2351efcb4d6cf95f
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 | Version de l’application (révision) | 2.0 (2.0.3.2) |
 | Versions d’AEM prises en charge | AEM as a Cloud Service ; AEM 6.5 ; AEM 6.4 ; AEM 6.3 (avec package de compatibilité) |
 | Type | Version mineure |
-| Date de publication | 27 août 2020 (Mac et Win) |
+| Date de publication | 27 août 2020 (Mac et Windows) |
 | URL de téléchargement | [macOS 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.3.2.dmg) ; [Windows 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.3.2.exe) ; [Windows 32 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.3.2.exe) |
 
 ## Configuration requise et conditions préalables {#system-requirements-and-prerequisites-v2}
@@ -34,11 +34,11 @@ L’appli de bureau Adobe Experience Manager est compatible avec les systèmes
 
 * Mac OS X 10.14 ou version ultérieure, avec les correctifs de bogues les plus récents.
 
-* Windows 10 avec les derniers Service Packs et correctifs.
+* Windows 10 avec les derniers Service Packs et correctifs.
 
 >[!NOTE]
 >
->Windows 7 n’est plus pris en charge par le fournisseur (https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+>Windows 7 n’est plus pris en charge par le fournisseur (https://support.microsoft.com/fr-fr/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 L’application fonctionne avec les versions d’Experience Manager suivantes, qu’elles soient déployées en tant que Cloud Service, sur Adobe Managed Services (AMS) ou On-Premise :
 
@@ -83,15 +83,15 @@ Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#what
 
 **Mises à jour dans la version v2.0.3 de l’application**
 
-Le bogue corrigé dans la version actuelle est le suivant :
+Le bogue corrigé dans la version actuelle est le suivant :
 
-* Correction du problème de connexion des utilisateurs Windows qui tentaient d’accéder au référentiel DAM sur l’instance [!DNL Adobe Experience Manager] 6.5.5.0 à l’aide de l’application.
+* Correction du problème de connexion des utilisateurs Windows qui tentaient d’accéder au référentiel DAM sur une instance [!DNL Adobe Experience Manager] 6.5.5.0 via l’application.
 
 **Mises à jour dans la version v2.0.2 de l’application**
 
 Les correctifs de bogues et mises à jour sont les suivants :
 
-* Pour améliorer les performances de chargement, augmentez son accélération dans [!UICONTROL Preferences]. Lorsque ce paramètre est activé, l’application utilise davantage de threads CPU locaux et nécessite davantage de ressources.
+* Pour améliorer les performances de chargement, augmentez son accélération dans [!UICONTROL Preferences]. Lorsque ce paramètre est activé, l’application utilise davantage de threads CPU locaux et consomme plus de ressources.
 
 * Correction d’un problème lié au chargement de fichiers lorsque les noms de fichiers ou les chemins d’accès contenaient certains caractères GB18030. <!-- CQ-4283494 -->
 
