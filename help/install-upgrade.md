@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a6f33efdd5702cc2f411d0deed8f54e7335c09ed
-workflow-type: ht
-source-wordcount: '1238'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 29bbcc21f01dd0c1338fdbf3e979ef363a93533c
+workflow-type: tm+mt
+source-wordcount: '1241'
+ht-degree: 97%
 
 ---
 
@@ -75,7 +75,9 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute in
 
 1. Redémarrez l’ordinateur conformément aux instructions. Lancez et configurez l’application de bureau.
 
-1. Pour connecter l’application à un référentiel AEM, cliquez sur l’icône de l’application dans la barre d’état pour lancer l’application. Indiquez l’adresse de l’instance AEM. Cliquez sur **[!UICONTROL Connect]** et saisissez les informations d’identification.
+1. Pour connecter l’application à un référentiel AEM, cliquez sur l’icône de l’application dans la barre d’état et lancez l’application. Indiquez l’adresse du serveur AEM au format `https://[aem-server-url]:[port]/`.
+
+   Cliquez sur **[!UICONTROL Connect]** et saisissez les informations d’identification.
 
    ![Écran de connexion de l’appli de bureau pour saisir l’adresse du serveur](assets/connect_da2.png)
 
