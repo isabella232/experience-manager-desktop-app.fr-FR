@@ -3,14 +3,14 @@ title: Résolution des problèmes liés à l’appli de bureau AEM version 1.x
 description: Résolution des problèmes liés à l’appli de bureau AEM      version 1.x pouvant affecter, notamment, l’installation, la mise à niveau et la configuration.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+workflow-type: tm+mt
 source-wordcount: '3374'
 ht-degree: 100%
 
