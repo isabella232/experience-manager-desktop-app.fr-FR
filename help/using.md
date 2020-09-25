@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
 workflow-type: tm+mt
 source-wordcount: '3997'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Utilisez l’appli de bureau Adobe Experience Manager (AEM) pour accéder faci
 
 L’intégration permet à différents rôles de l’organisation de gérer les ressources de manière centralisée dans Experience Manager Assets et d’accéder aux ressources sur un poste de travail local dans les applications natives sous Windows ou Mac OS.
 
-When you open the application after logging out or for the first time, provide the URL of your Experience Manager server in the format `https://[aem-server-url]:[port]/`. Cliquez sur Connect (Connecter). Fournissez des informations d’identification pour connecter l’application au serveur.
+Lorsque vous ouvrez l’application après vous être déconnecté ou lorsque vous vous connectez pour la première fois, fournissez l’URL de votre serveur Experience Manager au format `https://[aem-server-url]:[port]/`. Cliquez sur Connect (Connecter). Indiquez vos informations d’identification pour connecter l’application au serveur.
 
 L’appli de bureau Experience Manager vous permet d’effectuer les tâches clés suivantes :
 
