@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute in
 
 1. Redémarrez l’ordinateur conformément aux instructions. Lancez et configurez l’application de bureau.
 
-1. Pour connecter l’application à un référentiel AEM, cliquez sur l’icône de l’application dans la barre d’état et lancez l’application. Indiquez l’adresse du serveur AEM au format `https://[aem-server-url]:[port]/`.
+1. Pour connecter l’application à un référentiel AEM, cliquez sur l’icône de l’application dans la barre d’état pour lancer l’application. Indiquez l’adresse du serveur AEM au format `https://[aem-server-url]:[port]/`.
 
    Cliquez sur **[!UICONTROL Connect]** et saisissez les informations d’identification.
 
