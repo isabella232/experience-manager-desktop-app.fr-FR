@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1364'
 ht-degree: 100%
 
