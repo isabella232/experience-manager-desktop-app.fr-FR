@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: ht
-source-wordcount: '997'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ef87dc011297fda181a9a7643a261e8a42e35a8b
+workflow-type: tm+mt
+source-wordcount: '984'
+ht-degree: 97%
 
 ---
 
@@ -117,7 +117,7 @@ L’emplacement par défaut du cache de l’appli de bureau AEM est le suivant 
 
 * Sous Mac, `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`.
 
-`EncodedAEMEndpoint` est l’URL de point de terminaison AEM configurée de l’appli de bureau AEM. La valeur est une version codée de l’URL de ciblage du serveur AEM. Par exemple, si l’application cible est `http://localhost:4502`, le nom du répertoire est `http%3A%2F%2Flocalhost%3A4502`. Le chemin d’accès Windows au répertoire du cache dans cet exemple est %LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502.
+`EncodedAEMEndpoint` est l’URL de point de terminaison AEM configurée de l’appli de bureau AEM. La valeur est une version codée de l’URL de ciblage du serveur AEM. Par exemple, si l’application cible est `http://localhost:4502`, le nom du répertoire est `http%3A%2F%2Flocalhost%3A4502`. The Windows path to the cache directory in this example is `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
 
 Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez son fichier de configuration.
 
@@ -127,7 +127,7 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
 
    Des privilèges d’administrateur sont nécessaires pour enregistrer les modifications apportées à ce fichier.
 
-1. Recherchez la chaîne « ProxyCacheRoot ». Comme vous pouvez le voir, sa valeur est définie sur l’emplacement du cache « %LocalAppData%\Adobe\AssetsCompanion\Cache ». Il vous suffit de définir cette valeur sur n’importe quel chemin d’accès valide.
+1. Recherchez la chaîne « ProxyCacheRoot ». You see that its value is set to the cache location `%LocalAppData%\Adobe\AssetsCompanion\Cache`. Il vous suffit de définir cette valeur sur n’importe quel chemin d’accès valide.
 
    >[!NOTE]
    >
