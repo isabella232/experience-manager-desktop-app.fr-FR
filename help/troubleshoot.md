@@ -8,11 +8,11 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: ht
-source-wordcount: '1242'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 381e586077c7db63dd57a468b1c6abc60c63e34e
+workflow-type: tm+mt
+source-wordcount: '1537'
+ht-degree: 70%
 
 ---
 
@@ -51,37 +51,41 @@ Pour résoudre les problèmes liés à l’appli de bureau, tenez compte des inf
 
 ### Activation du mode de débogage {#enable-debug-mode}
 
-Pour résoudre les problèmes, vous pouvez activer le mode de débogage et obtenir plus d’informations dans les journaux. Pour exécuter l’application en mode de débogage sous Mac, utilisez les options de ligne de commande suivantes dans un terminal ou à l’invite de commandes : `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
-
-Pour activer le mode de débogage sous Windows, procédez comme suit :
-
-1. Recherchez le fichier `Adobe Experience Manager Desktop.exe.config` dans le dossier d’installation de votre application de bureau. Par défaut, ce dossier est `C:\Program Files\Adobe\Adobe Experience Manager Desktop`.
-
-1. Recherchez l’entrée `<level value="INFO"/>` qui se situe vers la fin du fichier. Remplacez la valeur `INFO` par `DEBUG`, qui est `<level value="DEBUG"/>`. Enregistrez et fermez le fichier 
-
-1. Recherchez le fichier `logging.json` dans le dossier d’installation de votre application de bureau. Par défaut, ce dossier est `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
-
-1. Dans le fichier `logging.json`, recherchez toutes les instances de `"level": "info"`. Remplacez les valeurs `info` par `debug`, de la façon suivante : `"level": "debug"`. Enregistrez et fermez le fichier 
-
-1. Effacez les répertoires mis en cache qui se trouvent à l’emplacement défini dans les [Préférences](/help/install-upgrade.md#set-preferences) de l’application.
-
-1. Redémarrez l’application de bureau.
-
-<!-- The Windows command doesn't work for now.
-* On Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
--->
-
-### Emplacement des fichiers journaux {#check-log-files-v2}
-
-Vous trouverez les fichiers journaux de l’appli de bureau AEM aux emplacements ci-dessous. Lorsque de nombreuses ressources sont chargées, si le chargement de certains fichiers échoue, reportez-vous au fichier `backend.log` pour identifier les chargements ayant échoué.
-
-* Chemin sous Windows : `%LocalAppData%\Adobe\AssetsCompanion\Logs`
-
-* Chemin sous Mac : `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+Pour résoudre les problèmes, vous pouvez activer le mode de débogage et obtenir plus d’informations dans les journaux.
 
 >[!NOTE]
 >
->Lorsque vous travaillez avec l’Assistance clientèle d’Adobe sur une demande/un ticket d’assistance, vous serez peut-être invité à fournir les fichiers journaux pour l’aider à comprendre le problème. Archivez le dossier `Logs` entier et fournissez-le au représentant de l’Assistance clientèle.
+>Les niveaux de journal valides sont DEBUG, INFO, WARN ou ERROR. La véracité des journaux est la plus élevée dans DEBUG et la plus basse dans ERROR.
+
+Pour utiliser l’application en mode de débogage sous Mac :
+
+1. Ouvrez une fenêtre de terminal ou une invite de commande.
+
+1. Lancez l’application [!DNL Experience Manager] de bureau en exécutant la commande suivante :
+
+   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
+
+Pour activer le mode de débogage sous Windows :
+
+1. Ouvrez une fenêtre de commande.
+
+1. Lancez [!DNL Experience Manager] une application de bureau en exécutant la commande suivante :
+
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
+
+### Emplacement des fichiers journaux {#check-log-files-v2}
+
+[!DNL Experience Manager] l’application de bureau stocke ses fichiers journaux aux emplacements suivants en fonction du système d’exploitation :
+
+Sous Windows :`%LocalAppData%\Adobe\AssetsCompanion\Logs`
+
+Sous Mac : `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+
+Lorsque de nombreuses ressources sont chargées, si le chargement de certains fichiers échoue, reportez-vous au fichier `backend.log` pour identifier les chargements ayant échoué.
+
+>[!NOTE]
+>
+>Lorsque vous travaillez avec le service à la clientèle d’Adobe sur une demande d’assistance ou un ticket, vous pouvez être invité à partager les fichiers journaux pour aider l’équipe d’assistance clientèle à comprendre le problème. Archivez le dossier `Logs` entier et fournissez-le au représentant de l’Assistance clientèle.
 
 ### Effacer le cache {#clear-cache-v2}
 
@@ -129,7 +133,60 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 Si vous utilisez une appli de bureau avec AEM 6.5.1 ou version ultérieure, mettez à niveau S3 ou le connecteur Azure vers la version 1.10.4 ou ultérieure. Cela aura pour effet de résoudre le problème d’échec de chargement de fichier lié à [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). Voir [Instructions d’installation](install-upgrade.md#install-v2).
 
-## Problème de configuration SSL {#ssl-config-v2}
+## [!DNL Experience Manager] problèmes de connexion à l’application de bureau {#connection-issues}
+
+### L&#39;authentification de connexion SAML ne fonctionne pas {#da-connection-issue-with-saml-aem}
+
+Si [!DNL Experience Manager] l’application de bureau ne se connecte pas à votre [!DNL Adobe Experience Manager] instance SAML (SSO-enabled), lisez cette section pour résoudre les problèmes. Les processus d’authentification unique sont variés, parfois complexes, et la conception de l’application fait de son mieux pour s’adapter à ces types de connexions. Toutefois, certaines configurations nécessitent un dépannage supplémentaire.
+
+Il arrive que le processus SAML ne redirige pas vers le chemin d’accès initialement demandé ou que la redirection finale soit effectuée vers un hôte différent de celui configuré dans l’application [!DNL Adobe Experience Manager] de bureau. Pour vérifier que ce n&#39;est pas le cas :
+
+1. Ouvrez un navigateur web.
+
+1. Entrez l’URL `<AEM host>/content/dam.json` dans la barre d’adresse.
+
+   Remplacez `<AEM host>` par l’ [!DNL Adobe Experience Manager] instance de cible, par exemple `http://localhost:4502/content/dam.json`.
+
+1. Log in to the [!DNL Adobe Experience Manager] instance.
+
+1. Une fois la connexion terminée, examinez l’adresse actuelle du navigateur dans la barre d’adresse. Il doit correspondre exactement à l’URL qui a été initialement saisie.
+
+1. Vérifiez également que tout ce qui précède `/content/dam.json` correspond à la [!DNL Adobe Experience Manager] valeur de cible configurée dans les paramètres de l’application [!DNL Adobe Experience Manager] de bureau.
+
+**Le processus SAML de connexion fonctionne correctement selon les étapes ci-dessus, mais les utilisateurs ne peuvent toujours pas se connecter.**
+
+La fenêtre de l’application [!DNL Adobe Experience Manager] de bureau qui affiche le processus de connexion est simplement un navigateur Web qui affiche l’interface utilisateur Web de l’instance de cible [!DNL Adobe Experience Manager] :
+
+* La version Mac utilise un [WebView](https://developer.apple.com/documentation/webkit/webview).
+
+* La version Windows utilise [CefSharp](https://cefsharp.github.io/)basé sur le chrome.
+
+Assurez-vous que le processus SAML prend en charge ces navigateurs.
+
+Pour résoudre d’autres problèmes, il est possible de vue les URL exactes que le navigateur tente de charger. Pour afficher ces informations :
+
+1. Suivez les instructions pour lancer l’application en mode [](#enable-debug-mode)débogage.
+
+1. Reproduisez la tentative de connexion.
+
+1. Accédez au répertoire [de](#check-log-files-v2) journaux de l’application.
+
+1. Pour Windows :
+
+   1. Ouvrez &quot;aemcompanionlog.txt&quot;.
+
+   1. Recherchez les messages commençant par &quot;L’adresse du navigateur de connexion a été remplacée par&quot;. Ces entrées contiennent également l’URL chargée par l’application.
+
+   Pour Mac :
+
+   1. `com.adobe.aem.desktop-nnnnnnnn-nnnnnn.log`, où la valeur **n** est remplacée par la valeur du nom de fichier le plus récent.
+
+   1. Recherchez les messages commençant par &quot;cadre chargé&quot;. Ces entrées contiennent également l’URL chargée par l’application.
+
+
+L’examen de la séquence d’URL en cours de chargement peut aider à résoudre les problèmes au niveau du SAML afin de déterminer ce qui ne va pas.
+
+### Problème de configuration SSL {#ssl-config-v2}
 
 Les bibliothèques utilisées par l’appli de bureau AEM pour les communications HTTP appliquent le protocole SSL de manière stricte. Parfois, une connexion peut réussir en utilisant un navigateur, mais échouer avec l’appli de bureau AEM. Pour configurer SSL convenablement, installez le certificat intermédiaire manquant dans Apache. Voir [Comment installer un certificat d’autorité de certification intermédiaire dans Apache](https://access.redhat.com/solutions/43575).
 
