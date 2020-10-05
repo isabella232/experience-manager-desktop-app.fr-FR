@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 381e586077c7db63dd57a468b1c6abc60c63e34e
+source-git-commit: b4add64df21991495d5cc01e6250bbc9fc444ff0
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -105,7 +105,7 @@ Toutefois, l’emplacement peut varier en fonction du point de terminaison AEM c
 
 Cliquez sur ![App menu](assets/do-not-localize/more_options_da2.png) pour ouvrir le menu de l’application et cliquez sur **[!UICONTROL Help]** > **[!UICONTROL About]**.
 
-## Impossible de voir les ressources importées {#placed-assets-missing}
+### Impossible de voir les ressources importées {#placed-assets-missing}
 
 Si vous ne pouvez pas voir les ressources que vous ou d’autres professionnels de la création avez placées dans les fichiers de support (fichiers INDD, par exemple), vérifiez les éléments suivants :
 
@@ -114,7 +114,7 @@ Si vous ne pouvez pas voir les ressources que vous ou d’autres professionnels 
 * Cohérence des lettres de lecteur. Si vous ou un autre collaborateur avez placé les ressources tout en mappant le DAM AEM sur une autre lettre de lecteur, les ressources placées ne s’affichent pas.
 * Permissions. Pour vérifier que vous êtes autorisé à récupérer les ressources placées, contactez votre administrateur AEM.
 
-## Problèmes lors de la mise à niveau sous MacOS {#issues-when-upgrading-on-macos}
+### Problèmes lors de la mise à niveau sous MacOS {#issues-when-upgrading-on-macos}
 
 Des problèmes peuvent parfois survenir lors de la mise à niveau de l’appli de bureau AEM sous macOS. Cela est dû au dossier système hérité de l’appli de bureau AEM, qui empêche le chargement correct des nouvelles versions de l’application. Pour y remédier, les dossiers et fichiers suivants peuvent être supprimés manuellement.
 
@@ -129,13 +129,28 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-## Chargement des fichiers impossible {#upload-fails}
+### Chargement des fichiers impossible {#upload-fails}
 
 Si vous utilisez une appli de bureau avec AEM 6.5.1 ou version ultérieure, mettez à niveau S3 ou le connecteur Azure vers la version 1.10.4 ou ultérieure. Cela aura pour effet de résoudre le problème d’échec de chargement de fichier lié à [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). Voir [Instructions d’installation](install-upgrade.md#install-v2).
 
-## [!DNL Experience Manager] problèmes de connexion à l’application de bureau {#connection-issues}
+### [!DNL Experience Manager] problèmes de connexion à l’application de bureau {#connection-issues}
 
-### L&#39;authentification de connexion SAML ne fonctionne pas {#da-connection-issue-with-saml-aem}
+Si vous rencontrez des problèmes généraux de connectivité, voici quelques manières d’obtenir plus d’informations sur ce que [!DNL Experience Manager] fait l’application de bureau.
+
+**Vérification du journal des requêtes**
+
+[!DNL Experience Manager] l’application de bureau consigne toutes les requêtes qu’elle envoie, ainsi que le code de réponse de chaque requête, dans un fichier journal dédié.
+
+1. Ouvrez `request.log` le répertoire des journaux de l’application pour afficher ces requêtes.
+
+1. Chaque ligne du journal représente une requête ou une réponse. Les requêtes auront un `>` caractère suivi de l’URL demandée. Les réponses auront un `<` caractère suivi du code de réponse et de l’URL qui ont été demandées. Les demandes et les réponses peuvent faire l’objet d’une correspondance à l’aide du GUID de chaque ligne.
+
+**Vérifier les requêtes chargées par le navigateur intégré de l’application**
+
+La majorité des requêtes de l’application se trouve dans le journal des requêtes. Toutefois, s’il n’y a aucune information utile à ce sujet, il peut s’avérer utile de consulter les requêtes envoyées par le navigateur intégré de l’application.
+Consultez la section [](#da-connection-issue-with-saml-aem) SAML pour savoir comment vue ces requêtes.
+
+#### L&#39;authentification de connexion SAML ne fonctionne pas {#da-connection-issue-with-saml-aem}
 
 Si [!DNL Experience Manager] l’application de bureau ne se connecte pas à votre [!DNL Adobe Experience Manager] instance SAML (SSO-enabled), lisez cette section pour résoudre les problèmes. Les processus d’authentification unique sont variés, parfois complexes, et la conception de l’application fait de son mieux pour s’adapter à ces types de connexions. Toutefois, certaines configurations nécessitent un dépannage supplémentaire.
 
@@ -186,11 +201,45 @@ Pour résoudre d’autres problèmes, il est possible de vue les URL exactes que
 
 L’examen de la séquence d’URL en cours de chargement peut aider à résoudre les problèmes au niveau du SAML afin de déterminer ce qui ne va pas.
 
-### Problème de configuration SSL {#ssl-config-v2}
+#### Problème de configuration SSL {#ssl-config-v2}
 
 Les bibliothèques utilisées par l’appli de bureau AEM pour les communications HTTP appliquent le protocole SSL de manière stricte. Parfois, une connexion peut réussir en utilisant un navigateur, mais échouer avec l’appli de bureau AEM. Pour configurer SSL convenablement, installez le certificat intermédiaire manquant dans Apache. Voir [Comment installer un certificat d’autorité de certification intermédiaire dans Apache](https://access.redhat.com/solutions/43575).
 
-## L’application ne répond pas {#unresponsive}
+
+Les bibliothèques utilisées par AEM Bureau pour la communication HTTP utilisent une stricte application SSL. Il peut donc y avoir des cas où les connexions SSL réussies par le biais d’un navigateur échouent avec une application [!DNL Adobe Experience Manager] de bureau. Cela est bénéfique car cela encourage la configuration correcte de SSL et augmente la sécurité, mais peut être frustrant lorsque l&#39;application ne parvient pas à se connecter.
+
+Dans ce cas, l’approche recommandée consiste à utiliser un outil pour analyser le certificat SSL d’un serveur et identifier les problèmes afin de les corriger. Certains sites Web inspectent le certificat d’un serveur pour fournir son URL.
+
+A titre de mesure temporaire, il est possible de désactiver l’application SSL stricte dans [!DNL Adobe Experience Manager] les applications de bureau. Il ne s’agit pas d’une solution à long terme recommandée, car elle réduit la sécurité en masquant la cause première d’un protocole SSL mal configuré. Pour désactiver l&#39;application stricte :
+
+1. Utilisez l’éditeur de votre choix pour modifier le fichier de configuration JavaScript de l’application, qui se trouve (par défaut) aux emplacements suivants (selon le système d’exploitation) :
+
+   Sous Mac : `/Applications/Adobe Experience Manager Desktop.app/Contents/Resources/javascript/lib-smb/config.json`
+
+   Sous Windows :`C:\Program Files (x86)\Adobe\Adobe Experience Manager Desktop\javascript\config.json`
+
+1. Recherchez la section suivante dans le fichier :
+
+   ```shell
+   ...
+   "assetRepository": {
+       "options": {
+   ...
+   ```
+
+1. Modifiez la section en ajoutant `"strictSSL": false` ce qui suit :
+
+   ```shell
+   ...
+   "assetRepository": {
+       "options": {
+           "strictSSL": false,
+   ...
+   ```
+
+1. Enregistrez le fichier et redémarrez [!DNL Adobe Experience Manager] l’application de bureau.
+
+### L’application ne répond pas {#unresponsive}
 
 L’application risque rarement de ne plus répondre, d’afficher uniquement un écran blanc ou d’afficher une erreur au bas de l’interface sans aucune option. Procédez comme suit dans l’ordre :
 
