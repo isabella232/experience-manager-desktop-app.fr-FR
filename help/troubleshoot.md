@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7a334df5eaa2b8a8d0412bff1ed2a47d39ca1a2
+source-git-commit: 540821ad10f14ad855c66a2b93d356ba118515c7
 workflow-type: tm+mt
 source-wordcount: '2230'
 ht-degree: 44%
@@ -143,7 +143,7 @@ Le cache est effacé en supprimant le répertoire du cache de l&#39;application,
 
 To clear the cache, delete the desired Encoded [!DNL Adobe Experience Manager] Endpoint directory. Sinon, la suppression de l’intégralité du répertoire spécifié dans les préférences effacera le cache de toutes les instances utilisées par l’application.
 
-Clearing [!DNL Adobe Experience Manager]] desktop app&#39;s cache is a preliminary troubleshooting task that can resolve several issues. Effacez le cache des préférences de l’application. Voir [Définition des préférences](install-upgrade.md#set-preferences). L’emplacement par défaut du dossier de cache est :
+Clearing [!DNL Adobe Experience Manager] desktop app&#39;s cache is a preliminary troubleshooting task that can resolve several issues. Effacez le cache des préférences de l’application. Voir [Définition des préférences](install-upgrade.md#set-preferences). L’emplacement par défaut du dossier de cache est :
 
 ### Know the [!DNL Adobe Experience Manager] desktop app version {#know-app-version-v2}
 
