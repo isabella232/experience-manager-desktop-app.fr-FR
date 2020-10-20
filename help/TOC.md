@@ -13,8 +13,8 @@ tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-tutorials
 translation-type: tm+mt
 source-git-commit: 7b2f16b35b89707e94c24f9d420080c9f13ea945
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
