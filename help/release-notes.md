@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: ht
-source-wordcount: '1364'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 828de6db376d90f6de8f9682183b4c13ffe08d94
+workflow-type: tm+mt
+source-wordcount: '1415'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 | Versions d’AEM prises en charge | AEM as a Cloud Service ; AEM 6.5 ; AEM 6.4 ; AEM 6.3 (avec package de compatibilité) |
 | Type | Version mineure |
 | Date de publication | 27 août 2020 (Mac et Windows) |
-| URL de téléchargement | [macOS 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.3.2.dmg) ; [Windows 64 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.3.2.exe) ; [Windows 32 bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.3.2.exe) |
+| URL de téléchargement | [macOS 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.0.3.2.dmg) ; [Windows 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.0.3.2.exe) ; [Windows 32 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.0.3.2.exe) |
 
 ## Configuration requise et conditions préalables {#system-requirements-and-prerequisites-v2}
 
