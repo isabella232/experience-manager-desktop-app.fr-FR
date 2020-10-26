@@ -1,18 +1,18 @@
 ---
 source-git-commit: 241320245b7520016bde22829da9e2ad23bfc79e
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '157'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
-# Documentation de l’application de bureau Adobe Experience Manager
+# Documentation de l’appli de bureau Adobe Experience Manager
 
 | EXL-PR | EXL | Aperçu | Activer | Publié | Aide |
 |--- |--- |--- |--- |--- |--- |
-| [![État de la création](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-desktop-app.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-desktop-app.en_pr-exl/lastBuild/) | [![État de la création](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-desktop-app.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-desktop-app.en_exl/lastBuild/lastBuild) | [URL de la prévisualisation](https://experienceleague.corp.adobe.com/docs/experience-manager-desktop-app/using/introduction.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [URL en direct](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html?lang=en) | [Guide de création](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
+| [![État du build](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-desktop-app.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-desktop-app.en_pr-exl/lastBuild/) | [![État du build](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-desktop-app.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-desktop-app.en_exl/lastBuild/lastBuild) | [URL d’aperçu](https://experienceleague.corp.adobe.com/docs/experience-manager-desktop-app/using/introduction.html?lang=fr) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [URL active](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html?lang=fr) | [Guide de création](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=fr) |
 
-Il s’agit du référentiel pour la documentation de l’application de bureau Adobe Experience Manager.
+Il s’agit du référentiel pour la documentation de l’appli de bureau Adobe Experience Manager.
 
 Vos contributions à la documentation sont les bienvenues. Veuillez consulter les ressources suivantes :
 
