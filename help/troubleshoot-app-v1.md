@@ -8,9 +8,9 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
+workflow-type: tm+mt
 source-wordcount: '3374'
 ht-degree: 100%
 
@@ -144,7 +144,7 @@ Vous pouvez améliorer les performances du côté AEM en activant les workflows 
 
 Pour améliorer les performances d’AEM, une autre méthode consiste à configurer le nombre maximum de tâches en parallèle pour la file d’attente des workflows transitoires Granite. La valeur recommandée équivaut approximativement à la moitié du nombre de processeurs disponibles avec le serveur. Pour régler la valeur, procédez comme suit :
 
-1. Accédez à */system/console/configMgr* dans l’instance AEM à configurer (par exemple, <http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr>).
+1. Accédez à */system/console/configMgr* dans l’instance AEM à configurer (par exemple, `http://[aem_server]:[port]/system/console/configMgr`).
 1. Recherchez **QueueConfiguration**, puis cliquez pour ouvrir chaque tâche jusqu’à ce que vous ayez trouvé la tâche **Granite Transient Workflow Queue** (File d’attente des workflows transitoires Granite). Cliquez sur Modifier en regard de cette tâche.
 1. Modifiez la valeur **Maximum Parallel Jobs** (Nombre maximum de tâches en parallèle), puis cliquez sur **Enregistrer**.
 
