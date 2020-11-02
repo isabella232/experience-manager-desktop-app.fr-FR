@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ef87dc011297fda181a9a7643a261e8a42e35a8b
-workflow-type: ht
-source-wordcount: '984'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
+workflow-type: tm+mt
+source-wordcount: '957'
+ht-degree: 99%
 
 ---
 
@@ -134,9 +134,7 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
    >L’application crée automatiquement un sous-répertoire *&lt;Point d’entrée AEM codé>* ; ce comportement n’est pas configurable.
 
 >[!MORELIKETHIS]
-* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/fr/customer-care-office-hours/aem/desktop-app.html)
-* [Utilisation de l’appli de bureau AEM](use-app-v1.md)
-* [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
-* [Utilisation de l’appli de bureau avec AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
-* [Résolution des problèmes liés à l’appli de bureau AEM](troubleshoot-app-v1.md)
+* [Présentation de l’appli de bureau AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
+* [Utilisation de l’appli de bureau AEM](use-app-v1.md).
+* [Résolution des problèmes liés à l’appli de bureau AEM](troubleshoot-app-v1.md).
 
