@@ -7,12 +7,12 @@ breadcrumb-title: Guide de l’application de bureau
 user-guide-description: Découvrez comment utiliser l’application de bureau AEM pour connecter des référentiels et des applications de bureau afin d’accéder plus rapidement aux ressources et aux workflows simplifiés.
 solution-title: AEM Assets
 solution-hub-url: https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/home.html
-getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html
+getting-started-url: https://docs.adobe.com/content/help/fr-FR/experience-manager-desktop-app/using/introduction.html
 tutorials-title: Tutoriels AEM
-tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-tutorials.html
-translation-type: tm+mt
+tutorials-url: https://helpx.adobe.com/fr/experience-manager/kt/index/aem-tutorials.html
+translation-type: ht
 source-git-commit: 93ff31a427ec2a19b56e029f7690383fe8ac5eab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '87'
 ht-degree: 100%
 
