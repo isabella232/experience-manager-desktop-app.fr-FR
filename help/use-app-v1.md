@@ -3,9 +3,9 @@ title: Utilisation de l’appli de bureau AEM version 1.x.
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.x et optimiser votre utilisation des ressources du bureau.
 contentOwner: AG
 translation-type: tm+mt
-source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2474'
 ht-degree: 97%
 
 ---
@@ -253,7 +253,5 @@ Vous pouvez également sélectionner les fichiers/dossiers à charger vers AEM d
 
 >[!MORELIKETHIS]
 >
->* [Présentation de l’appli de bureau AEM](https://helpx.adobe.com/fr/customer-care-office-hours/aem/desktop-app.html)
->* [Présentation de l’archivage/l’extraction avec l’appli de bureau AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 >* [Résolution des problèmes liés à l’appli de bureau AEM](troubleshoot-app-v1.md)
 
