@@ -8,9 +8,9 @@ discoiquuid: 57d5cd78-abce-4ede-a50e-7c161ddb43ae
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ L’appli de bureau monte le référentiel d’AEM Assets sous la forme d’un p
 
 L’appli de bureau AEM utilise des partages réseau WebDAV (Windows) ou SMB (Mac) pour monter des partages réseau. Le partage réseau monté est uniquement local. L’appli de bureau AEM intercepte les appels (ouverture, lecture, écriture) et fournit une mise en cache locale supplémentaire. Elle convertit les appels distants au serveur AEM Assets en requêtes HTTP AEM optimisées. Le diagramme suivant illustre l’architecture de l’appli de bureau AEM.
 
-![Architecture de l’appli de bureau AEM](assets/chlimage_1.png)
+![Architecture de l’appli de bureau AEM](assets/arch_v1.png)
 
 *Figure : Architecture de l’appli de bureau AEM*
 
