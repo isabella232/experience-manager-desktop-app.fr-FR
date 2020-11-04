@@ -2,11 +2,11 @@
 title: Utilisation de l’appli de bureau AEM version 1.x.
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.x et optimiser votre utilisation des ressources du bureau.
 contentOwner: AG
-translation-type: ht
-source-git-commit: 67e117648de8298f78992afea5ae0962fd2c698b
-workflow-type: ht
-source-wordcount: '2516'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+workflow-type: tm+mt
+source-wordcount: '2500'
+ht-degree: 97%
 
 ---
 
@@ -92,7 +92,7 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
 1. Dans l’écran de connexion, indiquez le nom d’utilisateur et le mot de passe de votre instance. Pour spécifier une autre instance AEM, sélectionnez l’option **[!UICONTROL Alternate Login URL]**.
 
-   ![Saisie des informations d’identification du serveur AEM dans l’écran de connexion de l’appli de bureau AEM](assets/chlimage_1-2.png)
+   ![Fournissez AEM informations d’identification du serveur sur l’écran de connexion de l’application AEM de bureau](assets/login_screen_v1.png)
 
 ### Activation des actions de bureau dans l’interface web d’AEM {#desktopactions}
 
@@ -105,7 +105,7 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
 1. Dans la boîte de dialogue Préférences utilisateur, sélectionnez **[!UICONTROL Show Desktop Actions For Assets]**. Cliquez sur **[!UICONTROL Accept]**.
 
-   ![Activation de la case à cocher Afficher les actions de bureau pour Assets afin d’activer les actions de bureau](assets/chlimage_1-3.png)
+   ![Cocher la case [!UICONTROL Show Desktop Actions For Assets] pour activer les actions de bureau](assets/enable_desktop_actions.png)
 
    *Figure : Activation de la case à cocher Afficher les actions de bureau pour Assets afin d’activer les actions de bureau.*
 
@@ -135,13 +135,13 @@ Après avoir mappé le référentiel AEM Assets sur votre lecteur local, vous p
 
 1. Ouvrez l’interface d’AEM Assets et placez le pointeur sur un dossier ou une ressource afin d’afficher les actions de bureau sous la forme d’actions rapides dans le mode Carte.
 
-   ![Dans l’interface utilisateur Assets, ouvrez le menu des actions rapides pour afficher les actions de bureau](assets/chlimage_1-4.png)
+   ![Dans l’interface utilisateur Assets, ouvrez le menu des actions rapides pour afficher les actions de bureau](assets/desktop_actions_in_card_view.png)
 
    *Figure : Dans l’interface utilisateur Assets, ouvrez le menu des actions rapides pour afficher les actions de bureau.*
 
-   Ces actions de bureau sont également disponibles lorsque vous cliquez/appuyez sur l’icône **Actions sur le Bureau** dans la barre d’outils après la sélection de la ressource ou dans la barre d’outils de la page de la ressource.
+   These desktop actions are also available when you click the **Desktop Actions** option in the toolbar after selecting the asset or from the toolbar in the asset page.
 
-1. Pour ouvrir la ressource dans l’application de bureau associée à l’extension de fichier spécifique, cliquez/appuyez sur l’action rapide **Open on desktop** (Ouvrir sur le bureau) ![Icône Open on Desktop](assets/do-not-localize/aemassets_icon_openondesktop.png).
+1. To open the asset in the desktop application that is associated with the specific file extension, click the **Open on desktop** quick action ![Open on Desktop icon](assets/do-not-localize/aemassets_icon_openondesktop.png).
 
    Vous pouvez également sélectionner **Open** (Ouvrir) dans le menu **Desktop Actions** (Actions sur le Bureau) de la barre d’outils.
 
@@ -165,7 +165,7 @@ Pour extraire des ressources à partir de l’interface web AEM, deux méthodes 
 
 1. Ouvrez l’interface d’AEM Assets et placez le pointeur sur un dossier ou une ressource afin d’afficher les actions de bureau sous la forme d’actions rapides dans le mode Carte.
 
-   ![Option des propriétés dans le mode Carte](assets/chlimage_1-4.png)
+   ![Option des propriétés dans le mode Carte](assets/desktop_actions_in_card_view.png)
 
    Ces actions de bureau sont également disponibles lorsque vous cliquez/appuyez sur l’icône Desktop Actions (Actions sur le Bureau) dans la barre d’outils après la sélection de la ressource ou dans la barre d’outils de la page de la ressource.
 
@@ -195,13 +195,10 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
    Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau AEM
 
 1. Accédez à la ressource à extraire.
-
-   ![Ouverture dans le menu contextuel d’AEM Assets sous Mac](assets/chlimage_1-5.png)
-
 1. Cliquez avec le bouton droit sur la ressource, puis choisissez More Assets Info (Plus d’infos sur la ressource) dans le menu contextuel.
 1. Dans la boîte de dialogue Asset Info (Informations sur les ressources), cliquez/appuyez sur l’icône Checkout (Extraire) pour extraire la ressource. L’icône Checkout (Extraire) se change en icône Check-in (Archiver) une fois que vous cliquez/appuyez dessus.
 
-   ![Accès à la ressource pour l’extraire](assets/chlimage_1-6.png)
+   ![Accès à la ressource pour l’extraire](assets/browse_assets_to_checkout.png)
 
 1. Pour archiver la ressource afin qu’elle soit disponible pour les autres utilisateurs, cliquez/appuyez sur l’icône Check-in (Archiver) dans la boîte de dialogue Asset Info (Informations sur les ressources).
 
@@ -211,13 +208,10 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 
 1. Dans le menu contextuel, sélectionnez Explorer les ressources pour ouvrir l’Explorateur.
 1. Dans l’Explorateur, accédez à l’emplacement de la ressource à extraire.
-
-   ![Changement de l’icône Checkout (Extraire)](assets/chlimage_1-7.png)
-
 1. Cliquez avec le bouton droit sur la ressource, puis choisissez Ouvrir sur le web dans le menu contextuel.
 1. Dans la boîte de dialogue Asset Info (Informations sur les ressources), cliquez/appuyez sur l’icône Extraire. L’icône Checkout (Extraire) se change en icône Check-in (Archiver).
 
-   ![Changement de l’icône Checkout (Extraire)](assets/chlimage_1-8.png)
+   ![Changement de l’icône Checkout (Extraire)](assets/checkout_icon_toggles.png)
 
 1. Consultez la ressource dans l’Explorateur. L’icône de verrouillage sur la ressource ![Icône Asset lock](assets/do-not-localize/aemassets_icon_lockcheckout.png) indique que vous avez extrait cette dernière.
 
