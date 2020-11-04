@@ -6,9 +6,9 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: f5f65fa8ddceae62f2e046f2d20e853aef572f2c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+workflow-type: tm+mt
 source-wordcount: '3999'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Avant de commencer à utiliser l’application, vous devez comprendre le [Foncti
 1. Cliquez/appuyez sur **[!UICONTROL My Preferences]** pour afficher la boîte de dialogue **[!UICONTROL Preferences]**.
 1. Dans la boîte de dialogue Préférences utilisateur, sélectionnez **[!UICONTROL Show Desktop Actions For Assets]**. Cliquez/appuyez sur **[!UICONTROL Accept]**.
 
-   ![Activation de la case à cocher Afficher les actions de bureau pour Assets afin d’activer les actions de bureau](assets/chlimage_1-3.png)
+   ![Activation de la case à cocher Afficher les actions de bureau pour Assets afin d’activer les actions de bureau](assets/enable_desktop_actions.png)
 
    Cocher la case [!UICONTROL Show Desktop Actions For Assets] pour activer les actions de bureau
 
