@@ -3,9 +3,9 @@ title: Utilisation de l’appli de bureau AEM version 1.x.
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.x et optimiser votre utilisation des ressources du bureau.
 contentOwner: AG
 translation-type: tm+mt
-source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '2474'
+source-wordcount: '2472'
 ht-degree: 97%
 
 ---
@@ -161,7 +161,7 @@ Pour localiser la ressource sur votre système de fichiers local, cliquez sur l�
 
 AEM Assets permet d’extraire des ressources pour les modifier et de les ré-archiver après y avoir apporté les modifications. Après avoir extrait une ressource, vous seul pouvez la modifier, l’annoter, la publier, la déplacer ou la supprimer. Le fait d’extraire une ressource entraîne son verrouillage et empêche les autres utilisateurs d’effectuer l’une de ces opérations. Vous avez besoin d’un accès en écriture à ces ressources pour être en mesure de les extraire ou de les archiver.
 
-Pour extraire des ressources à partir de l’interface web AEM, deux méthodes sont possibles. Pour obtenir des informations détaillées sur la première méthode, voir [Archivage et extraction de fichiers à partir de l’interface utilisateur Assets](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/managing/check-out-and-submit-assets.html). Pour la deuxième méthode, suivez la procédure ci-dessous pour extraire et ouvrir la ressource quand l’appli de bureau AEM est installée.
+Pour extraire des ressources à partir de l’interface web AEM, deux méthodes sont possibles. Pour obtenir des informations détaillées sur la première méthode, voir [Archivage et extraction de fichiers à partir de l’interface utilisateur Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/check-out-and-submit-assets.html). Pour la deuxième méthode, suivez la procédure ci-dessous pour extraire et ouvrir la ressource quand l’appli de bureau AEM est installée.
 
 1. Ouvrez l’interface d’AEM Assets et placez le pointeur sur un dossier ou une ressource afin d’afficher les actions de bureau sous la forme d’actions rapides dans le mode Carte.
 
