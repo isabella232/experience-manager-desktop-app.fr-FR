@@ -1,6 +1,9 @@
 ---
-source-git-commit: 26373450fd36a4d726190c0252f60c4d77bf8b7f
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '534'
+ht-degree: 98%
 
 ---
 # Contribution à la documentation de l’application de bureau Adobe Experience Manager
@@ -23,7 +26,7 @@ Bien que toute contribution visant à améliorer la documentation d’AEM soit l
 Nous souhaitons faciliter au maximum la soumission de vos contributions. Vous pouvez contribuer de deux manières :
 
 * [Créer un problème](#create-an-issue)
-* [Créer une requête d’extraction](#create-a-pull-request)
+* [Créer une demande d’extraction](#create-a-pull-request)
 
 La méthode choisie dépend de votre aisance pour modifier vous-même la documentation dans GitHub.
 
@@ -33,19 +36,19 @@ La méthode choisie dépend de votre aisance pour modifier vous-même la documen
 
 ### Création d’un problème {#create-an-issue}
 
-Vous avez une suggestion, une observation à propos des documents actuels ou une question sur la manière dont un élément est décrit ? Vous pouvez créer un problème. Les propositions relatives aux problèmes sont également excellentes si vous souhaitez apporter votre contribution, mais que vous n’êtes pas habitué à modifier les documents ou à générer vous-même une requête d’extraction.
+Vous avez une suggestion, une observation à propos des documents actuels ou une question sur la manière dont un élément est décrit ? Vous pouvez créer un problème. Les propositions relatives aux problèmes sont également excellentes si vous souhaitez apporter votre contribution, mais que vous n’êtes pas habitué à modifier les documents ou à générer vous-même une demande d’extraction.
 
 Les propositions relatives aux problèmes vous permettent de décrire facilement vos idées d’amélioration de documents, avant examen par un membre de l’équipe AEM Docs. Pour créer un problème, il suffit de cliquer sur le lien **Log an issue** (Soumettre un problème) en haut du panneau de navigation de droite d’une page.
 
 ### Création d’une demande d’extraction {#create-a-pull-request}
 
-Si vous rencontrez un problème et savez exactement comment le résoudre, envisagez de créer une demande d’extraction. Les demandes d’extraction vous permettent d’apporter vos propres modifications à la documentation, qui sont ensuite examinées pour inclusion par un membre de l’équipe AEM Docs. Pour effectuer les modifications suggérées et créer la requête d’extraction, il suffit de cliquer sur le lien **Edit this page** (Modifier cette page) en haut du panneau de navigation de droite d’une page.
+Si vous rencontrez un problème et savez exactement comment le résoudre, envisagez de créer une demande d’extraction. Les demandes d’extraction vous permettent d’apporter vos propres modifications à la documentation, qui sont ensuite examinées pour inclusion par un membre de l’équipe AEM Docs. Pour effectuer les modifications suggérées et créer la demande d’extraction, il suffit de cliquer sur le lien **Edit this page** (Modifier cette page) en haut du panneau de navigation de droite d’une page.
 
-Toutes les requêtes d’extraction doivent être accompagnées d’un [contrat de licence de contributeur (CLA) signé.](https://opensource.adobe.com/cla.html) Ce document autorise Adobe à redistribuer vos contributions dans le cadre du projet. Vous n’avez besoin de soumettre un CLA Adobe qu’une seule fois. Par conséquent, si vous l’avez déjà soumis, vous n’avez rien à faire.
+Toutes les demandes d’extraction doivent être accompagnées d’un [contrat de licence de contributeur (CLA) signé.](https://opensource.adobe.com/cla.html) Ce document autorise Adobe à redistribuer vos contributions dans le cadre du projet. Vous n’avez besoin de soumettre un CLA Adobe qu’une seule fois. Par conséquent, si vous l’avez déjà soumis, vous n’avez rien à faire.
 
 ### Présentation rapide en vidéo
 
-Regardez la vidéo suivante pour un aperçu rapide de la création de problèmes et de requêtes d’extraction.
+Regardez la vidéo suivante pour un aperçu rapide de la création de problèmes et de demandes d’extraction.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27069)
 
@@ -57,4 +60,4 @@ Nous apprécions évidemment toute contribution et examinerons votre contributio
 
 ## Informations supplémentaires
 
-Pour plus d’informations sur l’utilisation de la plate-forme de création GitHub, consultez le [Guide du contributeur d’Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Pour plus d’informations sur l’utilisation de la plate-forme de création GitHub, consultez le [Guide du contributeur d’Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
