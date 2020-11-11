@@ -1,6 +1,6 @@
 ---
 title: Résolution des problèmes liés à l’appli de bureau AEM version 1.x
-description: Résolution des problèmes liés à l’appli de bureau AEM      version 1.x pouvant affecter, notamment, l’installation, la mise à niveau et la configuration.
+description: Résolution des problèmes liés à l’appli de bureau AEM version 1.x pouvant affecter, notamment, l’installation, la mise à niveau et la configuration.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -94,25 +94,25 @@ Toutes les opérations ne sont pas mises en cache localement. Les éléments sui
 * Toutes les opérations réalisées sur des dossiers, comme une création, une suppression, etc.
 * La fonctionnalité de transfert de dossiers introduite dans la version 1.4 télécharge une hiérarchie de dossiers locale sans mettre en cache les fichiers localement
 
-## Opérations distinctes        {#individual-operations}
+## Opérations distinctes {#individual-operations}
 
 Pour résoudre des problèmes de performances affectant des utilisateurs individuels, consultez d’abord la section [Restrictions](https://helpx.adobe.com/fr/experience-manager/desktop-app/troubleshooting-desktop-app.html#limitations). Les sections suivantes contiennent des suggestions visant à améliorer les performances pour les utilisateurs.
 
-## Recommandations en termes de bande passante         {#bandwidth-recommendations}
+## Recommandations en termes de bande passante {#bandwidth-recommendations}
 
 La bande passante dont dispose un utilisateur joue un rôle essentiel dans les performances du client WebDAV/SMB.
 
 Adobe recommande une vitesse de transfert proche de 10 Mbit/s pour un seul utilisateur. Dans le cas des connexions sans fil, la bande passante est souvent partagée entre plusieurs utilisateurs. Si plusieurs utilisateurs effectuent simultanément des tâches qui utilisent la bande passante du réseau, les performances peuvent se dégrader encore plus. Pour éviter ce type de problème, utilisez une connexion câblée.
 
-## Configurations spécifiques à Windows        {#windows-specific-configurations}
+## Configurations spécifiques à Windows {#windows-specific-configurations}
 
 Si vous exécutez AEM sous Windows, vous pouvez configurer le système d’exploitation de manière à améliorer les performances du client WebDAV. Pour plus d’informations, aller à [https://support.microsoft.com/fr-fr/kb/2445570](https://support.microsoft.com/fr-fr/kb/2445570).
 
 Sous Windows 7, la modification des paramètres d’Internet Explorer peut améliorer les performances de WebDAV. Pour plus d&#39;informations, reportez-vous à la page comment [corriger la lenteur des performances WebDAV sous Windows 7](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
 
-## Opérations simultanées        {#concurrent-operations}
+## Opérations simultanées {#concurrent-operations}
 
-Lorsque vous interagissez avec un fichier en local, l’appli de bureau AEM vérifie si une version plus récente du fichier est disponible dans AEM. Si tel est le cas, l’application télécharge une nouvelle copie du fichier dans le cache local. Toutefois, l’appli de bureau AEM n’écrase pas un fichier mis en cache localement s’il a été modifié. Cette fonctionnalité empêche tout écrasement accidentel de votre travail. 
+Lorsque vous interagissez avec un fichier en local, l’appli de bureau AEM vérifie si une version plus récente du fichier est disponible dans AEM. Si tel est le cas, l’application télécharge une nouvelle copie du fichier dans le cache local. Toutefois, l’appli de bureau AEM n’écrase pas un fichier mis en cache localement s’il a été modifié. Cette fonctionnalité empêche tout écrasement accidentel de votre travail.
 
 Lorsqu’un même fichier est modifié en local et dans AEM, la version modifiée en local écrase celle qui est stockée dans AEM. Dans ce cas, la version précédente est disponible dans la chronologie de la ressource. Vous pouvez vérifier les deux versions et résoudre les éventuels conflits.
 
@@ -126,11 +126,11 @@ Vous devez tenir compte d’autres facteurs lorsque plusieurs utilisateurs essai
 * Présence ou non d’un Dispatcher avant l’instance AEM cible
 * Charge actuelle sur l’instance AEM cible
 
-## Configurations AEM supplémentaires        {#additional-aem-configurations}
+## Configurations AEM supplémentaires {#additional-aem-configurations}
 
 En cas de dégradation significative des performances WebDAV/SMB lorsque plusieurs utilisateurs travaillent simultanément, vous pouvez configurer quelques éléments dans AEM, ce qui permet d’optimiser les performances.
 
-## Mise à jour des workflows transitoires de ressources  {#update-asset-transient-workflows}
+## Mise à jour des workflows transitoires de ressources {#update-asset-transient-workflows}
 
 Vous pouvez améliorer les performances du côté AEM en activant les workflows transitoires pour le workflow Ressources de mise à jour de gestion des actifs numériques. L’activation de workflows transitoires réduit la puissance de traitement requise pour mettre à jour des ressources lors de leur création ou de leur modification dans AEM.
 
@@ -148,7 +148,7 @@ Pour améliorer les performances d’AEM, une autre méthode consiste à configu
 1. Recherchez **QueueConfiguration**, puis cliquez pour ouvrir chaque tâche jusqu’à ce que vous ayez trouvé la tâche **Granite Transient Workflow Queue** (File d’attente des workflows transitoires Granite). Cliquez sur Modifier en regard de cette tâche.
 1. Modifiez la valeur **Maximum Parallel Jobs** (Nombre maximum de tâches en parallèle), puis cliquez sur **Enregistrer**.
 
-## Configuration AWS         {#aws-configuration}
+## Configuration AWS {#aws-configuration}
 
 En raison des limites de bande passante du réseau de WebDAV/SMB, une dégradation des performances est possible lorsque plusieurs utilisateurs travaillent simultanément. Adobe recommande d’augmenter la taille de l’instance AWS pour une instance AEM cible qui s’exécute sur AWS afin d’améliorer les performances de WebDAV/SMB.
 
@@ -158,7 +158,7 @@ Cette mesure augmente en particulier la quantité de bande passante réseau disp
 * Lors de la résolution des problèmes affectant un client de grande taille, Adobe a configuré la taille de son instance AEM sur c4.8xlarge, principalement pour les 4 000 Mbit/s de bande passante dédiée qu’elle fournit.
 * Si un Dispatcher est présent devant l’instance AEM, assurez-vous que sa taille est appropriée. Si l’instance AEM fournit une bande passante de 4 000 Mbit/s, mais que le Dispatcher ne fournit que 500 Mbit/s, la bande passante effective n’est que de 500 Mbit/s. Cela est dû au fait que le Dispatcher crée un goulot d’étranglement réseau.
 
-## Restrictions liées aux fichiers extraits         {#checked-out-file-limitations}
+## Restrictions liées aux fichiers extraits {#checked-out-file-limitations}
 
 Il existe quelques restrictions connues quant à la façon dont vous pouvez interagir avec les fichiers extraits par le biais de l’Explorateur ou du Finder. Si un fichier est extrait, il doit être en lecture seule pour tous les utilisateurs, à l’exception de celui qui l’a extrait. La mise en œuvre du protocole WebDAV/SMB1 dans AEM applique cette règle. Cependant, dans le cas des clients WebDAV/SMB du système d’exploitation, il apparaît que l’interaction avec les fichiers extraits est rarement appropriée. Certaines anomalies sont décrites ci-dessous.
 
@@ -172,7 +172,7 @@ En règle générale, les clients WebDAV ne se comportent pas toujours comme pr�
 
 La suppression d’un fichier semble réussir, dans la mesure où il n’apparaît plus dans l’Explorateur de fichiers de Windows. Cependant, l’actualisation du répertoire et la vérification des ressources AEM indiquent que le fichier est toujours présent. En outre, la modification des fichiers semble réussir (aucune boîte de dialogue d’avertissement ni message d’erreur n’est affiché). Toutefois, la réouverture du fichier ou la vérification des ressources AEM fait apparaître que le fichier n’a pas été modifié.
 
-#### Mac OS X         {#mac-os-x}
+#### Mac OS X {#mac-os-x}
 
 Aucun message d’erreur ni d’avertissement ne s’affiche lors du remplacement d’un fichier, mais la vérification de la ressource dans AEM fait apparaître qu’elle n’a pas été modifiée. Actualisez ou vérifiez la ressource dans AEM pour vous assurer qu’elle n’est pas en cours de modification.
 
@@ -259,7 +259,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-## Enregistrement d’un fichier extrait par d’autres utilisateurs         {#saving-a-file-checked-out-by-others}
+## Enregistrement d’un fichier extrait par d’autres utilisateurs {#saving-a-file-checked-out-by-others}
 
 En raison des limites techniques du système d’exploitation, les utilisateurs ne peuvent pas bénéficier d’une expérience cohérente lorsqu’ils tentent de remplacer un fichier extrait par d’autres utilisateurs. Cela varie, en effet, suivant l’application utilisée pour modifier le fichier extrait. Dans certains cas, l’application affiche soit un message d’erreur indiquant un échec d’écriture sur le disque, soit une erreur générique ou sans lien apparent avec le problème. Dans d’autres, aucun message d’erreur n’est affiché et l’opération semble réussir.
 
@@ -267,11 +267,11 @@ Dans ce cas, la fermeture et la réouverture du fichier peut indiquer que le con
 
 Quel que soit le comportement, le fichier reste inchangé lorsque vous l’archivez. Même si une version différente du fichier est affichée, les modifications ne sont pas synchronisées avec AEM.
 
-## Résolution des problèmes liés au déplacement de fichiers         {#troubleshooting-problems-around-moving-files}
+## Résolution des problèmes liés au déplacement de fichiers {#troubleshooting-problems-around-moving-files}
 
 Dans le cas de l’API serveur, la transmission d’en-têtes supplémentaires, X-Destination, X-Depth et X-Overwrite, est nécessaire pour garantir le fonctionnement des opérations de déplacement et de copie. Le Dispatcher ne transmet pas ces en-têtes par défaut, ce qui entraîne l’échec de ces opérations. Pour plus d’informations, voir [Connexion à AEM derrière un Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
-## Résolution des problèmes de connexion de l’appli de bureau AEM        {#troubleshooting-aem-desktop-connection-issues}
+## Résolution des problèmes de connexion de l’appli de bureau AEM {#troubleshooting-aem-desktop-connection-issues}
 
 ### Problème de redirection SAML {#saml-redirect-issue}
 
