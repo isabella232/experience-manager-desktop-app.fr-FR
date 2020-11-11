@@ -1,18 +1,11 @@
 ---
 title: Bonnes pratiques relatives à l’appli de bureau AEM version 1.x
 description: Fonctionnalités essentielles et utilisation recommandée de l’appli de bureau Adobe Experience Manager version 1.x
-uuid: ba8fbc74-e1ad-4085-a031-ffd317628ba6
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 57d5cd78-abce-4ede-a50e-7c161ddb43ae
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 100%
+source-wordcount: '1694'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +22,7 @@ L’appli de bureau monte le référentiel d’AEM Assets sous la forme d’un p
 
 >[!NOTE]
 >
->Avant de lire ce document, vous pouvez consulter les [meilleures pratiques générales d’intégration d’AEM et de Creative Cloud](https://docs.adobe.com/content/help/fr-FR/experience-manager-64/assets/administer/aem-cc-integration-best-practices.html) pour un aperçu général du sujet.
+>Avant de lire ce document, vous pouvez consulter les [meilleures pratiques générales d’intégration d’AEM et de Creative Cloud](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/aem-cc-integration-best-practices.html) pour un aperçu général du sujet.
 
 ## Architecture de l’appli de bureau AEM {#aem-desktop-app-architecture}
 
@@ -71,7 +64,7 @@ Les fonctionnalités principales de l’appli de bureau AEM incluent :
 
 * N’utilisez pas les lecteurs réseau de l’appli de bureau AEM pour enregistrer fréquemment les ressources. Toutes les opérations d’enregistrement sont transmises à AEM Assets. Par conséquent, il n’est pas pratique d’effectuer des opérations de modification intensives directement dans le référentiel d’AEM Assets monté. La modification d’une ressource directement dans le référentiel monté écrase la chronologie de la ressource avec des versions non pertinentes et impose des surcharges supplémentaires sur le serveur.
 
-* N’utilisez pas l’appli de bureau AEM pour faire migrer de grandes quantités de données d’une instance AEM vers une autre. Voir le [Guide de migration](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/administer/assets-migration-guide.html) pour planifier et exécuter des migrations de ressources. En revanche, l’appli de bureau [prend en charge le téléchargement massif](use-app-v1.md#bulkupload) d’un grand nombre de ressources pour la première fois dans [!DNL Adobe Experience Manager].
+* N’utilisez pas l’appli de bureau AEM pour faire migrer de grandes quantités de données d’une instance AEM vers une autre. Voir le [Guide de migration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html) pour planifier et exécuter des migrations de ressources. En revanche, l’appli de bureau [prend en charge le téléchargement massif](use-app-v1.md#bulkupload) d’un grand nombre de ressources pour la première fois dans [!DNL Adobe Experience Manager].
 
 ## Recommandations pour des cas d’utilisation spécifiques {#recommendations-for-selected-use-cases}
 
@@ -127,7 +120,7 @@ L’expérience des utilisateurs de l’appli de bureau AEM dépend grandement d
 
 ### Remarques relatives au réseau        {#network-considerations}
 
-Pour connaître les meilleures pratiques concernant la configuration réseau d’AEM Assets, reportez-vous au document [Remarques relatives au réseau pour AEM Assets](https://docs.adobe.com/content/help/fr-FR/experience-manager-64/assets/administer/assets-migration-guide.html). Voici certains aspects importants permettant d’optimiser l’expérience de l’appli de bureau AEM pour les utilisateurs :
+Pour connaître les meilleures pratiques concernant la configuration réseau d’AEM Assets, reportez-vous au document [Remarques relatives au réseau pour AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-migration-guide.html). Voici certains aspects importants permettant d’optimiser l’expérience de l’appli de bureau AEM pour les utilisateurs :
 
 * **Utilisez un Dispatcher correctement configuré**. Utilisez un Dispatcher AEM pour plus de sécurité et assurez-vous qu’il est configuré pour une [connexion de l’appli de bureau AEM à AEM par l’intermédiaire d’un Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
@@ -139,8 +132,8 @@ Pour connaître les meilleures pratiques concernant la configuration réseau d�
 
 ### Optimisation des performances du serveur        {#optimizing-server-performance}
 
-Pour savoir comment le serveur AEM Assets doit être optimisé en termes de performances, reportez-vous au [Guide d’optimisation des performances d’AEM Assets](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/administer/performance-tuning-guidelines.html). Certains aspects importants relatifs aux performances du serveur pour l’appli de bureau AEM concernent l’optimisation de la configuration des workflows afin d’assurer un bon fonctionnement en vue du chargement des ressources :
+Pour savoir comment le serveur AEM Assets doit être optimisé en termes de performances, reportez-vous au [Guide d’optimisation des performances d’AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html). Certains aspects importants relatifs aux performances du serveur pour l’appli de bureau AEM concernent l’optimisation de la configuration des workflows afin d’assurer un bon fonctionnement en vue du chargement des ressources :
 
-* **Chargement des ressources plus performant**. Configurez le [modèle de workflow de mise à jour des ressources AEM pour qu’il soit transitoire](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/administer/performance-tuning-guidelines.html#Workflows).
+* **Chargement des ressources plus performant**. Configurez le [modèle de workflow de mise à jour des ressources AEM pour qu’il soit transitoire](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html).
 
 * **Limitez le processeur du serveur pour les chargements**. Assurez-vous que le nombre maximal de tâches de workflow parallèles est défini correctement, de sorte que les chargements ne consomment pas toutes les capacités du processeur.
