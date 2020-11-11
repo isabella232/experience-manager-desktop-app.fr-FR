@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
+source-git-commit: 9c11f0b8ace17e7f596bcfe26e69f4ca649e0126
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 99%
+source-wordcount: '951'
+ht-degree: 97%
 
 ---
 
@@ -69,9 +69,9 @@ Les méthodes copy et move de l’API Assets nécessitent que les en-têtes sup
 * X-Depth
 * X-Overwrite
 
-L’appli de bureau AEM se connecte à AEM à l’aide d’une URL qui comprend le port par défaut. Par conséquent, le paramètre `virtualhosts` dans la configuration du Dispatcher doit inclure le numéro de port par défaut. Pour plus d’informations sur la configuration de `virtualhosts`, voir [Identification des hôtes virtuels](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+L’appli de bureau AEM se connecte à AEM à l’aide d’une URL qui comprend le port par défaut. Par conséquent, le paramètre `virtualhosts` dans la configuration du Dispatcher doit inclure le numéro de port par défaut. Pour plus d’informations sur la configuration de `virtualhosts`, voir [Identification des hôtes virtuels](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
 
-Pour plus d’informations sur la configuration du Dispatcher afin de transmettre ces en-têtes supplémentaires, voir [Spécification des en-têtes HTTP](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
+Pour plus d’informations sur la configuration du Dispatcher afin de transmettre ces en-têtes supplémentaires, voir [Spécification des en-têtes HTTP](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### Prise en charge des proxys {#proxy-support}
 
@@ -134,7 +134,7 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
    >L’application crée automatiquement un sous-répertoire *&lt;Point d’entrée AEM codé>* ; ce comportement n’est pas configurable.
 
 >[!MORELIKETHIS]
-* [Présentation de l’appli de bureau AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
+* [Présentation de l’appli de bureau AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
 * [Utilisation de l’appli de bureau AEM](use-app-v1.md).
 * [Résolution des problèmes liés à l’appli de bureau AEM](troubleshoot-app-v1.md).
 
