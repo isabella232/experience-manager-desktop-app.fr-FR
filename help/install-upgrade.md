@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: ht
-source-wordcount: '1241'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+workflow-type: tm+mt
+source-wordcount: '1234'
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute in
 
 1. Si vous effectuez une mise à niveau à partir d’une autre version de l’application, reportez-vous à la section [Mise à niveau de l’application de bureau](#upgrade-from-previous-version).
 
-1. Ignorez cette étape si vous utilisez Experience Manager as a Cloud Service, Experience Manager 6.4.4 ou version ultérieure, ou Experience Manager 6.5.0 ou version ultérieure. Assurez-vous que votre configuration d’Experience Manager respecte les exigences de compatibilité mentionnées dans les [notes de mise à jour](release-notes.md). Si nécessaire, téléchargez le [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicable et installez-le à l’aide d’Experience Manager Package Manager en tant qu’administrateur Experience Manager. Pour installer un package, voir [Comment travailler avec des packages](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/administering/contentmanagement/package-manager.html).
+1. Ignorez cette étape si vous utilisez Experience Manager as a Cloud Service, Experience Manager 6.4.4 ou version ultérieure, ou Experience Manager 6.5.0 ou version ultérieure. Assurez-vous que votre configuration d’Experience Manager respecte les exigences de compatibilité mentionnées dans les [notes de mise à jour](release-notes.md). Si nécessaire, téléchargez le [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicable et installez-le à l’aide d’Experience Manager Package Manager en tant qu’administrateur Experience Manager. Pour installer un package, voir [Comment travailler avec des packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html).
 
 1. Exécutez le fichier binaire du programme d’installation et suivez les instructions à l’écran pour procéder à l’installation.
 
@@ -93,7 +93,7 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute in
 
    *Figure : L’application affiche le contenu de la gestion des actifs numériques après la connexion*
 
-1. (Experience Manager 6.5.1 ou version ultérieure) Si vous utilisez une application de bureau avec Experience Manager 6.5.1 ou version ultérieure, mettez à niveau le connecteur Azure ou S3 vers la version 1.10.4 ou ultérieure. Voir [Connecteur Azure](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore) ou [Connecteur S3](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore).
+1. (Experience Manager 6.5.1 ou version ultérieure) Si vous utilisez une application de bureau avec Experience Manager 6.5.1 ou version ultérieure, mettez à niveau le connecteur Azure ou S3 vers la version 1.10.4 ou ultérieure. Voir [Connecteur Azure](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store) ou [Connecteur S3](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store).
 
    Si vous êtes un client d’Adobe Managed Services (AMS), contactez l’Assistance clientèle d’Adobe.
 
