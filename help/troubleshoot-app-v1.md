@@ -8,11 +8,11 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3379'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ Adobe recommande une vitesse de transfert proche de 10 Mbit/s pour un seul util
 
 Si vous exécutez AEM sous Windows, vous pouvez configurer le système d’exploitation de manière à améliorer les performances du client WebDAV. Pour plus d’informations, aller à [https://support.microsoft.com/fr-fr/kb/2445570](https://support.microsoft.com/fr-fr/kb/2445570).
 
-Sous Windows 7, la modification des paramètres d’Internet Explorer peut améliorer les performances de WebDAV. Pour plus d&#39;informations, reportez-vous à la page comment [corriger la lenteur des performances WebDAV sous Windows 7](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
+Sous Windows 7, la modification des paramètres d’Internet Explorer peut améliorer les performances de WebDAV. Pour plus d’informations, voir la page [Corriger la lenteur des performances de WebDAV sous Windows 7](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
 
 ## Opérations simultanées {#concurrent-operations}
 
