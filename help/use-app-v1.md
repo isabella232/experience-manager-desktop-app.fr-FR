@@ -2,11 +2,11 @@
 title: Utilisation de l’appli de bureau AEM version 1.x.
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.x et optimiser votre utilisation des ressources du bureau.
 contentOwner: AG
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2472'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
 1. Dans l’écran de connexion, indiquez le nom d’utilisateur et le mot de passe de votre instance. Pour spécifier une autre instance AEM, sélectionnez l’option **[!UICONTROL Alternate Login URL]**.
 
-   ![Fournissez AEM informations d’identification du serveur sur l’écran de connexion de l’application AEM de bureau](assets/login_screen_v1.png)
+   ![Saisie des informations d’identification du serveur AEM dans l’écran de connexion de l’appli de bureau AEM](assets/login_screen_v1.png)
 
 ### Activation des actions de bureau dans l’interface web d’AEM {#desktopactions}
 
@@ -109,7 +109,7 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
    *Figure : Activation de la case à cocher Afficher les actions de bureau pour Assets afin d’activer les actions de bureau.*
 
-## Accès aux ressources et ouverture de ces éléments sur votre ordinateur de bureau       {#openondesktop}
+## Accès aux ressources et ouverture de ces éléments sur votre bureau {#openondesktop}
 
 Lorsque vous cliquez sur **Open** (Ouvrir) pour ouvrir une ressource sur l’ordinateur local, l’application la télécharge dans son cache interne. L’application lance l’appli de bureau native associée au type de fichier de la ressource téléchargée.
 
@@ -139,15 +139,15 @@ Après avoir mappé le référentiel AEM Assets sur votre lecteur local, vous p
 
    *Figure : Dans l’interface utilisateur Assets, ouvrez le menu des actions rapides pour afficher les actions de bureau.*
 
-   These desktop actions are also available when you click the **Desktop Actions** option in the toolbar after selecting the asset or from the toolbar in the asset page.
+   Ces actions de bureau sont également disponibles lorsque vous cliquez sur l’option **Actions sur le Bureau** dans la barre d’outils après la sélection de la ressource ou dans la barre d’outils de la page de la ressource.
 
-1. To open the asset in the desktop application that is associated with the specific file extension, click the **Open on desktop** quick action ![Open on Desktop icon](assets/do-not-localize/aemassets_icon_openondesktop.png).
+1. Pour ouvrir la ressource dans l’application de bureau associée à l’extension de fichier spécifique, cliquez sur l’action rapide **Ouvrir sur le bureau** ![Icône Ouvrir sur le bureau](assets/do-not-localize/aemassets_icon_openondesktop.png).
 
-   Vous pouvez également sélectionner **Open** (Ouvrir) dans le menu **Desktop Actions** (Actions sur le Bureau) de la barre d’outils.
+   Vous pouvez également sélectionner **Ouvrir** dans le menu **Actions sur le Bureau** de la barre d’outils.
 
 Pour localiser la ressource sur votre système de fichiers local, cliquez sur l’action rapide **Afficher** ![icône Afficher](assets/do-not-localize/aemassets_reveal_icon.png). Vous pouvez également sélectionner **Afficher** dans le menu **Actions sur le Bureau** de la barre d’outils.
 
-## Explication des états de ressources       {#understand-the-asset-statuses}
+## Explication des états de ressources {#understand-the-asset-statuses}
 
 | ![Icône de l’appli par défaut Windows](assets/do-not-localize/win_default.png) | L’application est connectée au serveur, et toutes les ressources sont synchronisées. |
 --- |--- |
@@ -161,7 +161,7 @@ Pour localiser la ressource sur votre système de fichiers local, cliquez sur l�
 
 AEM Assets permet d’extraire des ressources pour les modifier et de les ré-archiver après y avoir apporté les modifications. Après avoir extrait une ressource, vous seul pouvez la modifier, l’annoter, la publier, la déplacer ou la supprimer. Le fait d’extraire une ressource entraîne son verrouillage et empêche les autres utilisateurs d’effectuer l’une de ces opérations. Vous avez besoin d’un accès en écriture à ces ressources pour être en mesure de les extraire ou de les archiver.
 
-Pour extraire des ressources à partir de l’interface web AEM, deux méthodes sont possibles. Pour obtenir des informations détaillées sur la première méthode, voir [Archivage et extraction de fichiers à partir de l’interface utilisateur Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/check-out-and-submit-assets.html). Pour la deuxième méthode, suivez la procédure ci-dessous pour extraire et ouvrir la ressource quand l’appli de bureau AEM est installée.
+Pour extraire des ressources à partir de l’interface web AEM, deux méthodes sont possibles. Pour obtenir des informations détaillées sur la première méthode, voir [Archivage et extraction de fichiers à partir de l’interface utilisateur Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/check-out-and-submit-assets.html?lang=fr). Pour la deuxième méthode, suivez la procédure ci-dessous pour extraire et ouvrir la ressource quand l’appli de bureau AEM est installée.
 
 1. Ouvrez l’interface d’AEM Assets et placez le pointeur sur un dossier ou une ressource afin d’afficher les actions de bureau sous la forme d’actions rapides dans le mode Carte.
 
@@ -221,7 +221,7 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 
 1. Pour archiver la ressource afin qu’elle soit disponible pour les autres utilisateurs, cliquez/appuyez sur l’icône Check-in (Archiver) dans la boîte de dialogue **Asset Info** (Informations sur les ressources).
 
-### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web        {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
+### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
 Une fois la modification des ressources effectuée, enregistrez ces dernières dans votre application de bureau. Dans le menu contextuel, sélectionnez **More Assets Info** (Autres infos sur les ressources) et cliquez ensuite sur Check-in (Archiver).
 
