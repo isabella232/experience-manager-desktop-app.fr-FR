@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9c11f0b8ace17e7f596bcfe26e69f4ca649e0126
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '951'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,9 +69,9 @@ Les méthodes copy et move de l’API Assets nécessitent que les en-têtes sup
 * X-Depth
 * X-Overwrite
 
-L’appli de bureau AEM se connecte à AEM à l’aide d’une URL qui comprend le port par défaut. Par conséquent, le paramètre `virtualhosts` dans la configuration du Dispatcher doit inclure le numéro de port par défaut. Pour plus d’informations sur la configuration de `virtualhosts`, voir [Identification des hôtes virtuels](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+L’appli de bureau AEM se connecte à AEM à l’aide d’une URL qui comprend le port par défaut. Par conséquent, le paramètre `virtualhosts` dans la configuration du Dispatcher doit inclure le numéro de port par défaut. Pour plus d’informations sur la configuration de `virtualhosts`, voir [Identification des hôtes virtuels](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=fr#identifying-virtual-hosts-virtualhosts).
 
-Pour plus d’informations sur la configuration du Dispatcher afin de transmettre ces en-têtes supplémentaires, voir [Spécification des en-têtes HTTP](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
+Pour plus d’informations sur la configuration du Dispatcher afin de transmettre ces en-têtes supplémentaires, voir [Spécification des en-têtes HTTP](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=fr#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### Prise en charge des proxys {#proxy-support}
 
@@ -103,7 +103,7 @@ Sous Mac OS X, un répertoire semblable est situé à l’emplacement suivant�
 
 ### Option dans l’application pour gérer le cache {#in-app-option-to-manage-cache}
 
-Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur AEM Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Pour définir les options de votre choix, cliquez sur l’icône de l’application, puis sur **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. 
+Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur AEM Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Pour définir les options de votre choix, cliquez sur l’icône de l’application, puis sur **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**.
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
    >L’application crée automatiquement un sous-répertoire *&lt;Point d’entrée AEM codé>* ; ce comportement n’est pas configurable.
 
 >[!MORELIKETHIS]
-* [Présentation de l’appli de bureau AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
+* [Présentation de l’appli de bureau AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html?lang=fr).
 * [Utilisation de l’appli de bureau AEM](use-app-v1.md).
 * [Résolution des problèmes liés à l’appli de bureau AEM](troubleshoot-app-v1.md).
 
