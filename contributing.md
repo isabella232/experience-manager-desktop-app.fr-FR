@@ -1,9 +1,9 @@
 ---
 source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '534'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # Contribution à la documentation de l’application de bureau Adobe Experience Manager
@@ -50,7 +50,7 @@ Toutes les demandes d’extraction doivent être accompagnées d’un [contrat d
 
 Regardez la vidéo suivante pour un aperçu rapide de la création de problèmes et de demandes d’extraction.
 
->[!VIDEO](https://video.tv.adobe.com/v/27069)
+>[!VIDEO](https://video.tv.adobe.com/v/27069?captions=fre_fr)
 
 ### Contributions des employés d’Adobe
 
@@ -60,4 +60,4 @@ Nous apprécions évidemment toute contribution et examinerons votre contributio
 
 ## Informations supplémentaires
 
-Pour plus d’informations sur l’utilisation de la plate-forme de création GitHub, consultez le [Guide du contributeur d’Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Pour plus d’informations sur l’utilisation de la plate-forme de création GitHub, consultez le [Guide du contributeur d’Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=fr).
