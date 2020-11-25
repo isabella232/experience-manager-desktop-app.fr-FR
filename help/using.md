@@ -6,11 +6,11 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3993'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Cliquez sur **[!UICONTROL Open]** dans le menu de ressource. La ressource est t�
 >
 >Si les modifications attendues ne sont pas reflétées dans l’application, cliquez sur l’icône Actualiser ![Icône Actualiser](assets/do-not-localize/refresh.png) ou cliquez avec le bouton droit de la souris sur l’interface de l’application, puis cliquez sur **[!UICONTROL Refresh]**. Les actions ne sont pas disponibles lorsque des téléchargements ou des chargements plus volumineux sont en cours.
 
-Pour ouvrir le dossier de téléchargement local d’une ressource, cliquez sur ![Icône More actions](assets/do-not-localize/more2_da2.png), puis sur l’action ![ ](assets/do-not-localize/reveal_action2_da2.png)Icône Afficher **[!UICONTROL Reveal File]**.
+Pour ouvrir le dossier de téléchargement local d’une ressource, cliquez sur ![Icône More actions](assets/do-not-localize/more2_da2.png), puis sur l’action ![Icône Afficher](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]**.
 
 ## Utiliser ou placez des ressources dans des documents natifs {#place-assets-in-native-documents}
 
@@ -159,7 +159,7 @@ Utilisez **[!UICONTROL Toggle Check-out]** pour verrouiller la ressource afin d�
 * Vous avez commencé à modifier une ressource sans d’abord l’extraire (vous l’avez simplement ouverte).
 * Vous vous préparez à modifier une ressource et ne souhaitez pas que d’autres personnes le fassent.
 
-Une fois les modifications effectuées, l’application affiche le statut **[!UICONTROL Edited Locally]** pour les ressources modifiées. Toutes les modifications enregistrées dans les ressources sont en local uniquement jusqu’à ce que vous les chargiez dans AEM. Pour charger une ressource spécifique ou quelques ressources une par une, cliquez sur **[!UICONTROL Upload Changes]** dans les options d’une ressource. Une version de la ressource est alors créée dans AEM. L’interface web d’AEM Assets vous permet d’afficher l’historique des ressources dans la [vue de journal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html).
+Une fois les modifications effectuées, l’application affiche le statut **[!UICONTROL Edited Locally]** pour les ressources modifiées. Toutes les modifications enregistrées dans les ressources sont en local uniquement jusqu’à ce que vous les chargiez dans AEM. Pour charger une ressource spécifique ou quelques ressources une par une, cliquez sur **[!UICONTROL Upload Changes]** dans les options d’une ressource. Une version de la ressource est alors créée dans AEM. L’interface web d’AEM Assets vous permet d’afficher l’historique des ressources dans la [vue de journal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html?lang=fr).
 
 ![Option de chargement des modifications dans l’appli](assets/upload_changes_single1_da2.png "Option de chargement des modifications dans l’appli")
 
@@ -177,7 +177,7 @@ Si nécessaire, activez l’extraction. La ressource mise à jour est supprimée
 
 ## Charger et ajouter de nouvelles ressources dans AEM {#upload-and-add-new-assets-to-aem}
 
-Les utilisateurs peuvent ajouter de nouvelles ressources au référentiel DAM. Par exemple, vous êtes un photographe d’agence ou un entrepreneur souhaitant ajouter au référentiel AEM un grand nombre de photos d’une séance photo. Pour ajouter du contenu neuf à AEM, cliquez sur ![Icône Upload to cloud](assets/do-not-localize/upload_to_cloud_da2.png) dans la barre supérieure de l’application. Accédez aux fichiers de ressources du système de fichiers local et cliquez sur **[!UICONTROL Select]**. L’application commence à charger la ressource et affiche une barre de progression au bas de l’écran si le chargement de la ressource prend plus de temps. N’utilisez pas d’espaces blancs ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders).
+Les utilisateurs peuvent ajouter de nouvelles ressources au référentiel DAM. Par exemple, vous êtes un photographe d’agence ou un entrepreneur souhaitant ajouter au référentiel AEM un grand nombre de photos d’une séance photo. Pour ajouter du contenu neuf à AEM, cliquez sur ![Icône Upload to cloud](assets/do-not-localize/upload_to_cloud_da2.png) dans la barre supérieure de l’application. Accédez aux fichiers de ressources du système de fichiers local et cliquez sur **[!UICONTROL Select]**. L’application commence à charger la ressource et affiche une barre de progression au bas de l’écran si le chargement de la ressource prend plus de temps. N’utilisez pas d’espaces blancs ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=fr#creating-folders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
@@ -232,7 +232,7 @@ Après le chargement, si les modifications attendues ne sont pas reflétées dan
 
 >[!NOTE]
 >
->N’utilisez pas la fonctionnalité de chargement pour migrer des ressources sur deux déploiements AEM. Consultez plutôt le [guide de migration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html).
+>N’utilisez pas la fonctionnalité de chargement pour migrer des ressources sur deux déploiements AEM. Consultez plutôt le [guide de migration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html?lang=fr).
 
 ### Liste des ressources transférées {#list-of-transferred-assets}
 
