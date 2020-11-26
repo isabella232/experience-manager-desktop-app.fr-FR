@@ -1,43 +1,46 @@
 ---
-source-git-commit: 26373450fd36a4d726190c0252f60c4d77bf8b7f
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '732'
+ht-degree: 57%
 
 ---
 # Instructions relatives à la contribution à la documentation d’Adobe Experience Manager
 
 ## Philosophie de la documentation
 
-Nous savons que les utilisateurs d’Adobe Experience Manager travaillent dans des environnements très concurrentiels, afin de créer des expériences numériques qui les distingueront de leurs concurrents. Par conséquent, lorsqu’Adobe fournit de nouveaux outils avancés dans AEM, il est essentiel que ces outils soient complétés par une documentation précise et claire pour permettre au client d’exploiter immédiatement son investissement AEM et maximiser le ROI.
+Nous savons que les utilisateurs d’Adobe Experience Manager travaillent dans des environnements très concurrentiels, afin de créer des expériences numériques qui les distingueront de leurs concurrents. Therefore it is vital that when Adobe delivers advanced new tools in [!DNL Experience Manager], that these tools are complemented with accurate and clear documentation to allow the customer to immediately leverage their [!DNL Experience Manager] investment and maximize ROI.
 
-L’objectif de la documentation AEM est de la placer entre les mains des utilisateurs d’AEM dès que possible. Par conséquent, nous privilégions une documentation précise et utilisable et nous la mettons à jour et l’améliorons constamment.
+The goal of the [!DNL Experience Manager] documentation is to put documentation into the hands of [!DNL Experience Manager] users as soon as possible. Nous privilégions donc une documentation précise et utilisable, et nous la mettons à jour et l’améliorons constamment.
 
 ## Contributions à la documentation
 
-Afin d’améliorer continuellement la documentation d’AEM, toute la communauté des utilisateurs d’AEM peut apporter sa contribution. Que ce soit par le biais de demandes d’extraction ou de demandes, les améliorations apportées à la documentation peuvent être des corrections, des clarifications, des extensions et des exemples supplémentaires.
+In the interest of continually improving [!DNL Experience Manager] documentation, the entire community of [!DNL Experience Manager] users is welcome to contribute to the documentation. Que ce soit par le biais de demandes d’extraction ou de demandes, les améliorations apportées à la documentation peuvent être des corrections, des clarifications, des extensions et des exemples supplémentaires.
 
 ## Normes de la documentation
 
-Bien que nous nous félicitions des contributions à notre documentation, toute contribution à la documentation d’AEM, sous la forme d’une requête d’extraction ou d’un problème, doit être conforme à nos normes de contribution et de documentation.
+While we welcome contributions to our documentation, any contribution to the [!DNL Experience Manager] documentation, either in the form of a pull request or an issue, should conform to our contribution and documentation standards.
 
 Les contributions qui ne satisfont pas à ces normes peuvent être rejetées.
 
-### Nous documenterons les cas d’utilisation standard.
+### Nous documenterons les cas d’utilisation standard
 
-La documentation d’AEM couvre les cas d’utilisation standard. Les cas d’utilisation au-delà de la portée de l’installation et de l’utilisation standard du produit ne font pas partie de la documentation AEM.
+[!DNL Experience Manager]La documentation couvre les cas d’utilisation standard. Use cases beyond the scope of standard installation and usage of the product are not part of [!DNL Experience Manager] documentation.
 
-### En général, nous ne documentons pas les bogues ni leurs solutions.
+### En général, nous ne documentons pas les bogues ni leurs solutions
 
-La documentation AEM couvre les cas d’utilisation standard. Pour cette raison, les bogues, leurs effets et leurs solutions ne sont généralement pas documentés.
+[!DNL Experience Manager]La documentation couvre les cas d’utilisation standard. Pour cette raison, les bogues, leurs effets et leurs solutions ne sont généralement pas documentés.
 
-Les exceptions à cette règle concernent les notes de mise à jour qui répertorient les problèmes connus ainsi que les solutions possibles après approbation par l’équipe de gestion des produits AEM.
+Exceptions to this rule apply to the release notes where known issues can be listed with possible solutions that have been approved by [!DNL Experience Manager] Product Management.
 
-### Les contributions à la documentation ne sont pas destinées à répondre aux questions techniques.
+### Les contributions à la documentation ne sont pas destinées à répondre aux questions techniques
 
-Toute opinion susceptible d’améliorer la documentation AEM est la bienvenue sous forme de contributions. Toutefois, les commentaires, les demandes et les demandes d’extraction sont destinés uniquement aux *contributions*. Ils ne sont pas censés être utilisés pour répondre à vos questions sur l’utilisation d’AEM, pour implémenter votre projet AEM ni pour résoudre des problèmes techniques.
+Any ideas you may have to improve [!DNL Experience Manager] documentation are welcome as contributions. Toutefois, les commentaires, les demandes et les demandes d’extraction sont destinés uniquement aux *contributions*. They are not intended to be used to answer your questions about how to use [!DNL Experience Manager], implement your [!DNL Experience Manager] project, or solve technical problems.
 
-Toute question relative à l’utilisation d’AEM ou à la résolution d’erreurs techniques doit être soumise au moyen du processus d’assistance classique via le [Portail d’assistance entreprise d’Experience Cloud](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html) ou posée à la [communauté Experience Manager](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+Any questions about the usage of [!DNL Experience Manager] or technical errors you may have should be reported through the normal support process via the [Experience Cloud Enterprise Support portal](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html) or discussed in the [Experience Manager community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
-***Les contributions à la documentation d’AEM ne remplacent pas celles de l’assistance clientèle Adobe*** et toute contribution de ce type qui recherche des réponses aux questions liées au support technique sera rejetée.
+***[!DNL Experience Manager]les contributions à la documentation ne remplacent pas celles du service à la clientèle*** Adobe et toute contribution de ce type qui recherche des réponses à des questions d&#39;assistance sera rejetée.
 
 ### Les contributions doivent clairement référencer les pages de documentation concernées.
 
@@ -55,15 +58,15 @@ Suivre ces directives facilite la révision et l’intégration rapide de votre 
 
 #### Langue
 
-* La documentation AEM est créée et conservée en anglais américain.
+* [!DNL Experience Manager]La documentation est créée et conservée en anglais américain.
 * Veillez à ce que les expressions restent le plus simple possible.
 * Restez clair et concis.
 
-Souvenez-vous que les lecteurs de la documentation AEM sont internationaux et peuvent ne pas être des locuteurs anglais natifs ou bilingues. Évitez les expressions familières et restez aussi clair et simple que possible.
+Remember, readers of [!DNL Experience Manager] documentation are worldwide and can not be expected to be native or fluent English speakers. Évitez les expressions familières et restez aussi clair et simple que possible.
 
 #### Suivi du guide de style Microsoft
 
-[Le guide de style Microsoft](https://docs.microsoft.com/fr-fr/style-guide/welcome/) est gratuit et concerne la documentation logicielle. Il s’applique à la documentation AEM, dans la mesure du possible.
+[Le guide de style Microsoft](https://docs.microsoft.com/fr-fr/style-guide/welcome/)[!DNL Experience Manager] est gratuit et concerne la documentation logicielle. Il s’applique à la documentation , dans la mesure du possible.
 
 ### Mise en forme
 
@@ -83,8 +86,8 @@ Les marqueurs ou autres annotations dans les captures d’écran (comme les cadr
 
 Dans la mesure du possible, évitez toute référence directe à une version spécifique dans tout le contenu de la documentation. La documentation est ainsi plus flexible et extensible pour les versions ultérieures.
 
-### Utilisation de Day, AEM, CQ, CRX
+### Use of Day, [!DNL Experience Manager], CQ, CRX
 
-Le produit doit toujours être référencé par son nom complet **Adobe Experience Manager** pour la première fois dans un article et peut ensuite être appelé **AEM**.
+The product should always be referred to by its full name **Adobe Experience Manager** for the first time in an article and can thereafter be referred to as **Experience Manager**.
 
-Day, logiciel Day, CQ et CRX ne doivent pas être utilisés, sauf lorsqu’ils sont inévitables, par exemple dans les noms de classe ou en faisant référence à l’historique d’AEM.
+Day, Day Software, CQ, and CRX should not be used except where unavoidable such as in class names or referring to the history of [!DNL Experience Manager].
