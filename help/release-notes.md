@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: ht
-source-wordcount: '1406'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+workflow-type: tm+mt
+source-wordcount: '1422'
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 | Produits | Appli de bureau Adobe Experience Manager |
 |--- |--- |
 | Version de l’application (révision) | 2.0 (2.0.3.2) |
-| Versions d’AEM prises en charge | AEM as a Cloud Service ; AEM 6.5 ; AEM 6.4 ; AEM 6.3 (avec package de compatibilité) |
+| Versions de Experience Manager prises en charge | Experience Manager en tant que Cloud Service ; Experience Manager 6.5 ; Experience Manager 6.4 ; Experience Manager 6.3 (avec package de compatibilité) |
 | Type | Version mineure |
 | Date de publication | 27 août 2020 (Mac et Windows) |
 | URL de téléchargement | [macOS 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.0.3.2.dmg) ; [Windows 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.0.3.2.exe) ; [Windows 32 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.0.3.2.exe) |
@@ -107,7 +107,7 @@ Les correctifs de bogues et mises à jour sont les suivants :
 
 * Option permettant de configurer le répertoire `%Temp%` de façon à ce qu’il corresponde au chemin d’accès à `%APPDATA%`. <!-- CQ-4282665 -->
 
-* Permet aux utilisateurs de se connecter à l’instance Auteur AEM via l’authentification SAML Okta. <!-- CQ-4278134 -->
+* Allow users to log in on Experience Manager Author via Okta SAML authentication. <!-- CQ-4278134 -->
 
 ## Instructions d’installation {#installation-instructions-v2}
 
@@ -119,17 +119,17 @@ Si vous effectuez une mise à niveau à partir d’une version précédente de l
 
 Il est important de comprendre ce qui suit à propos de l’application et de son fonctionnement.
 
-* L’application offre un contrôle total sur les opérations qui nécessitent le transfert complet des fichiers binaires depuis et vers AEM (ouverture, modification, chargement des modifications et chargement des ressources).
+* L’application permet un contrôle total des opérations qui nécessitent le transfert complet de fichiers binaires depuis et vers le Experience Manager (ouverture, modification, téléchargement et téléchargement de fichiers).
 
    * Si vous souhaitez utiliser la ressource figurant sur le bureau, vous devez explicitement ouvrir, modifier ou télécharger sur votre bureau, que ce soit individuellement, dans un dossier ou par sélection multiple.
 
-   * Si vous souhaitez que les modifications locales apportées aux ressources soient chargées dans AEM, vous devez sélectionner [!UICONTROL Upload Changes], individuellement ou par sélection multiple.
+   * If you want to get local changes to assets uploaded to Experience Manager, you need to select [!UICONTROL Upload Changes], either individually or via multi-selection.
 
-   * L’application n’est pas un client de synchronisation qui synchronise les ressources sur le bureau et AEM.
+   * L’application n’est pas un &quot;client de synchronisation&quot; qui synchronise les ressources sur le bureau et le Experience Manager.
 
-   * L’application ne fournit pas de partage réseau qui mappe le référentiel AEM en tant que structure de dossiers virtuelle.
+   * L’application ne fournit pas de partage réseau qui mappe le référentiel Experience Manager en tant que structure de dossiers virtuels.
 
-* La liste des ressources affichées par l’application est basée sur le statut du référentiel AEM Assets. Les fichiers téléchargés localement puis renommés dans les fichiers locaux ou le dossier de cache ne sont ni affichés ni gérés par l’application.
+* La liste des ressources affichées par l’application est basée sur le statut du référentiel  Assets. Les fichiers téléchargés localement puis renommés dans les fichiers locaux ou le dossier de cache ne sont ni affichés ni gérés par l’application.
 
 * Si l’application n’affiche pas les résultats attendus, cliquez sur l’icône d’actualisation dans la barre supérieure.
 
@@ -139,7 +139,7 @@ Il est important de comprendre ce qui suit à propos de l’application et de so
 
 Le diagramme suivant illustre le flux de ressources et de fichiers allant du cloud au système de fichiers local et vice versa, tel qu’il est initié par les actions de l’utilisateur.
 
-![Flux de ressources allant du serveur AEM aux applications de bureau natives via l’appli de bureau](assets/da20_flow_diagram.png)
+![Flux de ressources du serveur Experience Manager vers les applications de bureau natives via les applications de bureau](assets/da20_flow_diagram.png)
 
 ## Problèmes connus {#known-issues-v2}
 
@@ -153,13 +153,13 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 
 * Après avoir appliqué et supprimé le filtre pour rechercher toutes les ressources modifiées localement, l’application n’amène pas l’utilisateur à ses résultats de recherche ou à la vue de dossiers par laquelle il a commencé. L’application affiche le dossier racine du référentiel DAM.
 
-* Parfois, lorsque vous vous connectez à une URL pour laquelle le serveur AEM n’est pas en cours d’exécution, l’écran de connexion ne répond plus. Quittez l’application et redémarrez-la.
+* Parfois, lorsque vous vous connectez à une URL pour laquelle aucun serveur Experience Manager n’est en cours d’exécution, l’écran de connexion ne répond plus. Quittez l’application et redémarrez-la.
 
 **Problèmes CRUD (Create, Read, Update et Delete) :**
 
 * L’application tente de télécharger des fichiers même avec des caractères non valides, ce qui peut entraîner l’échec du chargement côté serveur. <!-- CQ-4273652 -->
 
-* Lors du chargement de modifications avec commentaires d’une ressource, les commentaires sont stockés avec la ressource dans AEM, mais ne sont pas visibles en tant que commentaires de contrôle de version. Ce problème est résolu dans AEM 6.4.5 et 6.5.1. Adobe recommande vivement d’installer les derniers Service Packs. <!-- CQ-4268990 -->
+* Lors du téléchargement de modifications dans un fichier contenant des commentaires, les commentaires sont stockés avec le fichier dans le Experience Manager, mais ne sont pas visibles en tant que commentaires de contrôle de version. This issue is resolved in Experience Manager 6.4.5 and Experience Manager 6.5.1. Adobe strongly recommends installing the latest service packs. <!-- CQ-4268990 -->
 
 * Les transferts de ressources ne peuvent pas être annulés par l’utilisateur. Si vous avez déclenché involontairement un transfert volumineux, quittez l’application et redémarrez-la. <!-- CQ-4278940 -->
 
@@ -169,8 +169,8 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 
 >[!MORELIKETHIS]
 >
->* [Documentation d’AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr)
->* [Documentation d’AEM as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=fr)
+>* [Experience Manager en tant que documentation Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr)
+>* [Experience Manager en tant que documentation Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=fr)
 >* [Utilisation de l’appli de bureau Experience Manager](using.md)
 >* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
 >* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
