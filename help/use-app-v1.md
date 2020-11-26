@@ -1,84 +1,84 @@
 ---
-title: Utilisation de l’appli de bureau AEM version 1.x.
+title: Use [!DNL Experience Manager] desktop app version 1.x.
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.x et optimiser votre utilisation des ressources du bureau.
 contentOwner: AG
-translation-type: ht
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: ht
-source-wordcount: '2472'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+workflow-type: tm+mt
+source-wordcount: '2379'
+ht-degree: 72%
 
 ---
 
 
-# Utilisation de l’appli de bureau AEM v1.x {#use-aem-desktop-app-v1x}
+# Use [!DNL Experience Manager] desktop app v1.x {#use-aem-desktop-app-v1x}
 
-À l’aide de l’appli, les ressources d’AEM sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources peuvent être facilement affichées dans le Finder de Mac ou l’Explorateur Windows, ouvertes dans des applications de bureau et modifiées localement ; les modifications sont réenregistrées dans AEM avec une nouvelle version créée dans le référentiel.
+Using the App, the assets within [!DNL Experience Manager] are easily accessible on your local desktop and can be used in any desktop applications. Assets can be easily revealed in Mac Finder or Windows Explorer, opened in desktop applications, and changed locally - the changes are saved back to [!DNL Experience Manager] with a new version created in the repository.
 
-Cette intégration permet à différents rôles au sein de l’entreprise de gérer les ressources de manière centralisée dans AEM Assets, et d’y accéder dans Creative Cloud et d’autres applications, tout en facilitant la conformité avec les diverses normes, y compris le branding.
+Cette intégration permet à différents rôles au sein de l’entreprise de gérer les ressources de manière centralisée dans  Assets, et d’y accéder dans Creative Cloud et d’autres applications, tout en facilitant la conformité avec les diverses normes, y compris le branding.
 
-Les tâches clés que vous effectuez à l’aide de l’appli de bureau AEM v1 sont les suivantes :
+The key tasks you do using the [!DNL Experience Manager] desktop app v1 include:
 
-1. [Connexion à un serveur AEM](#installandconnect)
+1. [ [!DNL Experience Manager] Connexion à un serveur ](#installandconnect)
 1. [Ouverture directe de ressources sur l’ordinateur de bureau](#openondesktop)
 1. [Modification et extraction de ressources à partir de l’ordinateur de bureau](#workonassets)
 1. [Chargement en masse de ressources et de dossiers](#bulkupload)
 
-Pour les pratiques recommandées, voir les [Bonnes pratiques d’utilisation de l’application](best-practices-for-v1.md). Si vous rencontrez des problèmes lors de l’utilisation de l’application, consultez la page traitant du [dépannage de l’appli de bureau AEM](troubleshoot-app-v1.md).
+Pour les pratiques recommandées, voir les [Bonnes pratiques d’utilisation de l’application](best-practices-for-v1.md). If you face issues using the App, see how to [troubleshoot [!DNL Experience Manager] desktop](troubleshoot-app-v1.md).
 
 >[!NOTE]
 >
->L’appli de bureau AEM a été lancée avec la version 6.1 d’AEM, sous le nom d’AEM Assets Companion App.
+>[!DNL Experience Manager] application de bureau a été introduite dans la version [!DNL Experience Manager] 6.1 et a été appelée [!DNL Experience Manager Assets Companion App].
 
-## Points de contact de l’appli de bureau AEM dans le workflow de création {#aem-desktop-app-touch-points-in-the-creative-workflow}
+## [!DNL Experience Manager]Points de contact de l’appli de bureau dans le workflow de création {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
-L’appli de bureau AEM, avec AEM Assets, s’intègre dans votre workflow créatif et propose les points de contact suivants.
+[!DNL Experience Manager] l’application de bureau, ainsi que [!DNL Assets]les points de contact suivants, s’intègrent dans votre processus créatif et offre les points de contact suivants.
 
-![Points de contact de l’appli de bureau AEM dans le workflow créatif](assets/aem_desktopapp_workflow.png)
+![[!DNL Experience Manager] application de bureau points de contact du processus créatif](assets/aem_desktopapp_workflow.png)
 
-Points de contact de l’appli de bureau AEM dans le workflow créatif
+[!DNL Experience Manager] application de bureau points de contact du processus créatif
 
-## Installation de l’appli de bureau AEM et connexion de l’application au serveur AEM {#installandconnect}
+## Installation et connexion de l’application au [!DNL Experience Manager] serveur {#installandconnect}
 
-Pour pouvoir commencer à créer ou modifier les ressources de création, connectez l’application de bureau au serveur AEM Assets pour télécharger et charger des ressources dans le référentiel. Effectuez les tâches suivantes :
+Before you can begin creating or editing the creative assets, connect the desktop application with the [!DNL Assets] server to download and upload assets in the repository. Effectuez les tâches suivantes :
 
 1. [Installez l’application](#installapp).
 1. [Définissez vos préférences](#inapppref) et vos informations de connexion.
-1. [Connectez-vous au serveur AEM](#connect) et montez le référentiel de ressources comme lecteur local.
-1. [Activez les actions de bureau](#desktopactions) sur le serveur AEM.
+1. [ [!DNL Experience Manager] Connectez-vous au serveur ](#connect) et montez le référentiel de ressources comme lecteur local.
+1. [Activez les actions de bureau](#desktopactions)[!DNL Experience Manager] sur le serveur 
 
-L’appli de bureau AEM établit une connexion HTTPS au serveur AEM afin de transférer vos ressources de manière sécurisée.
+[!DNL Experience Manager]L’appli de bureau établit une connexion HTTPS au serveur  afin de transférer vos ressources de manière sécurisée.[!DNL Experience Manager]
 
 >[!NOTE]
 >
->Pour une partie ou l’ensemble de la procédure d’installation et de configuration, il se peut que vous deviez demander l’aide de votre administrateur AEM ou de votre administrateur système.
+>For part of or all of the installation and configuration steps, you may need help from your [!DNL Experience Manager] administrator or system administrator.
 
 ### Installation de l’application {#installapp}
 
-Pour utiliser l’appli de bureau AEM, vérifiez que votre version du serveur AEM est prise en charge par celle-ci. Téléchargez le fichier d’installation approprié (binaire) pour votre système d’exploitation (Mac ou Windows) et installez ensuite l’application.
+To use [!DNL Experience Manager] desktop app, ensure that your [!DNL Experience Manager] server version is supported by the app. Téléchargez le fichier d’installation approprié (binaire) pour votre système d’exploitation (Mac ou Windows) et installez ensuite l’application.
 
-Une configuration détaillée peut s’avérer nécessaire en fonction des préférences de votre système et de votre réseau. Pour plus d’informations, voir [Installation et configuration de l’appli de bureau AEM](install-configure-app-v1.md).
+Une configuration détaillée peut s’avérer nécessaire en fonction des préférences de votre système et de votre réseau. See [Install and configure [!DNL Experience Manager] desktop app](install-configure-app-v1.md) for more details.
 
-1. Rendez-vous sur la [page de téléchargement de l’appli de bureau AEM](https://helpx.adobe.com/fr/experience-manager/kb/download-companion-app.html) et téléchargez le fichier binaire approprié à votre système d’exploitation.
+1. Go to the [[!DNL Experience Manager] desktop app download page](https://helpx.adobe.com/fr/experience-manager/kb/download-companion-app.html) and download the appropriate binary for your operating system.
 1. Exécutez le fichier d’installation téléchargé et suivez les instructions affichées à l’écran pour installer l’application.
 
    >[!NOTE]
    >
-   >Une seule instance de l’appli de bureau AEM peut être installée et active à la fois.
+   >Only one instance of the [!DNL Experience Manager] desktop app can be installed and be active at a time.
 
 ### Présentation des options et des préférences dans l’application {#inapppref}
 
-L’application accepte des paramètres pour se connecter aux serveurs AEM et s’en déconnecter, afficher l’état des transferts, gérer le cache local et ainsi de suite. Les paramètres par défaut sont opérationnels pour un utilisateur ordinaire de l’application. Vous pouvez les régler avec précision pour tirer pleinement parti de l’application et de l’intégration dans le serveur AEM. Les différents paramètres sont décrits ci-dessous de manière détaillée.
+The application allows for settings to connect and disconnect from [!DNL Experience Manager] servers, view status of uploads, manage local cache, and so on. Les paramètres par défaut sont opérationnels pour un utilisateur ordinaire de l’application. You can tweak the settings to get more out of the application and out of the integration with [!DNL Experience Manager] server. Les différents paramètres sont décrits ci-dessous de manière détaillée.
 
-**Explore Assets (Explorer les ressources)** Ouvrez le lecteur local sur lequel est monté le référentiel AEM Assets. En d’autres termes, explorez les ressources qui sont désormais disponibles sur votre ordinateur local.
+**Explore Assets (Explorer les ressources)**[!DNL Assets] Ouvrez le lecteur local sur lequel est monté le référentiel En d’autres termes, explorez les ressources qui sont désormais disponibles sur votre ordinateur local.
 
-**View asset status (Afficher le statut des ressources)** Lorsque des ressources modifiées sont chargées ou que de nouvelles ressources sont ajoutées au référentiel AEM Assets, l’application procède à leur chargement en arrière-plan. Cela garantit la fluidité des opérations, sans qu’il faille patienter jusqu’à la fin du transfert, en particulier pour les ressources de grande taille. Vous pouvez enregistrer vos modifications en local et ne plus vous en soucier. En fonction de la bande passante disponible, l’application peut prendre un certain temps pour envoyer ces ressources au serveur. Vous pouvez vérifier l’état du transfert, avec d’autres informations de base.
+**View asset status (Afficher le statut des ressources)**[!DNL Assets] Lorsque des ressources modifiées sont chargées ou que de nouvelles ressources sont ajoutées au référentiel , l’application procède à leur chargement en arrière-plan. Cela garantit la fluidité des opérations, sans qu’il faille patienter jusqu’à la fin du transfert, en particulier pour les ressources de grande taille. Vous pouvez enregistrer vos modifications en local et ne plus vous en soucier. En fonction de la bande passante disponible, l’application peut prendre un certain temps pour envoyer ces ressources au serveur. Vous pouvez vérifier l’état du transfert, avec d’autres informations de base.
 
-**Options** Cliquez/appuyez sur Options dans la barre d’état de l’appli de bureau AEM pour accéder aux paramètres permettant de lancer l’application au démarrage de votre système, de vous connecter au serveur AEM au lancement de l’appli et de modifier la lettre du lecteur local sur lequel AEM Assets est disponible après le montage.
+**Options** Cliquez sur les options de la barre d&#39;état de l&#39;application de bureau pour accéder aux paramètres de lancement de l&#39;application lorsque votre système le début ; pour se connecter au [!DNL Experience Manager] serveur au lancement de l&#39;application ; et pour modifier la lettre de lecteur locale où [!DNL Assets] est disponible après le montage.
 
-**Advanced > Manage cache (Avancé > Gérer le cache)** Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur AEM Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur AEM sont conservées.
+**Advanced > Manage cache (Avancé > Gérer le cache)** Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. The artifacts from the [!DNL Assets] server are cached locally for a smoother experience. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Any assets not checked into [!DNL Experience Manager] server are retained and not deleted.
 
-### Connexion à un serveur AEM {#connect}
+### Connect to an [!DNL Experience Manager] server {#connect}
 
 L’application prend en charge la configuration du proxy sous Mac et Windows. La configuration est lue au démarrage de l’application. Si vous modifiez les paramètres du proxy, redémarrez l’application pour que les modifications soient prises en compte.
 
@@ -86,22 +86,22 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 >
 >Si vous modifiez les paramètres du proxy, redémarrez l’application pour que les modifications soient prises en compte. Sans cela, l’application continue à utiliser le serveur proxy précédemment configuré.
 
-1. Lancez l’appli de bureau AEM. Pour mapper votre instance AEM à l’application, spécifiez votre serveur AEM au format suivant `https://[aem-server-url]:[port]`.
+1. Launch [!DNL Experience Manager] desktop app. To map your [!DNL Experience Manager] instance with the app, specify your [!DNL Experience Manager] server in the format `https://[aem-server-url]:[port]`.
 
-   ![Authentification sous Mac et spécification de l’URL du serveur AEM](assets/aem_desktop_app_server_url.png)
+   ![[!DNL Experience Manager]Authentification sous Mac et spécification de l’URL du serveur ](assets/aem_desktop_app_server_url.png)
 
-1. Dans l’écran de connexion, indiquez le nom d’utilisateur et le mot de passe de votre instance. Pour spécifier une autre instance AEM, sélectionnez l’option **[!UICONTROL Alternate Login URL]**.
+1. Dans l’écran de connexion, indiquez le nom d’utilisateur et le mot de passe de votre instance. To specify an alternate [!DNL Experience Manager] instance, select the **[!UICONTROL Alternate Login URL]** option.
 
-   ![Saisie des informations d’identification du serveur AEM dans l’écran de connexion de l’appli de bureau AEM](assets/login_screen_v1.png)
+   ![[!DNL Experience Manager][!DNL Experience Manager]Saisie des informations d’identification du serveur dans l’écran de connexion de l’appli de bureau ](assets/login_screen_v1.png)
 
-### Activation des actions de bureau dans l’interface web d’AEM {#desktopactions}
+### Enable desktop actions in [!DNL Experience Manager] web interface {#desktopactions}
 
 À partir de l’interface utilisateur Assets, vous pouvez explorer l’emplacement des ressources ou extraire une ressource et l’ouvrir afin de la modifier dans votre appli de bureau. Ces options, appelées actions de bureau, ne sont pas activées par défaut. Procédez comme suit pour les activer.
 
 1. Dans l’interface Assets, cliquez/appuyez sur l’icône Utilisateur dans le coin supérieur droit de la barre d’outils.
 1. Cliquez sur **[!UICONTROL My Preferences]** pour afficher la boîte de dialogue **[!UICONTROL Preferences]**.
 
-   ![Interface AEM avec les préférences utilisateur](assets/aem_ui_user_preferences.png)
+   ![[!DNL Experience Manager] interface avec préférences utilisateur](assets/aem_ui_user_preferences.png)
 
 1. Dans la boîte de dialogue Préférences utilisateur, sélectionnez **[!UICONTROL Show Desktop Actions For Assets]**. Cliquez sur **[!UICONTROL Accept]**.
 
@@ -113,27 +113,27 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
 Lorsque vous cliquez sur **Open** (Ouvrir) pour ouvrir une ressource sur l’ordinateur local, l’application la télécharge dans son cache interne. L’application lance l’appli de bureau native associée au type de fichier de la ressource téléchargée.
 
-Sous Mac, sélectionnez **Open** (Ouvrir) dans le menu contextuel pour ouvrir une ressource via l’appli de bureau AEM. Sous Windows, sélectionnez Ouvrir sur le web dans le menu contextuel pour ouvrir la ressource. Dans la fenêtre Asset Status (Statut de la ressource), cliquez/appuyez sur ![Icône Open on Desktop](assets/do-not-localize/aemassets_icon_openondesktop.png) pour ouvrir la ressource.
+Sous Mac, sélectionnez **Open** (Ouvrir) dans le menu contextuel pour ouvrir une ressource via l’appli de bureau [!DNL Experience Manager] Sous Windows, sélectionnez Ouvrir sur le web dans le menu contextuel pour ouvrir la ressource. Dans la fenêtre Asset Status (Statut de la ressource), cliquez/appuyez sur ![Icône Open on Desktop](assets/do-not-localize/aemassets_icon_openondesktop.png) pour ouvrir la ressource.
 
 Pour les fichiers Adobe InDesign (INDD), sélectionnez **[!UICONTROL Open]** dans le menu contextuel. Lorsque vous cliquez sur cette option, l’application télécharge les ressources liées sur votre système de fichiers local, puis ouvre le fichier INDD dans Adobe InDesign. Cette méthode garantit que les ressources requises sont disponibles en local lors de la modification du fichier INDD.
 
-![Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau AEM](assets/aem_desktopapp_mac_context_menu.png)
+![Options du menu contextuel pour accéder aux ressources et les ouvrir à l’aide de l’application de [!DNL Experience Manager] bureau](assets/aem_desktopapp_mac_context_menu.png)
 
-*Figure : Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau AEM.*
-
->[!NOTE]
->
->Sous Windows, le [paramètre par défaut de Windows 7](https://support.microsoft.com/fr-fr/kb/2668751) empêche l’appli de bureau AEM de gérer les ressources de plus de 50 Mo.
+*[!DNL Experience Manager]Figure : Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau .*
 
 >[!NOTE]
 >
->Adobe recommande d’accéder aux options de présentation du Finder sous Mac et de désactiver les options **Afficher les informations**, **Utiliser un aperçu comme icône** et **Afficher la colonne d’aperçu** pour le dossier AEM Assets monté. Cela améliore les performances.
+>Sous Windows, le [paramètre par défaut de Windows 7](https://support.microsoft.com/fr-fr/kb/2668751) empêche l’appli de bureau de gérer les ressources de plus de 50 Mo.[!DNL Experience Manager]
 
-### Autres options de l’interface AEM {#additional-options-in-aem-assets}
+>[!NOTE]
+>
+>Adobe recommande d’accéder aux options de présentation du Finder sous Mac et de désactiver les options **Afficher les informations**, **Utiliser un aperçu comme icône** et **Afficher la colonne d’aperçu** pour le dossier monté. [!DNL Assets] Cela améliore les performances.
 
-Après avoir mappé le référentiel AEM Assets sur votre lecteur local, vous pouvez activer des icônes supplémentaires, ainsi que la fonction de téléchargement de dossiers, afin qu’elles s’affichent pour les ressources et les dossiers mappés.
+### Additional options in [!DNL Experience Manager] interface {#additional-options-in-aem-assets}
 
-1. Ouvrez l’interface d’AEM Assets et placez le pointeur sur un dossier ou une ressource afin d’afficher les actions de bureau sous la forme d’actions rapides dans le mode Carte.
+After you map the [!DNL Assets] repository to your local drive, you can enable additional icons and the Folder Upload feature to appear for the mapped assets and folders.
+
+1. Open the [!DNL Assets] interface and hover the pointer over a folder or an asset, to display the desktop actions as quick actions in the Card view.
 
    ![Dans l’interface utilisateur Assets, ouvrez le menu des actions rapides pour afficher les actions de bureau](assets/desktop_actions_in_card_view.png)
 
@@ -157,13 +157,13 @@ Pour localiser la ressource sur votre système de fichiers local, cliquez sur l�
 
 ## Utilisation de vos ressources {#workonassets}
 
-### Extraction de ressources à partir de l’interface web AEM {#check-out-assets-from-the-aem-web-interface}
+### Check out assets from the [!DNL Experience Manager] web interface {#check-out-assets-from-the-aem-web-interface}
 
-AEM Assets permet d’extraire des ressources pour les modifier et de les ré-archiver après y avoir apporté les modifications. Après avoir extrait une ressource, vous seul pouvez la modifier, l’annoter, la publier, la déplacer ou la supprimer. Le fait d’extraire une ressource entraîne son verrouillage et empêche les autres utilisateurs d’effectuer l’une de ces opérations. Vous avez besoin d’un accès en écriture à ces ressources pour être en mesure de les extraire ou de les archiver.
+[!DNL Assets] permet d’extraire des ressources pour les modifier et de les ré-archiver après y avoir apporté les modifications. Après avoir extrait une ressource, vous seul pouvez la modifier, l’annoter, la publier, la déplacer ou la supprimer. Le fait d’extraire une ressource entraîne son verrouillage et empêche les autres utilisateurs d’effectuer l’une de ces opérations. Vous avez besoin d’un accès en écriture à ces ressources pour être en mesure de les extraire ou de les archiver.
 
-Pour extraire des ressources à partir de l’interface web AEM, deux méthodes sont possibles. Pour obtenir des informations détaillées sur la première méthode, voir [Archivage et extraction de fichiers à partir de l’interface utilisateur Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/check-out-and-submit-assets.html?lang=fr). Pour la deuxième méthode, suivez la procédure ci-dessous pour extraire et ouvrir la ressource quand l’appli de bureau AEM est installée.
+There are two ways of checking out assets from the [!DNL Experience Manager] web interface. Pour obtenir des informations détaillées sur la première méthode, voir [Archivage et extraction de fichiers à partir de l’interface utilisateur Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/check-out-and-submit-assets.html?lang=fr). Follow these steps, for the second methods to check out and open the asset when [!DNL Experience Manager] desktop app is installed.
 
-1. Ouvrez l’interface d’AEM Assets et placez le pointeur sur un dossier ou une ressource afin d’afficher les actions de bureau sous la forme d’actions rapides dans le mode Carte.
+1. Open the [!DNL Assets] interface and hover the pointer over a folder or an asset, to display the desktop actions as quick actions in the Card view.
 
    ![Option des propriétés dans le mode Carte](assets/desktop_actions_in_card_view.png)
 
@@ -177,7 +177,7 @@ Pour extraire des ressources à partir de l’interface web AEM, deux méthodes 
    >
    >Lorsque vous modifiez un fichier qui est simplement ouvert, mais pas extrait, les autres utilisateurs ne savent pas que vous êtes en train de mettre à jour une ressource.
 
-1. Pour ouvrir une ressource en vue de la modifier dans une application Adobe Creative Cloud, cliquez/appuyez sur l’action rapide Edit desktop (Modifier le Bureau) ![Icône Edit Desktop](assets/do-not-localize/aemassets_icon_editdesktop.png). Cette option extrait également la ressource en vue de la modifier. Après avoir procédé aux modifications, archivez la ressource pour mettre à jour les modifications dans AEM Assets.
+1. Pour ouvrir une ressource en vue de la modifier dans une application Adobe Creative Cloud, cliquez/appuyez sur l’action rapide Edit desktop (Modifier le Bureau) ![Icône Edit Desktop](assets/do-not-localize/aemassets_icon_editdesktop.png). Cette option extrait également la ressource en vue de la modifier. Après avoir procédé aux modifications, archivez la ressource pour mettre à jour les modifications dans [!DNL Assets].
 
    Vous pouvez également sélectionner Edit (Modifier) dans le menu Desktop Actions (Actions sur le Bureau) de la barre d’outils.
 
@@ -188,11 +188,11 @@ Pour extraire des ressources à partir de l’interface web AEM, deux méthodes 
 
 L’application permet d’extraire des fichiers de ressource pour empêcher d’autres utilisateurs de modifier les fichiers sur lesquels vous travaillez.
 
-1. Dans le menu contextuel de Mac, sélectionnez Open AEM Assets Folder (Ouvrir le dossier AEM Assets) pour ouvrir le Finder.
+1. Dans le menu contextuel Mac, sélectionnez l’option Ouvrir le dossier AEM Assets pour ouvrir le Finder.
 
-   ![Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau AEM](assets/aem_desktopapp_mac_context_menu.png)
+   ![Options du menu contextuel pour accéder aux ressources et les ouvrir à l’aide de l’application de [!DNL Experience Manager] bureau](assets/aem_desktopapp_mac_context_menu.png)
 
-   Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau AEM
+   *[!DNL Experience Manager]Figure : Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau .*
 
 1. Accédez à la ressource à extraire.
 1. Cliquez avec le bouton droit sur la ressource, puis choisissez More Assets Info (Plus d’infos sur la ressource) dans le menu contextuel.
@@ -217,7 +217,7 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 
    >[!NOTE]
    >
-   >L’icône de verrouillage peut s’afficher après un certain délai. L’appli de bureau AEM met en cache les ressources en vue d’un accès rapide. La mise à jour de l’état Verrouillé peut donc prendre un certain temps.
+   >L’icône de verrouillage peut s’afficher après un certain délai. [!DNL Experience Manager]L’appli de bureau met en cache les ressources en vue d’un accès rapide. La mise à jour de l’état Verrouillé peut donc prendre un certain temps.
 
 1. Pour archiver la ressource afin qu’elle soit disponible pour les autres utilisateurs, cliquez/appuyez sur l’icône Check-in (Archiver) dans la boîte de dialogue **Asset Info** (Informations sur les ressources).
 
@@ -225,13 +225,13 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 
 Une fois la modification des ressources effectuée, enregistrez ces dernières dans votre application de bureau. Dans le menu contextuel, sélectionnez **More Assets Info** (Autres infos sur les ressources) et cliquez ensuite sur Check-in (Archiver).
 
-Les ressources sont chargées vers le serveur AEM. Vous pouvez vérifier le statut du chargement en sélectionnant **View Asset Status** (Afficher le statut des ressources) à partir de l’icône de la barre d’état. Vous pouvez également archiver une ressource à partir de l’interface web AEM. Cliquez sur les ressources extraites ou sélectionnez-les. Dans la barre d’outils, cliquez sur l’icône d’archivage ![Icône Archiver](assets/do-not-localize/aemassets_icon_checkin.png).
+The assets are uploaded to [!DNL Experience Manager] server. Vous pouvez vérifier le statut du chargement en sélectionnant **View Asset Status** (Afficher le statut des ressources) à partir de l’icône de la barre d’état. Alternatively, you can check in an asset from the [!DNL Experience Manager] web interface. Cliquez sur les ressources extraites ou sélectionnez-les. Dans la barre d’outils, cliquez sur l’icône d’archivage ![Icône Archiver](assets/do-not-localize/aemassets_icon_checkin.png).
 
-Une ressource est automatiquement chargée vers AEM après l’enregistrement local de toutes les modifications. L’archivage rend la ressource disponible pour modification par d’autres utilisateurs AEM.
+An asset is uploaded to [!DNL Experience Manager] automatically after any changes are saved locally. The check-in makes the asset available to other [!DNL Experience Manager] users for editing.
 
-### Chargement en masse de ressources et de dossiers vers le serveur AEM {#bulkupload}
+### Bulk upload assets and folders to [!DNL Experience Manager] server {#bulkupload}
 
-L’appli de bureau AEM permet de télécharger un dossier entier de ressources à partir de votre répertoire de fichiers local vers AEM Assets. Ainsi, toutes les ressources dans le dossier sont téléchargées en masse au lieu d’avoir à les télécharger une par une.
+Using [!DNL Experience Manager] desktop app, you can upload an entire folder containing assets from your local file directory to [!DNL Assets]. Ainsi, toutes les ressources dans le dossier sont téléchargées en masse au lieu d’avoir à les télécharger une par une.
 
 1. Depuis l’IU Assets, cliquez/appuyez sur **Créer** dans la barre d’outils, puis sélectionnez **Dossier de chargement** dans le menu.
 1. Accédez au dossier à télécharger et sélectionnez-le.
@@ -249,9 +249,9 @@ L’appli de bureau AEM permet de télécharger un dossier entier de ressources
 
 Adobe recommande de ne pas copier-coller ni faire glisser un grand nombre de fichiers, ou de dossiers imbriqués, du système de fichiers local vers la zone de partage réseau. L’application ne peut pas contrôler le processus de chargement en raison de limitations techniques et de faibles performances.
 
-Vous pouvez également sélectionner les fichiers/dossiers à charger vers AEM dans le Finder ou l’Explorateur, les copier dans le Presse-papiers du système, accéder au dossier cible dans la zone de partage réseau et, dans le menu contextuel de l’appli de bureau AEM, sélectionner **Paste Assets** (Coller les ressources). Ainsi, l’appli de bureau AEM démarre le chargement des ressources collées, comme avec l’option **Dossier de chargement** disponible dans l’interface web AEM.
+Alternatively, select files/folders you want to upload to [!DNL Experience Manager] in Finder or Explorer, copy them to system clipboard, navigate to the target folder in the network share area, and from the [!DNL Experience Manager] desktop app context menu select **Paste Assets**. This way, [!DNL Experience Manager] desktop app starts uploading the pasted assets similar to the **Upload Folder** option available in the [!DNL Experience Manager] web interface.
 
 >[!MORELIKETHIS]
 >
->* [Résolution des problèmes liés à l’appli de bureau AEM](troubleshoot-app-v1.md)
+>* [ [!DNL Experience Manager] Résolution des problèmes liés à l’appli de bureau ](troubleshoot-app-v1.md)
 
