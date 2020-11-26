@@ -8,18 +8,18 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: ht
-source-wordcount: '2228'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+workflow-type: tm+mt
+source-wordcount: '2171'
+ht-degree: 90%
 
 ---
 
 
 # Résolution des problèmes liés à l’appli de bureau Adobe Experience Manager {#troubleshoot-v2}
 
-L’appli de bureau Adobe Experience Manager (AEM) se connecte à un référentiel de gestion des ressources numériques (DAM) d’un déploiement Experience Manager distant. L’appli récupère les informations du référentiel et les résultats de la recherche sur votre ordinateur, télécharge et charge les fichiers et les dossiers, et inclut des fonctionnalités de gestion des conflits avec l’interface utilisateur d’AEM Assets.
+L’application de bureau Adobe Experience Manager se connecte au référentiel de gestion des actifs numériques (DAM) d’un déploiement Experience Manager distant. L’application récupère les informations du référentiel et les résultats de la recherche sur votre ordinateur, télécharge et télécharge des fichiers et des dossiers et comprend des fonctionnalités de gestion des conflits avec l’interface utilisateur Ressources.
 
 Lisez la suite de cette section pour résoudre les problèmes de l’application, découvrir les bonnes pratiques et connaître les limites.
 
@@ -119,7 +119,7 @@ Pour activer le mode de débogage sous Windows :
 
 Exécutez les étapes suivantes :
 
-1. Lancez l’application et connectez-vous à l’instance AEM.
+1. Début de l’application et connexion à l’instance du Experience Manager.
 
 1. Ouvrez les préférences de l’application en cliquant sur les ellipses situées dans le coin supérieur droit et en sélectionnant [!UICONTROL Preferences].
 
@@ -163,9 +163,9 @@ Si vous ne pouvez pas voir les ressources que vous ou d’autres professionnels 
 
 * Taille de fichier. Le téléchargement et l’affichage des ressources volumineuses prennent plus de temps.
 
-* Cohérence des lettres de lecteur. Si vous ou un autre collaborateur avez placé les ressources tout en mappant le DAM AEM sur une autre lettre de lecteur, les ressources placées ne s’affichent pas.
+* Cohérence des lettres de lecteur. Si vous ou un autre collaborateur avez placé les ressources lors du mappage du DAM Experience Manager à une autre lettre de lecteur, les ressources placées ne s&#39;affichent pas.
 
-* Permissions. Pour vérifier que vous êtes autorisé à récupérer les ressources placées, contactez votre administrateur AEM.
+* Autorisations. Pour vérifier si vous êtes autorisé à récupérer les fichiers placés, contactez votre administrateur de Experience Manager.
 
 ### Les modifications apportées aux fichiers de l’interface utilisateur de l’appli de bureau ne sont pas répercutées immédiatement dans [!DNL Adobe Experience Manager] {#changes-on-da-not-visible-on-aem}
 
@@ -173,7 +173,7 @@ L’appli de bureau [!DNL Adobe Experience Manager] laisse à l’utilisateur le
 
 ### Problèmes lors de la mise à niveau sous MacOS {#issues-when-upgrading-on-macos}
 
-Des problèmes peuvent parfois survenir lors de la mise à niveau de l’appli de bureau AEM sous macOS. Cela est dû au dossier système hérité de l’appli de bureau AEM, qui empêche le chargement correct des nouvelles versions de l’application. Pour y remédier, les dossiers et fichiers suivants peuvent être supprimés manuellement.
+Des problèmes peuvent parfois se produire lors de la mise à niveau de l’application de bureau Experience Manager sur macOS. Cela est dû au dossier système hérité pour l’application de bureau Experience Manager qui empêche le chargement correct des nouvelles versions de l’application de bureau Experience Manager. Pour y remédier, les dossiers et fichiers suivants peuvent être supprimés manuellement.
 
 Avant d’exécuter les étapes suivantes, faites glisser l’application `Adobe Experience Manager Desktop` du dossier des applications MacOS vers la corbeille. Ouvrez ensuite le terminal, exécutez la commande suivante et saisissez votre mot de passe lorsque vous y êtes invité.
 
@@ -188,7 +188,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ### Chargement des fichiers impossible {#upload-fails}
 
-Si vous utilisez une appli de bureau avec AEM 6.5.1 ou version ultérieure, mettez à niveau S3 ou le connecteur Azure vers la version 1.10.4 ou ultérieure. Cela aura pour effet de résoudre le problème d’échec de chargement de fichier lié à [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). Voir [Instructions d’installation](install-upgrade.md#install-v2).
+Si vous utilisez une application de bureau avec Experience Manager 6.5.1 ou version ultérieure, mettez à niveau S3 ou Azure Connector vers la version 1.10.4 ou ultérieure. Cela aura pour effet de résoudre le problème d’échec de chargement de fichier lié à [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). Voir [Instructions d’installation](install-upgrade.md#install-v2).
 
 ### Problèmes de connexion à l’appli de bureau [!DNL Experience Manager] {#connection-issues}
 
@@ -213,13 +213,9 @@ Si l’appli de bureau [!DNL Experience Manager] ne se connecte pas à votre ins
 
 Il arrive que le processus SAML ne revienne pas vers le chemin d’accès initialement demandé ou que la redirection finale concerne un hôte différent de celui configuré dans l’appli de bureau [!DNL Adobe Experience Manager]. Pour vérifier que ce n’est pas le cas :
 
-1. Ouvrez un navigateur web.
+1. Ouvrez un navigateur web. Accédez à `https://[aem_server]:[port]/content/dam.json` l’URL.
 
-1. Renseignez l’URL `<AEM host>/content/dam.json` dans la barre d’adresse.
-
-   Remplacez la mention `<AEM host>` par l’instance [!DNL Adobe Experience Manager] cible, par exemple `http://localhost:4502/content/dam.json`.
-
-1. Connectez-vous à l’instance [!DNL Adobe Experience Manager].
+1. Log in to the [!DNL Adobe Experience Manager] deployment.
 
 1. Une fois la connexion terminée, examinez l’adresse actuelle du navigateur dans la barre d’adresse. Elle doit correspondre exactement à l’URL que vous avez saisie initialement.
 
@@ -260,10 +256,9 @@ L’examen de la séquence d’URL en cours de chargement peut aider à résoudr
 
 #### Problème de configuration SSL {#ssl-config-v2}
 
-Les bibliothèques utilisées par l’appli de bureau AEM pour les communications HTTP appliquent le protocole SSL de manière stricte. Parfois, une connexion peut réussir en utilisant un navigateur, mais échouer avec l’appli de bureau AEM. Pour configurer SSL convenablement, installez le certificat intermédiaire manquant dans Apache. Voir [Comment installer un certificat d’autorité de certification intermédiaire dans Apache](https://access.redhat.com/solutions/43575).
+Les bibliothèques utilisées par l’application de bureau Experience Manager pour la communication HTTP utilisent une stricte application SSL. Parfois, une connexion peut réussir à utiliser un navigateur, mais échoue à utiliser une application de bureau Experience Manager. Pour configurer SSL convenablement, installez le certificat intermédiaire manquant dans Apache. Voir [Comment installer un certificat d’autorité de certification intermédiaire dans Apache](https://access.redhat.com/solutions/43575).
 
-
-Les bibliothèques utilisées par AEM Desktop pour la communication HTTP appliquent le protocole SSL de manière stricte. Il peut donc y avoir des cas où les connexions SSL réalisées par le biais d’un navigateur échouent avec l’appli de bureau [!DNL Adobe Experience Manager]. C’est un point positif car cela incite à configurer correctement le certificat SSL et à accroître la sécurité, même si la situation peut être frustrante si l’application ne parvient pas à se connecter.
+Les bibliothèques utilisées par Experience Manager Desktop pour la communication HTTP utilisent une stricte application SSL. Il peut donc y avoir des cas où les connexions SSL réalisées par le biais d’un navigateur échouent avec l’appli de bureau [!DNL Adobe Experience Manager]. C’est un point positif car cela incite à configurer correctement le certificat SSL et à accroître la sécurité, même si la situation peut être frustrante si l’application ne parvient pas à se connecter.
 
 Dans ce cas, l’approche recommandée consiste à utiliser un outil pour analyser le certificat SSL d’un serveur et identifier les problèmes afin de les corriger. Certains sites web inspectent le certificat d’un serveur pour fournir son URL.
 
@@ -305,21 +300,23 @@ L’application risque rarement de ne plus répondre, d’afficher uniquement un
 
 Dans les deux méthodes, l’application démarre au dossier DAM racine.
 
-### Si vous avez besoin d’une aide supplémentaire pour l’appli de bureau [!DNL Experience Manager] {#additional-help}
+<!--
+### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
 
-Créez un ticket Jira contenant les informations suivantes :
+Create Jira ticket with the following information:
 
-* Utilisez `DAM - Companion App` en tant que [!UICONTROL Component].
+* Use `DAM - Companion App` as the [!UICONTROL Component].
 
-* Étapes détaillées pour reproduire le problème dans [!UICONTROL Description].
+* Detailed steps to reproduce the issue in [!UICONTROL Description].
 
-* Journaux de niveau DEBUG capturés lors de la reproduction du problème.
+* DEBUG level logs that were captured while reproducing the issue.
 
-* Version cible d’AEM.
+* Target Experience Manager version.
 
-* Version du système d’exploitation.
+* Operating system version.
 
-* Version de l’appli de bureau [!DNL Adobe Experience Manager]. Pour connaître la version de votre appli, voir la section [Recherche de la version de l’appli de bureau](#know-app-version-v2).
+* [!DNL Adobe Experience Manager] desktop app version. To know your app version, see [finding the desktop app version](#know-app-version-v2).
+-->
 
 >[!MORELIKETHIS]
 >
