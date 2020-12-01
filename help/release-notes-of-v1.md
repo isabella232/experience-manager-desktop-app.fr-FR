@@ -8,9 +8,9 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 828de6db376d90f6de8f9682183b4c13ffe08d94
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3920'
 ht-degree: 100%
 
@@ -351,7 +351,7 @@ Ces deux cas sont attendus et sont des répercussions secondaires de l’archite
 * Amélioration de la gestion des applications de bureau qui utilisent des opérations de fichiers intermédiaires pour enregistrer un fichier (enregistrements partiels et fichiers temporaires), ce qui permet à la chronologie d’AEM Assets d’afficher les informations correctes de version et de chargement des ressources.
 * Boîte de dialogue fournie pour effectuer le suivi de l’état des tâches de chargement en arrière-plan.
 
-## Liste des modifications {#list-of-changes}
+## Liste des modifications  {#list-of-changes}
 
 ### Point de montage sous Mac {#mount-point-on-mac}
 
