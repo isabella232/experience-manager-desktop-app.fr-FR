@@ -65,17 +65,17 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute in
 
 1. Conservez l’URL et les informations d’identification de votre déploiement d’Experience Manager à portée de main.
 
-1. If you are upgrading from another version of the app, see [upgrade desktop app](#upgrade-from-previous-version).
+1. Si vous effectuez une mise à niveau à partir d’une autre version de l’application, voir [mise à niveau de l’application de bureau](#upgrade-from-previous-version).
 
 1. Ignorez cette étape si vous utilisez Experience Manager as a Cloud Service, Experience Manager 6.4.4 ou version ultérieure, ou Experience Manager 6.5.0 ou version ultérieure. Assurez-vous que votre configuration d’Experience Manager respecte les exigences de compatibilité mentionnées dans les [notes de mise à jour](release-notes.md). Si nécessaire, téléchargez le [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicable et installez-le à l’aide d’Experience Manager Package Manager en tant qu’administrateur Experience Manager. Pour installer un package, voir [Comment travailler avec des packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr).
 
 1. Exécutez le fichier binaire du programme d’installation et suivez les instructions à l’écran pour procéder à l’installation.
 
-1. Sous Windows, il se peut que le programme d’installation vous invite à installer `Visual Studio C++ Redistributable 2015`. Suivez les instructions affichées à l’écran pour installer ce programme. Si l’installation échoue, procédez manuellement. Téléchargez le programme d’installation [ici](https://www.microsoft.com/fr-fr/download/details.aspx?id=52685) et installez les fichiers `vc_redist.x64.exe` et `vc_redist.x86.exe`. Re-run the [!DNL Experience Manager] desktop app installer.
+1. Sous Windows, il se peut que le programme d’installation vous invite à installer `Visual Studio C++ Redistributable 2015`. Suivez les instructions affichées à l’écran pour installer ce programme. Si l’installation échoue, procédez manuellement. Téléchargez le programme d’installation [ici](https://www.microsoft.com/fr-fr/download/details.aspx?id=52685) et installez les fichiers `vc_redist.x64.exe` et `vc_redist.x86.exe`. Réexécutez le programme d’installation de l’application de bureau [!DNL Experience Manager].
 
 1. Redémarrez l’ordinateur conformément aux instructions. Lancez et configurez l’application de bureau.
 
-1. To connect the app with an [!DNL Experience Manager] repository, click the app icon in the tray and launch the app. Provide the address of the [!DNL Experience Manager] server in the format `https://[aem_server]:[port]/`.
+1. Pour connecter l’application à un référentiel [!DNL Experience Manager], cliquez sur l’icône de l’application dans la barre d’état et lancez l’application. Indiquez l&#39;adresse du serveur [!DNL Experience Manager] au format `https://[aem_server]:[port]/`.
 
    Cliquez sur **[!UICONTROL Connect]** et saisissez les informations d’identification.
 
@@ -85,9 +85,9 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute in
 
    >[!CAUTION]
    >
-   >Ensure there are no leading or trailing spaces before or after the address of the [!DNL Experience Manager] server. Otherwise the app cannot connect to the [!DNL Experience Manager] server.
+   >Assurez-vous qu’il n’y a aucun espace de début ou de fin avant ou après l’adresse du serveur [!DNL Experience Manager]. Sinon, l&#39;application ne peut pas se connecter au serveur [!DNL Experience Manager].
 
-1. Upon successful connection, you can view the list of folders and assets available in the root folder of the [!DNL Experience Manager] DAM. Vous pouvez parcourir les dossiers depuis l’application.
+1. Une fois la connexion établie, vous pouvez vue la liste des dossiers et des ressources disponibles dans le dossier racine du DAM [!DNL Experience Manager]. Vous pouvez parcourir les dossiers depuis l’application.
 
    ![Lors de la connexion, l’application affiche le contenu de la gestion des actifs numériques](assets/firstview_da2.png)
 
@@ -119,7 +119,7 @@ Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-
 
 * **[!UICONTROL Upload Acceleration]** : lorsque vous chargez des ressources, l’application peut réaliser ces chargements de façon simultanée de façon à en accroître la vitesse. Vous pouvez augmenter la simultanéité du chargement en déplaçant le curseur vers la droite. Le curseur situé à l’extrême gauche signifie qu’il n’y a pas de simultanéité (chargement à thread unique), tandis que la position centrale correspond à 10 threads simultanés et la limite maximale à l’extrême à 20 threads simultanés. Une limite de simultanéité plus élevée consomme davantage de ressources au niveau du processeur de l’ordinateur local.
 
-To update the unavailable preferences, log out of the [!DNL Experience Manager] server. Après avoir mis les préférences à jour, cliquez sur ![Save preferences](assets/do-not-localize/save_preferences_da2.png) pour les enregistrer.
+Pour mettre à jour les préférences indisponibles, déconnectez-vous du serveur [!DNL Experience Manager]. Après avoir mis les préférences à jour, cliquez sur ![Save preferences](assets/do-not-localize/save_preferences_da2.png) pour les enregistrer.
 
 ![Préférences et paramètres de l’appli de bureau](assets/preferences_da2.png)
 
@@ -129,7 +129,7 @@ To update the unavailable preferences, log out of the [!DNL Experience Manager] 
 
 Pour désinstaller l’application sous Windows, procédez comme suit :
 
-1. Upload all your changes to [!DNL Experience Manager] to avoid losing any edits. Reportez-vous à [Modification de ressources et chargement de ressources mises à jour dans [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Déconnectez-vous et quittez l’application (via [!UICONTROL Exit]).
+1. Téléchargez toutes vos modifications dans [!DNL Experience Manager] pour éviter de perdre des modifications. Reportez-vous à [Modification de ressources et chargement de ressources mises à jour dans [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Déconnectez-vous et quittez l’application (via [!UICONTROL Exit]).
 
 1. Supprimez l’application comme vous le feriez pour une autre application du système d’exploitation. Désinstallez-la via la fenêtre d’ajout et de suppression de programmes sous Windows.
 
@@ -141,7 +141,7 @@ Pour désinstaller l’application sous Windows, procédez comme suit :
 
 Pour désinstaller l’application sous Mac, procédez comme suit :
 
-1. Upload all your changes to [!DNL Experience Manager] to avoid losing any edits. Reportez-vous à [Modification de ressources et chargement de ressources mises à jour dans [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Déconnectez-vous et quittez l’application (via [!UICONTROL Exit]).
+1. Téléchargez toutes vos modifications dans [!DNL Experience Manager] pour éviter de perdre des modifications. Reportez-vous à [Modification de ressources et chargement de ressources mises à jour dans [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Déconnectez-vous et quittez l’application (via [!UICONTROL Exit]).
 
 1. Supprimez le fichier `Adobe Experience Manager Desktop.app` du dossier `/Applications`.
 
