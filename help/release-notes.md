@@ -107,7 +107,7 @@ Les correctifs de bogues et mises à jour sont les suivants :
 
 * Option permettant de configurer le répertoire `%Temp%` de façon à ce qu’il corresponde au chemin d’accès à `%APPDATA%`. <!-- CQ-4282665 -->
 
-* Allow users to log in on Experience Manager Author via Okta SAML authentication. <!-- CQ-4278134 -->
+* Permet aux utilisateurs de se connecter à l’auteur Experience Manager via l’authentification SAML okta. <!-- CQ-4278134 -->
 
 ## Instructions d’installation {#installation-instructions-v2}
 
@@ -123,7 +123,7 @@ Il est important de comprendre ce qui suit à propos de l’application et de so
 
    * Si vous souhaitez utiliser la ressource figurant sur le bureau, vous devez explicitement ouvrir, modifier ou télécharger sur votre bureau, que ce soit individuellement, dans un dossier ou par sélection multiple.
 
-   * If you want to get local changes to assets uploaded to Experience Manager, you need to select [!UICONTROL Upload Changes], either individually or via multi-selection.
+   * Si vous souhaitez que les modifications locales des ressources soient téléchargées vers le Experience Manager, vous devez sélectionner [!UICONTROL Upload Changes], soit individuellement, soit par sélection multiple.
 
    * L’application n’est pas un &quot;client de synchronisation&quot; qui synchronise les ressources sur le bureau et le Experience Manager.
 
@@ -159,7 +159,7 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 
 * L’application tente de télécharger des fichiers même avec des caractères non valides, ce qui peut entraîner l’échec du chargement côté serveur. <!-- CQ-4273652 -->
 
-* Lors du téléchargement de modifications dans un fichier contenant des commentaires, les commentaires sont stockés avec le fichier dans le Experience Manager, mais ne sont pas visibles en tant que commentaires de contrôle de version. This issue is resolved in Experience Manager 6.4.5 and Experience Manager 6.5.1. Adobe strongly recommends installing the latest service packs. <!-- CQ-4268990 -->
+* Lors du téléchargement de modifications dans un fichier contenant des commentaires, les commentaires sont stockés avec le fichier dans le Experience Manager, mais ne sont pas visibles en tant que commentaires de contrôle de version. Ce problème est résolu dans Experience Manager 6.4.5 et Experience Manager 6.5.1. Adobe recommande vivement d&#39;installer les derniers Service Packs. <!-- CQ-4268990 -->
 
 * Les transferts de ressources ne peuvent pas être annulés par l’utilisateur. Si vous avez déclenché involontairement un transfert volumineux, quittez l’application et redémarrez-la. <!-- CQ-4278940 -->
 
