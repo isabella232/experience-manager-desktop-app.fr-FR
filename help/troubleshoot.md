@@ -213,9 +213,9 @@ Si l’appli de bureau [!DNL Experience Manager] ne se connecte pas à votre ins
 
 Il arrive que le processus SAML ne revienne pas vers le chemin d’accès initialement demandé ou que la redirection finale concerne un hôte différent de celui configuré dans l’appli de bureau [!DNL Adobe Experience Manager]. Pour vérifier que ce n’est pas le cas :
 
-1. Ouvrez un navigateur web. Accédez à `https://[aem_server]:[port]/content/dam.json` l’URL.
+1. Ouvrez un navigateur web. Accédez à `https://[aem_server]:[port]/content/dam.json` URL.
 
-1. Log in to the [!DNL Adobe Experience Manager] deployment.
+1. Connectez-vous au déploiement [!DNL Adobe Experience Manager].
 
 1. Une fois la connexion terminée, examinez l’adresse actuelle du navigateur dans la barre d’adresse. Elle doit correspondre exactement à l’URL que vous avez saisie initialement.
 
