@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: adobe experience manager
 audience: end-user
-user-guide-title: Guide de l’application pour ordinateur de bureau Experience Manager
+user-guide-title: Guide de l’application de bureau Experience Manager
 breadcrumb-title: Guide de l’application de bureau
-user-guide-description: Apprenez à utiliser l'application de bureau Experience Manager pour connecter des référentiels et des applications de bureau afin de fournir un accès plus rapide aux ressources et aux workflows rationalisés.
+user-guide-description: Découvrez comment utiliser l’application de bureau Experience Manager pour connecter des référentiels et des applications de bureau afin d’accéder plus rapidement aux ressources et aux workflows simplifiés.
 solution-title: AEM Assets
 solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html?lang=fr
 getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html?lang=fr
@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
