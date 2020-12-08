@@ -1,9 +1,9 @@
 ---
 source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '529'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 # Contribution à la documentation de l’application de bureau Adobe Experience Manager
@@ -14,11 +14,11 @@ Ce fichier décrit comment contribuer à la documentation ainsi que les directiv
 
 ## Code de conduite Open Source d’Adobe
 
-Ce projet a adopté le [Code de conduite Adobe Open Source](code-of-conduct.md). By contributing to [!DNL Adobe Experience Manager] documentation, you agree to adhere to this code of conduct. Veuillez signaler tout comportement inacceptable à [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Ce projet a adopté le [Code de conduite Adobe Open Source](code-of-conduct.md). En contribuant à la documentation d’[!DNL Adobe Experience Manager], vous acceptez de respecter ce code de conduite. Veuillez signaler tout comportement inacceptable à [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Instructions relatives à la contribution
 
-While we welcome any contributions to improve [!DNL Experience Manager] documentation, we do ask that contributions adhere to certain guidelines and standards where possible. Pour plus d’informations, voir les [ [!DNL Experience Manager] Instructions relatives à la contribution à la documentation](guidelines.md) 
+Bien que toute contribution visant à améliorer la documentation d’[!DNL Experience Manager] soit la bienvenue, nous vous demandons, si possible, de bien vouloir respecter certaines instructions et normes. Pour plus d’informations, voir les [Instructions relatives à la contribution à la documentation d’ [!DNL Experience Manager] ](guidelines.md).
 
 ## Comment contribuer
 
@@ -37,11 +37,11 @@ La méthode choisie dépend de votre aisance pour modifier vous-même la documen
 
 Vous avez une suggestion, une observation à propos des documents actuels ou une question sur la manière dont un élément est décrit ? Vous pouvez créer un problème. Les propositions relatives aux problèmes sont également excellentes si vous souhaitez apporter votre contribution, mais que vous n’êtes pas habitué à modifier les documents ou à générer vous-même une demande d’extraction.
 
-Issues allow you to easily describe your idea for improvement to the docs and an [!DNL Experience Manager] Docs Team member can review it. Pour créer un problème, il suffit de cliquer sur le lien **Log an issue** (Soumettre un problème) en haut du panneau de navigation de droite d’une page.
+Les propositions relatives aux problèmes vous permettent de décrire facilement vos idées d’amélioration de documents, avant examen par un membre de l’équipe [!DNL Experience Manager] Docs. Pour créer un problème, il suffit de cliquer sur le lien **Log an issue** (Soumettre un problème) en haut du panneau de navigation de droite d’une page.
 
 ### Création d’une demande d’extraction {#create-a-pull-request}
 
-Si vous rencontrez un problème et savez exactement comment le résoudre, envisagez de créer une demande d’extraction. Pull requests allow you to make your own edits to the documentation, which are then reviewed for inclusion by an [!DNL Experience Manager] Docs Team member. Pour effectuer les modifications suggérées et créer la demande d’extraction, il suffit de cliquer sur le lien **Edit this page** (Modifier cette page) en haut du panneau de navigation de droite d’une page.
+Si vous rencontrez un problème et savez exactement comment le résoudre, envisagez de créer une demande d’extraction. Les demandes d’extraction permettent d’apporter vos propres modifications à la documentation, avant examen pour inclusion par un membre de l’équipe [!DNL Experience Manager] Docs. Pour effectuer les modifications suggérées et créer la demande d’extraction, il suffit de cliquer sur le lien **Edit this page** (Modifier cette page) en haut du panneau de navigation de droite d’une page.
 
 Toutes les demandes d’extraction doivent être accompagnées d’un [contrat de licence de contributeur (CLA) signé.](https://opensource.adobe.com/cla.html) Ce document autorise Adobe à redistribuer vos contributions dans le cadre du projet. Vous n’avez besoin de soumettre un CLA Adobe qu’une seule fois. Par conséquent, si vous l’avez déjà soumis, vous n’avez rien à faire.
 
@@ -49,7 +49,7 @@ Toutes les demandes d’extraction doivent être accompagnées d’un [contrat d
 
 Regardez la vidéo suivante pour un aperçu rapide de la création de problèmes et de demandes d’extraction.
 
->[!VIDEO](https://video.tv.adobe.com/v/27069)
+>[!VIDEO](https://video.tv.adobe.com/v/27069?captions=fre_fr)
 
 ### Contributions des employés d’Adobe
 
