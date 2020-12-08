@@ -1,46 +1,46 @@
 ---
 source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '732'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 # Instructions relatives à la contribution à la documentation d’Adobe Experience Manager
 
 ## Philosophie de la documentation
 
-Nous savons que les utilisateurs d’Adobe Experience Manager travaillent dans des environnements très concurrentiels, afin de créer des expériences numériques qui les distingueront de leurs concurrents. Therefore it is vital that when Adobe delivers advanced new tools in [!DNL Experience Manager], that these tools are complemented with accurate and clear documentation to allow the customer to immediately leverage their [!DNL Experience Manager] investment and maximize ROI.
+Nous savons que les utilisateurs d’Adobe Experience Manager travaillent dans des environnements très concurrentiels, afin de créer des expériences numériques qui les distingueront de leurs concurrents. Lorsqu’Adobe fournit de nouveaux outils avancés dans [!DNL Experience Manager], il est essentiel qu’ils soient complétés par une documentation précise et claire pour permettre au client d’exploiter immédiatement son investissement dans [!DNL Experience Manager] et maximiser le ROI.
 
-The goal of the [!DNL Experience Manager] documentation is to put documentation into the hands of [!DNL Experience Manager] users as soon as possible. Nous privilégions donc une documentation précise et utilisable, et nous la mettons à jour et l’améliorons constamment.
+L’objectif de la documentation d’[!DNL Experience Manager] est de la placer entre les mains des utilisateurs d’[!DNL Experience Manager] dès que possible. Nous privilégions donc une documentation précise et utilisable, et nous la mettons à jour et l’améliorons constamment.
 
 ## Contributions à la documentation
 
-In the interest of continually improving [!DNL Experience Manager] documentation, the entire community of [!DNL Experience Manager] users is welcome to contribute to the documentation. Que ce soit par le biais de demandes d’extraction ou de demandes, les améliorations apportées à la documentation peuvent être des corrections, des clarifications, des extensions et des exemples supplémentaires.
+Pour améliorer continuellement la documentation d’[!DNL Experience Manager], toute la communauté des utilisateurs d’[!DNL Experience Manager] peut apporter sa contribution. Que ce soit par le biais de demandes d’extraction ou de demandes, les améliorations apportées à la documentation peuvent être des corrections, des clarifications, des extensions et des exemples supplémentaires.
 
 ## Normes de la documentation
 
-While we welcome contributions to our documentation, any contribution to the [!DNL Experience Manager] documentation, either in the form of a pull request or an issue, should conform to our contribution and documentation standards.
+Bien que nous nous félicitions des apports à notre documentation, toute contribution à la documentation d’[!DNL Experience Manager] sous la forme d’une demande d’extraction ou d’un problème doit être conforme à nos normes de contribution et de documentation.
 
 Les contributions qui ne satisfont pas à ces normes peuvent être rejetées.
 
 ### Nous documenterons les cas d’utilisation standard
 
-[!DNL Experience Manager]La documentation couvre les cas d’utilisation standard. Use cases beyond the scope of standard installation and usage of the product are not part of [!DNL Experience Manager] documentation.
+La documentation d’[!DNL Experience Manager] couvre les cas d’utilisation standard. Les cas d’utilisation au-delà de la portée de l’installation et de l’utilisation standard du produit ne font pas partie de la documentation d’[!DNL Experience Manager].
 
 ### En général, nous ne documentons pas les bogues ni leurs solutions
 
-[!DNL Experience Manager]La documentation couvre les cas d’utilisation standard. Pour cette raison, les bogues, leurs effets et leurs solutions ne sont généralement pas documentés.
+La documentation d’[!DNL Experience Manager] couvre les cas d’utilisation standard. Pour cette raison, les bogues, leurs effets et leurs solutions ne sont généralement pas documentés.
 
-Exceptions to this rule apply to the release notes where known issues can be listed with possible solutions that have been approved by [!DNL Experience Manager] Product Management.
+Les exceptions à cette règle concernent les notes de mise à jour qui répertorient les problèmes connus ainsi que les solutions possibles après approbation par l’équipe de gestion des produits [!DNL Experience Manager].
 
 ### Les contributions à la documentation ne sont pas destinées à répondre aux questions techniques
 
-Any ideas you may have to improve [!DNL Experience Manager] documentation are welcome as contributions. Toutefois, les commentaires, les demandes et les demandes d’extraction sont destinés uniquement aux *contributions*. They are not intended to be used to answer your questions about how to use [!DNL Experience Manager], implement your [!DNL Experience Manager] project, or solve technical problems.
+Toute opinion susceptible d’améliorer la documentation d’[!DNL Experience Manager] est la bienvenue sous forme de contributions. Toutefois, les commentaires, les demandes et les demandes d’extraction sont destinés uniquement aux *contributions*. Ils ne sont pas censés être utilisés pour répondre à vos questions sur l’utilisation d’[!DNL Experience Manager], mettre en œuvre votre projet [!DNL Experience Manager] ou résoudre des problèmes techniques.
 
-Any questions about the usage of [!DNL Experience Manager] or technical errors you may have should be reported through the normal support process via the [Experience Cloud Enterprise Support portal](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html) or discussed in the [Experience Manager community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+Toute question relative à l’utilisation d’[!DNL Experience Manager] ou à la résolution d’erreurs techniques doit être soumise au moyen du processus d’assistance classique par le biais du [Portail d’assistance entreprise d’Experience Cloud](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html) ou posée à la [communauté Experience Manager](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
-***[!DNL Experience Manager]les contributions à la documentation ne remplacent pas celles du service à la clientèle*** Adobe et toute contribution de ce type qui recherche des réponses à des questions d&#39;assistance sera rejetée.
+Les contributions à la documentation d’***[!DNL Experience Manager]ne remplacent pas l’Assistance clientèle d’Adobe*** et toute contribution de ce type visant à obtenir des réponses à des questions d’assistance sera refusée.
 
 ### Les contributions doivent clairement référencer les pages de documentation concernées.
 
@@ -58,15 +58,15 @@ Suivre ces directives facilite la révision et l’intégration rapide de votre 
 
 #### Langue
 
-* [!DNL Experience Manager]La documentation est créée et conservée en anglais américain.
+* La documentation d’[!DNL Experience Manager] est créée et conservée en anglais américain.
 * Veillez à ce que les expressions restent le plus simple possible.
 * Restez clair et concis.
 
-Remember, readers of [!DNL Experience Manager] documentation are worldwide and can not be expected to be native or fluent English speakers. Évitez les expressions familières et restez aussi clair et simple que possible.
+Gardez à l’esprit que les lecteurs de la documentation d’[!DNL Experience Manager] sont internationaux et peuvent ne pas être des locuteurs anglais natifs ou bilingues. Évitez les expressions familières et restez aussi clair et simple que possible.
 
 #### Suivi du guide de style Microsoft
 
-[Le guide de style Microsoft](https://docs.microsoft.com/fr-fr/style-guide/welcome/)[!DNL Experience Manager] est gratuit et concerne la documentation logicielle. Il s’applique à la documentation , dans la mesure du possible.
+[Le guide de style Microsoft](https://docs.microsoft.com/fr-fr/style-guide/welcome/) est gratuit et concerne la documentation logicielle. Il s’applique à la documentation [!DNL Experience Manager], dans la mesure du possible.
 
 ### Mise en forme
 
@@ -86,8 +86,8 @@ Les marqueurs ou autres annotations dans les captures d’écran (comme les cadr
 
 Dans la mesure du possible, évitez toute référence directe à une version spécifique dans tout le contenu de la documentation. La documentation est ainsi plus flexible et extensible pour les versions ultérieures.
 
-### Use of Day, [!DNL Experience Manager], CQ, CRX
+### Utilisation de Day, [!DNL Experience Manager], CQ, CRX
 
-The product should always be referred to by its full name **Adobe Experience Manager** for the first time in an article and can thereafter be referred to as **Experience Manager**.
+Le produit doit toujours être référencé par son nom complet **Adobe Experience Manager** pour la première fois dans un article et peut ensuite être appelé **Experience Manager**.
 
-Day, Day Software, CQ, and CRX should not be used except where unavoidable such as in class names or referring to the history of [!DNL Experience Manager].
+Les mentions Day, logiciel Day, CQ et CRX ne doivent pas être utilisées, sauf lorsqu’elles sont inévitables, par exemple dans les noms de classe ou en faisant référence à l’historique d’[!DNL Experience Manager].
