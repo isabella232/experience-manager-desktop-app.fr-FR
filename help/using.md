@@ -3,10 +3,10 @@ title: Utilisation de l’appli de bureau Adobe Experience Manager
 description: Découvrez comment installer et tirer parti de l’appli de bureau Adobe Experience Manager pour utiliser des ressources DAM Adobe Experience Manager directement depuis votre bureau Windows ou Mac. Découvrez les bonnes pratiques et les informations de dépannage.
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: 41625c59df00b82ceda8a566b35341bc51c2a30f
 workflow-type: tm+mt
-source-wordcount: '4022'
-ht-degree: 100%
+source-wordcount: '4028'
+ht-degree: 97%
 
 ---
 
@@ -173,7 +173,7 @@ Si nécessaire, activez l’extraction. La ressource mise à jour est supprimée
 
 ## Charger et ajouter de nouvelles ressources dans Experience Manager {#upload-and-add-new-assets-to-aem}
 
-Les utilisateurs peuvent ajouter de nouvelles ressources au référentiel DAM. Par exemple, vous êtes un photographe d’agence ou un entrepreneur souhaitant ajouter au référentiel Experience Manager un grand nombre de photos d’une séance photo. Pour ajouter du contenu neuf à Experience Manager, cliquez sur l’![icône Upload to cloud](assets/do-not-localize/upload_to_cloud_da2.png) dans la barre supérieure de l’application. Accédez aux fichiers de ressources du système de fichiers local et cliquez sur **[!UICONTROL Select]**. L’application commence à charger la ressource et affiche une barre de progression au bas de l’écran si le chargement de la ressource prend plus de temps. N’utilisez pas d’espaces blancs ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=fr#creating-folders).
+Les utilisateurs peuvent ajouter de nouvelles ressources au référentiel DAM. Par exemple, vous pouvez être un photographe d&#39;agence ou un entrepreneur qui souhaite ajouter un grand nombre de photos d&#39;une séance de photos au référentiel [!DNL Experience Manager]. Pour ajouter un nouveau contenu à [!DNL Experience Manager], sélectionnez ![option de téléchargement vers le cloud](assets/do-not-localize/upload_to_cloud_da2.png) dans la barre supérieure de l’application. Accédez aux fichiers de ressources du système de fichiers local et cliquez sur **[!UICONTROL Select]**. Vous pouvez également faire glisser les fichiers ou les dossiers sur l’interface de l’application. L’application début le téléchargement de la ressource. Si le téléchargement prend plus de temps, l’application affiche une barre de progression en bas. N’utilisez pas d’espaces blancs ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez une liste de caractères autorisés à [créer des dossiers dans  [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=fr#creating-folders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
