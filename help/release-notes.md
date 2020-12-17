@@ -10,10 +10,10 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: 41625c59df00b82ceda8a566b35341bc51c2a30f
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 85%
+source-wordcount: '1432'
+ht-degree: 95%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 85%
 
 | Produits | Appli de bureau Adobe Experience Manager |
 |--- |--- |
-| Version de l’application (révision) | 2.0 (2.0.3.2) |
-| Versions de Experience Manager prises en charge | Experience Manager en tant que Cloud Service ; Experience Manager 6.5 ; Experience Manager 6.4 ; Experience Manager 6.3 (avec package de compatibilité) |
+| Version de l’application (révision) | 2.1 (2.1.0.0) |
+| Versions [!DNL Adobe Experience Manager] prises en charge | [!DNL Experience Manager] comme  [!DNL Cloud Service];  [!DNL Experience Manager] 6.5 ;  [!DNL Experience Manager] 6.4 ;  [!DNL Experience Manager] 6.3 (avec package de compatibilité) |
 | Type | Version mineure |
 | Date de publication | 27 août 2020 (Mac et Windows) |
-| URL de téléchargement | [macOS 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.0.3.2.dmg) ; [Windows 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.0.3.2.exe) ; [Windows 32 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.0.3.2.exe) |
+| URL de téléchargement | [macOS 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg) ; [Windows 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe) ; [Windows 32 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
 
 ## Configuration requise et conditions préalables {#system-requirements-and-prerequisites-v2}
 
@@ -42,18 +42,18 @@ L’appli de bureau Adobe Experience Manager est compatible avec les systèmes
 
 L’application fonctionne avec les versions d’Experience Manager suivantes, qu’elles soient déployées en tant que Cloud Service, sur Adobe Managed Services (AMS) ou On-Premise :
 
-* [Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=fr).
+* [[!DNL Experience Manager] comme [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=fr).
 
-* [Experience Manager 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=fr) ou version plus récente.
+* [[!DNL Experience Manager] 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=fr) ou plus récent.
 
-* [Experience Manager 6.4.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=fr) ou version plus récente.
+* [[!DNL Experience Manager] 6.4.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=fr) ou plus récent.
 
-* Experience Manager 6.4.0–6.4.3 avec [package de compatibilité](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support).
+* [!DNL Experience Manager] 6.4.0 - 6.4.3 avec package [ de ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)compatibilité.
 
 >[!NOTE]
 >
->La prise en charge de l’appli de bureau pour Experience Manager 6.3 est obsolète. Adobe recommande la mise à niveau vers une version plus récente et prise en charge d’Adobe Experience Manager.
->Experience Manager 6.3.3.1 ou version ultérieure fonctionne avec l’appli de bureau après l’installation du [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). Aucun package de ce type n’est disponible pour Experience Manager 6.3, car aucun [Service Pack n’est planifié](https://helpx.adobe.com/fr/experience-manager/maintenance-releases-roadmap.html).
+>La prise en charge des applications de bureau pour [!DNL Experience Manager] 6.3 est obsolète. Adobe recommande la mise à niveau vers une version [!DNL Adobe Experience Manager] plus récente et prise en charge.
+>[!DNL Experience Manager]  6.3.3.1 ou version ultérieure fonctionne avec l’appli de bureau après l’installation du [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). Aucun package de ce type n’est disponible pour Experience Manager 6.3, car aucun [Service Pack n’est planifié](https://helpx.adobe.com/fr/experience-manager/maintenance-releases-roadmap.html).
 
 La version que vous prévoyez d’installer sur votre ordinateur local nécessite une version spécifique du serveur Adobe Experience Manager/des composants supplémentaires côté serveur (Service Packs, correctifs logiciels ou Feature Packs). Contactez votre administrateur Adobe Experience Manager pour obtenir de l’aide.
 
@@ -81,6 +81,10 @@ Cette fonctionnalité est prise en charge avec Adobe Creative Cloud 2018 et l
 
 Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#whats-new-v2).
 
+**Mises à jour dans la version v2.1.0.0 de l’application**
+
+* Pour télécharger des fichiers, les utilisateurs peuvent désormais faire glisser les fichiers ou les dossiers sur l’interface de l’application, directement depuis l’Explorateur Windows ou le Finder Mac. Cette opération s’ajoute à l’option de téléchargement précédemment disponible dans l’application.
+
 **Mises à jour dans la version v2.0.3 de l’application**
 
 Le bogue corrigé dans la version actuelle est le suivant :
@@ -107,7 +111,7 @@ Les correctifs de bogues et mises à jour sont les suivants :
 
 * Option permettant de configurer le répertoire `%Temp%` de façon à ce qu’il corresponde au chemin d’accès à `%APPDATA%`. <!-- CQ-4282665 -->
 
-* Permet aux utilisateurs de se connecter à l’auteur Experience Manager via l’authentification SAML okta. <!-- CQ-4278134 -->
+* Permet aux utilisateurs de se connecter à l’instance Auteur Experience Manager via l’authentification SAML Okta. <!-- CQ-4278134 -->
 
 ## Instructions d’installation {#installation-instructions-v2}
 
@@ -119,17 +123,17 @@ Si vous effectuez une mise à niveau à partir d’une version précédente de l
 
 Il est important de comprendre ce qui suit à propos de l’application et de son fonctionnement.
 
-* L’application permet un contrôle total des opérations qui nécessitent le transfert complet de fichiers binaires depuis et vers le Experience Manager (ouverture, modification, téléchargement et téléchargement de fichiers).
+* L’application offre un contrôle total sur les opérations qui nécessitent le transfert complet des fichiers binaires depuis et vers Experience Manager (ouverture, modification, chargement des modifications et chargement des ressources).
 
    * Si vous souhaitez utiliser la ressource figurant sur le bureau, vous devez explicitement ouvrir, modifier ou télécharger sur votre bureau, que ce soit individuellement, dans un dossier ou par sélection multiple.
 
-   * Si vous souhaitez que les modifications locales des ressources soient téléchargées vers le Experience Manager, vous devez sélectionner [!UICONTROL Upload Changes], soit individuellement, soit par sélection multiple.
+   * Si vous souhaitez que les modifications locales apportées aux ressources soient chargées dans Experience Manager, vous devez sélectionner [!UICONTROL Upload Changes], individuellement ou par sélection multiple.
 
-   * L’application n’est pas un &quot;client de synchronisation&quot; qui synchronise les ressources sur le bureau et le Experience Manager.
+   * L’application n’est pas un client de synchronisation qui synchronise les ressources sur le bureau et Experience Manager.
 
-   * L’application ne fournit pas de partage réseau qui mappe le référentiel Experience Manager en tant que structure de dossiers virtuels.
+   * L’application ne fournit pas de partage réseau qui mappe le référentiel Experience Manager en tant que structure de dossiers virtuelle.
 
-* La liste des ressources affichées par l’application est basée sur le statut du référentiel  Assets. Les fichiers téléchargés localement puis renommés dans les fichiers locaux ou le dossier de cache ne sont ni affichés ni gérés par l’application.
+* La liste des ressources affichées par l’application est basée sur le statut du référentiel Assets. Les fichiers téléchargés localement puis renommés dans les fichiers locaux ou le dossier de cache ne sont ni affichés ni gérés par l’application.
 
 * Si l’application n’affiche pas les résultats attendus, cliquez sur l’icône d’actualisation dans la barre supérieure.
 
@@ -139,7 +143,7 @@ Il est important de comprendre ce qui suit à propos de l’application et de so
 
 Le diagramme suivant illustre le flux de ressources et de fichiers allant du cloud au système de fichiers local et vice versa, tel qu’il est initié par les actions de l’utilisateur.
 
-![Flux de ressources du serveur Experience Manager vers les applications de bureau natives via les applications de bureau](assets/da20_flow_diagram.png)
+![Flux de ressources allant du serveur Experience Manager aux applications de bureau natives via l’appli de bureau](assets/da20_flow_diagram.png)
 
 ## Problèmes connus {#known-issues-v2}
 
@@ -153,13 +157,13 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 
 * Après avoir appliqué et supprimé le filtre pour rechercher toutes les ressources modifiées localement, l’application n’amène pas l’utilisateur à ses résultats de recherche ou à la vue de dossiers par laquelle il a commencé. L’application affiche le dossier racine du référentiel DAM.
 
-* Parfois, lorsque vous vous connectez à une URL pour laquelle aucun serveur Experience Manager n’est en cours d’exécution, l’écran de connexion ne répond plus. Quittez l’application et redémarrez-la.
+* Parfois, lorsque vous vous connectez à une URL pour laquelle le serveur Experience Manager n’est pas en cours d’exécution, l’écran de connexion ne répond plus. Quittez l’application et redémarrez-la.
 
 **Problèmes CRUD (Create, Read, Update et Delete) :**
 
 * L’application tente de télécharger des fichiers même avec des caractères non valides, ce qui peut entraîner l’échec du chargement côté serveur. <!-- CQ-4273652 -->
 
-* Lors du téléchargement de modifications dans un fichier contenant des commentaires, les commentaires sont stockés avec le fichier dans le Experience Manager, mais ne sont pas visibles en tant que commentaires de contrôle de version. Ce problème est résolu dans Experience Manager 6.4.5 et Experience Manager 6.5.1. Adobe recommande vivement d&#39;installer les derniers Service Packs. <!-- CQ-4268990 -->
+* Lors du chargement de modifications avec commentaires d’une ressource, les commentaires sont stockés avec la ressource dans Experience Manager, mais ne sont pas visibles en tant que commentaires de contrôle de version. Ce problème est résolu dans Experience Manager 6.4.5 et 6.5.1. Adobe recommande vivement d’installer les derniers Service Packs. <!-- CQ-4268990 -->
 
 * Les transferts de ressources ne peuvent pas être annulés par l’utilisateur. Si vous avez déclenché involontairement un transfert volumineux, quittez l’application et redémarrez-la. <!-- CQ-4278940 -->
 
@@ -169,8 +173,8 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 
 >[!MORELIKETHIS]
 >
->* [Experience Manager en tant que documentation Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr)
->* [Experience Manager en tant que documentation Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=fr)
+>* [Documentation sur Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr)
+>* [Documentation sur Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=fr)
 >* [Utilisation de l’appli de bureau Experience Manager](using.md)
 >* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
 >* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
