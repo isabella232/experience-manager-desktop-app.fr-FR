@@ -1,25 +1,18 @@
 ---
-title: Bonnes pratiques et résolution des problèmes liés à l’appli de bureau Adobe Experience Manager
+title: Meilleures pratiques et dépannage [!DNL Adobe Experience Manager] application pour postes de travail
 description: Suivez les bonnes pratiques et les solutions de dépannage pour résoudre les problèmes occasionnels liés à l’installation, à la mise à niveau, à la configuration, etc.
-uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '2171'
+source-wordcount: '2120'
 ht-degree: 90%
 
 ---
 
 
-# Résolution des problèmes liés à l’appli de bureau Adobe Experience Manager {#troubleshoot-v2}
+# Résolution des problèmes [!DNL Adobe Experience Manager] application de bureau {#troubleshoot-v2}
 
-L’application de bureau Adobe Experience Manager se connecte au référentiel de gestion des actifs numériques (DAM) d’un déploiement Experience Manager distant. L’application récupère les informations du référentiel et les résultats de la recherche sur votre ordinateur, télécharge et télécharge des fichiers et des dossiers et comprend des fonctionnalités de gestion des conflits avec l’interface utilisateur Ressources.
+[!DNL Adobe Experience Manager] application de bureau se connecte au référentiel de gestion des actifs numériques (DAM) d’un  [!DNL Experience Manager] déploiement. L’appli récupère les informations du référentiel et les résultats de la recherche sur votre ordinateur, télécharge et charge les fichiers et les dossiers, et inclut des fonctionnalités de gestion des conflits avec l’interface utilisateur d’Assets.
 
 Lisez la suite de cette section pour résoudre les problèmes de l’application, découvrir les bonnes pratiques et connaître les limites.
 
@@ -27,23 +20,23 @@ Lisez la suite de cette section pour résoudre les problèmes de l’application
 
 Observez les bonnes pratiques suivantes pour éviter certains problèmes courants et relatifs au dépannage.
 
-* **Comprendre le fonctionnement de l’appli de bureau** : avant de commencer à utiliser l’application, consacrez quelques minutes à en découvrir le fonctionnement. Découvrez comment fonctionne la liaison entre l’interface utilisateur web et de bureau Experience Manager, le mappage de référentiel, la mise en cache de ressources, l’enregistrement en local ainsi que le chargement en arrière-plan. Voir [Fonctionnement](release-notes.md#how-app-works).
+* **Comprendre le fonctionnement de l’appli de bureau** : avant de commencer à utiliser l’application, consacrez quelques minutes à en découvrir le fonctionnement. Connaissez la liaison entre l&#39;interface Web [!DNL Experience Manager] et le bureau, le mappage du référentiel, la mise en cache des ressources, l&#39;enregistrement local et le téléchargement en arrière-plan. Voir [Fonctionnement](release-notes.md#how-app-works).
 
-* **Éviter les caractères non pris en charge dans les noms de dossier** : n’utilisez pas d’espaces ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=fr#creating-folders). Certains cas d’utilisation d’Adobe Experience Manager peuvent être affectés par la présence de caractères non pris en charge dans le nom du dossier.
+* **Éviter les caractères non pris en charge dans les noms de dossier** : n’utilisez pas d’espaces ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=fr#creating-folders). Certains cas d&#39;utilisation de [!DNL Experience Manager] peuvent être affectés par des caractères non pris en charge dans le nom de dossier.
 
 * **Bonnes pratiques pour éviter les conflits** : pour éviter les éventuels conflits lors de la collaboration sur plusieurs ressources, voir [Éviter les conflits de modification](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **Utiliser le chargement de dossiers pour les dossiers hiérarchiques volumineux** : au lieu d’utiliser l’interface web d’Assets ou d’autres méthodes, utilisez l’appli de bureau Experience Manager pour charger les dossiers volumineux. L’appli charge les ressources en arrière-plan avec journalisation et surveillance. Voir [Chargement en masse de ressources](using.md#bulk-upload-assets).
+* **Utiliser le chargement de dossiers pour les dossiers hiérarchiques volumineux**[!DNL Experience Manager] : au lieu d’utiliser l’interface web d’Assets ou d’autres méthodes, utilisez l’appli de bureau pour charger les dossiers volumineux. L’appli charge les ressources en arrière-plan avec journalisation et surveillance. Voir [Chargement en masse de ressources](using.md#bulk-upload-assets).
 
-* **Utiliser la dernière version** : utilisez la dernière version de l’application et vérifiez toujours la compatibilité avant d’installer une nouvelle version de l’application ou de procéder à une mise à niveau vers une nouvelle version d’Adobe Experience Manager. Voir les [notes de mise à jour](release-notes.md).
+* **Utilisez la dernière version** : Utilisez la dernière version de l’application et vérifiez toujours la compatibilité avant d’installer une nouvelle version de l’application ou avant de procéder à la mise à niveau vers une  [!DNL Experience Manager] version plus récente. Voir les [notes de mise à jour](release-notes.md).
 
-* **Utiliser la même lettre de lecteur** : utilisez la même lettre de lecteur dans toute l’entreprise pour procéder à un mappage sur le DAM Adobe Experience Manager. Pour l’affichage des ressources placées par d’autres utilisateurs, les chemins d’accès doivent être identiques. L’utilisation de la même lettre de lecteur garantit un chemin constant vers les ressources DAM. Les ressources demeurent placées et ne sont pas supprimées même si des lettres de lecteur différentes sont utilisées par des utilisateurs différents.
+* **Utiliser la même lettre de lecteur**[!DNL Experience Manager] : utilisez la même lettre de lecteur dans toute l’entreprise pour procéder à un mappage sur le DAM Pour l’affichage des ressources placées par d’autres utilisateurs, les chemins d’accès doivent être identiques. L’utilisation de la même lettre de lecteur garantit un chemin constant vers les ressources DAM. Les ressources demeurent placées et ne sont pas supprimées même si des lettres de lecteur différentes sont utilisées par des utilisateurs différents.
 
-* **Penser au réseau** : les performances réseau sont essentielles aux performances de l’appli de bureau Experience Manager. Si vous obtenez une réponse ralentie aux transferts de fichiers ou aux opérations en masse, désactivez les fonctionnalités ou les applications susceptibles d’entraîner un trafic réseau important.
+* **Penser au réseau**[!DNL Experience Manager] : les performances réseau sont essentielles aux performances de l’appli de bureau Si vous obtenez une réponse ralentie aux transferts de fichiers ou aux opérations en masse, désactivez les fonctionnalités ou les applications susceptibles d’entraîner un trafic réseau important.
 
 * **Cas d’utilisation non pris en charge pour l’appli de bureau** : n’utilisez pas l’application pour la migration des ressources (celle-ci nécessite une planification et d’autres outils) ; pour les opérations de gestion des ressources numériques lourdes (par exemple, déplacement de dossiers volumineux, chargements volumineux, recherche de fichiers à l’aide d’une recherche de métadonnées avancée) ; et en tant que client de synchronisation (les principes de conception et les modèles d’utilisation sont différents des clients synchronisés tels que Microsoft OneDrive ou Adobe Creative Cloud Desktop Sync).
 
-* **Délai d’expiration** : actuellement, l’appli de bureau ne dispose pas d’une valeur de délai d’expiration configurable qui déconnecte l’appli de bureau du serveur Experience Manager après un temps donné. Lors du chargement de ressources volumineuses, si la connexion expire au bout d’un certain temps, l’application tente à nouveau de charger la ressource plusieurs fois en augmentant le délai d’expiration du chargement. Il n’existe aucun moyen recommandé de modifier les paramètres de délai d’expiration par défaut.
+* **Délai d’expiration**[!DNL Experience Manager] : actuellement, l’appli de bureau ne dispose pas d’une valeur de délai d’expiration configurable qui déconnecte l’appli de bureau du serveur après un temps donné. Lors du chargement de ressources volumineuses, si la connexion expire au bout d’un certain temps, l’application tente à nouveau de charger la ressource plusieurs fois en augmentant le délai d’expiration du chargement. Il n’existe aucun moyen recommandé de modifier les paramètres de délai d’expiration par défaut.
 
 ## Comment résoudre les problèmes {#troubleshooting-prep}
 
@@ -119,7 +112,7 @@ Pour activer le mode de débogage sous Windows :
 
 Exécutez les étapes suivantes :
 
-1. Début de l’application et connexion à l’instance du Experience Manager.
+1. Début de l&#39;application et connexion à l&#39;instance [!DNL Experience Manager].
 
 1. Ouvrez les préférences de l’application en cliquant sur les ellipses situées dans le coin supérieur droit et en sélectionnant [!UICONTROL Preferences].
 
@@ -163,9 +156,9 @@ Si vous ne pouvez pas voir les ressources que vous ou d’autres professionnels 
 
 * Taille de fichier. Le téléchargement et l’affichage des ressources volumineuses prennent plus de temps.
 
-* Cohérence des lettres de lecteur. Si vous ou un autre collaborateur avez placé les ressources lors du mappage du DAM Experience Manager à une autre lettre de lecteur, les ressources placées ne s&#39;affichent pas.
+* Cohérence des lettres de lecteur. Si vous ou un autre collaborateur avez placé les actifs lors du mappage du DAM [!DNL Experience Manager] à une autre lettre de lecteur, les actifs placés ne s&#39;affichent pas.
 
-* Autorisations. Pour vérifier si vous êtes autorisé à récupérer les fichiers placés, contactez votre administrateur de Experience Manager.
+* Autorisations. Pour vérifier si vous êtes autorisé à récupérer les ressources placées, contactez votre administrateur [!DNL Experience Manager].
 
 ### Les modifications apportées aux fichiers de l’interface utilisateur de l’appli de bureau ne sont pas répercutées immédiatement dans [!DNL Adobe Experience Manager] {#changes-on-da-not-visible-on-aem}
 
@@ -173,7 +166,7 @@ L’appli de bureau [!DNL Adobe Experience Manager] laisse à l’utilisateur le
 
 ### Problèmes lors de la mise à niveau sous MacOS {#issues-when-upgrading-on-macos}
 
-Des problèmes peuvent parfois se produire lors de la mise à niveau de l’application de bureau Experience Manager sur macOS. Cela est dû au dossier système hérité pour l’application de bureau Experience Manager qui empêche le chargement correct des nouvelles versions de l’application de bureau Experience Manager. Pour y remédier, les dossiers et fichiers suivants peuvent être supprimés manuellement.
+Des problèmes peuvent parfois survenir lors de la mise à niveau de l&#39;application de bureau [!DNL Experience Manager] sur macOS. Cela est dû au dossier système hérité pour l&#39;application de bureau [!DNL Experience Manager] qui empêche le chargement correct des nouvelles versions de l&#39;application de bureau [!DNL Experience Manager]. Pour y remédier, les dossiers et fichiers suivants peuvent être supprimés manuellement.
 
 Avant d’exécuter les étapes suivantes, faites glisser l’application `Adobe Experience Manager Desktop` du dossier des applications MacOS vers la corbeille. Ouvrez ensuite le terminal, exécutez la commande suivante et saisissez votre mot de passe lorsque vous y êtes invité.
 
@@ -188,7 +181,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ### Chargement des fichiers impossible {#upload-fails}
 
-Si vous utilisez une application de bureau avec Experience Manager 6.5.1 ou version ultérieure, mettez à niveau S3 ou Azure Connector vers la version 1.10.4 ou ultérieure. Cela aura pour effet de résoudre le problème d’échec de chargement de fichier lié à [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). Voir [Instructions d’installation](install-upgrade.md#install-v2).
+Si vous utilisez une application de bureau avec [!DNL Experience Manager] 6.5.1 ou une version ultérieure, mettez à niveau S3 ou Azure Connector vers la version 1.10.4 ou une version ultérieure. Cela aura pour effet de résoudre le problème d’échec de chargement de fichier lié à [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). Voir [Instructions d’installation](install-upgrade.md#install-v2).
 
 ### Problèmes de connexion à l’appli de bureau [!DNL Experience Manager] {#connection-issues}
 
@@ -213,7 +206,7 @@ Si l’appli de bureau [!DNL Experience Manager] ne se connecte pas à votre ins
 
 Il arrive que le processus SAML ne revienne pas vers le chemin d’accès initialement demandé ou que la redirection finale concerne un hôte différent de celui configuré dans l’appli de bureau [!DNL Adobe Experience Manager]. Pour vérifier que ce n’est pas le cas :
 
-1. Ouvrez un navigateur web. Accédez à `https://[aem_server]:[port]/content/dam.json` URL.
+1. Ouvrez un navigateur web. Accédez à l’URL `https://[aem_server]:[port]/content/dam.json`.
 
 1. Connectez-vous au déploiement [!DNL Adobe Experience Manager].
 
@@ -256,9 +249,9 @@ L’examen de la séquence d’URL en cours de chargement peut aider à résoudr
 
 #### Problème de configuration SSL {#ssl-config-v2}
 
-Les bibliothèques utilisées par l’application de bureau Experience Manager pour la communication HTTP utilisent une stricte application SSL. Parfois, une connexion peut réussir à utiliser un navigateur, mais échoue à utiliser une application de bureau Experience Manager. Pour configurer SSL convenablement, installez le certificat intermédiaire manquant dans Apache. Voir [Comment installer un certificat d’autorité de certification intermédiaire dans Apache](https://access.redhat.com/solutions/43575).
+Les bibliothèques utilisées par l&#39;application de bureau [!DNL Experience Manager] pour la communication HTTP utilisent une stricte application SSL. Parfois, une connexion peut réussir à utiliser un navigateur, mais échoue à utiliser l&#39;application de bureau [!DNL Experience Manager]. Pour configurer SSL convenablement, installez le certificat intermédiaire manquant dans Apache. Voir [Comment installer un certificat d’autorité de certification intermédiaire dans Apache](https://access.redhat.com/solutions/43575).
 
-Les bibliothèques utilisées par Experience Manager Desktop pour la communication HTTP utilisent une stricte application SSL. Il peut donc y avoir des cas où les connexions SSL réalisées par le biais d’un navigateur échouent avec l’appli de bureau [!DNL Adobe Experience Manager]. C’est un point positif car cela incite à configurer correctement le certificat SSL et à accroître la sécurité, même si la situation peut être frustrante si l’application ne parvient pas à se connecter.
+Les bibliothèques utilisées par l&#39;application de bureau [!DNL Experience Manager] pour la communication HTTP utilisent une stricte application SSL. Il peut donc y avoir des cas où les connexions SSL réalisées par le biais d’un navigateur échouent avec l’appli de bureau [!DNL Adobe Experience Manager]. C’est un point positif car cela incite à configurer correctement le certificat SSL et à accroître la sécurité, même si la situation peut être frustrante si l’application ne parvient pas à se connecter.
 
 Dans ce cas, l’approche recommandée consiste à utiliser un outil pour analyser le certificat SSL d’un serveur et identifier les problèmes afin de les corriger. Certains sites web inspectent le certificat d’un serveur pour fournir son URL.
 
