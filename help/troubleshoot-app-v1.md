@@ -1,27 +1,20 @@
 ---
-title: Résolution des problèmes liés à l’appli de bureau AEM version 1.x
-description: Résolution des problèmes liés à l’appli de bureau AEM version 1.x pouvant affecter, notamment, l’installation, la mise à niveau et la configuration.
-uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
-index: y
-internal: n
-snippet: y
+title: Dépannage de  [!DNL Adobe Experience Manager] l’application de bureau version 1.x
+description: Résolution des problèmes  [!DNL Adobe Experience Manager] d’application de bureau version 1.x pour résoudre les problèmes occasionnels liés à l’installation, la mise à niveau et la configuration.
 translation-type: tm+mt
-source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '3379'
-ht-degree: 100%
+source-wordcount: '3366'
+ht-degree: 98%
 
 ---
 
 
-# Résolution des problèmes liés à l’appli de bureau AEM v1.x {#troubleshoot-aem-desktop-app}
+# Résolution des problèmes [!DNL Adobe Experience Manager] application de bureau v1.x {#troubleshoot-aem-desktop-app}
 
 Cette section vous explique comment résoudre les problèmes occasionnels pouvant affecter, notamment, l’installation, la mise à niveau et la configuration de l’appli de bureau AEM.
 
-L’appli de bureau Adobe Experience Manager (AEM) s’accompagne d’utilitaires qui vous aident à mapper le référentiel AEM Assets en tant que partage réseau sur le poste de travail (partage SMB sous Mac OS). Le partage réseau est une technologie du système d’exploitation qui permet aux sources distantes d’être traitées comme si elles faisaient partie du système de fichiers local d’un ordinateur. Dans le cas de l’appli de bureau AEM, la structure du référentiel de gestion des ressources numériques (DAM) d’une instance AEM distante est ciblée comme source de fichier distante. Le schéma suivant décrit la topologie de l’appli de bureau AEM :
+[!DNL Adobe Experience Manager] l’application de bureau comprend des utilitaires qui vous aident à mapper le référentiel AEM Assets en tant que partage réseau sur ordinateur (partage SMB sur Mac OS). Le partage réseau est une technologie du système d’exploitation qui permet aux sources distantes d’être traitées comme si elles faisaient partie du système de fichiers local d’un ordinateur. Dans le cas de l’appli de bureau AEM, la structure du référentiel de gestion des ressources numériques (DAM) d’une instance AEM distante est ciblée comme source de fichier distante. Le schéma suivant décrit la topologie de l’appli de bureau AEM :
 
 ![schéma de l’appli de bureau](assets/aem-desktopapp-architecture.png)
 
@@ -70,7 +63,7 @@ L’appli de bureau AEM n’est pas adaptée aux manipulations intensives sur le
 
 En raison de restrictions au niveau du système d’exploitation, la taille de fichier est limitée à 4 294 967 295 octets (environ 4,29 Go) sous Windows. Cela est dû à un paramètre du Registre qui définit la taille maximale d’un fichier sur un partage réseau. La valeur du paramètre de Registre est un DWORD avec une taille maximale équivalant au nombre référencé.
 
-L’appli de bureau Experience Manager ne dispose pas d’une valeur de délai d’expiration configurable qui déconnecte l’appli de bureau du serveur Experience Manager après un intervalle de temps fixe. Lors du chargement de ressources volumineuses, si la connexion expire au bout d’un certain temps, l’application tente à nouveau de charger la ressource plusieurs fois en augmentant le délai d’expiration du chargement. Il n’existe aucun moyen recommandé de modifier les paramètres de délai d’expiration par défaut.
+[!DNL Experience Manager]L’appli de bureau ne dispose pas d’une valeur de délai d’expiration configurable qui déconnecte l’appli de bureau du serveur après un intervalle de temps fixe. [!DNL Experience Manager] Lors du chargement de ressources volumineuses, si la connexion expire au bout d’un certain temps, l’application tente à nouveau de charger la ressource plusieurs fois en augmentant le délai d’expiration du chargement. Il n’existe aucun moyen recommandé de modifier les paramètres de délai d’expiration par défaut.
 
 ## Mise en cache et communication avec AEM {#caching-and-communication-with-aem}
 
