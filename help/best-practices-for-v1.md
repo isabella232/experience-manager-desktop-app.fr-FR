@@ -1,11 +1,11 @@
 ---
-title: Bonnes pratiques relatives à l’appli de bureau AEM version 1.x
-description: Fonctionnalités essentielles et utilisation recommandée de l’appli de bureau Adobe Experience Manager version 1.x
+title: '[!DNL Adobe Experience Manager]Bonnes pratiques relatives à l’appli de bureau  version 1.x'
+description: Fonctionnalités clés et utilisation recommandée de  [!DNL Adobe Experience Manager] l’application de bureau version 1.x.
 translation-type: tm+mt
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 100%
+source-wordcount: '1686'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## Présentation {#overview}
 
-L’appli de bureau Adobe Experience Manager (AEM) associe votre solution de gestion des ressources numériques (DAM) à votre bureau afin que vous puissiez ouvrir les fichiers disponibles dans l’interface utilisateur web d’AEM directement sur le bureau Si vous enregistrez une ressource du bureau, celle-ci est chargée dans AEM à l’emplacement approprié.
+[!DNL Adobe Experience Manager] application de bureau relie votre solution de gestion des actifs numériques (DAM) à votre bureau afin que vous puissiez ouvrir les fichiers disponibles dans l’interface utilisateur Web AEM directement sur le bureau. Si vous enregistrez une ressource du bureau, celle-ci est chargée dans AEM à l’emplacement approprié.
 
 L’appli de bureau AEM élimine les risques de mettre à jour des copies locales incorrectes ou de mettre à jour une ressource inappropriée dans AEM. Le workflow convivial de l’appli de bureau est activé à l’aide de la technologie de partage réseau fournie par les systèmes d’exploitation de bureau.
 
