@@ -1,9 +1,8 @@
 ---
 title: Utilisation de l’appli de bureau  [!DNL Experience Manager]  version 1.x.
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.x et optimiser votre utilisation des ressources du bureau.
-contentOwner: AG
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
 source-wordcount: '2379'
 ht-degree: 100%
