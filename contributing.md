@@ -1,14 +1,14 @@
 ---
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
-workflow-type: ht
-translation-type: ht
-source-wordcount: '529'
-ht-degree: 100%
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '509'
+ht-degree: 74%
 
 ---
-# Contribution à la documentation de l’application de bureau Adobe Experience Manager
+# Contribution à la [!DNL Adobe Experience Manager] documentation de l’application de bureau
 
-Merci d’avoir choisi de contribuer à la documentation de l’application de bureau Adobe Experience Manager. Nous somme ouverts aux contributions de contenu de toute notre communauté de lecteurs ainsi que de nos collègues d’Adobe.
+Merci d&#39;avoir choisi de contribuer à la [!DNL Adobe Experience Manager] documentation de l&#39;application de bureau ! Nous nous félicitons des contributions au contenu, proposées aussi bien par notre communauté de lecteurs que par nos collègues employés d’Adobe.
 
 Ce fichier décrit comment contribuer à la documentation ainsi que les directives à suivre lors de l’apport de vos contributions.
 
@@ -16,9 +16,9 @@ Ce fichier décrit comment contribuer à la documentation ainsi que les directiv
 
 Ce projet a adopté le [Code de conduite Adobe Open Source](code-of-conduct.md). En contribuant à la documentation d’[!DNL Adobe Experience Manager], vous acceptez de respecter ce code de conduite. Veuillez signaler tout comportement inacceptable à [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Instructions relatives à la contribution
+## Directives relatives à la contribution
 
-Bien que toute contribution visant à améliorer la documentation d’[!DNL Experience Manager] soit la bienvenue, nous vous demandons, si possible, de bien vouloir respecter certaines instructions et normes. Pour plus d’informations, voir les [Instructions relatives à la contribution à la documentation d’ [!DNL Experience Manager] ](guidelines.md).
+Bien que toute contribution visant à améliorer la documentation d’[!DNL Experience Manager] soit la bienvenue, nous vous demandons, si possible, de bien vouloir respecter certaines instructions et normes. Pour plus d&#39;informations, consultez les [Lignes directrices pour contribuer à [!DNL Experience Manager] Documentation](guidelines.md).
 
 ## Comment contribuer
 
@@ -37,11 +37,11 @@ La méthode choisie dépend de votre aisance pour modifier vous-même la documen
 
 Vous avez une suggestion, une observation à propos des documents actuels ou une question sur la manière dont un élément est décrit ? Vous pouvez créer un problème. Les propositions relatives aux problèmes sont également excellentes si vous souhaitez apporter votre contribution, mais que vous n’êtes pas habitué à modifier les documents ou à générer vous-même une demande d’extraction.
 
-Les propositions relatives aux problèmes vous permettent de décrire facilement vos idées d’amélioration de documents, avant examen par un membre de l’équipe [!DNL Experience Manager] Docs. Pour créer un problème, il suffit de cliquer sur le lien **Log an issue** (Soumettre un problème) en haut du panneau de navigation de droite d’une page.
+Les problèmes vous permettent de décrire facilement votre idée d&#39;amélioration aux documents et un membre de l&#39;équipe [!DNL Experience Manager] doc peut la consulter. Pour créer un problème, il suffit de cliquer sur le lien **Log an issue** (Soumettre un problème) en haut du panneau de navigation de droite d’une page.
 
 ### Création d’une demande d’extraction {#create-a-pull-request}
 
-Si vous rencontrez un problème et savez exactement comment le résoudre, envisagez de créer une demande d’extraction. Les demandes d’extraction permettent d’apporter vos propres modifications à la documentation, avant examen pour inclusion par un membre de l’équipe [!DNL Experience Manager] Docs. Pour effectuer les modifications suggérées et créer la demande d’extraction, il suffit de cliquer sur le lien **Edit this page** (Modifier cette page) en haut du panneau de navigation de droite d’une page.
+Si vous rencontrez un problème et savez exactement comment le résoudre, envisagez de créer une demande d’extraction. Les requêtes extraction vous permettent d’apporter vos propres modifications à la documentation, qui sont ensuite examinées par un membre de l’équipe [!DNL Experience Manager] doc. Pour effectuer les modifications suggérées et créer la demande d’extraction, il suffit de cliquer sur le lien **Edit this page** (Modifier cette page) en haut du panneau de navigation de droite d’une page.
 
 Toutes les demandes d’extraction doivent être accompagnées d’un [contrat de licence de contributeur (CLA) signé.](https://opensource.adobe.com/cla.html) Ce document autorise Adobe à redistribuer vos contributions dans le cadre du projet. Vous n’avez besoin de soumettre un CLA Adobe qu’une seule fois. Par conséquent, si vous l’avez déjà soumis, vous n’avez rien à faire.
 
@@ -49,14 +49,12 @@ Toutes les demandes d’extraction doivent être accompagnées d’un [contrat d
 
 Regardez la vidéo suivante pour un aperçu rapide de la création de problèmes et de demandes d’extraction.
 
->[!VIDEO](https://video.tv.adobe.com/v/27069?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27069)
 
 ### Contributions des employés d’Adobe
 
-Si vous êtes un employé d’Adobe et souhaitez faire une contribution, utilisez l’organisation `AdobeDocs` dans notre référentiel git d’entreprise.
+Si vous êtes un employé d&#39;Adobe et que vous avez une contribution, nous vous demandons d&#39;utiliser l&#39;organisation `AdobeDocs` dans le git d&#39;entreprise. Vous pouvez contribuer à ce référentiel public sur GitHub.com mais les contributions sont plus faciles à traiter sur le référentiel d&#39;entreprise. Assurez-vous que toute information propriétaire ou non publiée n&#39;est traitée que sur le référentiel d&#39;entreprise.
 
-Nous apprécions évidemment toute contribution et examinerons votre contribution si elle est effectuée dans le référentiel public. Toutefois, les demandes d’extraction des employés d’Adobe sont plus faciles à traiter et peuvent être approuvées plus rapidement dans le référentiel d’entreprise. Veillez à ce que toute information de propriété exclusive ne soit discutée que sur le référentiel de l’entreprise.
-
-## Informations supplémentaires
+## A propos de la plate-forme de création GitHub et Markdown de l’Adobe
 
 Pour plus d’informations sur l’utilisation de la plate-forme de création GitHub, consultez le [Guide du contributeur d’Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=fr).
