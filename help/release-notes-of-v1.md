@@ -1,27 +1,20 @@
 ---
 title: Notes de mise à jour de l’appli de bureau AEM version 1.x
 description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau AEM version 1.x.
-uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 828de6db376d90f6de8f9682183b4c13ffe08d94
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '3920'
-ht-degree: 100%
+source-wordcount: '3906'
+ht-degree: 98%
 
 ---
 
 
-# Notes de mise à jour de l’appli de bureau AEM v1.x {#aem-desktop-app-release-notes}
+# [!DNL Adobe Experience Manager]Notes de mise à jour de l’appli de bureau  v1.x {#aem-desktop-app-release-notes}
 
 Pour la version 1.x de l’appli de bureau, voici les liens de téléchargement et les informations de compatibilité d’AEM.
 
-| Produits | Appli de bureau Adobe Experience Manager (AEM) |
+| Produits | [!DNL Adobe Experience Manager] application de bureau |
 |--- |--- |
 | Version | 1.10 (1.10.0.6 sous Mac et 1.10.0.3 sous Windows) |
 | Type | Version mineure |
@@ -75,7 +68,7 @@ Pour obtenir des instructions détaillées, voir [Installation et configuration 
 
 ## Améliorations effectuées dans les versions précédentes {#enhancements-in-the-previous-versions}
 
-Cette version étend et remplace les versions précédentes de l’appli de bureau Experience Manager, qui fournissaient les améliorations principales suivantes :
+Cette version étend et remplace les versions précédentes de l&#39;application de bureau [!DNL Experience Manager], qui ont fourni les améliorations clés suivantes :
 
 * **Version 1.9/1.9.1** : reprise des téléchargements interrompus, fenêtre de statut améliorée, icônes indiquant le statut de l’application/de la connexion et récupération anticipée des ressources liées pour les fichiers InDesign.
 
@@ -93,7 +86,7 @@ Cette version étend et remplace les versions précédentes de l’appli de bure
 
 ### Améliorations disponibles depuis l’appli de bureau AEM 1.9 {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
-L’appli de bureau Adobe Experience Manager (AEM) 1.9.1 était une version corrective qui corrigeait quelques problèmes majeurs rencontrés par les clients concernant l’extraction de ressources et la copie de fichiers d’un partage réseau vers un répertoire local.
+[!DNL Adobe Experience Manager] application de bureau 1.9.1 a été une version de correctif pour résoudre quelques problèmes client clés concernant l’extraction et la copie de fichiers du partage réseau vers un répertoire local.
 
 * Les ressources extraites par un utilisateur ne doivent pas être accessibles à d’autres utilisateurs en vue de la modification (CQ-4246009).
 
@@ -135,7 +128,7 @@ Une fenêtre de statut des ressources améliorée fournit les informations suiva
 
 * Le pied de page affiche le nombre total de fichiers téléchargés, ainsi que la vitesse de transfert moyenne.
 
-* Si un utilisateur choisit d’ouvrir ou de modifier plusieurs fichiers à partir de l’interface web d’Experience Manager Assets, ils seront regroupés. Par exemple, myasset.jpeg et 4 autres fichiers.
+* Si un utilisateur choisit d&#39;ouvrir ou de modifier plusieurs fichiers de l&#39;interface Web [!DNL Experience Manager Assets], ils seront regroupés. Par exemple, myasset.jpeg et 4 autres fichiers.
 
 * Lorsque vous téléchargez des documents InDesign comprenant des ressources liées stockées dans AEM Assets, l’appli de bureau télécharge l’ensemble des ressources liées avant d’ouvrir le document [!UICONTROL Adobe InDesign] et d’indiquer le téléchargement des ressources liées. Par exemple, 5 sur 24.
 
