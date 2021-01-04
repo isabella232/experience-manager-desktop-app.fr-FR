@@ -1,36 +1,29 @@
 ---
-title: Notes de mise à jour de l’appli de bureau Adobe Experience Manager
-description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau Adobe Experience Manager.
-uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
-index: y
-internal: n
-snippet: y
+title: '[!DNL Adobe Experience Manager] notes de mise à jour sur les applications de bureau'
+description: Détails de la version, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour  [!DNL Adobe Experience Manager] application de bureau.
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 41625c59df00b82ceda8a566b35341bc51c2a30f
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '1432'
-ht-degree: 95%
+source-wordcount: '1346'
+ht-degree: 69%
 
 ---
 
 
-# Notes de mise à jour de l’appli de bureau Adobe Experience Manager {#release-notes-v2}
+# [!DNL Adobe Experience Manager] notes de mise à jour sur les applications de bureau  {#release-notes-v2}
 
-| Produits | Appli de bureau Adobe Experience Manager |
+| Produits | [!DNL Adobe Experience Manager] application de bureau |
 |--- |--- |
 | Version de l’application (révision) | 2.1 (2.1.0.0) |
 | Versions [!DNL Adobe Experience Manager] prises en charge | [!DNL Experience Manager] comme  [!DNL Cloud Service];  [!DNL Experience Manager] 6.5 ;  [!DNL Experience Manager] 6.4 ;  [!DNL Experience Manager] 6.3 (avec package de compatibilité) |
 | Type | Version mineure |
-| Date de publication | 27 août 2020 (Mac et Windows) |
+| Date de publication | 17 décembre 2020 (Mac et Windows) |
 | URL de téléchargement | [macOS 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg) ; [Windows 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe) ; [Windows 32 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
 
 ## Configuration requise et conditions préalables {#system-requirements-and-prerequisites-v2}
 
-L’appli de bureau Adobe Experience Manager est compatible avec les systèmes d’exploitation suivants :
+L’appli de bureau [!DNL Adobe Experience Manager] est compatible avec les systèmes d’exploitation suivants :
 
 * Mac OS X 10.14 ou version ultérieure, avec les correctifs de bogues les plus récents.
 
@@ -40,7 +33,7 @@ L’appli de bureau Adobe Experience Manager est compatible avec les systèmes
 >
 >Windows 7 n’est plus pris en charge par le fournisseur (https://support.microsoft.com/fr-fr/help/4057281/windows-7-support-ended-on-january-14-2020).
 
-L’application fonctionne avec les versions d’Experience Manager suivantes, qu’elles soient déployées en tant que Cloud Service, sur Adobe Managed Services (AMS) ou On-Premise :
+L’application fonctionne avec les versions [!DNL Experience Manager] suivantes, qu’elles soient déployées en tant que [!DNL Cloud Service], sur Adobe Managed Services (AMS) ou sur site :
 
 * [[!DNL Experience Manager] comme [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=fr).
 
@@ -53,29 +46,29 @@ L’application fonctionne avec les versions d’Experience Manager suivantes, q
 >[!NOTE]
 >
 >La prise en charge des applications de bureau pour [!DNL Experience Manager] 6.3 est obsolète. Adobe recommande la mise à niveau vers une version [!DNL Adobe Experience Manager] plus récente et prise en charge.
->[!DNL Experience Manager]  6.3.3.1 ou version ultérieure fonctionne avec l’appli de bureau après l’installation du [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). Aucun package de ce type n’est disponible pour Experience Manager 6.3, car aucun [Service Pack n’est planifié](https://helpx.adobe.com/fr/experience-manager/maintenance-releases-roadmap.html).
+>[!DNL Experience Manager]  6.3.3.1 ou version ultérieure fonctionne avec l’appli de bureau après l’installation du [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). Aucun package de ce type n&#39;est disponible pour [!DNL Experience Manager] 6.3 car aucun Service Packs [n&#39;est planifié](https://helpx.adobe.com/fr/experience-manager/maintenance-releases-roadmap.html).
 
-La version que vous prévoyez d’installer sur votre ordinateur local nécessite une version spécifique du serveur Adobe Experience Manager/des composants supplémentaires côté serveur (Service Packs, correctifs logiciels ou Feature Packs). Contactez votre administrateur Adobe Experience Manager pour obtenir de l’aide.
+La version de l’application que vous prévoyez d’installer sur votre ordinateur local requiert une version de serveur [!DNL Adobe Experience Manager] spécifique/des composants supplémentaires côté serveur (Service Packs, correctifs ou Feature Packs). Contactez votre administrateur [!DNL Experience Manager] pour obtenir de l’aide.
 
 ### Prise en charge de différents types de ressources et de fichiers {#support-for-file-types}
 
-L’application prend en charge les ressources stockées dans Adobe Experience Manager qui représentent un fichier binaire pour ses opérations de base. L’ouverture de fichiers dans l’application de bureau native dépend de l’association du système d’exploitation des types de fichiers spécifiques (par exemple, PNG ou JPG) à des applications spécifiques (par exemple, Mac Preview ou Adobe Photoshop).
+L’application prend en charge les ressources stockées dans [!DNL Experience Manager] qui représentent un fichier binaire pour ses opérations de base. L’ouverture de fichiers dans l’application de bureau native dépend de l’association du système d’exploitation des types de fichiers spécifiques (par exemple, PNG ou JPG) à des applications spécifiques (par exemple, Mac Preview ou Adobe Photoshop).
 
-Certains types de fichiers prennent en charge le placement de ressources liées dans le fichier binaire. L’application pré-télécharge les ressources liées si la ressource est présente dans le référentiel Experience Manager lorsque ces fichiers binaires sont ouverts à l’aide de l’appli de bureau. Les types de fichiers actuellement pris en charge sont les suivants :
+Certains types de fichiers prennent en charge le placement de ressources liées dans le fichier binaire. L’application prétélécharge les actifs liés si l’actif est présent dans le référentiel [!DNL Experience Manager] lorsque de tels fichiers binaires sont ouverts à l’aide de l’application de bureau. Les types de fichiers actuellement pris en charge sont les suivants :
 
 * Fichiers [!DNL Adobe InDesign] (format INDD)
 * Fichiers [!DNL Adobe Illustrator] (format AI)
 * Fichiers [!DNL Adobe Photoshop] (format PS)
 
-Cette fonctionnalité est prise en charge avec Adobe Creative Cloud 2018 et les versions Creative Cloud 2019 de l’application ci-dessus. L’application utilise une approche heuristique et de la meilleure correspondance pour mapper les chemins d’accès de bureau locaux des ressources liées aux URL sur le serveur Experience Manager. Elle se base sur quelques hypothèses :
+Cette fonctionnalité est prise en charge avec les versions [!DNL Adobe Creative Cloud] 2018 et [!DNL Adobe Creative Cloud] 2019 de l’application ci-dessus. L’application utilise une approche heuristique et de la meilleure correspondance pour mapper les chemins d’accès locaux aux ordinateurs de bureau des ressources liées aux URL sur le serveur [!DNL Experience Manager]. Elle se base sur quelques hypothèses :
 
 * Les chemins d’accès aux fichiers placés dans l’application native utilisent un chemin d’accès de bureau global (placé à partir du partage réseau local illustré par l’option [!UICONTROL Reveal]).
 
 * Les chemins sont stockés dans l’enregistrement XMP du fichier par l’application native.
 
-* Experience Manager a extrait l’enregistrement XMP avec les chemins d’accès dans l’enregistrement de métadonnées de la ressource.
+* [!DNL Experience Manager] a extrait l’enregistrement XMP avec les chemins d’accès dans l’enregistrement de métadonnées de la ressource.
 
-* Les chemins d’accès peuvent être associés aux ressources dans Experience Manager. En d’autres termes, les fichiers placés se trouvent également dans Experience Manager sous un chemin d’accès correspondant.
+* Les chemins d’accès peuvent être associés à des ressources dans [!DNL Experience Manager], c’est-à-dire que les fichiers placés se trouvent également dans [!DNL Experience Manager] sous un chemin d’accès correspondant.
 
 ## Nouvelles fonctionnalités et améliorations {#whats-new-added}
 
@@ -111,27 +104,27 @@ Les correctifs de bogues et mises à jour sont les suivants :
 
 * Option permettant de configurer le répertoire `%Temp%` de façon à ce qu’il corresponde au chemin d’accès à `%APPDATA%`. <!-- CQ-4282665 -->
 
-* Permet aux utilisateurs de se connecter à l’instance Auteur Experience Manager via l’authentification SAML Okta. <!-- CQ-4278134 -->
+* Permet aux utilisateurs de se connecter à l’auteur [!DNL Experience Manager] via l’authentification SAML okta. <!-- CQ-4278134 -->
 
 ## Instructions d’installation {#installation-instructions-v2}
 
-Pour savoir comment installer et configurer l’application, voir [Installation de l’appli de bureau Experience Manager](install-upgrade.md).
+Pour savoir comment installer et configurer l’application, voir [Installer [!DNL Experience Manager] application de bureau](install-upgrade.md).
 
-Si vous effectuez une mise à niveau à partir d’une version précédente de l’appli de bureau Experience Manager, vous devez observer les bonnes pratiques de transition répertoriées dans [Mise à niveau à partir d’une version précédente](install-upgrade.md#upgrade-from-previous-version).
+Si vous effectuez une mise à niveau à partir d’une application de bureau [!DNL Experience Manager] précédente, vous devez suivre les bonnes pratiques de transition répertoriées dans [mise à niveau à partir de la version précédente](install-upgrade.md#upgrade-from-previous-version).
 
 ## Remarques importantes sur le fonctionnement de l’application {#how-app-works}
 
 Il est important de comprendre ce qui suit à propos de l’application et de son fonctionnement.
 
-* L’application offre un contrôle total sur les opérations qui nécessitent le transfert complet des fichiers binaires depuis et vers Experience Manager (ouverture, modification, chargement des modifications et chargement des ressources).
+* L’application permet un contrôle total des opérations qui nécessitent le transfert complet des fichiers binaires de et vers [!DNL Experience Manager] (ouvrir, modifier, télécharger des modifications et télécharger des ressources).
 
    * Si vous souhaitez utiliser la ressource figurant sur le bureau, vous devez explicitement ouvrir, modifier ou télécharger sur votre bureau, que ce soit individuellement, dans un dossier ou par sélection multiple.
 
-   * Si vous souhaitez que les modifications locales apportées aux ressources soient chargées dans Experience Manager, vous devez sélectionner [!UICONTROL Upload Changes], individuellement ou par sélection multiple.
+   * Si vous souhaitez que les modifications locales des ressources soient transférées vers [!DNL Experience Manager], vous devez sélectionner [!UICONTROL Upload Changes], soit individuellement, soit par sélection multiple.
 
-   * L’application n’est pas un client de synchronisation qui synchronise les ressources sur le bureau et Experience Manager.
+   * L’application n’est pas un client de synchronisation qui synchronise les ressources sur le bureau et [!DNL Experience Manager].
 
-   * L’application ne fournit pas de partage réseau qui mappe le référentiel Experience Manager en tant que structure de dossiers virtuelle.
+   * L&#39;application ne fournit pas de partage réseau qui mappe le référentiel [!DNL Experience Manager] en tant que structure de dossiers virtuels.
 
 * La liste des ressources affichées par l’application est basée sur le statut du référentiel Assets. Les fichiers téléchargés localement puis renommés dans les fichiers locaux ou le dossier de cache ne sont ni affichés ni gérés par l’application.
 
@@ -143,7 +136,7 @@ Il est important de comprendre ce qui suit à propos de l’application et de so
 
 Le diagramme suivant illustre le flux de ressources et de fichiers allant du cloud au système de fichiers local et vice versa, tel qu’il est initié par les actions de l’utilisateur.
 
-![Flux de ressources allant du serveur Experience Manager aux applications de bureau natives via l’appli de bureau](assets/da20_flow_diagram.png)
+![[!DNL Experience Manager]Flux de ressources allant du serveur aux applications de bureau natives via l’appli de bureau](assets/da20_flow_diagram.png)
 
 ## Problèmes connus {#known-issues-v2}
 
@@ -157,13 +150,13 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 
 * Après avoir appliqué et supprimé le filtre pour rechercher toutes les ressources modifiées localement, l’application n’amène pas l’utilisateur à ses résultats de recherche ou à la vue de dossiers par laquelle il a commencé. L’application affiche le dossier racine du référentiel DAM.
 
-* Parfois, lorsque vous vous connectez à une URL pour laquelle le serveur Experience Manager n’est pas en cours d’exécution, l’écran de connexion ne répond plus. Quittez l’application et redémarrez-la.
+* Parfois, lorsque vous vous connectez à une URL dont le serveur [!DNL Experience Manager] n&#39;est pas en cours d&#39;exécution, l&#39;écran de connexion ne répond plus. Quittez l’application et redémarrez-la.
 
 **Problèmes CRUD (Create, Read, Update et Delete) :**
 
 * L’application tente de télécharger des fichiers même avec des caractères non valides, ce qui peut entraîner l’échec du chargement côté serveur. <!-- CQ-4273652 -->
 
-* Lors du chargement de modifications avec commentaires d’une ressource, les commentaires sont stockés avec la ressource dans Experience Manager, mais ne sont pas visibles en tant que commentaires de contrôle de version. Ce problème est résolu dans Experience Manager 6.4.5 et 6.5.1. Adobe recommande vivement d’installer les derniers Service Packs. <!-- CQ-4268990 -->
+* Lors du téléchargement de modifications dans un fichier contenant des commentaires, les commentaires sont stockés avec l’actif dans [!DNL Experience Manager] mais ne sont pas visibles en tant que commentaires de contrôle de version. Ce problème est résolu dans [!DNL Experience Manager] 6.4.5 et [!DNL Experience Manager] 6.5.1. Adobe recommande d&#39;installer les derniers Service Packs. <!-- CQ-4268990 -->
 
 * Les transferts de ressources ne peuvent pas être annulés par l’utilisateur. Si vous avez déclenché involontairement un transfert volumineux, quittez l’application et redémarrez-la. <!-- CQ-4278940 -->
 
@@ -173,9 +166,9 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 
 >[!MORELIKETHIS]
 >
->* [Documentation sur Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr)
->* [Documentation sur Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=fr)
->* [Utilisation de l’appli de bureau Experience Manager](using.md)
+>* [[!DNL Experience Manager] as a [!DNL Cloud Service] documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr)
+>* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=fr)
+>* [ [!DNL Experience Manager] Comment utiliser l’appli de bureau ](using.md)
 >* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
 >* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
 
