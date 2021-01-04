@@ -1,9 +1,9 @@
 ---
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 18cebce065f9b55259bf96d14cb50cf5bc6c8ec6
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '509'
-ht-degree: 74%
+source-wordcount: '516'
+ht-degree: 73%
 
 ---
 # Contribution à la [!DNL Adobe Experience Manager] documentation de l’application de bureau
@@ -53,7 +53,7 @@ Regardez la vidéo suivante pour un aperçu rapide de la création de problèmes
 
 ### Contributions des employés d’Adobe
 
-Si vous êtes un employé d&#39;Adobe et que vous avez une contribution, nous vous demandons d&#39;utiliser l&#39;organisation `AdobeDocs` dans le git d&#39;entreprise. Vous pouvez contribuer à ce référentiel public sur GitHub.com mais les contributions sont plus faciles à traiter sur le référentiel d&#39;entreprise. Assurez-vous que toute information propriétaire ou non publiée n&#39;est traitée que sur le référentiel d&#39;entreprise.
+Si vous êtes un employé d&#39;Adobe et que vous avez une contribution, nous vous demandons d&#39;utiliser l&#39;organisation `AdobeDocs` dans le git d&#39;entreprise. Vous pouvez contribuer à ce référentiel public sur GitHub.com mais les contributions sont plus faciles à traiter sur le référentiel d&#39;entreprise. Assurez-vous que toute information propriétaire ou non publiée n&#39;est traitée que sur le référentiel d&#39;entreprise. Les employés de l&#39;Adobe n&#39;ont pas besoin de signer la LCR.
 
 ## A propos de la plate-forme de création GitHub et Markdown de l’Adobe
 
