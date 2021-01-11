@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
 source-wordcount: '1346'
-ht-degree: 69%
+ht-degree: 74%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 69%
 | Produits | [!DNL Adobe Experience Manager] application de bureau |
 |--- |--- |
 | Version de l’application (révision) | 2.1 (2.1.0.0) |
-| Versions [!DNL Adobe Experience Manager] prises en charge | [!DNL Experience Manager] comme  [!DNL Cloud Service];  [!DNL Experience Manager] 6.5 ;  [!DNL Experience Manager] 6.4 ;  [!DNL Experience Manager] 6.3 (avec package de compatibilité) |
+| Versions d’[!DNL Adobe Experience Manager] prises en charge | [!DNL Experience Manager] as a [!DNL Cloud Service] ; [!DNL Experience Manager] 6.5 ; [!DNL Experience Manager] 6.4 ; [!DNL Experience Manager] 6.3 (avec package de compatibilité) |
 | Type | Version mineure |
 | Date de publication | 17 décembre 2020 (Mac et Windows) |
 | URL de téléchargement | [macOS 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg) ; [Windows 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe) ; [Windows 32 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
@@ -35,18 +35,18 @@ L’appli de bureau [!DNL Adobe Experience Manager] est compatible avec les syst
 
 L’application fonctionne avec les versions [!DNL Experience Manager] suivantes, qu’elles soient déployées en tant que [!DNL Cloud Service], sur Adobe Managed Services (AMS) ou sur site :
 
-* [[!DNL Experience Manager] comme [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=fr).
+* [[!DNL Experience Manager] as a [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=fr).
 
-* [[!DNL Experience Manager] 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=fr) ou plus récent.
+* [[!DNL Experience Manager] 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=fr) ou version ultérieure.
 
-* [[!DNL Experience Manager] 6.4.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=fr) ou plus récent.
+* [[!DNL Experience Manager] 6.4.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=fr) ou version ultérieure.
 
-* [!DNL Experience Manager] 6.4.0 - 6.4.3 avec package [ de ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)compatibilité.
+* [!DNL Experience Manager] 6.4.0 – 6.4.3 avec [package de compatibilité](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support).
 
 >[!NOTE]
 >
->La prise en charge des applications de bureau pour [!DNL Experience Manager] 6.3 est obsolète. Adobe recommande la mise à niveau vers une version [!DNL Adobe Experience Manager] plus récente et prise en charge.
->[!DNL Experience Manager]  6.3.3.1 ou version ultérieure fonctionne avec l’appli de bureau après l’installation du [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). Aucun package de ce type n&#39;est disponible pour [!DNL Experience Manager] 6.3 car aucun Service Packs [n&#39;est planifié](https://helpx.adobe.com/fr/experience-manager/maintenance-releases-roadmap.html).
+>La prise en charge de l’appli de bureau pour [!DNL Experience Manager] 6.3 est obsolète. Adobe recommande la mise à niveau vers une version d’[!DNL Adobe Experience Manager] plus récente et prise en charge.
+>[!DNL Experience Manager] La version 6.3.3.1, ou version ultérieure, fonctionne avec l’appli de bureau après l’installation du [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). Aucun package de ce type n&#39;est disponible pour [!DNL Experience Manager] 6.3 car aucun Service Packs [n&#39;est planifié](https://helpx.adobe.com/fr/experience-manager/maintenance-releases-roadmap.html).
 
 La version de l’application que vous prévoyez d’installer sur votre ordinateur local requiert une version de serveur [!DNL Adobe Experience Manager] spécifique/des composants supplémentaires côté serveur (Service Packs, correctifs ou Feature Packs). Contactez votre administrateur [!DNL Experience Manager] pour obtenir de l’aide.
 
@@ -74,9 +74,9 @@ Cette fonctionnalité est prise en charge avec les versions [!DNL Adobe Creative
 
 Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#whats-new-v2).
 
-**Mises à jour dans la version v2.1.0.0 de l’application**
+**Mises à jour dans la version v2.1.0.0 de l’application**
 
-* Pour télécharger des fichiers, les utilisateurs peuvent désormais faire glisser les fichiers ou les dossiers sur l’interface de l’application, directement depuis l’Explorateur Windows ou le Finder Mac. Cette opération s’ajoute à l’option de téléchargement précédemment disponible dans l’application.
+* Pour charger des fichiers, les utilisateurs peuvent désormais faire glisser les fichiers ou les dossiers sur l’interface de l’application, directement depuis l’Explorateur Windows ou le Finder Mac. Cette opération s’ajoute à l’option de chargement précédemment disponible dans l’application.
 
 **Mises à jour dans la version v2.0.3 de l’application**
 
