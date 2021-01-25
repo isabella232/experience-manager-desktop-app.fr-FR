@@ -1,28 +1,28 @@
 ---
-title: Installer et configurer  [!DNL Adobe Experience Manager] l’application de bureau
-description: Installez et configurez les  [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] serveurs et téléchargez les ressources sur votre système de fichiers local.
-translation-type: tm+mt
+title: 'Installation et configuration de l’appli de bureau  [!DNL Adobe Experience Manager] '
+description: Installez et configurez les serveurs  [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets]  et téléchargez les ressources sur votre système de fichiers local.
+translation-type: ht
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1162'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
-# Installer [!DNL Adobe Experience Manager] l&#39;application de bureau {#install-app-v2}
+# Installation de l’appli de bureau [!DNL Adobe Experience Manager] {#install-app-v2}
 
-A l&#39;aide de l&#39;application de bureau [!DNL Adobe Experience Manager], les ressources de [!DNL Experience Manager] sont facilement disponibles sur votre bureau local et peuvent être utilisées dans n&#39;importe quelle application de bureau native. Vous pouvez prévisualiser les ressources, les ouvrir dans des applications de bureau natives, les afficher dans le Finder Mac ou l&#39;Explorateur Windows pour les placer dans d&#39;autres documents et les modifier localement. Les modifications sont enregistrées dans [!DNL Experience Manager] lorsque vous téléchargez et une nouvelle version est créée dans le référentiel.
+Grâce à l’appli de bureau [!DNL Adobe Experience Manager], les ressources dans [!DNL Experience Manager] sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources peuvent être prévisualisées, ouvertes dans des applications de bureau natives, affichées dans le Finder de Mac ou l’Explorateur Windows pour être utilisées dans d’autres documents, et modifiées en local. Les modifications sont réenregistrées dans [!DNL Experience Manager] lors du chargement et une nouvelle version est créée dans le référentiel.
 
 Une telle intégration permet à divers rôles de l’organisation de :
 
-* Gérez les ressources de manière centralisée dans [!DNL Experience Manager Assets].
+* gérer les ressources de manière centralisée dans [!DNL Experience Manager Assets] ;
 
-* accéder aux ressources dans n’importe quelle application de bureau native, y compris les applications tierces, ainsi que dans Adobe Creative Cloud. Cela permet aux utilisateurs de se conformer facilement aux différentes normes, y compris au branding.
+* et d’accéder aux ressources dans n’importe quelle application de bureau native, y compris les applications tierces, ainsi que dans Adobe Creative Cloud. Cela permet aux utilisateurs de se conformer facilement aux différentes normes, y compris au branding.
 
 Pour utiliser l’appli de bureau [!DNL Experience Manager],
 
-* Assurez-vous que votre version [!DNL Experience Manager] est prise en charge par l’application de bureau [!DNL Experience Manager]. Voir la [Configuration requise](release-notes.md#system-requirements-and-prerequisites-v2) ci-dessous.
+* assurez-vous que votre version d’[!DNL Experience Manager] est prise en charge par l’appli de bureau [!DNL Experience Manager]. Voir la [Configuration requise](release-notes.md#system-requirements-and-prerequisites-v2) ci-dessous.
 
 * Téléchargez et installez l’application. Voir [Installation de l’application de bureau](#install-v2) ci-dessous.
 
@@ -52,15 +52,15 @@ Pour effectuer une mise à niveau à partir d’une version antérieure de l’a
 
 ## Installation de la version {#install-v2}
 
-Pour installer l’appli de bureau, procédez comme suit. Désinstallez tout Adobe existant [!DNL Experience Manager] application de bureau v1.x avant d’installer la dernière application. Pour plus d’informations, voir ci-dessus.
+Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute version de l’appli de bureau [!DNL Experience Manager] Adobe v1.x avant d’installer la dernière application. Pour plus d’informations, voir ci-dessus.
 
 1. Téléchargez la dernière version du programme d’installation à partir de la page des [notes de mise à jour](release-notes.md).
 
-1. Conservez à portée de main l’URL et les informations d’identification de votre déploiement [!DNL Experience Manager].
+1. Conservez l’URL et les informations d’identification de votre déploiement d’[!DNL Experience Manager] à portée de main.
 
-1. Si vous effectuez une mise à niveau à partir d’une autre version de l’application, reportez-vous à la section [Mise à niveau de l’application de bureau](#upgrade-from-previous-version).
+1. Si vous effectuez une mise à niveau à partir d’une autre version de l’application, reportez-vous à la section [Mise à niveau de l’appli de bureau](#upgrade-from-previous-version).
 
-1. Ignorez cette étape si vous utilisez [!DNL Experience Manager] comme [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 ou version ultérieure, ou [!DNL Experience Manager] 6.5.0 ou version ultérieure. Assurez-vous que votre configuration [!DNL Experience Manager] répond aux exigences de compatibilité mentionnées dans les [notes de mise à jour](release-notes.md). Si nécessaire, téléchargez le [package de compatibilité ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) approprié et installez-le à l’aide de [!DNL Experience Manager] Package Manager en tant qu’administrateur [!DNL Experience Manager]. Pour installer un package, voir [Comment travailler avec des packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr).
+1. Ignorez cette étape si vous utilisez [!DNL Experience Manager] as a [!DNL Cloud Service], [!DNL Experience Manager] version 6.4.4 ou ultérieure, ou [!DNL Experience Manager] version 6.5.0 ou ultérieure. Assurez-vous que votre configuration d’[!DNL Experience Manager] respecte les exigences de compatibilité mentionnées dans les [notes de mise à jour](release-notes.md). Si nécessaire, téléchargez le [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicable et installez-le à l’aide du gestionnaire de modules [!DNL Experience Manager] en tant qu’administrateur [!DNL Experience Manager]. Pour installer un package, voir [Comment travailler avec des packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr).
 
 1. Exécutez le fichier binaire du programme d’installation et suivez les instructions à l’écran pour procéder à l’installation.
 
@@ -80,19 +80,19 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez tout Ado
    >
    >Vérifiez qu’il n’existe aucun espace avant ou après l’adresse du serveur [!DNL Experience Manager]. En effet, la présence d’un espace empêchera l’application de se connecter au serveur [!DNL Experience Manager].
 
-1. Une fois la connexion établie, vous pouvez afficher la liste des dossiers et des ressources disponibles dans le dossier racine de la gestion des ressources numériques [!DNL Experience Manager]. Vous pouvez parcourir les dossiers depuis l’application.
+1. Une fois la connexion établie, vous pouvez afficher la liste des dossiers et des ressources disponibles dans le dossier racine de la gestion des ressources numériques (DAM) [!DNL Experience Manager]. Vous pouvez parcourir les dossiers depuis l’application.
 
-   ![Lors de la connexion, l’application affiche le contenu de la gestion des actifs numériques](assets/firstview_da2.png)
+   ![Lors de la connexion, l’application affiche le contenu de la gestion des actifs numériques (DAM)](assets/firstview_da2.png)
 
-   *Figure : L’application affiche le contenu de la gestion des actifs numériques après la connexion*
+   *Figure : L’application affiche le contenu de la gestion des actifs numériques (DAM) après la connexion*
 
-1. ([!DNL Experience Manager] 6.5.1 ou version ultérieure) Si vous utilisez une application de bureau avec [!DNL Experience Manager] 6.5.1 ou version ultérieure, mettez à niveau S3 ou Azure Connector vers la version 1.10.4 ou ultérieure. Voir [Connecteur Azure](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=fr#azure-data-store) ou [Connecteur S3](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=fr#amazon-s-data-store).
+1. ([!DNL Experience Manager] version 6.5.1 ou ultérieure) Si vous utilisez l’appli de bureau [!DNL Experience Manager] avec la version 6.5.1 ou ultérieure, mettez à niveau le connecteur Azure ou S3 vers la version 1.10.4 ou ultérieure. Voir [Connecteur Azure](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=fr#azure-data-store) ou [Connecteur S3](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=fr#amazon-s-data-store).
 
    Si vous êtes un client d’Adobe Managed Services (AMS), contactez l’Assistance clientèle d’Adobe.
 
 ## Définition des préférences {#set-preferences}
 
-Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-not-localize/more_options_da2.png) puis sur **[!UICONTROL Preference]**![ Icône Préférences](assets/do-not-localize/preferences_icon_da2.png). Dans la fenêtre **[!UICONTROL Preferences]**, ajustez les valeurs des éléments suivants :
+Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-not-localize/more_options_da2.png) puis sur **[!UICONTROL Preference]** ![ Icône Préférences](assets/do-not-localize/preferences_icon_da2.png). Dans la fenêtre **[!UICONTROL Preferences]**, ajustez les valeurs des éléments suivants :
 
 * [!UICONTROL Launch application on login].
 
@@ -100,7 +100,7 @@ Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-
 
 * **[!UICONTROL Cache Directory]** : emplacement du cache local de l’application (il contient les ressources téléchargées en local).
 
-* **[!UICONTROL Network Drive Letter]** : lettre de lecteur utilisée pour mapper l’application à la gestion des ressources numériques [!DNL Experience Manager]. Ne changez pas cette valeur si vous n’êtes pas sûr de vous. L’application peut se mapper à n’importe quelle lettre de lecteur sous Windows. Si deux utilisateurs placent des ressources à partir de lettres de lecteur différentes, aucun ne pourra voir les ressources placées par l’autre. Le chemin d’accès des ressources change. Les ressources demeurent placées dans le fichier binaire (par exemple, INDD) et ne sont pas supprimées. L’application répertorie toutes les lettres de lecteur disponibles et utilise par défaut la dernière lettre disponible, généralement `Z`.
+* **[!UICONTROL Network Drive Letter]** : lettre de lecteur utilisée pour mapper l’application à la gestion des ressources numériques (DAM) [!DNL Experience Manager]. Ne changez pas cette valeur si vous n’êtes pas sûr de vous. L’application peut se mapper à n’importe quelle lettre de lecteur sous Windows. Si deux utilisateurs placent des ressources à partir de lettres de lecteur différentes, aucun ne pourra voir les ressources placées par l’autre. Le chemin d’accès des ressources change. Les ressources demeurent placées dans le fichier binaire (par exemple, INDD) et ne sont pas supprimées. L’application répertorie toutes les lettres de lecteur disponibles et utilise par défaut la dernière lettre disponible, généralement `Z`.
 
 * **[!UICONTROL Maximum Cache Size]** : cache autorisé sur le disque dur (en Go) utilisé pour stocker les ressources téléchargées en local.
 
