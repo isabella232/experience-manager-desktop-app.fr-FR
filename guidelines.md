@@ -1,16 +1,16 @@
 ---
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '721'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
-# Directives pour contribuer à la documentation [!DNL Adobe Experience Manager]
+# Directives relatives à la contribution à la documentation d’[!DNL Adobe Experience Manager]
 
 ## Philosophie de la documentation
 
-Nous savons que les utilisateurs de [!DNL Adobe Experience Manager] travaillent dans des environnements hautement compétitifs, s&#39;efforçant de créer des expériences numériques qui les distingueront de leurs concurrents. Lorsqu’Adobe fournit de nouveaux outils avancés dans [!DNL Experience Manager], il est essentiel qu’ils soient complétés par une documentation précise et claire pour permettre au client d’exploiter immédiatement son investissement dans [!DNL Experience Manager] et maximiser le ROI.
+Nous savons que les utilisateurs d’[!DNL Adobe Experience Manager] travaillent dans des environnements très concurrentiels, afin de créer des expériences numériques qui les distingueront de leurs concurrents. Lorsqu’Adobe fournit de nouveaux outils avancés dans [!DNL Experience Manager], il est essentiel qu’ils soient complétés par une documentation précise et claire pour permettre au client d’exploiter immédiatement son investissement dans [!DNL Experience Manager] et maximiser le ROI.
 
 L’objectif de la documentation d’[!DNL Experience Manager] est de la placer entre les mains des utilisateurs d’[!DNL Experience Manager] dès que possible. Nous privilégions donc une documentation précise et utilisable, et nous la mettons à jour et l’améliorons constamment.
 
@@ -88,6 +88,6 @@ Dans la mesure du possible, évitez toute référence directe à une version sp�
 
 ### Utilisation de Day, [!DNL Experience Manager], CQ, CRX
 
-Reportez-vous au produit par son nom complet **Adobe Experience Manager** pour la première utilisation d’un article, puis appelez-le **Experience Manager**.
+Faites référence au produit par son nom complet, **Adobe Experience Manager**, pour la première utilisation de son nom dans un article, puis appelez-le **Experience Manager**.
 
-N&#39;utilisez pas les termes Day, Day Software, CQ et CRX, sauf lorsqu&#39;ils sont inévitables, comme dans les noms de classe ou en référence à l&#39;historique de [!DNL Experience Manager].
+N’utilisez pas les termes Day, Day Software, CQ et CRX, sauf lorsque c’est inévitable, comme dans les noms de classe ou en référence à l’historique d’[!DNL Experience Manager].
