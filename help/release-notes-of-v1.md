@@ -1,20 +1,20 @@
 ---
 title: Notes de mise à jour de l’appli de bureau AEM version 1.x
 description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau AEM version 1.x.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3906'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Adobe Experience Manager]Notes de mise à jour de l’appli de bureau  v1.x {#aem-desktop-app-release-notes}
+# Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] v1.x {#aem-desktop-app-release-notes}
 
 Pour la version 1.x de l’appli de bureau, voici les liens de téléchargement et les informations de compatibilité d’AEM.
 
-| Produits | [!DNL Adobe Experience Manager] application de bureau |
+| Produits | Appli de bureau [!DNL Adobe Experience Manager] |
 |--- |--- |
 | Version | 1.10 (1.10.0.6 sous Mac et 1.10.0.3 sous Windows) |
 | Type | Version mineure |
@@ -58,7 +58,7 @@ L’appli de bureau AEM 1.10 met l’accent sur l’amélioration de l’expér
 
 **Icône d’application pour indiquer les transferts en bloc** : L’icône d’application affichera une incrustation « transfert » pour indiquer qu’un téléchargement massif est en cours.
 
-**Notifications de conflits de mise à jour** :  Si l’application détecte un conflit en essayant de mettre à jour une ressource, elle affiche une notification, de sorte que l’utilisateur puisse examiner ce conflit sans avoir à surveiller la fenêtre de statut. Au démarrage, l’application recherche d’éventuels conflits, de sorte que l’utilisateur puisse les résoudre.
+**Notifications de conflits de mise à jour** : si l’application détecte un conflit en essayant de mettre à jour une ressource, elle affiche une notification, de sorte que l’utilisateur puisse examiner ce conflit sans avoir à surveiller la fenêtre de statut. Au démarrage, l’application recherche d’éventuels conflits, de sorte que l’utilisateur puisse les résoudre.
 
 **Meilleur traitement des pertes de connexion** : Les téléchargements massifs sont interrompus en cas de perte de connexion et l’utilisateur est en mesure de reprendre l’opération ultérieurement. Un bouton Retry (Réessayer) est disponible pour effectuer une nouvelle tentative en cas d’échec du téléchargement d’un fichier.
 
@@ -68,9 +68,9 @@ Pour obtenir des instructions détaillées, voir [Installation et configuration 
 
 ## Améliorations effectuées dans les versions précédentes {#enhancements-in-the-previous-versions}
 
-Cette version étend et remplace les versions précédentes de l&#39;application de bureau [!DNL Experience Manager], qui ont fourni les améliorations clés suivantes :
+Cette version étend et remplace les versions précédentes de l’appli de bureau [!DNL Experience Manager], qui fournissaient les améliorations principales suivantes :
 
-* **Version 1.9/1.9.1** : reprise des téléchargements interrompus, fenêtre de statut améliorée, icônes indiquant le statut de l’application/de la connexion et récupération anticipée des ressources liées pour les fichiers InDesign.
+* **Version 1.9/1.9.1** : reprise des chargements interrompus, fenêtre de statut améliorée, icônes indiquant le statut de l’application/de la connexion et récupération anticipée des ressources liées pour les fichiers InDesign.
 
 * **Version 1.8** : meilleur contrôle de la taille du cache pour l’utilisateur, expérience de connexion améliorée pour SAML/SSO sous Windows, prise en charge du proxy réseau .pac sous Mac et des problèmes signalés par les clients.
 
@@ -86,7 +86,7 @@ Cette version étend et remplace les versions précédentes de l&#39;application
 
 ### Améliorations disponibles depuis l’appli de bureau AEM 1.9 {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
-[!DNL Adobe Experience Manager] application de bureau 1.9.1 a été une version de correctif pour résoudre quelques problèmes client clés concernant l’extraction et la copie de fichiers du partage réseau vers un répertoire local.
+L’appli de bureau [!DNL Adobe Experience Manager] version 1.9.1 était une version corrective qui corrigeait quelques problèmes majeurs rencontrés par les clients concernant l’extraction de ressources et la copie de fichiers d’un partage réseau vers un répertoire local.
 
 * Les ressources extraites par un utilisateur ne doivent pas être accessibles à d’autres utilisateurs en vue de la modification (CQ-4246009).
 
@@ -128,7 +128,7 @@ Une fenêtre de statut des ressources améliorée fournit les informations suiva
 
 * Le pied de page affiche le nombre total de fichiers téléchargés, ainsi que la vitesse de transfert moyenne.
 
-* Si un utilisateur choisit d&#39;ouvrir ou de modifier plusieurs fichiers de l&#39;interface Web [!DNL Experience Manager Assets], ils seront regroupés. Par exemple, myasset.jpeg et 4 autres fichiers.
+* Si un utilisateur choisit d’ouvrir ou de modifier plusieurs fichiers à partir de l’interface Web d’[!DNL Experience Manager Assets], ceux-ci seront regroupés. Par exemple, myasset.jpeg et 4 autres fichiers.
 
 * Lorsque vous téléchargez des documents InDesign comprenant des ressources liées stockées dans AEM Assets, l’appli de bureau télécharge l’ensemble des ressources liées avant d’ouvrir le document [!UICONTROL Adobe InDesign] et d’indiquer le téléchargement des ressources liées. Par exemple, 5 sur 24.
 
@@ -344,7 +344,7 @@ Ces deux cas sont attendus et sont des répercussions secondaires de l’archite
 * Amélioration de la gestion des applications de bureau qui utilisent des opérations de fichiers intermédiaires pour enregistrer un fichier (enregistrements partiels et fichiers temporaires), ce qui permet à la chronologie d’AEM Assets d’afficher les informations correctes de version et de chargement des ressources.
 * Boîte de dialogue fournie pour effectuer le suivi de l’état des tâches de chargement en arrière-plan.
 
-## Liste des modifications  {#list-of-changes}
+## Liste des modifications {#list-of-changes}
 
 ### Point de montage sous Mac {#mount-point-on-mac}
 
