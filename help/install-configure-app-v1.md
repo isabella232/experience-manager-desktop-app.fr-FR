@@ -1,9 +1,9 @@
 ---
 title: Installation et configuration de l’appli de bureau  [!DNL Experience Manager]  version 1.x
 description: Installez et configurez les serveurs  [!DNL Experience Manager] desktop app version 1.x to work with [!DNL Assets] et mappez les ressources à monter sous la forme d’un lecteur sur votre bureau.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Vous pouvez personnaliser la boîte de dialogue Asset Info (Informations sur les
 
 La nature du composant recouvert dépend de la nature de la personnalisation. Pour modifier les composants affichés dans la boîte de dialogue Asset Info (Informations sur les ressources), recouvrez la page de l’interface utilisateur Granite. Pour modifier le contenu HTML/CSS ou JavaScript de la boîte de dialogue, recouvrez le composant HTL.
 
-## Gestion du cache  {#manage-cache}
+## Gestion du cache {#manage-cache}
 
 Sous Windows, le cache se situe à l’emplacement `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`, où il existe une version codée de l’hôte configuré dans l’appli de bureau [!DNL Experience Manager]. Par exemple, `http://localhost:4502` s’affiche comme suit : `http%3A%2F%2Flocalhost%3A4502%2F`
 
@@ -102,7 +102,7 @@ Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en
 >
 >Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur [!DNL Experience Manager] sont conservées.
 
-### Modification de l’emplacement du cache sous Windows  {#change-location-of-cache-on-windows}
+### Modification de l’emplacement du cache sous Windows {#change-location-of-cache-on-windows}
 
 L’emplacement par défaut du cache de l’appli de bureau [!DNL Experience Manager] est le suivant :
 
