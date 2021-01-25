@@ -1,9 +1,9 @@
 ---
 title: Utilisation de l’appli de bureau  [!DNL Experience Manager]  version 1.x.
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.x et optimiser votre utilisation des ressources du bureau.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2379'
 ht-degree: 100%
 
@@ -87,11 +87,11 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
 1. Lancez l’appli de bureau [!DNL Experience Manager]. Pour mapper votre instance avec l’application [!DNL Experience Manager], spécifiez votre serveur [!DNL Experience Manager] au format `https://[aem-server-url]:[port]`.
 
-   ![Authentification sous Mac et spécification de l’URL du serveur [!DNL Experience Manager] ](assets/aem_desktop_app_server_url.png)
+   ![Authentification sous Mac et spécification de l’URL du serveur [!DNL Experience Manager]](assets/aem_desktop_app_server_url.png)
 
 1. Dans l’écran de connexion, indiquez le nom d’utilisateur et le mot de passe de votre instance. Pour spécifier une autre instance [!DNL Experience Manager], sélectionnez l’option **[!UICONTROL Alternate Login URL]**.
 
-   ![Saisie des informations d’identification du serveur [!DNL Experience Manager] dans l’écran de connexion de l’appli de bureau [!DNL Experience Manager] ](assets/login_screen_v1.png)
+   ![Saisie des informations d’identification du serveur [!DNL Experience Manager] dans l’écran de connexion de l’appli de bureau [!DNL Experience Manager]](assets/login_screen_v1.png)
 
 ### Activation des actions de bureau dans l’interface web d’[!DNL Experience Manager] {#desktopactions}
 
@@ -108,15 +108,15 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
    *Figure : Activation de la case à cocher Afficher les actions de bureau pour Assets afin d’activer les actions de bureau.*
 
-## Accès aux ressources et ouverture de ces éléments sur votre bureau  {#openondesktop}
+## Accès aux ressources et ouverture de ces éléments sur votre bureau {#openondesktop}
 
 Lorsque vous cliquez sur **Open** (Ouvrir) pour ouvrir une ressource sur l’ordinateur local, l’application la télécharge dans son cache interne. L’application lance l’appli de bureau native associée au type de fichier de la ressource téléchargée.
 
-Sous Mac, sélectionnez **Open** (Ouvrir) dans le menu contextuel pour ouvrir une ressource via l’appli de bureau [!DNL Experience Manager] Sous Windows, sélectionnez Ouvrir sur le web dans le menu contextuel pour ouvrir la ressource. Dans la fenêtre Asset Status (Statut de la ressource), cliquez/appuyez sur ![Icône Open on Desktop](assets/do-not-localize/aemassets_icon_openondesktop.png) pour ouvrir la ressource.
+Sous Mac, sélectionnez **Open** (Ouvrir) dans le menu contextuel pour ouvrir une ressource via l’appli de bureau [!DNL Experience Manager]. Sous Windows, sélectionnez Ouvrir sur le web dans le menu contextuel pour ouvrir la ressource. Dans la fenêtre Asset Status (Statut de la ressource), cliquez/appuyez sur ![Icône Open on Desktop](assets/do-not-localize/aemassets_icon_openondesktop.png) pour ouvrir la ressource.
 
 Pour les fichiers Adobe InDesign (INDD), sélectionnez **[!UICONTROL Open]** dans le menu contextuel. Lorsque vous cliquez sur cette option, l’application télécharge les ressources liées sur votre système de fichiers local, puis ouvre le fichier INDD dans Adobe InDesign. Cette méthode garantit que les ressources requises sont disponibles en local lors de la modification du fichier INDD.
 
-![Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau [!DNL Experience Manager] ](assets/aem_desktopapp_mac_context_menu.png)
+![Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau [!DNL Experience Manager]](assets/aem_desktopapp_mac_context_menu.png)
 
 *Figure : Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau [!DNL Experience Manager].*
 
@@ -146,7 +146,7 @@ Après avoir mappé le référentiel [!DNL Assets] sur votre lecteur local, vous
 
 Pour localiser la ressource sur votre système de fichiers local, cliquez sur l’action rapide **Afficher** ![icône Afficher](assets/do-not-localize/aemassets_reveal_icon.png). Vous pouvez également sélectionner **Afficher** dans le menu **Actions sur le Bureau** de la barre d’outils.
 
-## Explication des états de ressources  {#understand-the-asset-statuses}
+## Explication des états de ressources {#understand-the-asset-statuses}
 
 | ![Icône de l’appli par défaut Windows](assets/do-not-localize/win_default.png) | L’application est connectée au serveur, et toutes les ressources sont synchronisées. |
 --- |--- |
@@ -189,7 +189,7 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 
 1. Dans le menu contextuel de Mac, sélectionnez Open AEM Assets Folder (Ouvrir le dossier AEM Assets) pour ouvrir le Finder.
 
-   ![Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau [!DNL Experience Manager] ](assets/aem_desktopapp_mac_context_menu.png)
+   ![Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau [!DNL Experience Manager]](assets/aem_desktopapp_mac_context_menu.png)
 
    *Figure : Options de menu contextuel permettant d’accéder à des ressources et de les ouvrir à l’aide de l’appli de bureau [!DNL Experience Manager].*
 
@@ -220,7 +220,7 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 
 1. Pour archiver la ressource afin qu’elle soit disponible pour les autres utilisateurs, cliquez/appuyez sur l’icône Check-in (Archiver) dans la boîte de dialogue **Asset Info** (Informations sur les ressources).
 
-### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web  {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
+### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
 Une fois la modification des ressources effectuée, enregistrez ces dernières dans votre application de bureau. Dans le menu contextuel, sélectionnez **More Assets Info** (Autres infos sur les ressources) et cliquez ensuite sur Check-in (Archiver).
 
