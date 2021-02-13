@@ -1,11 +1,11 @@
 ---
-title: 'Présentation de l’appli de bureau  [!DNL Adobe Experience Manager] '
+title: 'Présentation de l’appli de bureau  [!DNL Experience Manager] '
 description: Apprenez à utiliser [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] directement à partir de leur bureau.
-translation-type: ht
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ Une telle intégration permet à différents rôles de l’organisation de gére
 
 >[!NOTE]
 >
->L’appli de bureau [!DNL Adobe Experience Manager] a été lancée avec la version 6.1 d’[!DNL Adobe Experience Manager] et s’appelait auparavant [!DNL Adobe Experience Manager Assets] Companion App. Pour obtenir de l’aide sur la version 1.x de l’application, reportez-vous à la table des matières dans la barre latérale gauche. Adobe recommande d’effectuer la mise à niveau vers la dernière version 2.
+>L’application a été introduite dans la version [!DNL Adobe Experience Manager] 6.1 et était auparavant appelée [!DNL Adobe Experience Manager Assets] Companion App. Pour obtenir de l’aide sur la version 1.x de l’application, consultez la table des matières dans la barre latérale gauche. Adobe recommande la mise à niveau vers la dernière version.
 
 La documentation de l’appli de bureau contient des informations sur les rôles et cas d’utilisation suivants.
 
