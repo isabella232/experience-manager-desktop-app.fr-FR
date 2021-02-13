@@ -1,11 +1,11 @@
 ---
 title: Notes de mise à jour de l’appli de bureau AEM version 1.x
 description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau AEM version 1.x.
-translation-type: ht
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: ht
-source-wordcount: '3906'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 95e252504a4fbb3b60a2c6bc9b57a8a0d8ecb51c
+workflow-type: tm+mt
+source-wordcount: '3904'
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ L’appli de bureau AEM 1.10 met l’accent sur l’amélioration de l’expér
 
 **Notifications de conflits de mise à jour** : si l’application détecte un conflit en essayant de mettre à jour une ressource, elle affiche une notification, de sorte que l’utilisateur puisse examiner ce conflit sans avoir à surveiller la fenêtre de statut. Au démarrage, l’application recherche d’éventuels conflits, de sorte que l’utilisateur puisse les résoudre.
 
-**Meilleur traitement des pertes de connexion** : Les téléchargements massifs sont interrompus en cas de perte de connexion et l’utilisateur est en mesure de reprendre l’opération ultérieurement. Un bouton Retry (Réessayer) est disponible pour effectuer une nouvelle tentative en cas d’échec du téléchargement d’un fichier.
+**Meilleur traitement des pertes de connexion** : Les téléchargements massifs sont interrompus en cas de perte de connexion et l’utilisateur est en mesure de reprendre l’opération ultérieurement. Une option [!UICONTROL Retry] est disponible pour essayer de relancer un téléchargement d&#39;un fichier qui a échoué.
 
 ## Instructions d’installation {#installation-instructions}
 
@@ -417,7 +417,7 @@ Comme le dossier /Volumes ne nécessite plus de droits d’administration, cette
 * Windows :
    * Les fichiers avec des flux de données alternatifs (ADS, Alternate Data Streams) ne sont entièrement pris en charge que par NTFS. Si vous copiez ces fichiers sur le partage WebDAV fourni par l’appli de bureau, une boîte de dialogue d’avertissement indique à l’utilisateur que le fichier contient des propriétés ne pouvant pas être copiées vers le nouvel emplacement. Cela ne pose généralement pas problème puisque les propriétés ne sont pertinentes que pour une application spécifique du bureau de l’utilisateur et n’ont rien à voir avec le contenu réel du fichier (CQ-103770) (Windows).
    * L’appli de bureau sous Windows doit être installée par l’utilisateur qui l’utilise (CQ-4216389) (Windows).
-   * L’appli peut se bloquer, dans certains cas, lorsque vous cliquez sur le bouton Retry (Réessayer) pour un transfert qui a échoué ; après avoir relancé un transfert par lots alors qu’aucune connexion n’est établie, par exemple (CQ-4251884) (Windows).
+   * L’application peut se bloquer lors de la sélection de l’option [!UICONTROL Retry] sur un téléchargement ayant échoué dans certaines circonstances après avoir repris le téléchargement par lots lorsqu’elle est déconnectée (CQ-4251884) (Win).
 
 ## Ressources utiles {#helpful-resources}
 
