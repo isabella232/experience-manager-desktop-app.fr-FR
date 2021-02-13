@@ -1,16 +1,16 @@
 ---
-title: Bonnes pratiques relatives à l’appli de bureau [!DNL Adobe Experience Manager] version 1.x
-description: Fonctionnalités essentielles et utilisation recommandée de l’appli de bureau  [!DNL Adobe Experience Manager]  version 1.x
+title: Meilleures pratiques pour l’application de bureau v1.10
+description: Fonctionnalités essentielles et utilisation recommandée de l’appli de bureau  [!DNL Adobe Experience Manager]  version 1.10.
 translation-type: tm+mt
-source-git-commit: 95e252504a4fbb3b60a2c6bc9b57a8a0d8ecb51c
+source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1674'
 ht-degree: 97%
 
 ---
 
 
-# Bonnes pratiques relatives à l’appli de bureau AEM v1.x {#aem-desktop-app-best-practices}
+# Meilleures pratiques pour l’application de bureau v1.10 d’AEM {#aem-desktop-app-best-practices}
 
 ## Présentation {#overview}
 
