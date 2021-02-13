@@ -1,11 +1,11 @@
 ---
 title: Bonnes pratiques relatives à l’appli de bureau [!DNL Adobe Experience Manager] version 1.x
 description: Fonctionnalités essentielles et utilisation recommandée de l’appli de bureau  [!DNL Adobe Experience Manager]  version 1.x
-translation-type: ht
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: ht
-source-wordcount: '1686'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 95e252504a4fbb3b60a2c6bc9b57a8a0d8ecb51c
+workflow-type: tm+mt
+source-wordcount: '1677'
+ht-degree: 97%
 
 ---
 
@@ -114,11 +114,11 @@ Si une ressource stockée dans AEM nécessite une mise à jour :
 
    * Une fois les modifications terminées, déplacez, copiez ou enregistrez le fichier mappé à partir d’AEM pour le charger en tant que nouvelle version.
 
-## Performances du réseau {#network-performance}
+## Performances du réseau  {#network-performance}
 
 L’expérience des utilisateurs de l’appli de bureau AEM dépend grandement d’une connectivité réseau stable et de bonne qualité entre leur bureau et le serveur AEM, ainsi que d’un serveur optimisé pour des performances élevées, en particulier lors du chargement et de la mise à jour des ressources. Ces recommandations s’appliquent aux équipes réseau/informatiques des organisations.
 
-### Remarques relatives au réseau {#network-considerations}
+### Remarques relatives au réseau  {#network-considerations}
 
 Pour connaître les meilleures pratiques concernant la configuration réseau d’AEM Assets, reportez-vous au document [Remarques relatives au réseau pour AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-migration-guide.html?lang=fr). Voici certains aspects importants permettant d’optimiser l’expérience de l’appli de bureau AEM pour les utilisateurs :
 
@@ -128,12 +128,12 @@ Pour connaître les meilleures pratiques concernant la configuration réseau d�
 
 >[!NOTE]
 >
->Pour désactiver les aperçus d’icônes, dans le Finder, sélectionnez View (Afficher), puis View Options (Options d’affichage) et décochez la case Show icon preview (Afficher l’aperçu des icônes). Cette opération ne fonctionne que pour le dossier actuel. Pour en faire une option par défaut, cliquez sur le bouton « Utiliser par défaut » dans la même fenêtre.
+>Pour désactiver les prévisualisations d&#39;icône, dans le Finder, accédez à [!UICONTROL View], sélectionnez [!UICONTROL View Options], puis décochez l&#39;option [!UICONTROL Show icon preview]. Cela ne fonctionne que pour le dossier actif. Pour en faire un dossier par défaut, cliquez sur l&#39;option [!UICONTROL Use as default] dans la même boîte de dialogue.
 
-### Optimisation des performances du serveur {#optimizing-server-performance}
+### Optimisation des performances du serveur  {#optimizing-server-performance}
 
 Pour savoir comment le serveur AEM Assets doit être optimisé en termes de performances, reportez-vous au [Guide d’optimisation des performances d’AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html?lang=fr). Certains aspects importants relatifs aux performances du serveur pour l’appli de bureau AEM concernent l’optimisation de la configuration des workflows afin d’assurer un bon fonctionnement en vue du chargement des ressources :
 
-* **Chargement des ressources plus performant**. Configurez le [modèle de workflow de mise à jour des ressources AEM pour qu’il soit transitoire](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html?lang=fr).
+* **Chargement des ressources plus performant**. Configurez le [modèle de workflow de mise à jour des ressources AEM pour qu’il soit transitoire](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html).
 
 * **Limitez le processeur du serveur pour les chargements**. Assurez-vous que le nombre maximal de tâches de workflow parallèles est défini correctement, de sorte que les chargements ne consomment pas toutes les capacités du processeur.
