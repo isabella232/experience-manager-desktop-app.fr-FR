@@ -2,11 +2,11 @@
 title: Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager]
 description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau  [!DNL Adobe Experience Manager] .
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: ht
-source-wordcount: '1346'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b5292d9386432bd7c6ba5d7117dbc9fd9f014941
+workflow-type: tm+mt
+source-wordcount: '1418'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 100%
 | Versions d’[!DNL Adobe Experience Manager] prises en charge | [!DNL Experience Manager] as a [!DNL Cloud Service] ; [!DNL Experience Manager] 6.5 ; [!DNL Experience Manager] 6.4 ; [!DNL Experience Manager] 6.3 (avec package de compatibilité) |
 | Type | Version mineure |
 | Date de publication | 17 décembre 2020 (Mac et Windows) |
-| URL de téléchargement | [macOS 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg) ; [Windows 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe) ; [Windows 32 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
+| URL de téléchargement pour AEM 6.x | [macOS 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg) ; [Windows 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe) ; [Windows 32 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
+| Télécharger les URL pour AEM sous la forme [!DNL Cloud Service] | [macOS 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg) ; [Windows 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe) ; [Windows 32 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
 
 ## Configuration requise et conditions préalables {#system-requirements-and-prerequisites-v2}
 
