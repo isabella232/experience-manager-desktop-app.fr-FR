@@ -1,16 +1,16 @@
 ---
-title: Installation et configuration de l’appli de bureau  [!DNL Experience Manager]  version 1.x
-description: Installez et configurez les serveurs  [!DNL Experience Manager] desktop app version 1.x to work with [!DNL Assets] et mappez les ressources à monter sous la forme d’un lecteur sur votre bureau.
-translation-type: ht
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: ht
-source-wordcount: '903'
-ht-degree: 100%
+title: Installation et configuration de l’application de bureau v1.10
+description: Installez et configurez les serveurs  [!DNL Experience Manager] desktop app version 1.10 to work with [!DNL Assets] et mappez les ressources à monter sous la forme d’un lecteur sur votre bureau.
+translation-type: tm+mt
+source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
+workflow-type: tm+mt
+source-wordcount: '901'
+ht-degree: 99%
 
 ---
 
 
-# Installation et configuration de l’appli de bureau [!DNL Experience Manager] v1.x {#install-and-configure-aem-desktop-app}
+# Installation et configuration de l’appli de bureau [!DNL Experience Manager] v1.10 {#install-and-configure-aem-desktop-app}
 
 Grâce à l’appli de bureau [!DNL Experience Manager], les ressources d’[!DNL Experience Manager] sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources sont aisément affichées dans le Finder de Mac ou l’Explorateur Windows, ouvertes dans des applications de bureau et modifiées en local ; les modifications sont réenregistrées dans [!DNL Experience Manager] lors du chargement et une nouvelle version est créée dans le référentiel.
 
@@ -102,7 +102,7 @@ Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en
 >
 >Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur [!DNL Experience Manager] sont conservées.
 
-### Modification de l’emplacement du cache sous Windows {#change-location-of-cache-on-windows}
+### Modification de l’emplacement du cache sous Windows  {#change-location-of-cache-on-windows}
 
 L’emplacement par défaut du cache de l’appli de bureau [!DNL Experience Manager] est le suivant :
 
