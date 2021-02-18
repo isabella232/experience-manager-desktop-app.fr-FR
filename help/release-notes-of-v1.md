@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
 workflow-type: tm+mt
 source-wordcount: '3901'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -54,13 +54,13 @@ L’appli de bureau AEM 1.10 met l’accent sur l’amélioration de l’expér
 
 **Modification/extraction locale** : les chargements automatiques des modifications enregistrées dans les ressources peuvent être désactivés dans la fenêtre de statut. De cette façon, l’utilisateur peut continuer à traiter des fichiers et à enregistrer des modifications puis, lorsque tout est prêt, décider de transférer toutes les modifications.
 
-**Fenêtre d’état des ressources simplifiée** : La fenêtre de statut a été simplifiée. L’onglet [!UICONTROL Uploads] affiche désormais à la fois les ressources individuelles et les téléchargements de dossiers ou massifs. L’ancien onglet Transferts en bloc a été supprimé.
+**Fenêtre d’état des ressources simplifiée** : la fenêtre de statut a été simplifiée. L’onglet [!UICONTROL Uploads] affiche désormais à la fois les ressources individuelles et les téléchargements de dossiers ou massifs. L’ancien onglet Transferts en bloc a été supprimé.
 
-**Icône d’application pour indiquer les transferts en bloc** : L’icône d’application affichera une incrustation « transfert » pour indiquer qu’un téléchargement massif est en cours.
+**Icône d’application pour indiquer les transferts en bloc** : l’icône d’application affichera une incrustation « transfert » pour indiquer qu’un téléchargement massif est en cours.
 
 **Notifications de conflits de mise à jour** : si l’application détecte un conflit en essayant de mettre à jour une ressource, elle affiche une notification, de sorte que l’utilisateur puisse examiner ce conflit sans avoir à surveiller la fenêtre de statut. Au démarrage, l’application recherche d’éventuels conflits, de sorte que l’utilisateur puisse les résoudre.
 
-**Meilleur traitement des pertes de connexion** : Les téléchargements massifs sont interrompus en cas de perte de connexion et l’utilisateur est en mesure de reprendre l’opération ultérieurement. Une option [!UICONTROL Retry] est disponible pour essayer de relancer un téléchargement d&#39;un fichier qui a échoué.
+**Meilleur traitement des pertes de connexion** : les téléchargements massifs sont interrompus en cas de perte de connexion et l’utilisateur est en mesure de reprendre l’opération ultérieurement. Une option [!UICONTROL Retry] est disponible pour effectuer une nouvelle tentative en cas d’échec du téléchargement d’un fichier.
 
 ## Instructions d’installation {#installation-instructions}
 
@@ -417,7 +417,7 @@ Comme le dossier /Volumes ne nécessite plus de droits d’administration, cette
 * Windows :
    * Les fichiers avec des flux de données alternatifs (ADS, Alternate Data Streams) ne sont entièrement pris en charge que par NTFS. Si vous copiez ces fichiers sur le partage WebDAV fourni par l’appli de bureau, une boîte de dialogue d’avertissement indique à l’utilisateur que le fichier contient des propriétés ne pouvant pas être copiées vers le nouvel emplacement. Cela ne pose généralement pas problème puisque les propriétés ne sont pertinentes que pour une application spécifique du bureau de l’utilisateur et n’ont rien à voir avec le contenu réel du fichier (CQ-103770) (Windows).
    * L’appli de bureau sous Windows doit être installée par l’utilisateur qui l’utilise (CQ-4216389) (Windows).
-   * L’application peut se bloquer lors de la sélection de l’option [!UICONTROL Retry] sur un téléchargement ayant échoué dans certaines circonstances après avoir repris le téléchargement par lots lorsqu’elle est déconnectée (CQ-4251884) (Win).
+   * L’appli peut se bloquer, dans certains cas, lorsque vous sélectionnez l’option [!UICONTROL Retry] pour un transfert qui a échoué, suite à la reprise d’un transfert par lots alors qu’aucune connexion n’est établie, par exemple (CQ-4251884) (Windows).
 
 ## Ressources utiles {#helpful-resources}
 
