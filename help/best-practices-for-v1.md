@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
 workflow-type: tm+mt
 source-wordcount: '1674'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -128,12 +128,12 @@ Pour connaître les meilleures pratiques concernant la configuration réseau d�
 
 >[!NOTE]
 >
->Pour désactiver les prévisualisations d&#39;icône, dans le Finder, accédez à [!UICONTROL View], sélectionnez [!UICONTROL View Options], puis décochez l&#39;option [!UICONTROL Show icon preview]. Cela ne fonctionne que pour le dossier actif. Pour en faire un dossier par défaut, cliquez sur l&#39;option [!UICONTROL Use as default] dans la même boîte de dialogue.
+>Pour désactiver les aperçus d’icônes, dans le Finder, sélectionnez [!UICONTROL View], puis [!UICONTROL View Options] et décochez la case [!UICONTROL Show icon preview]. Cette opération ne fonctionne que pour le dossier actuel. Pour en faire une option par défaut, cliquez sur l’option [!UICONTROL Use as default] dans la même boîte de dialogue.
 
 ### Optimisation des performances du serveur  {#optimizing-server-performance}
 
 Pour savoir comment le serveur AEM Assets doit être optimisé en termes de performances, reportez-vous au [Guide d’optimisation des performances d’AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html?lang=fr). Certains aspects importants relatifs aux performances du serveur pour l’appli de bureau AEM concernent l’optimisation de la configuration des workflows afin d’assurer un bon fonctionnement en vue du chargement des ressources :
 
-* **Chargement des ressources plus performant**. Configurez le [modèle de workflow de mise à jour des ressources AEM pour qu’il soit transitoire](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html).
+* **Chargement des ressources plus performant**. Configurez le [modèle de workflow de mise à jour d’AEM Asset pour qu’il soit transitoire](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html).
 
 * **Limitez le processeur du serveur pour les chargements**. Assurez-vous que le nombre maximal de tâches de workflow parallèles est défini correctement, de sorte que les chargements ne consomment pas toutes les capacités du processeur.
