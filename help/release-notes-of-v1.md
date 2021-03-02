@@ -1,16 +1,16 @@
 ---
-title: Notes de mise à jour de l’application de bureau v1.10
-description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau AEM version 1.10.
-translation-type: tm+mt
+title: Notes de mise à jour de l’appli de bureau v1.10
+description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau AEM version 1.10.
+translation-type: ht
 source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3901'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Adobe Experience Manager] notes de mise à jour de l’application de bureau v1.10  {#aem-desktop-app-release-notes}
+# Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] v1.10 {#aem-desktop-app-release-notes}
 
 Pour la version 1.x de l’appli de bureau, voici les liens de téléchargement et les informations de compatibilité d’AEM.
 
@@ -44,9 +44,9 @@ La version de l’appli de bureau AEM que vous prévoyez d’installer sur votre
 
 Consultez le [tableau de compatibilité détaillé](#compatibilitymatrix) à la fin de ce document pour évaluer les conditions préalables à la configuration.
 
-## Nouveautés de l’application de bureau v1.10 {#what-s-new-in-aem-desktop-app}
+## Nouveautés de l’appli de bureau v1.10 {#what-s-new-in-aem-desktop-app}
 
-L’appli de bureau AEM 1.10 met l’accent sur l’amélioration de l’expérience utilisateur en ce qui concerne les chargements volumineux, les informations relatives aux opérations en arrière-plan et une expérience optimisée lors de l’ouverture de ressources avec des fichiers liés (comme InDesign).
+L’appli de bureau AEM 1.10 vise à améliorer l’expérience utilisateur en ce qui concerne les chargements volumineux, les informations relatives aux opérations en arrière-plan et une expérience optimisée lors de l’ouverture de ressources avec des fichiers liés (comme InDesign).
 
 >[!NOTE]
 >
