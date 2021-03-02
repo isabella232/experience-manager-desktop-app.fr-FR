@@ -1,16 +1,16 @@
 ---
-title: Meilleures pratiques pour l’application de bureau v1.10
-description: Fonctionnalités essentielles et utilisation recommandée de l’appli de bureau  [!DNL Adobe Experience Manager]  version 1.10.
-translation-type: tm+mt
+title: Bonnes pratiques relatives à l’appli de bureau v1.10
+description: Fonctionnalités essentielles et utilisation recommandée de l’appli de bureau [!DNL Adobe Experience Manager] version 1.10.
+translation-type: ht
 source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1674'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Meilleures pratiques pour l’application de bureau v1.10 d’AEM {#aem-desktop-app-best-practices}
+# Bonnes pratiques relatives à l’appli de bureau AEM v1.10 {#aem-desktop-app-best-practices}
 
 ## Présentation {#overview}
 
@@ -114,11 +114,11 @@ Si une ressource stockée dans AEM nécessite une mise à jour :
 
    * Une fois les modifications terminées, déplacez, copiez ou enregistrez le fichier mappé à partir d’AEM pour le charger en tant que nouvelle version.
 
-## Performances du réseau  {#network-performance}
+## Performances du réseau {#network-performance}
 
 L’expérience des utilisateurs de l’appli de bureau AEM dépend grandement d’une connectivité réseau stable et de bonne qualité entre leur bureau et le serveur AEM, ainsi que d’un serveur optimisé pour des performances élevées, en particulier lors du chargement et de la mise à jour des ressources. Ces recommandations s’appliquent aux équipes réseau/informatiques des organisations.
 
-### Remarques relatives au réseau  {#network-considerations}
+### Remarques relatives au réseau {#network-considerations}
 
 Pour connaître les meilleures pratiques concernant la configuration réseau d’AEM Assets, reportez-vous au document [Remarques relatives au réseau pour AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-migration-guide.html?lang=fr). Voici certains aspects importants permettant d’optimiser l’expérience de l’appli de bureau AEM pour les utilisateurs :
 
@@ -130,10 +130,10 @@ Pour connaître les meilleures pratiques concernant la configuration réseau d�
 >
 >Pour désactiver les aperçus d’icônes, dans le Finder, sélectionnez [!UICONTROL View], puis [!UICONTROL View Options] et décochez la case [!UICONTROL Show icon preview]. Cette opération ne fonctionne que pour le dossier actuel. Pour en faire une option par défaut, cliquez sur l’option [!UICONTROL Use as default] dans la même boîte de dialogue.
 
-### Optimisation des performances du serveur  {#optimizing-server-performance}
+### Optimisation des performances du serveur {#optimizing-server-performance}
 
 Pour savoir comment le serveur AEM Assets doit être optimisé en termes de performances, reportez-vous au [Guide d’optimisation des performances d’AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html?lang=fr). Certains aspects importants relatifs aux performances du serveur pour l’appli de bureau AEM concernent l’optimisation de la configuration des workflows afin d’assurer un bon fonctionnement en vue du chargement des ressources :
 
-* **Chargement des ressources plus performant**. Configurez le [modèle de workflow de mise à jour d’AEM Asset pour qu’il soit transitoire](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html).
+* **Chargement des ressources plus performant**. Configurez le [modèle de workflow de mise à jour d’AEM Asset pour qu’il soit transitoire](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html?lang=fr).
 
 * **Limitez le processeur du serveur pour les chargements**. Assurez-vous que le nombre maximal de tâches de workflow parallèles est défini correctement, de sorte que les chargements ne consomment pas toutes les capacités du processeur.
