@@ -1,11 +1,11 @@
 ---
-title: 'Présentation de l’appli de bureau  [!DNL Experience Manager] '
+title: 'Présentation de l’appli de bureau [!DNL Experience Manager] '
 description: Apprenez à utiliser [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] directement à partir de leur bureau.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Une telle intégration permet à différents rôles de l’organisation de gére
 
 >[!NOTE]
 >
->L’application a été introduite dans la version [!DNL Adobe Experience Manager] 6.1 et était auparavant appelée [!DNL Adobe Experience Manager Assets] Companion App. Pour obtenir de l’aide sur la version 1.x de l’application, consultez la table des matières dans la barre latérale gauche. Adobe recommande la mise à niveau vers la dernière version.
+>L’appli de bureau a été lancée avec la version 6.1 d’[!DNL Adobe Experience Manager] et s’appelait auparavant [!DNL Adobe Experience Manager Assets] Companion App. Pour obtenir de l’aide sur la version 1.x de l’application, reportez-vous à la table des matières dans la barre latérale gauche. Adobe recommande d’effectuer la mise à niveau vers la dernière version.
 
 La documentation de l’appli de bureau contient des informations sur les rôles et cas d’utilisation suivants.
 
@@ -31,7 +31,7 @@ La documentation de l’appli de bureau contient des informations sur les rôles
 | Vous connaissez l’appli de bureau ? Vous procédez à une mise à niveau et souhaitez opérer une transition en douceur ? | [Mise à niveau depuis la version précédente](install-upgrade.md#upgrade-from-previous-version) |
 | Soyez opérationnel. Vous souhaitez modifier les préférences par défaut ? | [Installation et configuration de l’application](install-upgrade.md) |
 | Apprenez à naviguer, découvrir, modifier, charger, résoudre les conflits, effectuer des opérations massives, etc. | [Utilisation de l’appli de bureau [!DNL Experience Manager] ](using.md) |
-| Vous avez rencontré un problème ? Vous avez besoin d’aide pour résoudre un problème ? | [Résolution des problèmes liés à l’appli de bureau  [!DNL Experience Manager] ](troubleshoot.md) |
+| Vous avez rencontré un problème ? Vous avez besoin d’aide pour résoudre un problème ? | [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] ](troubleshoot.md) |
 
 ## Nouveautés de l’application {#whats-new-v2}
 
