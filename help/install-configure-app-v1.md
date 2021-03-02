@@ -1,11 +1,11 @@
 ---
-title: Installation et configuration de l’application de bureau v1.10
-description: Installez et configurez les serveurs  [!DNL Experience Manager] desktop app version 1.10 to work with [!DNL Assets] et mappez les ressources à monter sous la forme d’un lecteur sur votre bureau.
-translation-type: tm+mt
+title: Installation et configuration de l’appli de bureau v1.10
+description: Installez et configurez les serveurs [!DNL Experience Manager] desktop app version 1.10 to work with [!DNL Assets] et mappez les ressources à monter sous la forme d’un lecteur sur votre bureau.
+translation-type: ht
 source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '901'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Pour utiliser l’appli de bureau [!DNL Experience Manager],
 
 Pour plus d’informations, voir les [[!DNL Experience Manager] Notes de mise à jour de l’appli de bureau](release-notes-of-v1.md).
 
-## Installation et connexion de l’application au serveur [!DNL Experience Manager] {#install-and-connect-aem-desktop-app-to-aem-server}
+## Installation et connexion de l’appli au serveur [!DNL Experience Manager] {#install-and-connect-aem-desktop-app-to-aem-server}
 
 Pour plus d’informations, voir [Installation et connexion au serveur [!DNL Experience Manager] desktop app to [!DNL Experience Manager] .](use-app-v1.md#installandconnect)
 
@@ -102,7 +102,7 @@ Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en
 >
 >Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur [!DNL Experience Manager] sont conservées.
 
-### Modification de l’emplacement du cache sous Windows  {#change-location-of-cache-on-windows}
+### Modification de l’emplacement du cache sous Windows {#change-location-of-cache-on-windows}
 
 L’emplacement par défaut du cache de l’appli de bureau [!DNL Experience Manager] est le suivant :
 
@@ -127,7 +127,7 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
    >L’application crée automatiquement un sous-répertoire *&lt;Point d’entrée AEM codé>* ; ce comportement n’est pas configurable.
 
 >[!MORELIKETHIS]
-* [Présentation de l’appli de bureau  [!DNL Experience Manager] .](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html?lang=fr)
-* [Utilisation de l’appli de bureau  [!DNL Experience Manager] .](use-app-v1.md)
-* [Résolution des problèmes liés à l’appli de bureau  [!DNL Experience Manager] .](troubleshoot-app-v1.md)
+* [Présentation de l’appli de bureau [!DNL Experience Manager] .](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html?lang=fr)
+* [Utilisation de l’appli de bureau [!DNL Experience Manager] .](use-app-v1.md)
+* [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] .](troubleshoot-app-v1.md)
 
