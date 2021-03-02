@@ -1,20 +1,20 @@
 ---
-title: Utilisez  [!DNL Experience Manager] l’application de bureau version 1.10.
-description: Découvrez comment utiliser l’application de bureau Adobe Experience Manager version 1.10 et optimiser votre travail avec les ressources sur le bureau.
-translation-type: tm+mt
+title: Utilisation de l’appli de bureau [!DNL Experience Manager] version 1.10.
+description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.10 et optimiser votre utilisation des ressources du bureau.
+translation-type: ht
 source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Utiliser [!DNL Experience Manager] l’application de bureau v1.10 {#use-aem-desktop-app-v1x}
+# Utilisation de l’appli de bureau [!DNL Experience Manager] v1.10 {#use-aem-desktop-app-v1x}
 
 Grâce à l’appli, les ressources d’[!DNL Experience Manager] sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources sont aisément affichées dans le Finder de Mac ou l’Explorateur Windows, ouvertes dans des applications de bureau et modifiées localement ; les modifications sont réenregistrées dans [!DNL Experience Manager] avec une nouvelle version créée dans le référentiel.
 
-Cette intégration permet à différents rôles au sein de l’entreprise de gérer les ressources de manière centralisée dans Assets et d’y accéder dans Creative Cloud et d’autres applications, tout en facilitant la conformité avec les diverses normes, y compris le branding.
+Cette intégration permet à différents rôles au sein de l’entreprise de gérer les ressources de manière centralisée dans Assets, et d’y accéder dans Creative Cloud et d’autres applications, tout en facilitant la conformité avec les diverses normes, y compris le branding.
 
 Les tâches clés que vous effectuez à l’aide de l’appli de bureau [!DNL Experience Manager] v1 sont les suivantes :
 
@@ -27,13 +27,13 @@ Pour les pratiques recommandées, voir les [Bonnes pratiques d’utilisation de 
 
 >[!NOTE]
 >
->L’application de bureau a été introduite dans la version [!DNL Experience Manager] 6.1 et s’appelle [!DNL Experience Manager Assets Companion App].
+>L’appli de bureau a été introduite dans la version 6.1 d’[!DNL Experience Manager] sous le nom d’[!DNL Experience Manager Assets Companion App].
 
 ## [!DNL Experience Manager] Points de contact de l’appli de bureau dans le workflow de création {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
 L’appli de bureau [!DNL Experience Manager], avec [!DNL Assets], s’intègre dans votre workflow créatif et propose les points de contact suivants.
 
-![[!DNL Experience Manager] Points de contact de l’appli de bureau dans le workflow créatif](assets/aem_desktopapp_workflow.png)
+Points de contact de l’appli de bureau ![[!DNL Experience Manager] dans le workflow créatif](assets/aem_desktopapp_workflow.png)
 
 Points de contact de l’appli de bureau [!DNL Experience Manager] dans le workflow créatif
 
@@ -146,7 +146,7 @@ Après avoir mappé le référentiel [!DNL Assets] sur votre lecteur local, vous
 
 Pour localiser la ressource sur votre système de fichiers local, cliquez sur l’action rapide **Afficher** ![icône Afficher](assets/do-not-localize/aemassets_reveal_icon.png). Vous pouvez également sélectionner **Afficher** dans le menu **Actions sur le Bureau** de la barre d’outils.
 
-## Explication des états de ressources  {#understand-the-asset-statuses}
+## Explication des états des ressources {#understand-the-asset-statuses}
 
 | ![Icône de l’appli par défaut Windows](assets/do-not-localize/win_default.png) | L’application est connectée au serveur, et toutes les ressources sont synchronisées. |
 --- |--- |
@@ -220,7 +220,7 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 
 1. Pour archiver la ressource afin qu’elle soit disponible pour les autres utilisateurs, cliquez/appuyez sur l’icône Check-in (Archiver) dans la boîte de dialogue **Asset Info** (Informations sur les ressources).
 
-### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web  {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
+### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
 Une fois la modification des ressources effectuée, enregistrez ces dernières dans votre application de bureau. Dans le menu contextuel, sélectionnez **More Assets Info** (Autres infos sur les ressources) et cliquez ensuite sur Check-in (Archiver).
 
@@ -252,5 +252,5 @@ Vous pouvez également sélectionner les fichiers/dossiers à charger vers [!DNL
 
 >[!MORELIKETHIS]
 >
->* [Résolution des problèmes liés à l’appli de bureau  [!DNL Experience Manager] ](troubleshoot-app-v1.md)
+>* [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] ](troubleshoot-app-v1.md)
 
