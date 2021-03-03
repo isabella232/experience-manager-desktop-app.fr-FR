@@ -1,11 +1,11 @@
 ---
 title: Utilisation de l’appli de bureau [!DNL Experience Manager] version 1.10.
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.10 et optimiser votre utilisation des ressources du bureau.
-translation-type: ht
-source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
-workflow-type: ht
-source-wordcount: '2377'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
+workflow-type: tm+mt
+source-wordcount: '2373'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ Pour utiliser l’appli de bureau [!DNL Experience Manager], vérifiez qu’elle
 
 Une configuration détaillée peut s’avérer nécessaire en fonction des préférences de votre système et de votre réseau. Pour plus d’informations, voir [Installation et configuration de l’appli de bureau [!DNL Experience Manager] ](install-configure-app-v1.md).
 
-1. Rendez-vous sur la page de téléchargement de l’appli de bureau [[!DNL Experience Manager] ](https://helpx.adobe.com/fr/experience-manager/kb/download-companion-app.html) et téléchargez le fichier binaire approprié pour votre système d’exploitation.
+1. Accédez à la [[!DNL Experience Manager] page de téléchargement de l’application de bureau v1.10](/help/release-notes-of-v1.md) et téléchargez le fichier binaire approprié pour votre système d’exploitation.
 1. Exécutez le fichier d’installation téléchargé et suivez les instructions affichées à l’écran pour installer l’application.
 
    >[!NOTE]
@@ -124,6 +124,9 @@ Pour les fichiers Adobe InDesign (INDD), sélectionnez **[!UICONTROL Open]** da
 >
 >Sous Windows, le [paramètre par défaut de Windows 7](https://support.microsoft.com/fr-fr/kb/2668751) empêche l’appli de bureau [!DNL Experience Manager] de gérer les ressources de plus de 50 Mo.
 
+<!-- TBD: The above note is for Windows 7 which is not supported by the app anymore. Remove it later.
+-->
+
 >[!NOTE]
 >
 >Adobe recommande d’accéder aux options de présentation du Finder sous Mac et de désactiver les options **Afficher les informations**, **Utiliser un aperçu comme icône** et **Afficher la colonne d’aperçu** pour le dossier [!DNL Assets] monté. Cela améliore les performances.
@@ -146,7 +149,7 @@ Après avoir mappé le référentiel [!DNL Assets] sur votre lecteur local, vous
 
 Pour localiser la ressource sur votre système de fichiers local, cliquez sur l’action rapide **Afficher** ![icône Afficher](assets/do-not-localize/aemassets_reveal_icon.png). Vous pouvez également sélectionner **Afficher** dans le menu **Actions sur le Bureau** de la barre d’outils.
 
-## Explication des états des ressources {#understand-the-asset-statuses}
+## Explication des états des ressources  {#understand-the-asset-statuses}
 
 | ![Icône de l’appli par défaut Windows](assets/do-not-localize/win_default.png) | L’application est connectée au serveur, et toutes les ressources sont synchronisées. |
 --- |--- |
@@ -220,7 +223,7 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 
 1. Pour archiver la ressource afin qu’elle soit disponible pour les autres utilisateurs, cliquez/appuyez sur l’icône Check-in (Archiver) dans la boîte de dialogue **Asset Info** (Informations sur les ressources).
 
-### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
+### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web  {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
 Une fois la modification des ressources effectuée, enregistrez ces dernières dans votre application de bureau. Dans le menu contextuel, sélectionnez **More Assets Info** (Autres infos sur les ressources) et cliquez ensuite sur Check-in (Archiver).
 
