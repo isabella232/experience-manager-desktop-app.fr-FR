@@ -1,11 +1,11 @@
 ---
 title: Notes de mise à jour de l’appli de bureau v1.10
 description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau AEM version 1.10.
-translation-type: ht
-source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
-workflow-type: ht
-source-wordcount: '3901'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
+workflow-type: tm+mt
+source-wordcount: '3897'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ L’appli de bureau [!DNL Adobe Experience Manager] est compatible avec les syst
 
 >[!NOTE]
 >
->Windows 7 n’est plus pris en charge par le fournisseur (https://support.microsoft.com/fr-fr/help/4057281/windows-7-support-ended-on-january-14-2020).
+>Windows 7 n’est plus pris en charge. Voir [l&#39;article sur la fin de vie de Windows 7](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 Adobe recommande vivement d’utiliser la version la plus récente de l’appli de bureau AEM pour bénéficier des dernières fonctionnalités, des correctifs de bogues les plus récents et d’un niveau de performance optimal.
 
@@ -217,7 +217,7 @@ L’appli de bureau AEM 1.8.1 s’accompagnait d’améliorations au niveau de 
 
 ### Améliorations disponibles depuis l’appli de bureau AEM 1.6 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
-* Documentation : nouvelles [Bonnes pratiques pour la documentation de l’application v1.x](https://helpx.adobe.com/fr/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html).
+* Documentation : nouvelles [Bonnes pratiques pour la documentation de l’application v1.x](/help/best-practices-for-v1.md).
 
 * Amélioration du processus de connexion à AEM :
 
@@ -421,7 +421,7 @@ Comme le dossier /Volumes ne nécessite plus de droits d’administration, cette
 
 ## Ressources utiles {#helpful-resources}
 
-* [Documentation AEM](https://helpx.adobe.com/fr/support/experience-manager/6-4.html)
+* [Documentation AEM](https://experienceleague.adobe.com/docs/)
 * [Utilisation de l’appli de bureau AEM v1.x](use-app-v1.md)
 * [Bonnes pratiques relatives à l’appli de bureau AEM v1.x](best-practices-for-v1.md)
 
