@@ -1,20 +1,20 @@
 ---
 cloud: experience-cloud
 solution-title: Formation et assistance
-solution-hub-url: https://helpx.adobe.com/fr/support/experience-manager/6-5.html
+solution-hub-url: https://experienceleague.adobe.com/docs/
 solution-icon: assets/experience-cloud-logo-24.png
 getting-started-title: Prise en main
-getting-started-url: https://helpx.adobe.com/experience-manager/tutorials.html
+getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html
 tutorials-title: Tutoriels
-tutorials-url: https://helpx.adobe.com/fr/experience-manager/kt/index/aem-6-5-videos.html
+tutorials-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html
 mini-toc-levels: 1
-git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-desktop-app.fr-FR
 index: y
 translation-type: tm+mt
-source-git-commit: e9a59807d48ea2d8619d3b03255c4291fca85138
+source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 67%
+source-wordcount: '150'
+ht-degree: 66%
 
 ---
 
@@ -30,12 +30,12 @@ Le fichier metadata.md comprend des métadonnées de niveau référentiel qui tr
 | solution-icon | Affiche l’icône de solution en regard du titre de la solution. Pas encore implémenté. |
 | getting-started-url | Lien vers la page de prise en main. |
 | tutorials-url | Lien vers les didacticiels vidéo. |
-| mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail droit. La valeur par défaut est 2.   |
+| mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail droit. La valeur par défaut est 2. |
 | git-repo | Spécifie l&#39;emplacement du repo principal pour une utilisation interne. |
 
 Dans le fichier TOC.md
 
 | metadata | effets |
 |--- |--- |
-| guide-utilisateur-titre | Utilisé dans l’en-tête de l’article comme lien. |
+| user-guide-title | Utilisé dans l’en-tête de l’article en tant que lien.. |
 | user-guide-url | Ouvre la page hub Formation et support. |
