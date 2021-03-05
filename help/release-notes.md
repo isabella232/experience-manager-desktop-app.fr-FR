@@ -3,7 +3,7 @@ title: Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manag
 description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau [!DNL Adobe Experience Manager] .
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 784ffb2468d856589fbf29b10b965b3c3d919a2f
+source-git-commit: 06ce2dc1c47bc1ba71b4fd1d053131d9dbdb08ba
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 76%
@@ -15,7 +15,7 @@ ht-degree: 76%
 
 Les informations de mise à jour de la dernière version de l’application de bureau 2.1 (2.1.1.0) sont ci-dessous. La date de publication est le 5 mars 2021. Il s’agit d’une version mineure avec une amélioration.
 
-Les versions [!DNL Experience Manager] prises en charge sont les suivantes :
+Les **versions [!DNL Experience Manager] prises en charge** sont les suivantes :
 
 * [!DNL Experience Manager] as a [!DNL Cloud Service]. Voir les [notes de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=fr).
 * [!DNL Experience Manager] 6.5.0 ou version ultérieure, sur Adobe Managed Services (AMS) ou On-Premise. Voir [notes de mise à jour du Service Pack](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=fr).
@@ -24,12 +24,12 @@ Les versions [!DNL Experience Manager] prises en charge sont les suivantes :
 * [!DNL Experience Manager] 6.3 (avec package de compatibilité)
 * [!DNL Experience Manager] 6.3.3.1 ou plus récent avec le  [package de ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) compatibilité installé. L’application de bureau n’est pas prise en charge pour les versions [!DNL Experience Manager] 6.3.3.0 ou antérieures.
 
-[!DNL Adobe Experience Manager] application de bureau est disponible pour les systèmes d’exploitation suivants :
+[!DNL Adobe Experience Manager] application de bureau est disponible pour les systèmes **d’** exploitation suivants :
 
 * macOS X 10.14 ou version ultérieure, avec les derniers correctifs de bogues.
 * Windows 10 avec les derniers Service Packs et correctifs.
 
-Les URL de téléchargement pour les systèmes d’exploitation pris en charge sont les suivantes :
+Les **URL de téléchargement** pour les systèmes d&#39;exploitation pris en charge sont les suivantes :
 
 | Système d’exploitation | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6,x |
 |---|---|---|
