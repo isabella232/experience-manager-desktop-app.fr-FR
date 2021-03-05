@@ -1,11 +1,11 @@
 ---
 title: Installation et configuration de l’appli de bureau
 description: Installez et configurez les serveurs [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] et téléchargez les ressources sur votre système de fichiers local.
-translation-type: ht
-source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
-workflow-type: ht
-source-wordcount: '1162'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: caf6faf17157a0e9e3bffd40b4bdd0802a71dad7
+workflow-type: tm+mt
+source-wordcount: '1300'
+ht-degree: 83%
 
 ---
 
@@ -22,7 +22,7 @@ Une telle intégration permet à divers rôles de l’organisation de :
 
 Pour utiliser l’appli de bureau [!DNL Experience Manager],
 
-* assurez-vous que votre version d’[!DNL Experience Manager] est prise en charge par l’appli de bureau [!DNL Experience Manager]. Voir la [Configuration requise](release-notes.md#system-requirements-and-prerequisites-v2) ci-dessous.
+* assurez-vous que votre version d’[!DNL Experience Manager] est prise en charge par l’appli de bureau [!DNL Experience Manager]. Voir la [configuration système requise](release-notes.md).
 
 * Téléchargez et installez l’application. Voir [Installation de l’application de bureau](#install-v2) ci-dessous.
 
@@ -108,11 +108,15 @@ Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-
 
 * **[!UICONTROL Automatically download linked assets]** : les ressources placées dans les applications Creative Cloud natives prises en charge sont automatiquement récupérées si vous téléchargez le fichier d’origine.
 
-* **[!UICONTROL Maximum number of downloads]** : lorsque vous téléchargez des ressources pour la première fois (via les options Reveal (Afficher), Open (Ouvrir), Edit (Modifier), Download (Télécharger) ou autre option similaire), celles-ci ne sont téléchargées que si le lot contient moins de ressources que le nombre indiqué par cette valeur. La valeur par défaut est 50. Ne changez pas cette valeur si vous n’êtes pas sûr de vous. Augmenter cette valeur peut prolonger les délais d’attente et la diminuer peut vous empêcher de télécharger les ressources ou dossiers nécessaires en une seule fois.
+* **[!UICONTROL Maximum number of downloads]**:  ![attention ](assets/do-not-localize/caution-icon.png) iconChange avec précaution. Lors du premier téléchargement de fichiers (par l’intermédiaire de l’option Afficher, Ouvrir, Modifier, Télécharger ou d’une autre option similaire), les fichiers sont téléchargés uniquement si le lot contient moins de ce nombre. La valeur par défaut est 50. Ne changez pas cette valeur si vous n’êtes pas sûr de vous. Augmenter cette valeur peut prolonger les délais d’attente et la diminuer peut vous empêcher de télécharger les ressources ou dossiers nécessaires en une seule fois.
 
-* **[!UICONTROL Upload Acceleration]** : lorsque vous chargez des ressources, l’application peut réaliser ces chargements de façon simultanée de façon à en accroître la vitesse. Vous pouvez augmenter la simultanéité du chargement en déplaçant le curseur vers la droite. Le curseur situé à l’extrême gauche signifie qu’il n’y a pas de simultanéité (chargement à thread unique), tandis que la position centrale correspond à 10 threads simultanés et la limite maximale à l’extrême à 20 threads simultanés. Une limite de simultanéité plus élevée consomme davantage de ressources au niveau du processeur de l’ordinateur local.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**:  ![attention ](assets/do-not-localize/caution-icon.png) iconChange avec précaution. Ce paramètre permet à l’application d’émuler le comportement de l’application v1.10 lors du téléchargement de dossiers. Dans la version 1.10, les noms de noeud créés dans le référentiel respectent les espaces et la casse des noms de dossier fournis par l’utilisateur. Cependant, dans la version 2.1 de l’application, les espaces supplémentaires dans les noms de dossier sont convertis en tirets. Par exemple, le transfert de `New Folder` ou `new   folder` crée le même noeud dans le référentiel si l’option n’est pas sélectionnée et si le comportement par défaut dans v2.1 est conservé. Si cette option est sélectionnée, différents noeuds sont créés dans le référentiel pour les deux dossiers ci-dessus et correspondent au comportement de l’application v1.10.
 
-Pour mettre à jour les préférences non disponibles, déconnectez-vous du serveur [!DNL Experience Manager]. Après avoir mis les préférences à jour, cliquez sur ![Save preferences](assets/do-not-localize/save_preferences_da2.png) pour les enregistrer.
+   Le comportement par défaut de v2.1 reste identique, c’est-à-dire qu’il faut remplacer plusieurs espaces dans les noms de dossiers par des tirets dans le nom de noeud du référentiel et les convertir en noms de noeud minuscules.
+
+* **[!UICONTROL Upload Acceleration]**:  ![attention ](assets/do-not-localize/caution-icon.png) iconChange avec précaution. Lors du transfert de fichiers, l’application peut utiliser des téléchargements simultanés pour accélérer le transfert. Vous pouvez augmenter la simultanéité du chargement en déplaçant le curseur vers la droite. Le curseur situé à l’extrême gauche signifie qu’il n’y a pas de simultanéité (chargement à thread unique), tandis que la position centrale correspond à 10 threads simultanés et la limite maximale à l’extrême à 20 threads simultanés. Une limite de concurrence plus élevée est plus gourmande en ressources.
+
+Pour mettre à jour les préférences indisponibles, déconnectez-vous du serveur [!DNL Experience Manager], puis mettez à jour. Après avoir mis à jour les préférences, cliquez sur ![Enregistrer les préférences](assets/do-not-localize/save_preferences_da2.png).
 
 ![Préférences et paramètres de l’appli de bureau](assets/preferences_da2.png)
 
