@@ -1,9 +1,9 @@
 ---
 source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '719'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 # Directives relatives à la contribution à la documentation d’[!DNL Adobe Experience Manager]
@@ -38,7 +38,7 @@ Les exceptions à cette règle concernent les notes de mise à jour qui réperto
 
 Toute opinion susceptible d’améliorer la documentation d’[!DNL Experience Manager] est la bienvenue sous forme de contributions. Toutefois, les commentaires, les demandes et les demandes d’extraction sont destinés uniquement aux *contributions*. Ils ne sont pas censés être utilisés pour répondre à vos questions sur l’utilisation d’[!DNL Experience Manager], mettre en œuvre votre projet [!DNL Experience Manager] ou résoudre des problèmes techniques.
 
-Toute question relative à l&#39;utilisation de [!DNL Experience Manager] ou d&#39;erreurs techniques que vous pourriez avoir doit être signalée par le biais du processus d&#39;assistance normal via le [[!DNL Experience Cloud] portail d&#39;assistance](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support) ou discutée dans la [communauté de Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
+Toute question relative à l’utilisation d’[!DNL Experience Manager] ou à la résolution d’erreurs techniques doit être soumise au moyen du processus d’assistance classique via le [[!DNL Experience Cloud] Portail d’assistance d’Experience Manager](https://experienceleague.adobe.com/?support-solution=Experience+Manager&amp;lang=fr#support) ou posée dans la [communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
 Les contributions à la documentation d’***[!DNL Experience Manager]ne remplacent pas l’Assistance clientèle d’Adobe*** et toute contribution de ce type visant à obtenir des réponses à des questions d’assistance sera refusée.
 
@@ -46,7 +46,7 @@ Les contributions à la documentation d’***[!DNL Experience Manager]ne remplac
 
 Si vous créez une demande pour suggérer des améliorations à la documentation, vous devez inclure des liens vers les pages concernées. Si vous créez un problème à l’aide du lien **Modifier cette page** sur une page de documentation, le problème sera créé automatiquement avec un lien vers la page.
 
-Cela ne s&#39;applique pas aux requêtes d&#39;extraction, car les requêtes d&#39;extraction par nature référencent les pages concernées.
+Cette méthode ne s’applique pas aux requêtes d’extraction qui, par nature, font référence aux pages concernées.
 
 ## Directives relatives à la documentation
 
