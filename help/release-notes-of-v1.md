@@ -1,11 +1,11 @@
 ---
 title: Notes de mise à jour de l’appli de bureau v1.10
 description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau AEM version 1.10.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3897'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ L’appli de bureau [!DNL Adobe Experience Manager] est compatible avec les syst
 
 >[!NOTE]
 >
->Windows 7 n’est plus pris en charge. Voir [l&#39;article sur la fin de vie de Windows 7](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+>Windows 7 n’est plus pris en charge. Consultez [l’article sur la fin du support de Windows 7](https://support.microsoft.com/fr-fr/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 Adobe recommande vivement d’utiliser la version la plus récente de l’appli de bureau AEM pour bénéficier des dernières fonctionnalités, des correctifs de bogues les plus récents et d’un niveau de performance optimal.
 
@@ -404,7 +404,7 @@ Comme le dossier /Volumes ne nécessite plus de droits d’administration, cette
    * Les ressources avec des noms internationaux peuvent apparaître et disparaître toutes les quelques secondes.
 * Archivage et extraction :
    * Une ressource extraite par un utilisateur ne peut pas être ouverte pour un autre utilisateur, que ce soit par l’option Open (Ouvrir) de l’interface utilisateur tactile ou directement sur le bureau. Certaines applications peuvent la signaler comme verrouillée, mais aussi corrompue ou même bloquée lors d’une tentative d’ouverture. (CQ-4199234).
-   * La modification simultanée de fichiers par plusieurs utilisateurs peut entraîner la perte de certaines modifications La solution consiste à utiliser la fonctionnalité d’archivage/d’extraction pour empêcher plusieurs utilisateurs de modifier le même fichier (CQ-97035).
+   * La modification simultanée de fichiers par plusieurs utilisateurs peut entraîner la perte de certaines modifications. La solution consiste à utiliser la fonctionnalité  d’archivage/d’extraction pour empêcher plusieurs utilisateurs de modifier le même fichier (CQ-97035).
    * Certaines applications ne prennent pas en charge correctement l’indicateur de lecture seule, ce qui permet à un utilisateur d’enregistrer un fichier extrait par un autre utilisateur. Le fichier modifié n’est pas transféré tant que l’autre utilisateur n’a pas archivé le fichier. Les deux modifications sont disponibles dans AEM sous la forme de versions différentes de la ressource (CQ-89551, CQ-87572, CQ-89615).
    * Les états « extrait » et « en lecture seule » sont signalés indépendamment dans le Finder. Cela entraîne l’affichage de 2 icônes de verrouillage lorsqu’un utilisateur extrait une ressource (CQ-89507).
 * Intégration du Finder :
@@ -421,7 +421,7 @@ Comme le dossier /Volumes ne nécessite plus de droits d’administration, cette
 
 ## Ressources utiles {#helpful-resources}
 
-* [Documentation AEM](https://experienceleague.adobe.com/docs/)
+* [Documentation AEM](https://experienceleague.adobe.com/docs/?lang=fr)
 * [Utilisation de l’appli de bureau AEM v1.x](use-app-v1.md)
 * [Bonnes pratiques relatives à l’appli de bureau AEM v1.x](best-practices-for-v1.md)
 
