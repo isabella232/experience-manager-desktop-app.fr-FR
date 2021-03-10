@@ -1,11 +1,11 @@
 ---
 title: Utilisation de l’appli de bureau [!DNL Experience Manager] version 1.10.
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.10 et optimiser votre utilisation des ressources du bureau.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2373'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Cette intégration permet à différents rôles au sein de l’entreprise de gé
 
 Les tâches clés que vous effectuez à l’aide de l’appli de bureau [!DNL Experience Manager] v1 sont les suivantes :
 
-1. [Connexion avec un serveur [!DNL Experience Manager]  ](#installandconnect)
+1. [Connexion avec un serveur [!DNL Experience Manager] ](#installandconnect)
 1. [Ouverture directe de ressources sur l’ordinateur de bureau](#openondesktop)
 1. [Modification et extraction de ressources à partir de l’ordinateur de bureau](#workonassets)
 1. [Chargement en masse de ressources et de dossiers](#bulkupload)
@@ -58,7 +58,7 @@ Pour utiliser l’appli de bureau [!DNL Experience Manager], vérifiez qu’elle
 
 Une configuration détaillée peut s’avérer nécessaire en fonction des préférences de votre système et de votre réseau. Pour plus d’informations, voir [Installation et configuration de l’appli de bureau [!DNL Experience Manager] ](install-configure-app-v1.md).
 
-1. Accédez à la [[!DNL Experience Manager] page de téléchargement de l’application de bureau v1.10](/help/release-notes-of-v1.md) et téléchargez le fichier binaire approprié pour votre système d’exploitation.
+1. Rendez-vous sur la page de téléchargement de l’appli de bureau [[!DNL Experience Manager] v1.10](/help/release-notes-of-v1.md) et téléchargez le fichier binaire approprié pour votre système d’exploitation.
 1. Exécutez le fichier d’installation téléchargé et suivez les instructions affichées à l’écran pour installer l’application.
 
    >[!NOTE]
@@ -149,7 +149,7 @@ Après avoir mappé le référentiel [!DNL Assets] sur votre lecteur local, vous
 
 Pour localiser la ressource sur votre système de fichiers local, cliquez sur l’action rapide **Afficher** ![icône Afficher](assets/do-not-localize/aemassets_reveal_icon.png). Vous pouvez également sélectionner **Afficher** dans le menu **Actions sur le Bureau** de la barre d’outils.
 
-## Explication des états des ressources  {#understand-the-asset-statuses}
+## Explication des états des ressources {#understand-the-asset-statuses}
 
 | ![Icône de l’appli par défaut Windows](assets/do-not-localize/win_default.png) | L’application est connectée au serveur, et toutes les ressources sont synchronisées. |
 --- |--- |
@@ -223,11 +223,11 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 
 1. Pour archiver la ressource afin qu’elle soit disponible pour les autres utilisateurs, cliquez/appuyez sur l’icône Check-in (Archiver) dans la boîte de dialogue **Asset Info** (Informations sur les ressources).
 
-### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web  {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
+### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
 Une fois la modification des ressources effectuée, enregistrez ces dernières dans votre application de bureau. Dans le menu contextuel, sélectionnez **More Assets Info** (Autres infos sur les ressources) et cliquez ensuite sur Check-in (Archiver).
 
-Les ressources sont chargées sur le serveur [!DNL Experience Manager]. Vous pouvez vérifier le statut du chargement en sélectionnant **View Asset Status** (Afficher le statut des ressources) à partir de l’icône de la barre d’état. Vous pouvez également archiver une ressource à partir de l’interface web d’[!DNL Experience Manager] Cliquez sur les ressources extraites ou sélectionnez-les. Dans la barre d’outils, cliquez sur l’icône d’archivage ![Icône Archiver](assets/do-not-localize/aemassets_icon_checkin.png).
+Les ressources sont chargées sur le serveur [!DNL Experience Manager]. Vous pouvez vérifier le statut du chargement en sélectionnant **View Asset Status** (Afficher le statut des ressources) à partir de l’icône de la barre d’état. Vous pouvez également archiver une ressource à partir de l’interface web d’[!DNL Experience Manager]. Cliquez sur les ressources extraites ou sélectionnez-les. Dans la barre d’outils, cliquez sur l’icône d’archivage ![Icône Archiver](assets/do-not-localize/aemassets_icon_checkin.png).
 
 Une ressource est automatiquement chargée dans [!DNL Experience Manager] après l’enregistrement local de toutes les modifications. L’archivage rend la ressource disponible pour modification par d’autres utilisateurs d’[!DNL Experience Manager].
 
