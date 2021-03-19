@@ -294,7 +294,7 @@ L’appli de bureau [!DNL Experience Manager] prend en charge ce processus avec 
 >
 >L’appli de bureau peut mapper sur n’importe quel lecteur sous Windows. Toutefois, pour un fonctionnement harmonieux, ne changez pas la lettre de lecteur par défaut. Si les utilisateurs d’une même organisation utilisent des lettres de lecteur différentes, ils ne peuvent pas voir les ressources placées par d’autres utilisateurs. Les ressources placées ne sont pas récupérées lorsque le chemin d’accès change. Les ressources placées demeurent placées dans le fichier binaire (par exemple, INDD) et ne sont pas supprimées.
 
-Pour connaître les limites de ce flux de travaux, voir la [configuration système requise et les versions prises en charge](release-notes.md).
+Pour connaître les limites de ce processus, voir la [configuration requise et les versions prises en charge](release-notes.md).
 
 Pour tester ce processus avec une ressource d’image et InDesign, procédez comme suit :
 
