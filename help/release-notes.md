@@ -2,10 +2,11 @@
 title: Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager]
 description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau [!DNL Adobe Experience Manager] .
 mini-toc-levels: 1
+feature: Application de bureau pour Experience Manager, informations de publication
 translation-type: tm+mt
-source-git-commit: 06ce2dc1c47bc1ba71b4fd1d053131d9dbdb08ba
+source-git-commit: ac80eba42d872f68553a65f6b4820a3b223c7da2
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1474'
 ht-degree: 77%
 
 ---
