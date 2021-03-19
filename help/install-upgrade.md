@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: ac80eba42d872f68553a65f6b4820a3b223c7da2
 workflow-type: tm+mt
 source-wordcount: '1306'
-ht-degree: 82%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Une telle intégration permet à divers rôles de l’organisation de :
 
 Pour utiliser l’appli de bureau [!DNL Experience Manager],
 
-* assurez-vous que votre version d’[!DNL Experience Manager] est prise en charge par l’appli de bureau [!DNL Experience Manager]. Voir la [configuration système requise](release-notes.md).
+* assurez-vous que votre version d’[!DNL Experience Manager] est prise en charge par l’appli de bureau [!DNL Experience Manager]. Consultez la [Configuration requise](release-notes.md).
 
 * Téléchargez et installez l’application. Voir [Installation de l’application de bureau](#install-v2) ci-dessous.
 
@@ -61,7 +61,7 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute ve
 
 1. Si vous effectuez une mise à niveau à partir d’une autre version de l’application, reportez-vous à la section [Mise à niveau de l’appli de bureau](#upgrade-from-previous-version).
 
-1. Ignorez cette étape si vous utilisez [!DNL Experience Manager] as a [!DNL Cloud Service], [!DNL Experience Manager] version 6.4.4 ou ultérieure, ou [!DNL Experience Manager] version 6.5.0 ou ultérieure. Assurez-vous que votre configuration d’[!DNL Experience Manager] respecte les exigences de compatibilité mentionnées dans les [notes de mise à jour](release-notes.md). Si nécessaire, téléchargez le [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicable et installez-le à l’aide du gestionnaire de modules [!DNL Experience Manager] en tant qu’administrateur [!DNL Experience Manager]. Pour installer un package, voir [Comment travailler avec des packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr).
+1. Ignorez cette étape si vous utilisez [!DNL Experience Manager] as a [!DNL Cloud Service], [!DNL Experience Manager] version 6.4.4 ou ultérieure, ou [!DNL Experience Manager] version 6.5.0 ou ultérieure. Assurez-vous que votre configuration d’[!DNL Experience Manager] respecte les exigences de compatibilité mentionnées dans les [notes de mise à jour](release-notes.md). Si nécessaire, téléchargez le [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicable et installez-le à l’aide du gestionnaire de modules [!DNL Experience Manager] en tant qu’administrateur [!DNL Experience Manager]. Pour installer un package, voir [Comment travailler avec des packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html).
 
 1. Exécutez le fichier binaire du programme d’installation et suivez les instructions à l’écran pour procéder à l’installation.
 
@@ -109,15 +109,15 @@ Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-
 
 * **[!UICONTROL Automatically download linked assets]** : les ressources placées dans les applications Creative Cloud natives prises en charge sont automatiquement récupérées si vous téléchargez le fichier d’origine.
 
-* **[!UICONTROL Maximum number of downloads]**:  ![attention ](assets/do-not-localize/caution-icon.png) iconChange avec précaution. Lors du premier téléchargement de fichiers (par l’intermédiaire de l’option Afficher, Ouvrir, Modifier, Télécharger ou d’une autre option similaire), les fichiers sont téléchargés uniquement si le lot contient moins de ce nombre. La valeur par défaut est 50. Ne changez pas cette valeur si vous n’êtes pas sûr de vous. Augmenter cette valeur peut prolonger les délais d’attente et la diminuer peut vous empêcher de télécharger les ressources ou dossiers nécessaires en une seule fois.
+* **[!UICONTROL Maximum number of downloads]** : ![icône d’avertissement](assets/do-not-localize/caution-icon.png) procédez à tout changement avec précaution. Lorsque vous téléchargez des ressources pour la première fois (via les options Reveal (Afficher), Open (Ouvrir), Edit (Modifier), Download (Télécharger) ou une autre option similaire), celles-ci ne sont téléchargées que si le lot contient moins de ressources que le nombre indiqué par cette valeur. La valeur par défaut est 50. Ne changez pas cette valeur si vous n’êtes pas sûr de vous. Augmenter cette valeur peut prolonger les délais d’attente et la diminuer peut vous empêcher de télécharger les ressources ou dossiers nécessaires en une seule fois.
 
-* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**:  ![attention ](assets/do-not-localize/caution-icon.png) iconChange avec précaution. Ce paramètre permet à l’application d’émuler le comportement de l’application v1.10 lors du téléchargement de dossiers. Dans la version 1.10, les noms de noeud créés dans le référentiel respectent les espaces et la casse des noms de dossier fournis par l’utilisateur. Cependant, dans la version 2.1 de l’application, les espaces supplémentaires dans les noms de dossier sont convertis en tirets. Par exemple, le transfert de `New Folder` ou `new   folder` crée le même noeud dans le référentiel si l’option n’est pas sélectionnée et si le comportement par défaut dans v2.1 est conservé. Si cette option est sélectionnée, différents noeuds sont créés dans le référentiel pour les deux dossiers ci-dessus et correspondent au comportement de l’application v1.10.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]** : ![icône d’avertissement](assets/do-not-localize/caution-icon.png) procédez à tout changement avec précaution. Ce paramètre permet à l’application d’émuler le comportement de l’application v1.10 lors du chargement de dossiers. Dans la version 1.10, les noms de nœuds créés dans le référentiel respectent les espaces et la casse des noms de dossier fournis par l’utilisateur. Cependant, dans la version 2.1 de l’application, les espaces dans les noms de dossier sont convertis en tirets. Par exemple, le chargement de `New Folder` ou de `new   folder` crée le même nœud dans le référentiel si l’option n’est pas sélectionnée et si le comportement par défaut dans l’application v2.1 est conservé. Si cette option est sélectionnée, des nœuds différents sont créés dans le référentiel pour les deux dossiers ci-dessus, ce qui correspond au comportement de l’application v1.10.
 
-   Le comportement par défaut de v2.1 reste identique, c’est-à-dire qu’il faut remplacer plusieurs espaces dans les noms de dossiers par des tirets dans le nom de noeud du référentiel et les convertir en noms de noeud minuscules.
+   Le comportement par défaut de l’application v2.1 reste identique, c’est-à-dire qu’il remplace les espaces dans les noms de dossiers par des tirets dans le nom de nœud du référentiel et les convertit en minuscules.
 
-* **[!UICONTROL Upload Acceleration]**:  ![attention ](assets/do-not-localize/caution-icon.png) iconChange avec précaution. Lors du transfert de fichiers, l’application peut utiliser des téléchargements simultanés pour accélérer le transfert. Vous pouvez augmenter la simultanéité du chargement en déplaçant le curseur vers la droite. Le curseur situé à l’extrême gauche signifie qu’il n’y a pas de simultanéité (chargement à thread unique), tandis que la position centrale correspond à 10 threads simultanés et la limite maximale à l’extrême à 20 threads simultanés. Une limite de concurrence plus élevée est plus gourmande en ressources.
+* **[!UICONTROL Upload Acceleration]** : ![icône d’avertissement](assets/do-not-localize/caution-icon.png) procédez à tout changement avec précaution. Lorsque vous chargez des ressources, l’application peut réaliser ces chargements de façon simultanée de façon à en accroître la vitesse. Vous pouvez augmenter la simultanéité du chargement en déplaçant le curseur vers la droite. Le curseur situé à l’extrême gauche signifie qu’il n’y a pas de simultanéité (chargement à thread unique), tandis que la position centrale correspond à 10 threads simultanés et la limite maximale à l’extrême à 20 threads simultanés. Une limite de concurrence plus élevée est plus gourmande en ressources.
 
-Pour mettre à jour les préférences indisponibles, déconnectez-vous du serveur [!DNL Experience Manager], puis mettez à jour. Après avoir mis à jour les préférences, cliquez sur ![Enregistrer les préférences](assets/do-not-localize/save_preferences_da2.png).
+Pour mettre à jour les préférences non disponibles, déconnectez-vous du serveur [!DNL Experience Manager] puis réactualisez. Après avoir mis à jour les préférences, cliquez sur ![Save preferences](assets/do-not-localize/save_preferences_da2.png) (Enregistrer les préférences).
 
 ![Préférences et paramètres de l’appli de bureau](assets/preferences_da2.png)
 
