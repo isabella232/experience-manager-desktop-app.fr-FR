@@ -4,10 +4,10 @@ description: Détails des mises à jour, améliorations, nouvelles fonctionnalit
 mini-toc-levels: 1
 feature: Application de bureau pour Experience Manager, informations de publication
 translation-type: tm+mt
-source-git-commit: ac80eba42d872f68553a65f6b4820a3b223c7da2
+source-git-commit: 7204e3afb6d3a0908c076cf042072e3157572797
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#what
 
 **Mise à jour dans la version v2.1.1.0 de l’application**
 
-* Un des paramètres avancés permet à l’application d’émuler le comportement de l’application v1.10 lors du chargement de dossiers. Dans la version 1.10, les noms de nœuds créés dans le référentiel respectent les espaces et la casse des noms de dossier fournis par l’utilisateur. Le comportement par défaut de la version 2.1 reste le même, c’est-à-dire qu’il remplace les espaces dans les noms de dossiers par un tiret dans le nom du nœud du référentiel et le convertit en minuscules. Consultez [les préférences de l’application](/help/install-upgrade.md#set-preferences).
+* Un des paramètres avancés permet à l’application d’émuler le comportement de l’application v1.10 lors du chargement de dossiers. Dans la version 1.10, les noms de noeud créés dans le référentiel respectent les espaces et la casse des noms de dossier fournis par l’utilisateur. Le comportement par défaut de la version 2.1 reste le même, c’est-à-dire qu’il remplace les espaces dans les noms de dossiers par un tiret dans le nom du nœud du référentiel et le convertit en minuscules. Consultez [les préférences de l’application](/help/install-upgrade.md#set-preferences).
 
 **Mise à jour dans la version v2.1.0.0 de l’application**
 
