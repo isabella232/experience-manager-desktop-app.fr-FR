@@ -3,10 +3,10 @@ title: Installation et configuration de l’appli de bureau
 description: Installez et configurez les serveurs [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] et téléchargez les ressources sur votre système de fichiers local.
 feature: Application de bureau pour Experience Manager, informations de publication
 translation-type: tm+mt
-source-git-commit: 3804d684a3a7e78eda7692969f312ef023965ffd
+source-git-commit: 7204e3afb6d3a0908c076cf042072e3157572797
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -111,7 +111,7 @@ Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-
 
 * **[!UICONTROL Maximum number of downloads]** : ![icône d’avertissement](assets/do-not-localize/caution-icon.png) procédez à tout changement avec précaution. Lorsque vous téléchargez des ressources pour la première fois (via les options Reveal (Afficher), Open (Ouvrir), Edit (Modifier), Download (Télécharger) ou une autre option similaire), celles-ci ne sont téléchargées que si le lot contient moins de ressources que le nombre indiqué par cette valeur. La valeur par défaut est 50. Ne changez pas cette valeur si vous n’êtes pas sûr de vous. Augmenter cette valeur peut prolonger les délais d’attente et la diminuer peut vous empêcher de télécharger les ressources ou dossiers nécessaires en une seule fois.
 
-* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]** : ![icône d’avertissement](assets/do-not-localize/caution-icon.png) procédez à tout changement avec précaution. Ce paramètre permet à l’application d’émuler le comportement de l’application v1.10 lors du chargement de dossiers. Dans la version 1.10, les noms de nœuds créés dans le référentiel respectent les espaces et la casse des noms de dossier fournis par l’utilisateur. Cependant, dans la version 2.1 de l’application, les espaces dans les noms de dossier sont convertis en tirets. Par exemple, le chargement de `New Folder` ou de `new   folder` crée le même nœud dans le référentiel si l’option n’est pas sélectionnée et si le comportement par défaut dans l’application v2.1 est conservé. Si cette option est sélectionnée, des nœuds différents sont créés dans le référentiel pour les deux dossiers ci-dessus, ce qui correspond au comportement de l’application v1.10.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]** : ![icône d’avertissement](assets/do-not-localize/caution-icon.png) procédez à tout changement avec précaution. Ce paramètre permet à l’application d’émuler le comportement de l’application v1.10 lors du chargement de dossiers. Dans la version 1.10, les noms de noeud créés dans le référentiel respectent les espaces et la casse des noms de dossier fournis par l’utilisateur. Cependant, dans la version 2.1 de l’application, les espaces dans les noms de dossier sont convertis en tirets. Par exemple, le chargement de `New Folder` ou de `new   folder` crée le même nœud dans le référentiel si l’option n’est pas sélectionnée et si le comportement par défaut dans l’application v2.1 est conservé. Si cette option est sélectionnée, des nœuds différents sont créés dans le référentiel pour les deux dossiers ci-dessus, ce qui correspond au comportement de l’application v1.10.
 
    Le comportement par défaut de l’application v2.1 reste identique, c’est-à-dire qu’il remplace les espaces dans les noms de dossiers par des tirets dans le nom de nœud du référentiel et les convertit en minuscules.
 
