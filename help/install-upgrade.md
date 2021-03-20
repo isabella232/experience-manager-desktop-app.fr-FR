@@ -3,10 +3,10 @@ title: Installation et configuration de l’appli de bureau
 description: Installez et configurez les serveurs [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] et téléchargez les ressources sur votre système de fichiers local.
 feature: Application de bureau pour Experience Manager, informations de publication
 translation-type: tm+mt
-source-git-commit: ac80eba42d872f68553a65f6b4820a3b223c7da2
+source-git-commit: 3804d684a3a7e78eda7692969f312ef023965ffd
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 99%
+source-wordcount: '1405'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ Si vous utilisez la version 1.x de l’application de bureau, vous devez compre
 
 >[!NOTE]
 >
->Deux versions de l’application de bureau ne peuvent pas coexister sur le même ordinateur. Avant d’installer une version, désinstallez l’autre version.
+>Deux versions d’application de bureau ne peuvent pas coexister sur un ordinateur. Avant d’installer une version, désinstallez l’autre version.
 
 Pour effectuer une mise à niveau à partir d’une version antérieure de l’application, suivez les instructions ci-dessous :
 
@@ -122,6 +122,14 @@ Pour mettre à jour les préférences non disponibles, déconnectez-vous du serv
 ![Préférences et paramètres de l’appli de bureau](assets/preferences_da2.png)
 
 *Figure : Préférences de l’appli de bureau.*
+
+### Prise en charge des proxys {#proxy-support}
+
+L’appli de bureau [!DNL Experience Manager] utilise le proxy prédéfini du système pour se connecter à Internet par le biais du protocole HTTPS. L’application ne peut se connecter qu’à l’aide d’un proxy réseau ne nécessitant pas d’authentification supplémentaire.
+
+Si vous configurez ou modifiez les paramètres du serveur proxy pour Windows (Options Internet > Paramètres réseau), redémarrez l’appli de bureau [!DNL Experience Manager] afin que les modifications soient prises en compte. La configuration du proxy s’applique lorsque vous début l’application de bureau. Fermez et relancez l’application pour que les modifications prennent effet.
+
+Si votre proxy nécessite une authentification, l&#39;équipe informatique peut autoriser l&#39;URL [!DNL Experience Manager Assets] dans les paramètres du serveur proxy pour permettre au trafic de l&#39;application de passer.
 
 ## Désinstallation de l’application {#uninstall-the-app}
 
