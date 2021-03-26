@@ -1,11 +1,11 @@
 ---
 title: 'Bonnes pratiques et résolution des problèmes liés à l’appli de bureau [!DNL Adobe Experience Manager] '
 description: Suivez les bonnes pratiques et les solutions de dépannage pour résoudre les problèmes occasionnels liés à l’installation, à la mise à niveau, à la configuration, etc.
-translation-type: ht
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: ht
-source-wordcount: '2120'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9d90bdcab79604e03d1ad3f30ed2aca2eb03e1c5
+workflow-type: tm+mt
+source-wordcount: '2110'
+ht-degree: 98%
 
 ---
 
@@ -202,7 +202,7 @@ Consultez la [section SAML](#da-connection-issue-with-saml-aem) pour savoir comm
 
 #### L’authentification de la connexion SAML ne fonctionne pas {#da-connection-issue-with-saml-aem}
 
-Si l’appli de bureau [!DNL Experience Manager] ne se connecte pas à votre instance [!DNL Adobe Experience Manager] avec authentification unique (SAML), consultez cette section pour résoudre le problème. Les processus d’authentification unique sont variés, parfois complexes, et la conception de l’application prévoit d’agir au mieux pour s’adapter à ces types de connexions. Toutefois, certaines configurations nécessitent des moyens de résolution de problème supplémentaires.
+[!DNL Experience Manager] l’application de bureau peut ne pas se connecter à votre  [!DNL Adobe Experience Manager] déploiement SAML (SSO-enabled). La conception de l’application s’efforce de tenir compte des variations et des complexités des connexions et des processus d’authentification unique. Cependant, une configuration peut nécessiter un dépannage supplémentaire.
 
 Il arrive que le processus SAML ne revienne pas vers le chemin d’accès initialement demandé ou que la redirection finale concerne un hôte différent de celui configuré dans l’appli de bureau [!DNL Adobe Experience Manager]. Pour vérifier que ce n’est pas le cas :
 
