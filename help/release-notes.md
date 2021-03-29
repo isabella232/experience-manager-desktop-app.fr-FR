@@ -2,7 +2,7 @@
 title: Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager]
 description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau [!DNL Adobe Experience Manager] .
 mini-toc-levels: 1
-feature: Application de bureau pour Experience Manager, informations de publication
+feature: Application de bureau Experience Manager, informations sur la version
 translation-type: tm+mt
 source-git-commit: e8a299c7357faf2c19c11a56f2868f6679c15ac1
 workflow-type: tm+mt
@@ -12,7 +12,7 @@ ht-degree: 96%
 ---
 
 
-# Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
+# Notes de mise à jour de l’application de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
 Les informations de mise à jour de la dernière version de l’appli de bureau 2.1 (2.1.2.0) sont les suivantes. La date de publication est le 26 mars 2021. Il s’agit d’une version mineure avec une amélioration.
 
