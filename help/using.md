@@ -3,11 +3,11 @@ title: 'Utilisation de l’appli de bureau [!DNL Experience Manager] '
 description: Utilisez des ressources DAM d’ [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] directement depuis votre bureau Windows ou Mac et utilisez-les dans d’autres applications.
 mini-toc-levels: 1
 feature: Application de bureau Experience Manager, gestion des ressources
-translation-type: ht
-source-git-commit: ac80eba42d872f68553a65f6b4820a3b223c7da2
-workflow-type: ht
-source-wordcount: '3912'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d345a0f0ac6826cf623f6e8bbbcc132481ea557c
+workflow-type: tm+mt
+source-wordcount: '3907'
+ht-degree: 99%
 
 ---
 
@@ -61,15 +61,17 @@ Avant de commencer à utiliser l’application, vous devez comprendre le [Foncti
 
 ## Activation des actions de bureau dans l’interface Web d’[!DNL Experience Manager] {#desktopactions-v2}
 
-À partir de l’interface utilisateur Assets ouverte dans un navigateur, vous pouvez explorer l’emplacement des ressources ou extraire et ouvrir une ressource pour la modifier dans votre application de bureau. Ces options, qui sont appelées [!UICONTROL Desktop Actions], ne sont pas activées par défaut. Pour les activer, procédez comme suit.
+À partir de l’interface utilisateur d’[!DNL Assets] ouverte dans un navigateur, vous pouvez explorer l’emplacement des ressources ou extraire et ouvrir une ressource pour la modifier dans votre application de bureau. Ces options, qui sont appelées [!UICONTROL Desktop Actions], ne sont pas activées par défaut. Pour les activer, procédez comme suit.
 
-1. Dans la console Assets, cliquez/appuyez sur l’icône **[!UICONTROL User]** dans la barre d’outils.
-1. Cliquez/appuyez sur **[!UICONTROL My Preferences]** pour afficher la boîte de dialogue **[!UICONTROL Preferences]**.
-1. Dans la boîte de dialogue Préférences utilisateur, sélectionnez **[!UICONTROL Show Desktop Actions For Assets]**. Cliquez/appuyez sur **[!UICONTROL Accept]**.
+1. Dans la console [!DNL Assets], cliquez sur l&#39;icône **[!UICONTROL User]** de la barre d&#39;outils.
+1. Cliquez sur **[!UICONTROL My Preferences]** pour afficher la boîte de dialogue **[!UICONTROL Preferences]**.
 
-   ![Activation de la case à cocher Afficher les actions de bureau pour Assets afin d’activer les actions de bureau](assets/enable_desktop_actions.png)
+1. Dans la boîte de dialogue Préférences utilisateur, sélectionnez **[!UICONTROL Show Desktop Actions For Assets]**. Cliquez sur **[!UICONTROL Accept]**.
 
-   Cocher la case [!UICONTROL Show Desktop Actions For Assets] pour activer les actions de bureau
+
+   ![Sélectionnez Afficher les actions du bureau pour les ressources pour activer les actions du bureau](assets/enable_desktop_actions.png)
+
+   *Figure : Sélectionnez  [!UICONTROL Show Desktop Actions For Assets] pour activer les actions sur le bureau.*
 
 ## Parcourir, rechercher et prévisualiser des ressources {#browse-search-preview-assets}
 
@@ -298,7 +300,7 @@ Pour connaître les limites de ce processus, voir la [configuration requise et l
 
 Pour tester ce processus avec une ressource d’image et InDesign, procédez comme suit :
 
-1. Conservez à portée de main un fichier INDD avec des ressources placées dans [!DNL Experience Manager]. Pour savoir comment créer un tel fichier INDD, voir [Placement de graphiques](https://helpx.adobe.com/fr/indesign/using/placing-graphics.html).
+1. Conservez à portée de main un fichier INDD avec des ressources placées dans [!DNL Experience Manager]. Pour savoir comment créer un tel fichier INDD, voir [Placement de graphiques](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 1. Depuis l’appli de bureau, exécutez l’action **[!UICONTROL Edit]** sur le fichier INDD avec les ressources placées dans [!DNL Experience Manager].
 1. L’application télécharge à la fois le fichier InDesign et les ressources liées. Lorsque InDesign ouvre le document, les liens sont résolus et les ressources sont téléchargées et s’affichent dans le document InDesign.
 1. Pour placer un nouveau graphique dans le fichier InDesign, exécutez l’action **[!UICONTROL Reveal File]** sur la ressource. L’action télécharge la ressource localement et ouvre l’emplacement du partage réseau local dans l’Explorateur Windows ou le Finder Mac.
