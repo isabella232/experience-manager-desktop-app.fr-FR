@@ -2,10 +2,10 @@
 title: 'Bonnes pratiques et résolution des problèmes liés à l’appli de bureau [!DNL Adobe Experience Manager] '
 description: Suivez les bonnes pratiques et les solutions de dépannage pour résoudre les problèmes occasionnels liés à l’installation, à la mise à niveau, à la configuration, etc.
 translation-type: tm+mt
-source-git-commit: 9d90bdcab79604e03d1ad3f30ed2aca2eb03e1c5
+source-git-commit: a766855c0670e9f291b8020ee6ab7addc50689a4
 workflow-type: tm+mt
-source-wordcount: '2110'
-ht-degree: 98%
+source-wordcount: '2175'
+ht-degree: 95%
 
 ---
 
@@ -108,6 +108,16 @@ Pour activer le mode de débogage sous Windows :
 
 `AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
+### Connaître la version de l’appli de bureau [!DNL Adobe Experience Manager] {#know-app-version-v2}
+
+Pour afficher le numéro de version :
+
+1. Démarrez l’application.
+
+1. Cliquez sur les ellipses dans l’angle supérieur droit, placez le pointeur sur [!UICONTROL Help], puis cliquez sur [!UICONTROL About].
+
+   Le numéro de version est affiché sur cet écran.
+
 ### Effacer le cache {#clear-cache-v2}
 
 Exécutez les étapes suivantes :
@@ -138,17 +148,7 @@ Pour effacer le cache, supprimez le répertoire Point d’entrée [!DNL Adobe Ex
 
 L’effacement du cache de l’appli de bureau [!DNL Adobe Experience Manager] est une tâche préliminaire de résolution de problème qui permet de résoudre plusieurs problèmes. Effacez le cache des préférences de l’application. Voir [Définition des préférences](install-upgrade.md#set-preferences). L’emplacement par défaut du dossier de cache est :
 
-### Connaître la version de l’appli de bureau [!DNL Adobe Experience Manager] {#know-app-version-v2}
-
-Pour afficher le numéro de version :
-
-1. Démarrez l’application.
-
-1. Cliquez sur les ellipses dans l’angle supérieur droit, placez le pointeur sur [!UICONTROL Help], puis cliquez sur [!UICONTROL About].
-
-   Le numéro de version est affiché sur cet écran.
-
-### Impossible de voir les ressources importées {#placed-assets-missing}
+## Impossible de voir les ressources importées {#placed-assets-missing}
 
 Si vous ne pouvez pas voir les ressources que vous ou d’autres professionnels de la création avez placées dans les fichiers de support (fichiers INDD, par exemple), vérifiez les éléments suivants :
 
@@ -179,11 +179,11 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-### Chargement des fichiers impossible {#upload-fails}
+## Chargement des fichiers impossible {#upload-fails}
 
 Si vous utilisez l’appli de bureau [!DNL Experience Manager] en version 6.5.1 ou ultérieure, mettez à niveau le connecteur Azure ou S3 vers la version 1.10.4 ou ultérieure. Cela aura pour effet de résoudre le problème d’échec de chargement de fichier lié à [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). Voir [Instructions d’installation](install-upgrade.md#install-v2).
 
-### Problèmes de connexion à l’appli de bureau [!DNL Experience Manager] {#connection-issues}
+## Problèmes de connexion à l’appli de bureau [!DNL Experience Manager] {#connection-issues}
 
 Si vous rencontrez des problèmes généraux de connectivité, il existe un certain nombre de méthodes pour obtenir davantage d’informations sur ce que fait l’appli de bureau [!DNL Experience Manager].
 
@@ -200,7 +200,7 @@ L’appli de bureau [!DNL Experience Manager] consigne dans un fichier journal d
 La majorité des requêtes de l’application se trouvent dans le journal des requêtes. Toutefois, s’il n’existe aucune information pertinente à ce sujet, il peut être utile de consulter les requêtes envoyées par le navigateur intégré de l’application.
 Consultez la [section SAML](#da-connection-issue-with-saml-aem) pour savoir comment afficher ces requêtes.
 
-#### L’authentification de la connexion SAML ne fonctionne pas {#da-connection-issue-with-saml-aem}
+### L’authentification de la connexion SAML ne fonctionne pas {#da-connection-issue-with-saml-aem}
 
 [!DNL Experience Manager] l’application de bureau peut ne pas se connecter à votre  [!DNL Adobe Experience Manager] déploiement SAML (SSO-enabled). La conception de l’application s’efforce de tenir compte des variations et des complexités des connexions et des processus d’authentification unique. Cependant, une configuration peut nécessiter un dépannage supplémentaire.
 
@@ -247,7 +247,7 @@ Pour résoudre d’autres problèmes, il est possible d’afficher les URL exact
 
 L’examen de la séquence d’URL en cours de chargement peut aider à résoudre les problèmes du côté SAML afin de déterminer ce qui ne va pas.
 
-#### Problème de configuration SSL {#ssl-config-v2}
+### Problème de configuration SSL {#ssl-config-v2}
 
 Les bibliothèques utilisées par l’appli de bureau [!DNL Experience Manager] pour les communications HTTP appliquent le protocole SSL de manière stricte. Parfois, une connexion peut réussir en utilisant un navigateur, mais échouer avec l’appli de bureau [!DNL Experience Manager]. Pour configurer SSL convenablement, installez le certificat intermédiaire manquant dans Apache. Voir [Comment installer un certificat d’autorité de certification intermédiaire dans Apache](https://access.redhat.com/solutions/43575).
 
@@ -284,7 +284,13 @@ Dans ce cas, l’approche recommandée consiste à utiliser un outil pour analys
 
 1. Enregistrez le fichier et redémarrez l’appli de bureau [!DNL Adobe Experience Manager].
 
-### L’application ne répond pas {#unresponsive}
+### Problèmes de connexion lors du passage à un autre serveur {#cannot-login-cookies-issue}
+
+Après avoir utilisé un serveur [!DNL Experience Manager], lorsque vous tentez de modifier la connexion à un autre serveur, vous pouvez rencontrer des problèmes de connexion. Cela est dû à l&#39;interférence des anciens cookies dans la nouvelle authentification. Une option dans le menu principal de [!UICONTROL Clear Cookies] aide. Déconnectez-vous de la session active dans l’application et sélectionnez [!UICONTROL Clear Cookies] avant de vous connecter.
+
+![Effacer les cookies lors du changement de serveur](assets/main_menu_logout_da2.png)
+
+## L’application ne répond pas {#unresponsive}
 
 L’application risque rarement de ne plus répondre, d’afficher uniquement un écran blanc ou d’afficher une erreur au bas de l’interface sans aucune option. Procédez comme suit dans l’ordre :
 
