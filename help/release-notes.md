@@ -4,9 +4,9 @@ description: Détails des mises à jour, améliorations, nouvelles fonctionnalit
 mini-toc-levels: 1
 feature: Application de bureau Experience Manager, informations sur la version
 translation-type: tm+mt
-source-git-commit: e8a299c7357faf2c19c11a56f2868f6679c15ac1
+source-git-commit: 861f2e8994ae7eb9b35c78036479fe47dc793cf3
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1512'
 ht-degree: 96%
 
 ---
@@ -71,7 +71,7 @@ Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#what
 
 **Mise à jour dans la version v2.1.2.0 de l’application**
 
-* Une nouvelle option de [!UICONTROL Clear Cookies] est ajoutée au menu principal de l&#39;application. Cela permet de résoudre les problèmes de connexion potentiels, par exemple lors du changement de connexion d’un serveur à un autre.
+* Une nouvelle option de [!UICONTROL Clear Cookies] est ajoutée au menu principal de l&#39;application. Cela permet de résoudre les problèmes de connexion potentiels, par exemple lors du changement de connexion d’un serveur à un autre. Voir [effacer les cookies avant de se connecter ](/help/troubleshoot.md#cannot-login-cookies-issue).
 
 **Mise à jour dans la version v2.1.1.0 de l’application**
 
