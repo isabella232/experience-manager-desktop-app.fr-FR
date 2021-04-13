@@ -1,14 +1,14 @@
 ---
 title: 'Bonnes pratiques et résolution des problèmes liés à l’appli de bureau [!DNL Adobe Experience Manager] '
 description: Suivez les bonnes pratiques et les solutions de dépannage pour résoudre les problèmes occasionnels liés à l’installation, à la mise à niveau, à la configuration, etc.
+exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 translation-type: tm+mt
-source-git-commit: a766855c0670e9f291b8020ee6ab7addc50689a4
+source-git-commit: b893ad24d360ed382cab50771413219ea7bda09e
 workflow-type: tm+mt
-source-wordcount: '2175'
-ht-degree: 95%
+source-wordcount: '2261'
+ht-degree: 91%
 
 ---
-
 
 # Résolution des problèmes liés à l’appli de bureau [!DNL Adobe Experience Manager] {#troubleshoot-v2}
 
@@ -298,6 +298,13 @@ L’application risque rarement de ne plus répondre, d’afficher uniquement un
 * Quittez l’application et redémarrez-la.
 
 Dans les deux méthodes, l’application démarre au dossier DAM racine.
+
+## Masquer les actifs expirés {#hide-expired-assets}
+
+Lors de la navigation dans des ressources de l&#39;interface utilisateur [!DNL Experience Manager], les ressources expirées ne s&#39;affichent pas. Pour empêcher l’affichage, la recherche et la récupération de fichiers expirés lors de la navigation dans des fichiers à partir d’une application de bureau et d’un lien d’actif, les administrateurs peuvent effectuer la configuration suivante. La configuration fonctionne pour tous les utilisateurs, quel que soit le privilège d’administrateur.
+
+* [Configuration dans Experience Manager 6.5 pour masquer les actifs](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#hide-expired-assets-via-acp-api) expirés.
+* [Configuration dans le Experience Manager en tant que Cloud Service pour masquer les actifs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html#hide-expired-assets-via-acp-api) expirés.
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
