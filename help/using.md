@@ -61,17 +61,17 @@ Avant de commencer à utiliser l’application, vous devez comprendre le [Foncti
 
 ## Activation des actions de bureau dans l’interface Web d’[!DNL Experience Manager] {#desktopactions-v2}
 
-À partir de l’interface utilisateur d’[!DNL Assets] ouverte dans un navigateur, vous pouvez explorer l’emplacement des ressources ou extraire et ouvrir une ressource pour la modifier dans votre application de bureau. Ces options, qui sont appelées [!UICONTROL Desktop Actions], ne sont pas activées par défaut. Pour les activer, procédez comme suit.
+À partir de l’interface utilisateur d’[!DNL Assets] ouverte dans un navigateur, vous pouvez explorer l’emplacement des ressources ou extraire et ouvrir une ressource pour la modifier dans votre appli de bureau. Ces options, qui sont appelées [!UICONTROL Desktop Actions], ne sont pas activées par défaut. Pour les activer, procédez comme suit.
 
-1. Dans la console [!DNL Assets], cliquez sur l&#39;icône **[!UICONTROL User]** de la barre d&#39;outils.
+1. Dans la console [!DNL Assets], cliquez sur l’icône **[!UICONTROL User]** dans la barre d’outils.
 1. Cliquez sur **[!UICONTROL My Preferences]** pour afficher la boîte de dialogue **[!UICONTROL Preferences]**.
 
 1. Dans la boîte de dialogue Préférences utilisateur, sélectionnez **[!UICONTROL Show Desktop Actions For Assets]**. Cliquez sur **[!UICONTROL Accept]**.
 
 
-   ![Sélectionnez Afficher les actions du bureau pour les ressources pour activer les actions du bureau](assets/enable_desktop_actions.png)
+   ![Sélectionnez Afficher les actions de bureau pour Assets afin d’activer les actions de bureau](assets/enable_desktop_actions.png)
 
-   *Figure : Sélectionnez  [!UICONTROL Show Desktop Actions For Assets] pour activer les actions sur le bureau.*
+   *Figure : sélectionnez [!UICONTROL Show Desktop Actions For Assets] pour activer les actions de bureau.*
 
 ## Parcourir, rechercher et prévisualiser des ressources {#browse-search-preview-assets}
 
