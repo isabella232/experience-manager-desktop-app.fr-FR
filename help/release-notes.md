@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: ac533db59b2a5c64243b762f4b77b3148c4f1867
 workflow-type: tm+mt
 source-wordcount: '1523'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -71,11 +71,11 @@ Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#what
 
 **Mise à jour dans la version v2.1.2.0 de l’application**
 
-* Une nouvelle option de [!UICONTROL Clear Cookies] est ajoutée au menu principal de l&#39;application. Cela permet de résoudre les problèmes de connexion potentiels, par exemple lors du changement de connexion d’un serveur à un autre. Voir [effacer les cookies avant de se connecter ](/help/troubleshoot.md#cannot-login-cookies-issue).
+* Une nouvelle option pour [!UICONTROL Clear Cookies] est ajoutée au menu principal de l’application. Elle permet de résoudre les potentiels problèmes de connexion, par exemple lors du changement de connexion d’un serveur à un autre. Voir [effacer les cookies avant de se connecter ](/help/troubleshoot.md#cannot-login-cookies-issue).
 
 **Mise à jour dans la version v2.1.1.0 de l’application**
 
-* Un des paramètres avancés permet à l’application d’émuler le comportement de l’application v1.10 lors du chargement de dossiers. Dans la version 1.10, les noms de noeud créés dans le référentiel respectent les espaces et la casse des noms de dossier fournis par l’utilisateur. Le comportement par défaut de la version 2.1 reste le même, c’est-à-dire qu’il remplace les espaces dans les noms de dossiers par un tiret dans le nom du nœud du référentiel et le convertit en minuscules. Consultez [les préférences de l’application](/help/install-upgrade.md#set-preferences).
+* Un des paramètres avancés permet à l’application d’émuler le comportement de l’application v1.10 lors du chargement de dossiers. Dans la version 1.10, les noms de nœuds créés dans le référentiel respectent les espaces et la casse des noms de dossier fournis par l’utilisateur. Le comportement par défaut de la version 2.1 reste le même, c’est-à-dire qu’il remplace les espaces dans les noms de dossiers par un tiret dans le nom du nœud du référentiel et le convertit en minuscules. Consultez [les préférences de l’application](/help/install-upgrade.md#set-preferences).
 
 **Mise à jour dans la version v2.1.0.0 de l’application**
 
