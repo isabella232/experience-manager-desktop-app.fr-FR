@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 4616934e8923693106401da008e2510310d0742a
 workflow-type: tm+mt
 source-wordcount: '1403'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Une telle intégration permet à divers rôles de l’organisation de :
 
 Pour utiliser l’appli de bureau [!DNL Experience Manager],
 
-* assurez-vous que votre version d’[!DNL Experience Manager] est prise en charge par l’appli de bureau [!DNL Experience Manager]. Consultez la [Configuration requise](release-notes.md).
+* Assurez-vous que votre version d’[!DNL Experience Manager] est prise en charge par l’appli de bureau [!DNL Experience Manager]. Consultez la [Configuration requise](release-notes.md).
 
 * Téléchargez et installez l’application. Voir [Installation de l’application de bureau](#install-v2) ci-dessous.
 
@@ -39,7 +39,7 @@ Si vous utilisez la version 1.x de l’application de bureau, vous devez compre
 
 >[!NOTE]
 >
->Deux versions d’application de bureau ne peuvent pas coexister sur un ordinateur. Avant d’installer une version, désinstallez l’autre version.
+>Deux versions de l’appli de bureau ne peuvent pas coexister sur le même ordinateur. Avant d’installer une version, désinstallez l’autre version.
 
 Pour effectuer une mise à niveau à partir d’une version antérieure de l’application, suivez les instructions ci-dessous :
 
@@ -111,7 +111,7 @@ Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-
 
 * **[!UICONTROL Maximum number of downloads]** : ![icône d’avertissement](assets/do-not-localize/caution-icon.png) procédez à tout changement avec précaution. Lorsque vous téléchargez des ressources pour la première fois (via les options Reveal (Afficher), Open (Ouvrir), Edit (Modifier), Download (Télécharger) ou une autre option similaire), celles-ci ne sont téléchargées que si le lot contient moins de ressources que le nombre indiqué par cette valeur. La valeur par défaut est 50. Ne changez pas cette valeur si vous n’êtes pas sûr de vous. Augmenter cette valeur peut prolonger les délais d’attente et la diminuer peut vous empêcher de télécharger les ressources ou dossiers nécessaires en une seule fois.
 
-* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]** : ![icône d’avertissement](assets/do-not-localize/caution-icon.png) procédez à tout changement avec précaution. Ce paramètre permet à l’application d’émuler le comportement de l’application v1.10 lors du chargement de dossiers. Dans la version 1.10, les noms de noeud créés dans le référentiel respectent les espaces et la casse des noms de dossier fournis par l’utilisateur. Cependant, dans la version 2.1 de l’application, les espaces dans les noms de dossier sont convertis en tirets. Par exemple, le chargement de `New Folder` ou de `new   folder` crée le même nœud dans le référentiel si l’option n’est pas sélectionnée et si le comportement par défaut dans l’application v2.1 est conservé. Si cette option est sélectionnée, des nœuds différents sont créés dans le référentiel pour les deux dossiers ci-dessus, ce qui correspond au comportement de l’application v1.10.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]** : ![icône d’avertissement](assets/do-not-localize/caution-icon.png) procédez à tout changement avec précaution. Ce paramètre permet à l’application d’émuler le comportement de l’application v1.10 lors du chargement de dossiers. Dans la version 1.10, les noms de nœuds créés dans le référentiel respectent les espaces et la casse des noms de dossier fournis par l’utilisateur. Cependant, dans la version 2.1 de l’application, les espaces dans les noms de dossier sont convertis en tirets. Par exemple, le chargement de `New Folder` ou de `new   folder` crée le même nœud dans le référentiel si l’option n’est pas sélectionnée et si le comportement par défaut dans l’application v2.1 est conservé. Si cette option est sélectionnée, des nœuds différents sont créés dans le référentiel pour les deux dossiers ci-dessus, ce qui correspond au comportement de l’application v1.10.
 
    Le comportement par défaut de l’application v2.1 reste identique, c’est-à-dire qu’il remplace les espaces dans les noms de dossiers par des tirets dans le nom de nœud du référentiel et les convertit en minuscules.
 
@@ -127,9 +127,9 @@ Pour mettre à jour les préférences non disponibles, déconnectez-vous du serv
 
 L’appli de bureau [!DNL Experience Manager] utilise le proxy prédéfini du système pour se connecter à Internet par le biais du protocole HTTPS. L’application ne peut se connecter qu’à l’aide d’un proxy réseau ne nécessitant pas d’authentification supplémentaire.
 
-Si vous configurez ou modifiez les paramètres du serveur proxy pour Windows (Options Internet > Paramètres réseau), redémarrez l’appli de bureau [!DNL Experience Manager] afin que les modifications soient prises en compte. La configuration du proxy s’applique lorsque vous début l’application de bureau. Fermez et relancez l’application pour que les modifications prennent effet.
+Si vous configurez ou modifiez les paramètres du serveur proxy pour Windows (Options Internet > Paramètres réseau), redémarrez l’appli de bureau [!DNL Experience Manager] afin que les modifications soient prises en compte. La configuration du proxy s’applique lorsque vous lancez l’appli de bureau. Fermez et relancez l’application pour que les modifications prennent effet.
 
-Si votre proxy nécessite une authentification, l&#39;équipe informatique peut autoriser l&#39;URL [!DNL Experience Manager Assets] dans les paramètres du serveur proxy pour permettre au trafic de l&#39;application de passer.
+Si votre proxy nécessite une authentification, l’équipe informatique peut autoriser l’URL d’[!DNL Experience Manager Assets] dans les paramètres du serveur proxy afin d’autoriser le trafic de l’application.
 
 ## Désinstallation de l’application {#uninstall-the-app}
 
