@@ -1,7 +1,7 @@
 ---
 title: Installation et configuration de l’appli de bureau
 description: Installez et configurez les serveurs [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] et téléchargez les ressources sur votre système de fichiers local.
-feature: Application de bureau, informations sur la version
+feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 translation-type: tm+mt
 source-git-commit: 4616934e8923693106401da008e2510310d0742a

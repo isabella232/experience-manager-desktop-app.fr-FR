@@ -1,7 +1,7 @@
 ---
 title: Utilisation de l’appli de bureau [!DNL Experience Manager] version 1.10.
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.10 et optimiser votre utilisation des ressources du bureau.
-feature: Application de bureau, gestion des ressources
+feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
 translation-type: tm+mt
 source-git-commit: 4616934e8923693106401da008e2510310d0742a

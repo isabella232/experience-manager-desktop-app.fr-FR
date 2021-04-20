@@ -2,7 +2,7 @@
 title: 'Utilisation de l’appli de bureau [!DNL Experience Manager] '
 description: Utilisez des ressources DAM d’ [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] directement depuis votre bureau Windows ou Mac et utilisez-les dans d’autres applications.
 mini-toc-levels: 1
-feature: Application de bureau, gestion des ressources
+feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 translation-type: tm+mt
 source-git-commit: 4616934e8923693106401da008e2510310d0742a

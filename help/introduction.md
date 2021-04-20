@@ -1,7 +1,7 @@
 ---
 title: 'Présentation de l’appli de bureau [!DNL Experience Manager] '
 description: Apprenez à utiliser [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] directement à partir de leur bureau.
-role: Professionnel, administrateur, dirigeant
+role: Business Practitioner, Administrator, Leader
 translation-type: ht
 source-git-commit: a0a7081b705957ef6d1a72bc3c54603b1cff5897
 workflow-type: ht
