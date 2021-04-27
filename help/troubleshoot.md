@@ -2,11 +2,11 @@
 title: 'Bonnes pratiques et résolution des problèmes liés à l’appli de bureau [!DNL Adobe Experience Manager] '
 description: Suivez les bonnes pratiques et les solutions de dépannage pour résoudre les problèmes occasionnels liés à l’installation, à la mise à niveau, à la configuration, etc.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b893ad24d360ed382cab50771413219ea7bda09e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2261'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -202,7 +202,7 @@ Consultez la [section SAML](#da-connection-issue-with-saml-aem) pour savoir comm
 
 ### L’authentification de la connexion SAML ne fonctionne pas {#da-connection-issue-with-saml-aem}
 
-[!DNL Experience Manager] l’application de bureau peut ne pas se connecter à votre  [!DNL Adobe Experience Manager] déploiement SAML (SSO-enabled). La conception de l’application s’efforce de tenir compte des variations et des complexités des connexions et des processus d’authentification unique. Cependant, une configuration peut nécessiter un dépannage supplémentaire.
+L’appli de bureau [!DNL Experience Manager] peut ne pas se connecter à votre déploiement [!DNL Adobe Experience Manager] compatible SSO (SAML). La conception de l’application s’efforce de tenir compte des variations et des complexités des connexions et des processus d’authentification unique. Cependant, sa configuration peut nécessiter certaines mesures de dépannage supplémentaires.
 
 Il arrive que le processus SAML ne revienne pas vers le chemin d’accès initialement demandé ou que la redirection finale concerne un hôte différent de celui configuré dans l’appli de bureau [!DNL Adobe Experience Manager]. Pour vérifier que ce n’est pas le cas :
 
@@ -286,9 +286,9 @@ Dans ce cas, l’approche recommandée consiste à utiliser un outil pour analys
 
 ### Problèmes de connexion lors du passage à un autre serveur {#cannot-login-cookies-issue}
 
-Après avoir utilisé un serveur [!DNL Experience Manager], lorsque vous tentez de modifier la connexion à un autre serveur, vous pouvez rencontrer des problèmes de connexion. Cela est dû à l&#39;interférence des anciens cookies dans la nouvelle authentification. Une option dans le menu principal de [!UICONTROL Clear Cookies] aide. Déconnectez-vous de la session active dans l’application et sélectionnez [!UICONTROL Clear Cookies] avant de vous connecter.
+Après avoir utilisé un serveur [!DNL Experience Manager], lorsque vous tentez de modifier la connexion à un autre serveur, vous pouvez rencontrer des problèmes de connexion. Ils résultent d’une interférence des anciens cookies avec la nouvelle authentification. Une option du menu principal de [!UICONTROL Clear Cookies] aide à résoudre le problème. Déconnectez-vous de la session active dans l’appli et sélectionnez [!UICONTROL Clear Cookies] avant de vous connecter.
 
-![Effacer les cookies lors du changement de serveur](assets/main_menu_logout_da2.png)
+![Effacez les cookies lors du changement de serveur](assets/main_menu_logout_da2.png)
 
 ## L’application ne répond pas {#unresponsive}
 
@@ -299,12 +299,12 @@ L’application risque rarement de ne plus répondre, d’afficher uniquement un
 
 Dans les deux méthodes, l’application démarre au dossier DAM racine.
 
-## Masquer les actifs expirés {#hide-expired-assets}
+## Masquer les actifs parvenus à expiration {#hide-expired-assets}
 
-Lors de la navigation dans des ressources de l&#39;interface utilisateur [!DNL Experience Manager], les ressources expirées ne s&#39;affichent pas. Pour empêcher l’affichage, la recherche et la récupération de fichiers expirés lors de la navigation dans des fichiers à partir d’une application de bureau et d’un lien d’actif, les administrateurs peuvent effectuer la configuration suivante. La configuration fonctionne pour tous les utilisateurs, quel que soit le privilège d’administrateur.
+Lors de la navigation dans des ressources de l’interface utilisateur [!DNL Experience Manager], les ressources parvenues à expiration ne s’affichent pas. Pour empêcher l’affichage, la recherche et la récupération de fichiers parvenus à expiration lors de la navigation dans des fichiers à partir d’une application de bureau et d’un lien d’actif, les administrateurs peuvent appliquer la configuration suivante. La configuration fonctionne pour tous les utilisateurs, quel que soit le privilège d’administrateur.
 
-* [Configuration dans Experience Manager 6.5 pour masquer les actifs](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#hide-expired-assets-via-acp-api) expirés.
-* [Configuration dans le Experience Manager en tant que Cloud Service pour masquer les actifs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html#hide-expired-assets-via-acp-api) expirés.
+* [Configuration dans Experience Manager 6.5 pour masquer les ressources parvenues à expiration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=fr#hide-expired-assets-via-acp-api).
+* [Configuration dans Experience Manager as a Cloud Service pour masquer les ressources parvenues à expiration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=fr#hide-expired-assets-via-acp-api).
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
