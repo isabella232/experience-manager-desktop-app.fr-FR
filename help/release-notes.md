@@ -2,13 +2,13 @@
 title: Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager]
 description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau [!DNL Adobe Experience Manager] .
 mini-toc-levels: 1
-feature: Desktop App,Release Information
+feature: Appli de bureau, Informations sur la version
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac533db59b2a5c64243b762f4b77b3148c4f1867
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Les **versions de [!DNL Experience Manager] prises en charge** sont les suivante
 
 L’appli de bureau [!DNL Adobe Experience Manager] est disponible avec les **systèmes d’exploitation** suivants :
 
-* macOS X 10.14 ou version ultérieure, avec les correctifs de bogues les plus récents. [Les ordinateurs Mac avec Apple ](https://support.apple.com/fr-fr/HT211814) siliconare ne sont pas encore pris en charge.
+* macOS X 10.14 ou version ultérieure, avec les correctifs de bogues les plus récents. [Les ordinateurs Mac avec processeurs Apple](https://support.apple.com/fr-fr/HT211814) ne sont pas encore pris en charge.
 * Windows 10 avec les derniers Service Packs et correctifs.
 
 Les **URL de téléchargement** pour les systèmes d’exploitation pris en charge sont les suivantes :
@@ -71,7 +71,7 @@ Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#what
 
 **Mise à jour dans la version v2.1.2.0 de l’application**
 
-* Une nouvelle option pour [!UICONTROL Clear Cookies] est ajoutée au menu principal de l’application. Elle permet de résoudre les potentiels problèmes de connexion, par exemple lors du changement de connexion d’un serveur à un autre. Voir [effacer les cookies avant de se connecter ](/help/troubleshoot.md#cannot-login-cookies-issue).
+* Une nouvelle option pour [!UICONTROL Clear Cookies] est ajoutée au menu principal de l’application. Elle permet de résoudre les problèmes potentiels de connexion, par exemple lors du changement de connexion d’un serveur à un autre. Voir la section [Effacer les cookies avant de se connecter](/help/troubleshoot.md#cannot-login-cookies-issue).
 
 **Mise à jour dans la version v2.1.1.0 de l’application**
 
