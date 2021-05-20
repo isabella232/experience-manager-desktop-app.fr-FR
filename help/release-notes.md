@@ -4,9 +4,8 @@ description: Détails des mises à jour, améliorations, nouvelles fonctionnalit
 mini-toc-levels: 1
 feature: Appli de bureau, Informations sur la version
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-translation-type: ht
 source-git-commit: ac533db59b2a5c64243b762f4b77b3148c4f1867
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1523'
 ht-degree: 100%
 
@@ -172,6 +171,6 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 >* Documentation d’[[!DNL Experience Manager] as a [!DNL Cloud Service] ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr)
 >* Documentation d’[[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=fr)
 >* [Comment utiliser l’appli de bureau [!DNL Experience Manager] ](using.md)
->* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
->* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
+* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
+* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
 
