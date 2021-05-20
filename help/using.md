@@ -4,9 +4,8 @@ description: Utilisez des ressources DAM d’ [!DNL Adobe Experience Manager] de
 mini-toc-levels: 1
 feature: Appli de bureau, Gestion des ressources
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-translation-type: ht
 source-git-commit: 4616934e8923693106401da008e2510310d0742a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3905'
 ht-degree: 100%
 
@@ -300,7 +299,7 @@ Pour connaître les limites de ce processus, voir la [configuration requise et l
 
 Pour tester ce processus avec une ressource d’image et InDesign, procédez comme suit :
 
-1. Conservez à portée de main un fichier INDD avec des ressources placées dans [!DNL Experience Manager]. Pour savoir comment créer un tel fichier INDD, voir [Placement de graphiques](https://helpx.adobe.com/fr/indesign/using/placing-graphics.html).
+1. Conservez à portée de main un fichier INDD avec des ressources placées dans [!DNL Experience Manager]. Pour savoir comment créer un tel fichier INDD, voir [Placement de graphiques](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 1. Depuis l’appli de bureau, exécutez l’action **[!UICONTROL Edit]** sur le fichier INDD avec les ressources placées dans [!DNL Experience Manager].
 1. L’application télécharge à la fois le fichier InDesign et les ressources liées. Lorsque InDesign ouvre le document, les liens sont résolus et les ressources sont téléchargées et s’affichent dans le document InDesign.
 1. Pour placer un nouveau graphique dans le fichier InDesign, exécutez l’action **[!UICONTROL Reveal File]** sur la ressource. L’action télécharge la ressource localement et ouvre l’emplacement du partage réseau local dans l’Explorateur Windows ou le Finder Mac.
