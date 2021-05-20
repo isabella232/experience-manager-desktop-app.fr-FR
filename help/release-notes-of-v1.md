@@ -1,14 +1,13 @@
 ---
 title: Notes de mise à jour de l’appli de bureau v1.10
 description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau AEM version 1.10.
-translation-type: ht
-source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
-workflow-type: ht
+exl-id: 886864e0-016a-4a17-b3ba-4b18a514214a
+source-git-commit: 78f18e68178f711d925d7e308822c657087d009a
+workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 100%
 
 ---
-
 
 # Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] v1.10 {#aem-desktop-app-release-notes}
 
