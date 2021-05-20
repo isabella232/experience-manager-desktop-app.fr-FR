@@ -3,9 +3,8 @@ title: Utilisation de l’appli de bureau [!DNL Experience Manager] version 1.1
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.10 et optimiser votre utilisation des ressources du bureau.
 feature: Appli de bureau, Gestion des ressources
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-translation-type: ht
 source-git-commit: 4616934e8923693106401da008e2510310d0742a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2377'
 ht-degree: 100%
 
@@ -38,7 +37,7 @@ Points de contact de l’appli de bureau ![[!DNL Experience Manager] dans le wor
 
 Points de contact de l’appli de bureau [!DNL Experience Manager] dans le workflow créatif
 
-## Installation et connexion de l’appli au serveur [!DNL Experience Manager] {#installandconnect}
+## Installation et connexion de l’appli au serveur [!DNL Experience Manager]  {#installandconnect}
 
 Pour pouvoir commencer à créer ou modifier les ressources de création, connectez l’application de bureau au serveur [!DNL Assets] pour télécharger et charger des ressources dans le référentiel. Effectuez les tâches suivantes :
 
@@ -78,7 +77,7 @@ L’application accepte des paramètres pour se connecter aux serveurs [!DNL Exp
 
 **Advanced > Manage cache (Avancé > Gérer le cache)** Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur [!DNL Assets] sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur [!DNL Experience Manager] sont conservées.
 
-### Connexion à un serveur [!DNL Experience Manager] {#connect}
+### Connexion à un serveur [!DNL Experience Manager]  {#connect}
 
 L’application prend en charge la configuration du proxy sous Mac et Windows. La configuration est lue au démarrage de l’application. Si vous modifiez les paramètres du proxy, redémarrez l’application pour que les modifications soient prises en compte.
 
@@ -94,7 +93,7 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
    ![Saisie des informations d’identification du serveur [!DNL Experience Manager] dans l’écran de connexion de l’appli de bureau [!DNL Experience Manager]](assets/login_screen_v1.png)
 
-### Activation des actions de bureau dans l’interface web d’[!DNL Experience Manager] {#desktopactions}
+### Activation des actions de bureau dans l’interface Web d’[!DNL Experience Manager]  {#desktopactions}
 
 À partir de l’interface utilisateur Assets, vous pouvez explorer l’emplacement des ressources ou extraire une ressource et l’ouvrir afin de la modifier dans votre appli de bureau. Ces options, appelées actions de bureau, ne sont pas activées par défaut. Procédez comme suit pour les activer.
 
@@ -224,7 +223,7 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 
 1. Pour archiver la ressource afin qu’elle soit disponible pour les autres utilisateurs, cliquez/appuyez sur l’icône Check-in (Archiver) dans la boîte de dialogue **Asset Info** (Informations sur les ressources).
 
-### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
+### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web  {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
 Une fois la modification des ressources effectuée, enregistrez ces dernières dans votre application de bureau. Dans le menu contextuel, sélectionnez **More Assets Info** (Autres infos sur les ressources) et cliquez ensuite sur Check-in (Archiver).
 
@@ -232,7 +231,7 @@ Les ressources sont chargées sur le serveur [!DNL Experience Manager]. Vous pou
 
 Une ressource est automatiquement chargée dans [!DNL Experience Manager] après l’enregistrement local de toutes les modifications. L’archivage rend la ressource disponible pour modification par d’autres utilisateurs d’[!DNL Experience Manager].
 
-### Transfert groupé de ressources et de dossiers vers le serveur [!DNL Experience Manager] {#bulkupload}
+### Transfert groupé de ressources et de dossiers vers le serveur [!DNL Experience Manager]  {#bulkupload}
 
 L’appli de bureau [!DNL Experience Manager] permet de télécharger un dossier entier de ressources à partir de votre répertoire de fichiers local vers [!DNL Assets]. Ainsi, toutes les ressources dans le dossier sont téléchargées en masse au lieu d’avoir à les télécharger une par une.
 
