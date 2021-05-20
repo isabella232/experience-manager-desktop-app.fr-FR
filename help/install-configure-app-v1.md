@@ -1,14 +1,13 @@
 ---
 title: Installation et configuration de l’appli de bureau v1.10
 description: Installez et configurez les serveurs [!DNL Experience Manager] desktop app version 1.10 to work with [!DNL Assets] et mappez les ressources à monter sous la forme d’un lecteur sur votre bureau.
-translation-type: ht
-source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
-workflow-type: ht
+exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
+source-git-commit: 78f18e68178f711d925d7e308822c657087d009a
+workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 100%
 
 ---
-
 
 # Installation et configuration de l’appli de bureau [!DNL Experience Manager] v1.10 {#install-and-configure-aem-desktop-app}
 
@@ -102,7 +101,7 @@ Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en
 >
 >Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur [!DNL Experience Manager] sont conservées.
 
-### Modification de l’emplacement du cache sous Windows {#change-location-of-cache-on-windows}
+### Modification de l’emplacement du cache sous Windows  {#change-location-of-cache-on-windows}
 
 L’emplacement par défaut du cache de l’appli de bureau [!DNL Experience Manager] est le suivant :
 
