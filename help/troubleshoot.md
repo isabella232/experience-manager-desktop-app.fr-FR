@@ -2,9 +2,8 @@
 title: 'Bonnes pratiques et résolution des problèmes liés à l’appli de bureau [!DNL Adobe Experience Manager] '
 description: Suivez les bonnes pratiques et les solutions de dépannage pour résoudre les problèmes occasionnels liés à l’installation, à la mise à niveau, à la configuration, etc.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-translation-type: ht
 source-git-commit: b893ad24d360ed382cab50771413219ea7bda09e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2261'
 ht-degree: 100%
 
@@ -327,5 +326,5 @@ Create Jira ticket with the following information:
 >[!MORELIKETHIS]
 >
 >* [Problèmes connus](release-notes.md#known-issues-v2)
->* [Éviter les conflits de modification](using.md#adv-workflow-collaborate-avoid-conflicts)
+* [Éviter les conflits de modification](using.md#adv-workflow-collaborate-avoid-conflicts)
 
