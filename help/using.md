@@ -4,10 +4,10 @@ description: Utilisez des ressources DAM d’ [!DNL Adobe Experience Manager] de
 mini-toc-levels: 1
 feature: Appli de bureau, Gestion des ressources
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: bc938588d0d54a6f3b8b85e0d4097104f9df46c9
+source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
 workflow-type: tm+mt
-source-wordcount: '3923'
-ht-degree: 98%
+source-wordcount: '3999'
+ht-degree: 96%
 
 ---
 
@@ -175,9 +175,19 @@ Si nécessaire, activez l’extraction. La ressource mise à jour est supprimée
 
 ## Charger et ajouter de nouvelles ressources dans [!DNL Experience Manager] {#upload-and-add-new-assets-to-aem}
 
-Les utilisateurs peuvent ajouter de nouvelles ressources au référentiel DAM. Par exemple, vous êtes un photographe d’agence ou un indépendant souhaitant ajouter au référentiel [!DNL Experience Manager] un grand nombre de photos d’une séance photo. Pour ajouter du contenu nouveau à [!DNL Experience Manager], sélectionnez ![option Upload to cloud](assets/do-not-localize/upload_to_cloud_da2.png) dans la barre supérieure de l’application. Accédez aux fichiers de ressources dans le système de fichiers local et cliquez sur **[!UICONTROL Select]**. Vous pouvez également charger des ressources en faisant glisser les fichiers ou les dossiers sur l’interface de l’application. Sous Windows, si vous faites glisser des ressources sur un dossier de l’application, elles sont chargées dans le dossier.
+Les utilisateurs peuvent ajouter de nouvelles ressources au référentiel DAM. Par exemple, vous êtes un photographe d’agence ou un indépendant souhaitant ajouter au référentiel [!DNL Experience Manager] un grand nombre de photos d’une séance photo. Pour ajouter du contenu nouveau à [!DNL Experience Manager], sélectionnez ![option Upload to cloud](assets/do-not-localize/upload_to_cloud_da2.png) dans la barre supérieure de l’application. Accédez aux fichiers de ressources dans le système de fichiers local et cliquez sur **[!UICONTROL Select]**. Vous pouvez également charger des ressources en faisant glisser les fichiers ou les dossiers sur l’interface de l’application. Sous Windows, si vous faites glisser des ressources sur un dossier de l’application, elles sont chargées dans le dossier. Si le chargement prend plus de temps, l’application affiche une barre de progression.
 
-Si le chargement prend plus de temps, l’application affiche une barre de progression en bas. N’utilisez pas d’espaces blancs ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères autorisés dans la section [Création de dossiers dans [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=fr#creating-folders).
+Lors de l’attribution d’un nom aux fichiers et aux dossiers, n’utilisez pas les caractères suivants (liste de caractères séparés par des espaces) :
+
+* dans les noms de fichier `\\`.
+
+   Les caractères `# % { } ? & . / : [ | ] *` sont remplacés par un tiret dans les noms de noeud créés dans [!DNL Adobe Experience Manager] ; mais les espaces et la casse sont conservés.
+
+* dans les noms de dossier `\\ \t &`.
+
+   Les espaces et les caractères `% ; # , + ? ^ { } " . / : [ ] | *` dans les noms de dossier sont remplacés par des tirets dans les chemins de dossier dans les noms de noeud créés dans [!DNL Adobe Experience Manager]. En outre, les caractères majuscules sont convertis en minuscules dans les chemins d’accès aux dossiers.
+
+Cependant, si [!UICONTROL Use legacy conventions when creating nodes for assets and folders] est activé dans [!UICONTROL Preferences], l’application reproduit le comportement de l’application v1.10 lors du chargement de dossiers. Dans la version 1.10, les noms de nœuds créés dans le référentiel respectent les espaces et la casse des noms de dossier fournis par l’utilisateur. Pour plus d’informations, voir [Préférences de l’application](/help/install-upgrade.md#set-preferences).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
