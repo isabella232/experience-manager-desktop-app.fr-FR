@@ -7,7 +7,7 @@ exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
 workflow-type: tm+mt
 source-wordcount: '1649'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -88,7 +88,7 @@ Le bogue corrigé dans la version actuelle est le suivant :
 
 **Mise à jour dans la version v2.1.0.0 de l’application**
 
-* Pour charger des fichiers, les utilisateurs peuvent désormais faire glisser les fichiers ou les dossiers sur l’interface de l’application, directement depuis l’Explorateur Windows ou le Finder Mac. Cela s’ajoute à l’option de téléchargement disponible dans l’application. Voir [Chargement de ressources](/help/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
+* Pour charger des ressources, les utilisateurs peuvent désormais faire glisser les fichiers ou les dossiers sur l’interface de l’application, directement depuis l’Explorateur Windows ou le Finder Mac. Cette opération s’ajoute à l’option de chargement disponible dans l’application. Consultez [Chargement de ressources](/help/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
 **Mise à jour dans la version v2.0.3 de l’application**
 
@@ -179,6 +179,6 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 >* Documentation d’[[!DNL Experience Manager] as a [!DNL Cloud Service] ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr)
 >* Documentation d’[[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=fr)
 >* [Comment utiliser l’appli de bureau [!DNL Experience Manager] ](using.md)
-* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
+* [Installation et mise à niveau de l’appli de bureau](install-upgrade.md)
 * [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
 
