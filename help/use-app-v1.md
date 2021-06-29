@@ -3,10 +3,10 @@ title: Utilisation de l’appli de bureau [!DNL Experience Manager] version 1.1
 description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.10 et optimiser votre utilisation des ressources du bureau.
 feature: Appli de bureau, Gestion des ressources
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-source-git-commit: 4616934e8923693106401da008e2510310d0742a
+source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
 workflow-type: tm+mt
-source-wordcount: '2377'
-ht-degree: 100%
+source-wordcount: '2371'
+ht-degree: 99%
 
 ---
 
@@ -102,11 +102,11 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
    ![[!DNL Experience Manager] Interface avec les préférences utilisateur](assets/aem_ui_user_preferences.png)
 
-1. Dans la boîte de dialogue Préférences utilisateur, sélectionnez **[!UICONTROL Show Desktop Actions For Assets]**. Cliquez sur **[!UICONTROL Accept]**.
+1. Dans la boîte de dialogue [!UICONTROL User Preferences], sélectionnez **[!UICONTROL Show Desktop Actions For Assets]**, puis cliquez sur **[!UICONTROL Accept]**.
 
    ![Cocher la case [!UICONTROL Show Desktop Actions For Assets] pour activer les actions de bureau](assets/enable_desktop_actions.png)
 
-   *Figure : Activation de la case à cocher Afficher les actions de bureau pour Assets afin d’activer les actions de bureau.*
+   *Figure : Cochez  [!UICONTROL Show Desktop Actions For Assets] la case pour activer les actions de bureau.*
 
 ## Accès aux ressources et ouverture de ces éléments sur votre bureau {#openondesktop}
 
@@ -131,7 +131,7 @@ Pour les fichiers Adobe InDesign (INDD), sélectionnez **[!UICONTROL Open]** da
 >
 >Adobe recommande d’accéder aux options de présentation du Finder sous Mac et de désactiver les options **Afficher les informations**, **Utiliser un aperçu comme icône** et **Afficher la colonne d’aperçu** pour le dossier [!DNL Assets] monté. Cela améliore les performances.
 
-### Autres options de l’interface [!DNL Experience Manager] {#additional-options-in-aem-assets}
+### Autres options de l’interface [!DNL Experience Manager]  {#additional-options-in-aem-assets}
 
 Après avoir mappé le référentiel [!DNL Assets] sur votre lecteur local, vous pouvez activer des icônes supplémentaires, ainsi que la fonction de téléchargement de dossiers, afin qu’elles s’affichent pour les ressources et les dossiers mappés.
 
@@ -159,7 +159,7 @@ Pour localiser la ressource sur votre système de fichiers local, cliquez sur l�
 
 ## Utilisation de vos ressources {#workonassets}
 
-### Extraction de ressources à partir de l’interface web d’[!DNL Experience Manager] {#check-out-assets-from-the-aem-web-interface}
+### Extraction de ressources à partir de l’interface web d’[!DNL Experience Manager]  {#check-out-assets-from-the-aem-web-interface}
 
 [!DNL Assets] permet d’extraire des ressources pour les modifier et de les ré-archiver après y avoir apporté les modifications. Après avoir extrait une ressource, vous seul pouvez la modifier, l’annoter, la publier, la déplacer ou la supprimer. Le fait d’extraire une ressource entraîne son verrouillage et empêche les autres utilisateurs d’effectuer l’une de ces opérations. Vous avez besoin d’un accès en écriture à ces ressources pour être en mesure de les extraire ou de les archiver.
 
@@ -223,7 +223,7 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 
 1. Pour archiver la ressource afin qu’elle soit disponible pour les autres utilisateurs, cliquez/appuyez sur l’icône Check-in (Archiver) dans la boîte de dialogue **Asset Info** (Informations sur les ressources).
 
-### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web  {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
+### Archivage d’une ressource à l’aide du Finder ou de l’Explorateur et en utilisant l’interface web {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
 Une fois la modification des ressources effectuée, enregistrez ces dernières dans votre application de bureau. Dans le menu contextuel, sélectionnez **More Assets Info** (Autres infos sur les ressources) et cliquez ensuite sur Check-in (Archiver).
 
