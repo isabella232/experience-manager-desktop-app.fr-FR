@@ -2,14 +2,14 @@
 title: 'Bonnes pratiques et résolution des problèmes liés à l’appli de bureau [!DNL Adobe Experience Manager] '
 description: Suivez les bonnes pratiques et les solutions de dépannage pour résoudre les problèmes occasionnels liés à l’installation, à la mise à niveau, à la configuration, etc.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: b893ad24d360ed382cab50771413219ea7bda09e
+source-git-commit: db5aaf7127b94879cb24842fb41b55c099d6221d
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 100%
+source-wordcount: '2260'
+ht-degree: 99%
 
 ---
 
-# Résolution des problèmes liés à l’appli de bureau [!DNL Adobe Experience Manager] {#troubleshoot-v2}
+# Résolution des problèmes liés à l’appli de bureau [!DNL Adobe Experience Manager]  {#troubleshoot-v2}
 
 L’appli de bureau [!DNL Adobe Experience Manager] se connecte au référentiel de gestion des actifs numériques (DAM) d’un déploiement [!DNL Experience Manager]. L’appli récupère les informations du référentiel et les résultats de la recherche sur votre ordinateur, télécharge et charge les fichiers et les dossiers, et inclut des fonctionnalités de gestion des conflits avec l’interface utilisateur d’Assets.
 
@@ -107,7 +107,7 @@ Pour activer le mode de débogage sous Windows :
 
 `AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
-### Connaître la version de l’appli de bureau [!DNL Adobe Experience Manager] {#know-app-version-v2}
+### Connaître la version de l’appli de bureau [!DNL Adobe Experience Manager]  {#know-app-version-v2}
 
 Pour afficher le numéro de version :
 
@@ -159,7 +159,7 @@ Si vous ne pouvez pas voir les ressources que vous ou d’autres professionnels 
 
 * Autorisations. Pour vérifier que vous êtes autorisé à récupérer les ressources placées, contactez votre administrateur [!DNL Experience Manager].
 
-### Les modifications apportées aux fichiers de l’interface utilisateur de l’appli de bureau ne sont pas répercutées immédiatement dans [!DNL Adobe Experience Manager] {#changes-on-da-not-visible-on-aem}
+### Les modifications apportées aux fichiers de l’interface utilisateur de l’appli de bureau ne sont pas répercutées immédiatement dans [!DNL Adobe Experience Manager]  {#changes-on-da-not-visible-on-aem}
 
 L’appli de bureau [!DNL Adobe Experience Manager] laisse à l’utilisateur le soin de décider le moment où toutes les modifications apportées à un fichier sont terminées. Selon la taille et la complexité d’un fichier, le transfert de la nouvelle version d’un fichier vers [!DNL Adobe Experience Manager] prend beaucoup de temps. La conception de l’application prévoit de réduire au minimum le nombre de transferts d’un fichier dans un sens et dans l’autre, plutôt que de deviner à quel moment les modifications du fichier sont terminées et téléchargées automatiquement. Il est conseillé à l’utilisateur de déclencher le transfert de retour du fichier vers [!DNL Adobe Experience Manager] en choisissant de télécharger les modifications d’un fichier.
 
@@ -182,7 +182,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 Si vous utilisez l’appli de bureau [!DNL Experience Manager] en version 6.5.1 ou ultérieure, mettez à niveau le connecteur Azure ou S3 vers la version 1.10.4 ou ultérieure. Cela aura pour effet de résoudre le problème d’échec de chargement de fichier lié à [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). Voir [Instructions d’installation](install-upgrade.md#install-v2).
 
-## Problèmes de connexion à l’appli de bureau [!DNL Experience Manager] {#connection-issues}
+## Problèmes de connexion à l’appli de bureau [!DNL Experience Manager]  {#connection-issues}
 
 Si vous rencontrez des problèmes généraux de connectivité, il existe un certain nombre de méthodes pour obtenir davantage d’informations sur ce que fait l’appli de bureau [!DNL Experience Manager].
 
@@ -190,7 +190,7 @@ Si vous rencontrez des problèmes généraux de connectivité, il existe un cert
 
 L’appli de bureau [!DNL Experience Manager] consigne dans un fichier journal dédié toutes les requêtes qu’elle envoie, ainsi que le code de réponse de chacune d’elles.
 
-1. Ouvrez le répertoire des journaux de l’application `request.log` pour afficher ces requêtes.
+1. Ouvrez `request.log` dans le répertoire des journaux de l’application pour afficher ces requêtes.
 
 1. Chaque ligne du journal représente une requête ou une réponse. Les requêtes contiennent un caractère `>`, suivi de l’URL demandée. Les réponses contiennent un caractère `<`, suivi du code de réponse et de l’URL demandée. Les demandes et les réponses peuvent être corrélées à l’aide de l’identifiant unique (GUID) de chaque ligne.
 
