@@ -4,14 +4,14 @@ description: Utilisez des ressources DAM d’ [!DNL Adobe Experience Manager] de
 mini-toc-levels: 1
 feature: Appli de bureau, Gestion des ressources
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: 7c413be995ef087fab75114d65e87f6936c8e021
+source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4053'
 ht-degree: 95%
 
 ---
 
-# Utilisation de l’appli de bureau [!DNL Adobe Experience Manager] {#use-aem-desktop-app-v2}
+# Utilisation de l’appli de bureau[!DNL Adobe Experience Manager] {#use-aem-desktop-app-v2}
 
 Utilisez l’appli de bureau [!DNL Adobe Experience Manager] pour accéder facilement aux ressources numériques stockées dans le référentiel DAM d’[!DNL Adobe Experience Manager] situé sur votre poste de travail local et pour pouvoir les utiliser dans n’importe quelle application de bureau. Vous pouvez ouvrir les ressources dans des applications de bureau et les modifier localement, puis charger les modifications dans [!DNL Experience Manager] avec contrôle de version pour partager les mises à jour avec d’autres utilisateurs. Vous pouvez également charger de nouveaux fichiers et des hiérarchies de dossiers vers [!DNL Experience Manager], créer des dossiers et supprimer des ressources ou des dossiers dans le DAM d’[!DNL Experience Manager].
 
@@ -58,14 +58,14 @@ Avant de commencer à utiliser l’application, vous devez comprendre le [Foncti
 
 * **[!UICONTROL Upload Changes]** : l’appli de bureau ne charge la ressource mise à jour que si vous la chargez explicitement sur le serveur [!DNL Experience Manager]. Lorsque vous enregistrez vos modifications, celles-ci ne sont enregistrées que sur votre ordinateur local. Lorsque vous chargez la ressource, elle est automatiquement archivée et l’icône de verrouillage disparaît. Voir [Modification de ressources](using.md#edit-assets-upload-updated-assets).
 
-## Activation des actions de bureau dans l’interface Web d’[!DNL Experience Manager] {#desktopactions-v2}
+## Activation des actions de bureau dans l’interface Web d’[!DNL Experience Manager]  {#desktopactions-v2}
 
 À partir de l’interface utilisateur d’[!DNL Assets] ouverte dans un navigateur, vous pouvez explorer l’emplacement des ressources ou extraire et ouvrir une ressource pour la modifier dans votre appli de bureau. Ces options, qui sont appelées [!UICONTROL Desktop Actions], ne sont pas activées par défaut. Pour les activer, procédez comme suit.
 
 1. Dans la console [!DNL Assets], cliquez sur l’icône **[!UICONTROL User]** dans la barre d’outils.
 1. Cliquez sur **[!UICONTROL My Preferences]** pour afficher la boîte de dialogue **[!UICONTROL Preferences]**.
 
-1. Dans la boîte de dialogue Préférences utilisateur, sélectionnez **[!UICONTROL Show Desktop Actions For Assets]**. Cliquez sur **[!UICONTROL Accept]**.
+1. Dans la boîte de dialogue [!UICONTROL User Preferences], sélectionnez **[!UICONTROL Show Desktop Actions For Assets]**, puis cliquez sur **[!UICONTROL Accept]**.
 
 
    ![Sélectionnez Afficher les actions de bureau pour Assets afin d’activer les actions de bureau](assets/enable_desktop_actions.png)
@@ -303,7 +303,7 @@ Après le chargement, si les modifications attendues ne sont pas répercutées d
 
 Pour afficher la liste des ressources transférées au cours d’une session donnée, consultez [Chargement de ressources dans [!DNL Experience Manager]](#upload-and-add-new-assets-to-aem).
 
-## Processus avancé : démarrez à partir de l’interface web d’[!DNL Assets] {#adv-workflow-start-from-aem-ui}
+## Processus avancé : démarrez à partir de l’interface web d’[!DNL Assets]  {#adv-workflow-start-from-aem-ui}
 
 Si nécessaire, lancez votre processus à partir de l’interface web d’Assets. L’appli de bureau s’intègre à [!DNL Experience Manager] pour prendre le relais si nécessaire à l’aide des actions de bureau.
 
