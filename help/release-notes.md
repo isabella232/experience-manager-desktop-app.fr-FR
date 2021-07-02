@@ -5,15 +5,15 @@ mini-toc-levels: 1
 feature: Appli de bureau, Informations sur la version
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: d642a33c8e8c2f771a6f996a76167b7f6e42c1ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1649'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour de l’application de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-Les informations de mise à jour de la dernière version de l’appli de bureau 2.1 (2.1.3.1) sont les suivantes. La date de publication est le 8 juin 2021.
+Les informations de mise à jour de la dernière version de l’appli de bureau 2.1 (2.1.3.1) sont les suivantes. La date de publication est le 8 juin 2021.
 
 Les **versions de [!DNL Experience Manager] prises en charge** sont les suivantes :
 
@@ -72,15 +72,15 @@ Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#what
 
 Le bogue corrigé dans la version actuelle est le suivant :
 
-* La vitesse de chargement et de téléchargement des ressources a été améliorée, même avec les ressources volumineuses. Correction d’un problème en raison duquel les chargements de ressources avec [!DNL desktop app] échouaient de plus en plus lorsque des fichiers volumineux étaient chargés.
+* Les vitesse de chargement et de téléchargement des ressources ont été améliorées, même pour les ressources volumineuses. Correction d’un problème en raison duquel les chargements de ressources avec [!DNL desktop app] échouaient de plus en plus souvent lorsque des fichiers volumineux étaient chargés.
 
 **Mise à jour dans la version v2.1.2.0 de l’application**
 
 * Une nouvelle option pour [!UICONTROL Clear Cookies] est ajoutée au menu principal de l’application. Elle permet de résoudre les problèmes potentiels de connexion, par exemple lors du changement de connexion d’un serveur à un autre. Voir la section [Effacer les cookies avant de se connecter](/help/troubleshoot.md#cannot-login-cookies-issue).
 
-* Une option est ajoutée. Si cette option est sélectionnée, elle permet à l’application de charger des dossiers et des fichiers de sorte que leurs noms de noeud créés dans [!DNL Adobe Experience Manager] soient identiques à ceux des fichiers et des dossiers locaux.
+* Une option est ajoutée pour permettre à l’application de charger des dossiers et des fichiers de sorte que leurs noms de nœud créés dans [!DNL Adobe Experience Manager] soient identiques à ceux des fichiers et des dossiers locaux.
 
-   Ce comportement est similaire au comportement par défaut dans la version 1 de l’appli de bureau. En revanche, dans la version actuelle, si l’option n’est pas activée, les espaces et les caractères `% ; # , + ? ^ { } "` dans les noms de dossier sont remplacés par des tirets dans les chemins de dossier. En outre, les caractères majuscules sont convertis en minuscules dans les chemins d’accès aux dossiers. Toutefois, dans les noms de fichier, les caractères `# % { } ? &` sont remplacés par un tiret ; mais les espaces et la casse sont conservés. Pour plus d’informations, voir [Préférences de l’application](/help/install-upgrade.md#set-preferences) et [Télécharger et ajouter de nouvelles ressources](/help/using.md#upload-and-add-new-assets-to-aem).
+   Ce comportement est similaire au comportement par défaut dans la version 1 de l’appli de bureau. En revanche, dans la version actuelle, si cette option n’est pas activée, les espaces et les caractères `% ; # , + ? ^ { } "` dans les noms de dossier sont remplacés par des tirets dans les chemins de dossier. En outre, les caractères majuscules sont convertis en minuscules dans les chemins d’accès aux dossiers. Toutefois, dans les noms de fichier, les caractères `# % { } ? &` sont remplacés par un tiret ; cependant, les espaces et la casse sont conservés. Pour plus d’informations, consultez les [Préférences de l’application](/help/install-upgrade.md#set-preferences) et [Chargement et ajout de nouvelles ressources](/help/using.md#upload-and-add-new-assets-to-aem).
 
 **Mise à jour dans la version v2.1.1.0 de l’application**
 
@@ -92,7 +92,7 @@ Le bogue corrigé dans la version actuelle est le suivant :
 
 **Mise à jour dans la version v2.0.3 de l’application**
 
-Le bogue corrigé dans cette version est le suivant :
+Le bogue corrigé dans cette version est le suivant :
 
 * Correction du problème de connexion des utilisateurs de l’applications sous Windows qui tentaient d’accéder au référentiel DAM sur [!DNL Adobe Experience Manager] 6.5.5.0.
 
