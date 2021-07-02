@@ -7,7 +7,7 @@ exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
 workflow-type: tm+mt
 source-wordcount: '4053'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -194,11 +194,11 @@ Vous pouvez contrôler la simultanéité du chargement (accélération) dans **[
 
 ### Gestion des caractères spéciaux dans les noms de ressources {#special-characters-in-filename}
 
-Dans l’application héritée, les noms de noeud créés dans le référentiel conservaient les espaces et la casse des noms de dossier fournis par l’utilisateur. Pour que l’application actuelle émule les règles de nommage de noeud de l’application v1.10, activez [!UICONTROL Use legacy conventions when creating nodes for assets and folders] dans la balise [!UICONTROL Preferences]. Voir [préférences de l’application](/help/install-upgrade.md#set-preferences). Cette préférence héritée est désactivée par défaut.
+Dans l’application héritée, les noms de nœuds créés dans le référentiel conservaient les espaces et la casse des noms de dossier fournis par l’utilisateur. Pour que l’application actuelle émule les règles de nommage de nœud de l’application v1.10, activez [!UICONTROL Use legacy conventions when creating nodes for assets and folders] dans la balise [!UICONTROL Preferences]. Consultez [Préférences de l’application](/help/install-upgrade.md#set-preferences). Cette préférence héritée est désactivée par défaut.
 
 >[!NOTE]
 >
->L’application modifie uniquement les noms de noeud dans le référentiel à l’aide des conventions d’affectation de nom suivantes. L’application conserve la ressource `Title` telle quelle.
+>L’application modifie uniquement les noms de nœud dans le référentiel à l’aide des conventions d’affectation de nom suivantes. L’application conserve la ressource `Title` telle quelle.
 
 <!-- TBD: Do NOT use this table.
 
@@ -214,15 +214,15 @@ Dans l’application héritée, les noms de noeud créés dans le référentiel 
 | Folder name | Uppercase characters | Disabled | Replaced with a `-` (hyphen) | tbd |
 -->
 
-| Caractères ‡ | Préférence héritée dans l’application | Lorsque des noms de fichier se produisent | Lorsque vous vous trouvez dans des noms de dossier | Exemple |
+| Caractères* | Préférence héritée dans l’application | Pour les noms de fichier | Pour les noms de dossier | Exemple |
 |---|---|---|---|---|
-| `. / : [ ] | *` | Activé ou désactivé | Remplacé par `-` (trait d’union). Un `.` (point) dans l’extension du nom de fichier est conservé tel quel. | Remplacé par `-` (trait d’union). | `myimage.jpg` reste en l’état et  `my.image.jpg` change en  `my-image.jpg`. |
-| `% ; # , + ? ^ { } "` et espaces blancs | ![désélectionner ](assets/do-not-localize/deselect-icon.png) iconDisabled | Les espaces sont conservés | Remplacé par `-` (trait d’union). | `My Folder.` modifications apportées à  `my-folder-`. |
-| `# % { } ? & .` | ![désélectionner ](assets/do-not-localize/deselect-icon.png) iconDisabled | Remplacé par `-` (trait d’union). | NA. | `#My New File.` modifications apportées à  `-My New File-`. |
-| Caractères majuscules | ![désélectionner ](assets/do-not-localize/deselect-icon.png) iconDisabled | Le crénelage est conservé tel quel. | Remplacé par des caractères minuscules. | `My New Folder` modifications apportées à  `my-new-folder`. |
-| Caractères majuscules | ![sélection cochée ](assets/do-not-localize/selection-checked-icon.png) iconEnabled | Le crénelage est conservé tel quel. | Le crénelage est conservé tel quel. | NA. |
+| `. / : [ ] | *` | Activé ou désactivé | Remplacé par `-` (trait d’union). Un `.` (point) dans l’extension du nom de fichier est conservé tel quel. | Remplacé par `-` (trait d’union). | `myimage.jpg` reste en l’état et `my.image.jpg` est remplacé par `my-image.jpg`. |
+| `% ; # , + ? ^ { } "` et espaces blancs | ![Icône Désélectionné](assets/do-not-localize/deselect-icon.png) Désactivé | Les espaces sont conservés | Remplacé par `-` (trait d’union). | `My Folder.` remplacé par `my-folder-`. |
+| `# % { } ? & .` | ![Icône Désélectionné](assets/do-not-localize/deselect-icon.png) Désactivé | Remplacé par `-` (trait d’union). | NA. | `#My New File.` remplacé par `-My New File-`. |
+| Caractères en majuscule | ![Icône Désélectionné](assets/do-not-localize/deselect-icon.png) Désactivé | La casse est conservée telle quelle. | Remplacé par des caractères minuscules. | `My New Folder` remplacé par `my-new-folder`. |
+| Caractères en majuscule | ![Icône Sélection cochée](assets/do-not-localize/selection-checked-icon.png) Activé | La casse est conservée telle quelle. | La casse est conservée telle quelle. | NA. |
 
-‡ La liste des caractères est une liste séparée par des espaces.
+*La liste des caractères est une liste séparée par des espaces.
 
 <!-- TBD: Check if the following is to be included in the footnote.
 
