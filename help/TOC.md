@@ -7,8 +7,8 @@ breadcrumb-title: Guide de l’application de bureau
 user-guide-description: Découvrez comment utiliser l’application de bureau Experience Manager pour connecter des référentiels et des applications de bureau afin d’accéder plus rapidement aux ressources et aux workflows simplifiés.
 feature-set: Experience Manager Assets,Experience Manager
 feature: Application de bureau
-role: Business Practitioner, Administrator
-source-git-commit: 4616934e8923693106401da008e2510310d0742a
+role: User, Admin
+source-git-commit: b661fedb6e33599921d39c0597c7d9f8e576798b
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 100%
