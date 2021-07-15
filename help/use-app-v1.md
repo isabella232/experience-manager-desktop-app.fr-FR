@@ -4,9 +4,9 @@ description: Découvrez comment utiliser l’appli de bureau Adobe Experience 
 feature: Appli de bureau, Gestion des ressources
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
 source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2371'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Points de contact de l’appli de bureau ![[!DNL Experience Manager] dans le wor
 
 Points de contact de l’appli de bureau [!DNL Experience Manager] dans le workflow créatif
 
-## Installation et connexion de l’appli au serveur [!DNL Experience Manager]  {#installandconnect}
+## Installation et connexion de l’appli au serveur [!DNL Experience Manager] {#installandconnect}
 
 Pour pouvoir commencer à créer ou modifier les ressources de création, connectez l’application de bureau au serveur [!DNL Assets] pour télécharger et charger des ressources dans le référentiel. Effectuez les tâches suivantes :
 
@@ -77,7 +77,7 @@ L’application accepte des paramètres pour se connecter aux serveurs [!DNL Exp
 
 **Advanced > Manage cache (Avancé > Gérer le cache)** Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur [!DNL Assets] sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les paramètres par défaut pour répondre à vos besoins. Vous pouvez effacer le cache pour récupérer à nouveau toutes les ressources. Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur [!DNL Experience Manager] sont conservées.
 
-### Connexion à un serveur [!DNL Experience Manager]  {#connect}
+### Connexion à un serveur [!DNL Experience Manager] {#connect}
 
 L’application prend en charge la configuration du proxy sous Mac et Windows. La configuration est lue au démarrage de l’application. Si vous modifiez les paramètres du proxy, redémarrez l’application pour que les modifications soient prises en compte.
 
@@ -93,7 +93,7 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
    ![Saisie des informations d’identification du serveur [!DNL Experience Manager] dans l’écran de connexion de l’appli de bureau [!DNL Experience Manager]](assets/login_screen_v1.png)
 
-### Activation des actions de bureau dans l’interface Web d’[!DNL Experience Manager]  {#desktopactions}
+### Activation des actions de bureau dans l’interface Web d’[!DNL Experience Manager] {#desktopactions}
 
 À partir de l’interface utilisateur Assets, vous pouvez explorer l’emplacement des ressources ou extraire une ressource et l’ouvrir afin de la modifier dans votre appli de bureau. Ces options, appelées actions de bureau, ne sont pas activées par défaut. Procédez comme suit pour les activer.
 
@@ -106,7 +106,7 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
    ![Cocher la case [!UICONTROL Show Desktop Actions For Assets] pour activer les actions de bureau](assets/enable_desktop_actions.png)
 
-   *Figure : Cochez  [!UICONTROL Show Desktop Actions For Assets] la case pour activer les actions de bureau.*
+   *Figure : cochez la case [!UICONTROL Show Desktop Actions For Assets] pour activer les actions de bureau.*
 
 ## Accès aux ressources et ouverture de ces éléments sur votre bureau {#openondesktop}
 
@@ -131,7 +131,7 @@ Pour les fichiers Adobe InDesign (INDD), sélectionnez **[!UICONTROL Open]** da
 >
 >Adobe recommande d’accéder aux options de présentation du Finder sous Mac et de désactiver les options **Afficher les informations**, **Utiliser un aperçu comme icône** et **Afficher la colonne d’aperçu** pour le dossier [!DNL Assets] monté. Cela améliore les performances.
 
-### Autres options de l’interface [!DNL Experience Manager]  {#additional-options-in-aem-assets}
+### Autres options de l’interface [!DNL Experience Manager] {#additional-options-in-aem-assets}
 
 Après avoir mappé le référentiel [!DNL Assets] sur votre lecteur local, vous pouvez activer des icônes supplémentaires, ainsi que la fonction de téléchargement de dossiers, afin qu’elles s’affichent pour les ressources et les dossiers mappés.
 
@@ -159,7 +159,7 @@ Pour localiser la ressource sur votre système de fichiers local, cliquez sur l�
 
 ## Utilisation de vos ressources {#workonassets}
 
-### Extraction de ressources à partir de l’interface web d’[!DNL Experience Manager]  {#check-out-assets-from-the-aem-web-interface}
+### Extraction de ressources à partir de l’interface web d’[!DNL Experience Manager] {#check-out-assets-from-the-aem-web-interface}
 
 [!DNL Assets] permet d’extraire des ressources pour les modifier et de les ré-archiver après y avoir apporté les modifications. Après avoir extrait une ressource, vous seul pouvez la modifier, l’annoter, la publier, la déplacer ou la supprimer. Le fait d’extraire une ressource entraîne son verrouillage et empêche les autres utilisateurs d’effectuer l’une de ces opérations. Vous avez besoin d’un accès en écriture à ces ressources pour être en mesure de les extraire ou de les archiver.
 
@@ -231,7 +231,7 @@ Les ressources sont chargées sur le serveur [!DNL Experience Manager]. Vous pou
 
 Une ressource est automatiquement chargée dans [!DNL Experience Manager] après l’enregistrement local de toutes les modifications. L’archivage rend la ressource disponible pour modification par d’autres utilisateurs d’[!DNL Experience Manager].
 
-### Transfert groupé de ressources et de dossiers vers le serveur [!DNL Experience Manager]  {#bulkupload}
+### Transfert groupé de ressources et de dossiers vers le serveur [!DNL Experience Manager] {#bulkupload}
 
 L’appli de bureau [!DNL Experience Manager] permet de télécharger un dossier entier de ressources à partir de votre répertoire de fichiers local vers [!DNL Assets]. Ainsi, toutes les ressources dans le dossier sont téléchargées en masse au lieu d’avoir à les télécharger une par une.
 
