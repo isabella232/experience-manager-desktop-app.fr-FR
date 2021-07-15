@@ -5,13 +5,13 @@ mini-toc-levels: 1
 feature: Appli de bureau, Gestion des ressources
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4053'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Utilisation de l’appli de bureau[!DNL Adobe Experience Manager] {#use-aem-desktop-app-v2}
+# Utilisation de l’appli de bureau [!DNL Adobe Experience Manager] {#use-aem-desktop-app-v2}
 
 Utilisez l’appli de bureau [!DNL Adobe Experience Manager] pour accéder facilement aux ressources numériques stockées dans le référentiel DAM d’[!DNL Adobe Experience Manager] situé sur votre poste de travail local et pour pouvoir les utiliser dans n’importe quelle application de bureau. Vous pouvez ouvrir les ressources dans des applications de bureau et les modifier localement, puis charger les modifications dans [!DNL Experience Manager] avec contrôle de version pour partager les mises à jour avec d’autres utilisateurs. Vous pouvez également charger de nouveaux fichiers et des hiérarchies de dossiers vers [!DNL Experience Manager], créer des dossiers et supprimer des ressources ou des dossiers dans le DAM d’[!DNL Experience Manager].
 
@@ -58,7 +58,7 @@ Avant de commencer à utiliser l’application, vous devez comprendre le [Foncti
 
 * **[!UICONTROL Upload Changes]** : l’appli de bureau ne charge la ressource mise à jour que si vous la chargez explicitement sur le serveur [!DNL Experience Manager]. Lorsque vous enregistrez vos modifications, celles-ci ne sont enregistrées que sur votre ordinateur local. Lorsque vous chargez la ressource, elle est automatiquement archivée et l’icône de verrouillage disparaît. Voir [Modification de ressources](using.md#edit-assets-upload-updated-assets).
 
-## Activation des actions de bureau dans l’interface Web d’[!DNL Experience Manager]  {#desktopactions-v2}
+## Activation des actions de bureau dans l’interface Web d’[!DNL Experience Manager] {#desktopactions-v2}
 
 À partir de l’interface utilisateur d’[!DNL Assets] ouverte dans un navigateur, vous pouvez explorer l’emplacement des ressources ou extraire et ouvrir une ressource pour la modifier dans votre appli de bureau. Ces options, qui sont appelées [!UICONTROL Desktop Actions], ne sont pas activées par défaut. Pour les activer, procédez comme suit.
 
@@ -128,7 +128,7 @@ Cliquez sur **[!UICONTROL Open]** dans le menu de ressource. La ressource est t�
 
 Pour ouvrir le dossier de téléchargement local d’une ressource, cliquez sur ![Icône More actions](assets/do-not-localize/more2_da2.png), puis sur l’action ![Icône Afficher](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]**.
 
-## Utiliser ou placez des ressources dans des documents natifs {#place-assets-in-native-documents}
+## Utiliser ou placer des ressources dans des documents natifs {#place-assets-in-native-documents}
 
 Dans certains cas (par exemple, lorsque vous importez un fichier dans un document natif), vous accédez à un fichier dans l’Explorateur Windows ou le Finder Mac. Pour accéder à l’emplacement de système de fichiers du fichier téléchargé localement, utilisez l’option ![Icône Afficher](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]**.
 
@@ -303,7 +303,7 @@ Après le chargement, si les modifications attendues ne sont pas répercutées d
 
 Pour afficher la liste des ressources transférées au cours d’une session donnée, consultez [Chargement de ressources dans [!DNL Experience Manager]](#upload-and-add-new-assets-to-aem).
 
-## Processus avancé : démarrez à partir de l’interface web d’[!DNL Assets]  {#adv-workflow-start-from-aem-ui}
+## Processus avancé : démarrez à partir de l’interface web d’[!DNL Assets] {#adv-workflow-start-from-aem-ui}
 
 Si nécessaire, lancez votre processus à partir de l’interface web d’Assets. L’appli de bureau s’intègre à [!DNL Experience Manager] pour prendre le relais si nécessaire à l’aide des actions de bureau.
 
@@ -366,7 +366,7 @@ Pour connaître les limites de ce processus, voir la [configuration requise et l
 
 Pour tester ce processus avec une ressource d’image et InDesign, procédez comme suit :
 
-1. Conservez à portée de main un fichier INDD avec des ressources placées dans [!DNL Experience Manager]. Pour savoir comment créer un tel fichier INDD, voir [Placement de graphiques](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+1. Conservez à portée de main un fichier INDD avec des ressources placées dans [!DNL Experience Manager]. Pour savoir comment créer un tel fichier INDD, voir [Placement de graphiques](https://helpx.adobe.com/fr/indesign/using/placing-graphics.html).
 1. Depuis l’appli de bureau, exécutez l’action **[!UICONTROL Edit]** sur le fichier INDD avec les ressources placées dans [!DNL Experience Manager].
 1. L’application télécharge à la fois le fichier InDesign et les ressources liées. Lorsque InDesign ouvre le document, les liens sont résolus et les ressources sont téléchargées et s’affichent dans le document InDesign.
 1. Pour placer un nouveau graphique dans le fichier InDesign, exécutez l’action **[!UICONTROL Reveal File]** sur la ressource. L’action télécharge la ressource localement et ouvre l’emplacement du partage réseau local dans l’Explorateur Windows ou le Finder Mac.
