@@ -2,14 +2,14 @@
 title: Notes de mise à jour de l’appli de bureau v1.10
 description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau AEM version 1.10.
 exl-id: 886864e0-016a-4a17-b3ba-4b18a514214a
-source-git-commit: 78f18e68178f711d925d7e308822c657087d009a
+source-git-commit: 32aff5d66f2cb67ab4bb440d7ace747a5cf1dd26
 workflow-type: tm+mt
-source-wordcount: '3897'
-ht-degree: 100%
+source-wordcount: '3898'
+ht-degree: 99%
 
 ---
 
-# Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] v1.10 {#aem-desktop-app-release-notes}
+# Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] v1.10  {#aem-desktop-app-release-notes}
 
 Pour la version 1.x de l’appli de bureau, voici les liens de téléchargement et les informations de compatibilité d’AEM.
 
@@ -83,7 +83,7 @@ Cette version étend et remplace les versions précédentes de l’appli de bure
 
 * **Version 1.3** : performances stables et améliorées lors de l’accès aux fichiers et de l’enregistrement des modifications dans AEM, en particulier à partir des applications de bureau Creative Cloud, telles que InDesign, Illustrator ou Photoshop. Cette version avait pour objectif d’offrir aux utilisateurs une expérience davantage similaire à celle d’un poste de travail local lorsqu’ils travaillaient avec des fichiers, tout en gérant simultanément les opérations de transfert de données réseau en arrière-plan.
 
-### Améliorations disponibles depuis l’appli de bureau AEM 1.9 {#Enhancements-Available-Since-AEM-Desktop-App-19x}
+### Améliorations disponibles depuis l’appli de bureau AEM 1.9 {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
 L’appli de bureau [!DNL Adobe Experience Manager] version 1.9.1 était une version corrective qui corrigeait quelques problèmes majeurs rencontrés par les clients concernant l’extraction de ressources et la copie de fichiers d’un partage réseau vers un répertoire local.
 
@@ -393,10 +393,10 @@ Comme le dossier /Volumes ne nécessite plus de droits d’administration, cette
 
 **Utiliser des certificats SSL signés par une autorité de certification :** Veuillez noter que l’appli de bureau AEM ne prend pas en charge les certificats SSL auto-signés lors de la connexion à AEM via une connexion sécurisée HTTPS. Un certificat signé par une autorité de certification est requis sur le serveur pour ce type de connexion (CQ-87941).
 
-## Problèmes connus {#known-issues}
+## Problèmes connus    {#known-issues}
 
 * Général :
-   * Les URL du serveur sont requises pour pointer vers le serveur sans chemin d’accès (par exemple, `http://server`, `https://server`, `http://server:port` ou `https://server:port`). Les chemins d’accès au contexte et les sous-dossiers de contexte autres que /content/dam ne sont pas pris en charge (CQ-89343, CQ-87272).
+   * Les URL du serveur sont nécessaires pour pointer vers le serveur sans chemin d’accès (par exemple, `http://server`, `https://server`, `http://server:port` ou `https://server:port`). Les chemins d’accès au contexte et les sous-dossiers de contexte autres que /content/dam ne sont pas pris en charge (CQ-89343, CQ-87272).
 * Noms de fichiers/localisation :
    * Les noms de fichiers et de dossiers comportant des caractères réservés ne sont pas gérés correctement. Veillez à utiliser les noms de fichiers et de dossiers qui correspondent aux exigences d’AEM (CQ-93361, CQ-93308, CQ-89276, CQ-4217183).
    * Certaines applications telles que Adobe Illustrator peuvent créer des fichiers dont les noms ne sont pas pris en charge dans AEM. Par exemple, ajouter `Converted` après la conversion d’un fichier empêche son chargement (CQ-4216985).
