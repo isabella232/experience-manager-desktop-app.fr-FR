@@ -3,14 +3,14 @@ title: Installation et configuration de l’appli de bureau
 description: Installez et configurez les serveurs [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] et téléchargez les ressources sur votre système de fichiers local.
 feature: Appli de bureau, Informations sur la version
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 4616934e8923693106401da008e2510310d0742a
+source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1410'
 ht-degree: 100%
 
 ---
 
-# Installation de l’appli de bureau [!DNL Adobe Experience Manager] {#install-app-v2}
+# Installation de l’appli de bureau [!DNL Adobe Experience Manager]  {#install-app-v2}
 
 Grâce à l’appli de bureau [!DNL Adobe Experience Manager], les ressources dans [!DNL Experience Manager] sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources peuvent être prévisualisées, ouvertes dans des applications de bureau natives, affichées dans le Finder de Mac ou l’Explorateur Windows pour être utilisées dans d’autres documents, et modifiées en local. Les modifications sont réenregistrées dans [!DNL Experience Manager] lors du chargement et une nouvelle version est créée dans le référentiel.
 
@@ -50,7 +50,7 @@ Pour effectuer une mise à niveau à partir d’une version antérieure de l’a
 
 1. [Téléchargez](release-notes.md) et [installez](#install-v2) la dernière version de l’application. Suivez les instructions ci-dessous.
 
-## Installation de la version {#install-v2}
+## Installer {#install-v2}
 
 Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute version de l’appli de bureau [!DNL Experience Manager] Adobe v1.x avant d’installer la dernière application. Pour plus d’informations, voir ci-dessus.
 
@@ -60,7 +60,7 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute ve
 
 1. Si vous effectuez une mise à niveau à partir d’une autre version de l’application, reportez-vous à la section [Mise à niveau de l’appli de bureau](#upgrade-from-previous-version).
 
-1. Ignorez cette étape si vous utilisez [!DNL Experience Manager] as a [!DNL Cloud Service], [!DNL Experience Manager] version 6.4.4 ou ultérieure, ou [!DNL Experience Manager] version 6.5.0 ou ultérieure. Assurez-vous que votre configuration d’[!DNL Experience Manager] respecte les exigences de compatibilité mentionnées dans les [notes de mise à jour](release-notes.md). Si nécessaire, téléchargez le [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicable et installez-le à l’aide du gestionnaire de modules [!DNL Experience Manager] en tant qu’administrateur [!DNL Experience Manager]. Pour installer un package, voir [Comment travailler avec des packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr).
+1. Ignorez cette étape si vous utilisez [!DNL Experience Manager] as a [!DNL Cloud Service], [!DNL Experience Manager] version 6.4.4 ou ultérieure, ou [!DNL Experience Manager] version 6.5.0 ou ultérieure. Assurez-vous que votre configuration d’[!DNL Experience Manager] respecte les exigences de compatibilité mentionnées dans les [notes de mise à jour](release-notes.md). Si nécessaire, téléchargez le [package de compatibilité](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) applicable et installez-le à l’aide du gestionnaire de modules [!DNL Experience Manager] en tant qu’administrateur [!DNL Experience Manager]. Pour installer un package, voir [Comment travailler avec des packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr).
 
 1. Exécutez le fichier binaire du programme d’installation et suivez les instructions à l’écran pour procéder à l’installation.
 
