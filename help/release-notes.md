@@ -4,9 +4,9 @@ description: Détails des mises à jour, améliorations, nouvelles fonctionnalit
 mini-toc-levels: 1
 feature: Appli de bureau, Informations sur la version
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: d83f04fb4757bb8025489da7866d36a51ddfe374
+source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1675'
 ht-degree: 97%
 
 ---
@@ -22,7 +22,7 @@ Les **versions de [!DNL Experience Manager] prises en charge** sont les suivante
 * [!DNL Experience Manager] 6.4.4 ou version ultérieure, sur Adobe Managed Services (AMS) ou On-Premise. Consultez les [notes de mise à jour du Service Pack](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=fr).
 * [!DNL Experience Manager] 6.4.0 à 6.4.3 avec le [package de compatibilité](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installé, sur Adobe Managed Services (AMS) ou On-Premise.
 * [!DNL Experience Manager] 6.3 (avec le package de compatibilité)
-* [!DNL Experience Manager] 6.3.3.1 ou plus récent avec le [package de compatibilité](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installé. L’appli de bureau n’est pas prise en charge pour les versions d’[!DNL Experience Manager] 6.3.3.0 ou antérieures.
+* [!DNL Experience Manager] 6.3.3.1 ou plus récent avec le [package de compatibilité](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) installé. L’appli de bureau n’est pas prise en charge pour les versions d’[!DNL Experience Manager] 6.3.3.0 ou antérieures.
 
 L’appli de bureau [!DNL Adobe Experience Manager] est disponible avec les **systèmes d’exploitation** suivants :
 
