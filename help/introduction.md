@@ -4,13 +4,13 @@ description: Apprenez à utiliser [!DNL Adobe Experience Manager] desktop app to
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
 source-git-commit: b661fedb6e33599921d39c0597c7d9f8e576798b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
 ht-degree: 100%
 
 ---
 
-# Vue d’ensemble de l’appli de bureau [!DNL Adobe Experience Manager]  {#overview-v2}
+# Vue d’ensemble de l’appli de bureau [!DNL Adobe Experience Manager] {#overview-v2}
 
 Adobe propose des workflows connectés dans ses différentes solutions afin de permettre à vos utilisateurs et à vos professionnels de la création de bénéficier d’un niveau de productivité supérieur. L’appli de bureau [!DNL Adobe Experience Manager] connecte les référentiels et les applications de bureau, notamment Adobe et tiers, afin de fournir un accès plus rapide à des ressources et à des workflows rationalisés. Gain de temps et facilité d’utilisation se conjuguent pour améliorer l’efficacité des utilisateurs qui exploitent des ressources issues d’[!DNL Adobe Experience Manager] dans leurs processus de bureau.
 
@@ -33,7 +33,7 @@ La documentation de l’appli de bureau contient des informations sur les rôles
 | Apprenez à naviguer, découvrir, modifier, charger, résoudre les conflits, effectuer des opérations massives, etc. | [Utilisation de l’appli de bureau [!DNL Experience Manager] ](using.md) |
 | Vous avez rencontré un problème ? Vous avez besoin d’aide pour résoudre un problème ? | [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] ](troubleshoot.md) |
 
-## Nouveautés de l’application {#whats-new-v2}
+## Nouveautés de l’appli {#whats-new-v2}
 
 La version 2.0 de l’application a été conçue de A à Z afin de fournir de nombreuses améliorations par rapport aux versions précédentes. La nouvelle application est plus conviviale et offre une expérience de bureau dédiée s’accompagnant d’une nouvelle interface utilisateur. Les utilisateurs peuvent découvrir des ressources via des opérations de recherche, de navigation, d’ouverture, de modification et de chargement de modifications, ainsi que de chargement de nouvelles ressources, sans avoir à utiliser l’interface d’[!DNL Experience Manager]. Cette version prend également en charge l’ouverture de fichiers à partir de l’interface d’[!DNL Experience Manager].
 
