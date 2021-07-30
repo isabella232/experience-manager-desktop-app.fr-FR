@@ -9,14 +9,14 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Application de bureau
 role: User, Admin
 source-git-commit: b661fedb6e33599921d39c0597c7d9f8e576798b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '65'
 ht-degree: 100%
 
 ---
 
 
-# Guide de l’application de bureau Adobe {#using}
+# Guide de l’appli de bureau Adobe {#using}
 
 + [Présentation](introduction.md)
 + [Notes de mise à jour](release-notes.md)
@@ -26,6 +26,6 @@ ht-degree: 100%
 + Aide de la version précédente {#archive}
    + [Notes de mise à jour v1](release-notes-of-v1.md)
    + [Installation et configuration v1](install-configure-app-v1.md)
-   + [Utilisation de l’application v1](use-app-v1.md)
+   + [Utilisation de l’appli v1](use-app-v1.md)
    + [Bonnes pratiques v1](best-practices-for-v1.md)
    + [Résolution des problèmes v1](troubleshoot-app-v1.md)
