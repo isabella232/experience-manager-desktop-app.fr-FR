@@ -4,13 +4,13 @@ description: Installez et configurez les serveurs [!DNL Adobe Experience Manager
 feature: Appli de bureau, Informations sur la version
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1410'
 ht-degree: 100%
 
 ---
 
-# Installation de l’appli de bureau [!DNL Adobe Experience Manager]  {#install-app-v2}
+# Installation de l’appli de bureau [!DNL Adobe Experience Manager] {#install-app-v2}
 
 Grâce à l’appli de bureau [!DNL Adobe Experience Manager], les ressources dans [!DNL Experience Manager] sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources peuvent être prévisualisées, ouvertes dans des applications de bureau natives, affichées dans le Finder de Mac ou l’Explorateur Windows pour être utilisées dans d’autres documents, et modifiées en local. Les modifications sont réenregistrées dans [!DNL Experience Manager] lors du chargement et une nouvelle version est créée dans le référentiel.
 
