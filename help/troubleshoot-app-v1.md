@@ -3,9 +3,9 @@ title: Résolution de problèmes dans l’appli de bureau version 1.10.
 description: Cette section vous explique comment résoudre les problèmes occasionnels pouvant affecter, notamment, l’installation, la mise à niveau et la configuration de l’appli de bureau [!DNL Adobe Experience Manager] version 1.10
 exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
 source-git-commit: 32aff5d66f2cb67ab4bb440d7ace747a5cf1dd26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3350'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ En cas de dégradation significative des performances WebDAV/SMB lorsque plusieu
 
 Vous pouvez améliorer les performances du côté AEM en activant les workflows transitoires pour le workflow Ressources de mise à jour de gestion des actifs numériques (DAM). L’activation de workflows transitoires réduit la puissance de traitement requise pour mettre à jour des ressources lors de leur création ou de leur modification dans AEM.
 
-1. Accédez à `/miscadmin` dans l’instance du Experience Manager (`https://[aem_server]:[port]/miscadmin`).
+1. Accédez à `/miscadmin` dans l’instance Experience Manager (`https://[aem_server]:[port]/miscadmin`).
 1. Dans l’arborescence de navigation, développez **Outils** > **Workflow** > **Modèles** > **dam**.
 1. Double-cliquez sur **Ressources de mise à jour de gestion des actifs numériques** (DAM).
 1. Depuis le panneau d’outils flottant, basculez vers l’onglet **Page**, puis cliquez sur **Propriétés de la page**.
@@ -140,8 +140,8 @@ Vous pouvez améliorer les performances du côté AEM en activant les workflows 
 Pour améliorer les performances d’AEM, une autre méthode consiste à configurer le nombre maximum de tâches en parallèle pour la file d’attente des workflows transitoires Granite. La valeur recommandée équivaut approximativement à la moitié du nombre de processeurs disponibles avec le serveur. Pour régler la valeur, procédez comme suit :
 
 1. Accédez à `/system/console/configMgr` dans l’instance AEM à configurer (par exemple, `https://[aem_server]:[port]/system/console/configMgr`).
-1. Recherchez `QueueConfiguration`, puis cliquez pour ouvrir chaque tâche jusqu’à ce que vous localisiez la tâche **File d’attente des workflows transitoires Granite**, puis cliquez sur **Modifier**.
-1. Modifiez la valeur `Maximum Parallel Jobs` et cliquez sur **Enregistrer**.
+1. Recherchez `QueueConfiguration`, puis cliquez pour ouvrir chaque tâche jusqu’à ce que vous ayez trouvé la tâche **Granite Transient Workflow Queue** et cliquez sur **Modifier**.
+1. Modifiez la valeur `Maximum Parallel Jobs` (Nombre maximum de tâches en parallèle), puis cliquez sur **Enregistrer**.
 
 ## Configuration AWS {#aws-configuration}
 
