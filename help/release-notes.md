@@ -5,15 +5,15 @@ mini-toc-levels: 1
 feature: Appli de bureau, Informations sur la version
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: 96be3f61388b7ec83bdb87d3d13a109d8cce0a1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1687'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-Les informations de mise à jour de la dernière version de l’appli de bureau 2.1 (2.1.3.3) sont les suivantes. La date de publication est le 29 juillet 2021.
+Les informations de mise à jour de la dernière version de l’appli de bureau 2.1 (2.1.3.3) sont les suivantes. La date de publication est le 29 juillet 2021.
 
 Les **versions de [!DNL Experience Manager] prises en charge** sont les suivantes :
 
@@ -70,17 +70,17 @@ Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#what
 
 **Mises à jour dans la version v2.1.3.3 de l’application**
 
-La nouvelle version de l’application propose un correctif de bogue.
+La nouvelle version de l’application inclut un correctif de bogue.
 
 **Mises à jour dans la version v2.1.3.2 de l’application**
 
-Cette version de l’application a proposé un correctif de bogue.
+Cette version de l’application incluait un correctif de bogue.
 
 **Mises à jour dans la version v2.1.3.1 de l’application**
 
 Le bogue corrigé dans cette version est le suivant :
 
-* Les vitesse de chargement et de téléchargement des ressources ont été améliorées, même pour les ressources volumineuses. Cette version a corrigé un problème en raison duquel les chargements de ressources avec [!DNL desktop app] échouaient parfois lorsque des fichiers très volumineux étaient chargés.
+* Les vitesses de chargement et de téléchargement des ressources ont été améliorées, même pour les ressources volumineuses. Cette version a corrigé un problème en raison duquel les chargements de ressources avec [!DNL desktop app] échouaient parfois si les fichiers étaient très volumineux.
 
 **Mise à jour dans la version v2.1.2.0 de l’application**
 
