@@ -3,7 +3,7 @@ title: Résolution de problèmes dans l’appli de bureau version 1.10.
 description: Cette section vous explique comment résoudre les problèmes occasionnels pouvant affecter, notamment, l’installation, la mise à niveau et la configuration de l’appli de bureau [!DNL Adobe Experience Manager] version 1.10
 exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
 source-git-commit: 2ae49374b362921a5a82fc2e040064b4e573b8c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3291'
 ht-degree: 100%
 
