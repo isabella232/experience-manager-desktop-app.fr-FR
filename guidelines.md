@@ -1,9 +1,8 @@
 ---
-source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
-workflow-type: ht
-translation-type: ht
+source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
+workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 # Directives relatives à la contribution à la documentation d’[!DNL Adobe Experience Manager]
@@ -40,7 +39,7 @@ Toute opinion susceptible d’améliorer la documentation d’[!DNL Experience M
 
 Toute question relative à l’utilisation d’[!DNL Experience Manager] ou à la résolution d’erreurs techniques doit être soumise au moyen du processus d’assistance classique via le [[!DNL Experience Cloud] Portail d’assistance d’Experience Manager](https://experienceleague.adobe.com/?support-solution=Experience+Manager&amp;lang=fr#support) ou posée dans la [communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
-Les contributions à la documentation d’***[!DNL Experience Manager]ne remplacent pas l’Assistance clientèle d’Adobe*** et toute contribution de ce type visant à obtenir des réponses à des questions d’assistance sera refusée.
+***[!DNL Experience Manager]Les contributions à la documentation ne remplacent pas l’*** assistance clientèle d’Adobe et toute contribution de ce type visant à obtenir des réponses à des questions d’assistance sera refusée.
 
 ### Les contributions doivent clairement référencer les pages de documentation concernées.
 
