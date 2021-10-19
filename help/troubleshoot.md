@@ -3,9 +3,9 @@ title: 'Bonnes pratiques et résolution des problèmes liés à l’appli de bur
 description: Suivez les bonnes pratiques et les solutions de dépannage pour résoudre les problèmes occasionnels liés à l’installation, à la mise à niveau, à la configuration, etc.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2260'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Observez les bonnes pratiques suivantes pour éviter certains problèmes courant
 
 ## Comment résoudre les problèmes {#troubleshooting-prep}
 
-Pour résoudre les problèmes liés à l’appli de bureau, tenez compte des informations suivantes. En outre, il vous permet de mieux transmettre les problèmes à l’Adobe du service clientèle si vous choisissez de demander de l’aide.
+Pour résoudre les problèmes liés à l’appli de bureau, tenez compte des informations suivantes. Celles-ci vous aideront également à expliquer les problèmes au Service clientèle d’Adobe si vous préférez demander de l’aide.
 
 ### Emplacement des fichiers journaux {#check-log-files-v2}
 
@@ -53,7 +53,7 @@ Lorsque de nombreuses ressources sont chargées, si le chargement de certains fi
 
 >[!NOTE]
 >
->Lorsque vous travaillez avec le service clientèle d’Adobe sur une demande ou un ticket d’assistance, vous pouvez être invité à partager les fichiers journaux pour aider l’équipe du service clientèle à comprendre le problème. Archivez l’ensemble du dossier `Logs` et partagez-le avec votre contact du service clientèle.
+>Lorsque vous travaillez avec le Service clientèle d’Adobe sur une requête ou un ticket d’assistance, vous serez peut-être invité à fournir les fichiers journaux pour l’aider à comprendre le problème. Archivez l’ensemble du dossier `Logs` et transmettez-le à votre contact du Service clientèle.
 
 ### Modifier le niveau de détails dans les fichiers journaux {#level-of-details-in-log}
 
