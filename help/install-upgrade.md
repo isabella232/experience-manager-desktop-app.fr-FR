@@ -4,9 +4,9 @@ description: Installez et configurez les serveurs [!DNL Adobe Experience Manager
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1406'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute ve
 
 1. ([!DNL Experience Manager] version 6.5.1 ou ultérieure) Si vous utilisez l’appli de bureau [!DNL Experience Manager] avec la version 6.5.1 ou ultérieure, mettez à niveau le connecteur Azure ou S3 vers la version 1.10.4 ou ultérieure. Voir [Connecteur Azure](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=fr#azure-data-store) ou [Connecteur S3](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=fr#amazon-s-data-store).
 
-   Si vous êtes un client Adobe Managed Services (AMS), contactez le service clientèle d’Adobe.
+   Si vous êtes un client d’Adobe Managed Services (AMS), contactez le Service clientèle d’Adobe.
 
 ## Définition des préférences {#set-preferences}
 
