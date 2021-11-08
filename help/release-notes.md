@@ -2,18 +2,18 @@
 title: Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager]
 description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau [!DNL Adobe Experience Manager] .
 mini-toc-levels: 1
-feature: Appli de bureau, Informations sur la version
+feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 96be3f61388b7ec83bdb87d3d13a109d8cce0a1c
-workflow-type: ht
-source-wordcount: '1687'
-ht-degree: 100%
+source-git-commit: 9b7cb9c7114c1518f9b6c2e4c9ed9771f4a1716d
+workflow-type: tm+mt
+source-wordcount: '1697'
+ht-degree: 99%
 
 ---
 
 # Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-Les informations de mise à jour de la dernière version de l’appli de bureau 2.1 (2.1.3.3) sont les suivantes. La date de publication est le 29 juillet 2021.
+Les informations de mise à jour de la dernière version de l’appli de bureau 2.1 (2.1.3.4) sont les suivantes. La date de publication est le 4 novembre 2021.
 
 Les **versions de [!DNL Experience Manager] prises en charge** sont les suivantes :
 
@@ -33,16 +33,13 @@ Les **URL de téléchargement** pour les systèmes d’exploitation pris en char
 
 | Système d’exploitation | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
-| macOS (v2.1.3.3) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) |
-| Windows 64 bits (v2.1.3.3) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) |
+| macOS (v2.1.3.4) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.4.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.4.dmg) |
+| Windows 64 bits (v2.1.3.4) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.4.exe) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.4.exe) |
 | Windows 32 bits (v2.1.3.1) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) |
 
 >[!NOTE]
 >
 >Windows 7 n’est plus pris en charge. Consultez [l’article sur la fin du support de Windows 7](https://support.microsoft.com/fr-fr/help/4057281/windows-7-support-ended-on-january-14-2020).
-
-<!-- The version of the app you plan to install on your local machine requires a specific [!DNL Adobe Experience Manager] server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your [!DNL Experience Manager] administrator for help.
--->
 
 ## Prise en charge de différents types de ressources et de fichiers {#support-for-file-types}
 
@@ -68,13 +65,17 @@ Cette fonctionnalité est prise en charge avec les versions 2018 d’[!DNL Adob
 
 Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#whats-new-v2).
 
+**Mises à jour dans la version v2.1.3.4 de l’application**
+
+La nouvelle version de l’application inclut un correctif de bogue.
+
 **Mises à jour dans la version v2.1.3.3 de l’application**
 
 La nouvelle version de l’application inclut un correctif de bogue.
 
 **Mises à jour dans la version v2.1.3.2 de l’application**
 
-Cette version de l’application incluait un correctif de bogue.
+Cette version de l’application propose un correctif de bogue.
 
 **Mises à jour dans la version v2.1.3.1 de l’application**
 
@@ -187,6 +188,6 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 >* Documentation d’[[!DNL Experience Manager] as a [!DNL Cloud Service] ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=fr)
 >* Documentation d’[[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=fr)
 >* [Comment utiliser l’appli de bureau [!DNL Experience Manager] ](using.md)
-* [Installation et mise à niveau de l’appli de bureau](install-upgrade.md)
-* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
+>* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
+>* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
 
