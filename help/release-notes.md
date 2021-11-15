@@ -7,13 +7,13 @@ exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: 9b7cb9c7114c1518f9b6c2e4c9ed9771f4a1716d
 workflow-type: tm+mt
 source-wordcount: '1697'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-Les informations de mise à jour de la dernière version de l’appli de bureau 2.1 (2.1.3.4) sont les suivantes. La date de publication est le 4 novembre 2021.
+Les informations de mise à jour de la dernière version de l’appli de bureau 2.1 (2.1.3.4) sont les suivantes. La date de publication est le 4 novembre 2021.
 
 Les **versions de [!DNL Experience Manager] prises en charge** sont les suivantes :
 
@@ -75,7 +75,7 @@ La nouvelle version de l’application inclut un correctif de bogue.
 
 **Mises à jour dans la version v2.1.3.2 de l’application**
 
-Cette version de l’application propose un correctif de bogue.
+Cette version de l’application inclut un correctif de bogue.
 
 **Mises à jour dans la version v2.1.3.1 de l’application**
 
