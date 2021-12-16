@@ -4,16 +4,16 @@ description: Détails des mises à jour, améliorations, nouvelles fonctionnalit
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 9b7cb9c7114c1518f9b6c2e4c9ed9771f4a1716d
-workflow-type: ht
-source-wordcount: '1697'
-ht-degree: 100%
+source-git-commit: 88d74bb9bff7ec5d454600d383f27dcd5dbbe775
+workflow-type: tm+mt
+source-wordcount: '1711'
+ht-degree: 99%
 
 ---
 
 # Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-Les informations de mise à jour de la dernière version de l’appli de bureau 2.1 (2.1.3.4) sont les suivantes. La date de publication est le 4 novembre 2021.
+Les informations de mise à jour de la dernière version de l’appli de bureau 2.1 (2.1.4.0) sont les suivantes. La date de publication est le 16 décembre 2021.
 
 Les **versions de [!DNL Experience Manager] prises en charge** sont les suivantes :
 
@@ -64,6 +64,10 @@ Cette fonctionnalité est prise en charge avec les versions 2018 d’[!DNL Adob
 ## Nouvelles fonctionnalités, améliorations et corrections de bogues {#what-is-new}
 
 Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#whats-new-v2).
+
+**Mises à jour dans la version v2.1.4.0 de l’application**
+
+La nouvelle version de l’application inclut un correctif de bogue.
 
 **Mises à jour dans la version v2.1.3.4 de l’application**
 
