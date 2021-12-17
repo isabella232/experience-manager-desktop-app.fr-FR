@@ -4,9 +4,9 @@ description: Détails des mises à jour, améliorations, nouvelles fonctionnalit
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 88d74bb9bff7ec5d454600d383f27dcd5dbbe775
+source-git-commit: c0a429a965d117ccd2db231c1b68f97616a3c384
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1710'
 ht-degree: 99%
 
 ---
@@ -67,7 +67,7 @@ Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#what
 
 **Mises à jour dans la version v2.1.4.0 de l’application**
 
-La nouvelle version de l’application inclut un correctif de bogue.
+La nouvelle version de l’application propose des correctifs.
 
 **Mises à jour dans la version v2.1.3.4 de l’application**
 
