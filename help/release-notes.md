@@ -13,7 +13,7 @@ ht-degree: 99%
 
 # Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-Les informations de mise à jour de la dernière version de l’appli de bureau 2.1 (2.1.4.0) sont les suivantes. La date de publication est le 16 décembre 2021.
+Les informations de mise à jour de la dernière version de l’appli de bureau 2.1 (2.1.4.0) sont les suivantes. La date de publication est le 16 décembre 2021.
 
 Les **versions de [!DNL Experience Manager] prises en charge** sont les suivantes :
 
