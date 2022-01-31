@@ -5,7 +5,7 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: fd89a1ffa06e82f866c614150d1e3fc9b8e07bca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1853'
 ht-degree: 100%
 
