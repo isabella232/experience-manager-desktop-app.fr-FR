@@ -5,15 +5,15 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: 34803cd261c88f6fbe8aa283c057518217a1785e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2027'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-Les informations de mise à jour de la dernière version de l’appli de bureau 2.1 (2.1.5.0) sont les suivantes. La date de publication est le 14 juin 2022.
+Les informations de mise à jour de la dernière version de l’application de bureau 2.1 (2.1.5.0) sont les suivantes. La date de publication est le 14 juin 2022.
 
 Les **versions de [!DNL Experience Manager] prises en charge** sont les suivantes :
 
@@ -73,9 +73,9 @@ Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#what
 
 **Mises à jour dans la version v2.1.5.0 de l’application**
 
-* L’appli de bureau ne répond plus lorsque vous téléchargez des fichiers dans un dossier contenant des caractères chinois (ASSETS-9237).
+* L’application de bureau ne répond plus lorsque vous téléchargez des fichiers dans un dossier contenant des caractères chinois (ASSETS-9237).
 
-* L’appli de bureau remplace les points par des tirets dans les noms de fichier (ASSETS-10955).
+* L’application de bureau remplace les points par des tirets dans les noms de fichier (ASSETS-10955).
 
 **Mises à jour dans la version v2.1.4.0 de l’application**
 
