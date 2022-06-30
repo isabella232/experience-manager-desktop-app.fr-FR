@@ -1,12 +1,12 @@
 ---
 title: Installation et configuration de l’appli de bureau
-description: Installez et configurez les serveurs [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] et téléchargez les ressources sur votre système de fichiers local.
+description: Installation et configuration [!DNL Adobe Experience Manager] l’appli de bureau avec [!DNL Adobe Experience Manager Assets] et téléchargez les ressources sur votre système de fichiers local.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
-workflow-type: ht
-source-wordcount: '1406'
-ht-degree: 100%
+source-git-commit: 7b884d89c34a6e45f49d4cacb0f5d537dc769742
+workflow-type: tm+mt
+source-wordcount: '1411'
+ht-degree: 97%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 Grâce à l’appli de bureau [!DNL Adobe Experience Manager], les ressources dans [!DNL Experience Manager] sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources peuvent être prévisualisées, ouvertes dans des applications de bureau natives, affichées dans le Finder de Mac ou l’Explorateur Windows pour être utilisées dans d’autres documents, et modifiées en local. Les modifications sont réenregistrées dans [!DNL Experience Manager] lors du chargement et une nouvelle version est créée dans le référentiel.
 
-Une telle intégration permet à divers rôles de l’organisation de :
+Une telle intégration permet à différents rôles de l’organisation de :
 
 * gérer les ressources de manière centralisée dans [!DNL Experience Manager Assets] ;
 
 * et d’accéder aux ressources dans n’importe quelle application de bureau native, y compris les applications tierces, ainsi que dans Adobe Creative Cloud. Cela permet aux utilisateurs de se conformer facilement aux différentes normes, y compris au branding.
 
-Pour utiliser l’appli de bureau [!DNL Experience Manager],
+Pour utiliser [!DNL Experience Manager] application de bureau :
 
 * Assurez-vous que votre version d’[!DNL Experience Manager] est prise en charge par l’appli de bureau [!DNL Experience Manager]. Consultez la [Configuration requise](release-notes.md).
 
@@ -34,7 +34,7 @@ Pour plus d’informations, voir les [[!DNL Experience Manager] Notes de mise à
 
 ## Mise à niveau depuis une version antérieure {#upgrade-from-previous-version}
 
-Si vous utilisez la version 1.x de l’application de bureau, vous devez comprendre les différences et les similitudes existant entre la version précédente et la version la plus récente. Découvrez les [nouveautés de l’application de bureau](introduction.md#whats-new-v2) et son [fonctionnement](release-notes.md#how-app-works).
+Si vous utilisez la version 1.x de l’application de bureau, vous devez comprendre les différences et les similitudes existant entre la version précédente et la version la plus récente. Découvrez les [nouveautés de l’application de bureau](introduction.md#whats-new-v2) et son [fonctionnement](release-notes.md#how-app-works)..
 
 >[!NOTE]
 >
