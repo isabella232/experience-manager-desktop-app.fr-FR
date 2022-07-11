@@ -1,13 +1,13 @@
 ---
 title: 'Utilisation de l’appli de bureau [!DNL Experience Manager] '
-description: Utilisation [!DNL Adobe Experience Manager] application de bureau, pour utiliser [!DNL Adobe Experience Manager] Ressources DAM directement depuis votre bureau Windows ou Mac et utilisées dans d’autres applications.
+description: Utilisez l’application de bureau [!DNL Adobe Experience Manager] pour travailler avec des ressources DAM [!DNL Adobe Experience Manager] directement depuis votre bureau Windows ou Mac et les utiliser dans d’autres applications.
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 source-git-commit: ca04b64e1ebfee4b677fcc5ef84b0e8fd9950d17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4054'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ L’intégration permet à différents rôles de l’organisation de gérer les 
 
 Lorsque vous ouvrez l’application après vous être déconnecté ou lorsque vous vous connectez pour la première fois, fournissez l’URL de votre serveur [!DNL Experience Manager] au format `https://[aem-server-url]:[port]/`. Sélectionnez ensuite l’option [!UICONTROL Connect]. Indiquez vos informations d’identification pour connecter l’application au serveur.
 
-Les tâches clés que vous effectuez à l’aide de la fonction [!DNL Adobe Experience Manager] L’appli de bureau est la suivante :
+L’application de bureau [!DNL Adobe Experience Manager] vous permet d’effectuer les tâches clés suivantes :
 
 ![Workflows et tâches pouvant être effectués avec l’appli de bureau [!DNL Experience Manager] ](assets/aem_desktop_app_usecases_v2.png "Workflows et tâches pouvant être effectués avec l’appli de bureau  [!DNL Adobe Experience Manager] ")
 Téléchargez [ce](assets/aem_desktop_app_usecases_print.pdf) fichier PDF prêt à être imprimé.
@@ -366,7 +366,7 @@ Pour connaître les limites de ce processus, voir la [configuration requise et l
 
 Pour tester ce processus avec une ressource d’image et InDesign, procédez comme suit :
 
-1. Conservez à portée de main un fichier INDD avec des ressources placées dans [!DNL Experience Manager]. Pour savoir comment créer un tel fichier INDD, voir [Placement de graphiques](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+1. Conservez à portée de main un fichier INDD avec des ressources placées dans [!DNL Experience Manager]. Pour savoir comment créer un tel fichier INDD, voir [Placement de graphiques](https://helpx.adobe.com/fr/indesign/using/placing-graphics.html).
 1. Depuis l’appli de bureau, exécutez l’action **[!UICONTROL Edit]** sur le fichier INDD avec les ressources placées dans [!DNL Experience Manager].
 1. L’application télécharge à la fois le fichier InDesign et les ressources liées. Lorsque InDesign ouvre le document, les liens sont résolus et les ressources sont téléchargées et s’affichent dans le document InDesign.
 1. Pour placer un nouveau graphique dans le fichier InDesign, exécutez l’action **[!UICONTROL Reveal File]** sur la ressource. L’action télécharge la ressource localement et ouvre l’emplacement du partage réseau local dans l’Explorateur Windows ou le Finder Mac.
