@@ -4,9 +4,9 @@ description: Détails des mises à jour, améliorations, nouvelles fonctionnalit
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 1167ca53c603b94b298f702d6cbb3231e318e4cd
+source-git-commit: 2f49c1e952202e627e60fa9ad7998a4927aa817c
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2188'
 ht-degree: 90%
 
 ---
@@ -32,7 +32,7 @@ Les **versions de [!DNL Experience Manager] prises en charge** sont les suivante
 
 L’appli de bureau [!DNL Adobe Experience Manager] est disponible avec les **systèmes d’exploitation** suivants :
 
-* macOS X 10.14 ou version ultérieure, avec les correctifs de bogues les plus récents. [Les ordinateurs Mac avec processeurs Apple](https://support.apple.com/fr-fr/HT211814) ne sont pas encore pris en charge.
+* macOS X 10.14 ou version ultérieure, avec les correctifs de bogues les plus récents.
 * Windows 10 avec les derniers Service Packs et correctifs.
 
 Les **URL de téléchargement** pour les systèmes d’exploitation pris en charge sont les suivantes :
