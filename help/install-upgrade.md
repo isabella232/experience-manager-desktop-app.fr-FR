@@ -4,9 +4,9 @@ description: Installez et configurez l’application de bureau  [!DNL Adobe Expe
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: 5b5970cec02d4a605bd7d826d1daa71fe228b0d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1426'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute ve
 
    *Figure : Écran de connexion pour saisir l’adresse du serveur.*
 
-   Sélectionner **[!UICONTROL Remember Connection]** pour éviter de saisir les détails de connexion à chaque connexion à l’appli de bureau .
+   Sélectionnez **[!UICONTROL Remember Connection]** pour éviter de saisir les détails de connexion à chaque connexion à l’application de bureau.
 
    >[!CAUTION]
    >
@@ -138,7 +138,7 @@ Pour désinstaller l’application sous Windows, procédez comme suit :
 
 1. Chargez toutes vos modifications dans [!DNL Experience Manager] pour éviter de perdre les modifications. Reportez-vous à [Modification de ressources et chargement de ressources mises à jour dans [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Déconnectez-vous et quittez l’application (via [!UICONTROL Exit]).
 
-1. Supprimez l’application comme vous le feriez pour toute autre application du système d’exploitation. Désinstallez-la via la fenêtre d’ajout et de suppression de programmes sous Windows.
+1. Supprimez l’application comme vous le feriez pour une autre application du système d’exploitation. Désinstallez-la via la fenêtre d’ajout et de suppression de programmes sous Windows.
 
 1. Pour supprimer le cache et les journaux, cochez la case appropriée.
 
