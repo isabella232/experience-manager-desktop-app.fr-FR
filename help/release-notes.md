@@ -4,22 +4,24 @@ description: Détails des mises à jour, améliorations, nouvelles fonctionnalit
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 2f49c1e952202e627e60fa9ad7998a4927aa817c
+source-git-commit: 6dfbfc6d0a1f1947ef03ebde73a5601b790a5d18
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 100%
+source-wordcount: '2368'
+ht-degree: 98%
 
 ---
 
 # Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-Les informations de mise à jour de la dernière version de l’application de bureau 2.2.0 sont les suivantes. La date de publication est le 7 octobre 2022.
+Les informations de mise à jour de la dernière version de l’application de bureau 2.2.1 sont les suivantes. La date de publication est le 10 février 2023.
 
-La dernière version de l’application de bureau contient les améliorations suivantes :
+La dernière version de l’appli de bureau contient les correctifs suivants :
 
-* Prise en charge de la puce Apple (M1).
+* L’appli de bureau affiche un message d’erreur de délai d’expiration de session lorsque vous cliquez sur **[!UICONTROL Sign In]**.
 
-* Possibilité de mémoriser la chaîne de connexion lors de la connexion à l’application de bureau.
+* Problèmes lors de l’accès à l’appli de bureau v2.2.0 sur macOS.
+
+* L’appli de bureau affiche un message d’erreur lorsque vous triez des ressources en cliquant sur **[!UICONTROL Edited Locally]**.
 
 Les **versions de [!DNL Experience Manager] prises en charge** sont les suivantes :
 
@@ -39,6 +41,9 @@ Les **URL de téléchargement** pour les systèmes d’exploitation pris en char
 
 | Système d’exploitation | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v2.2.1) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.1.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.1.dmg) |
+| macOS avec puce Apple (M1) (v2.2.1) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.1.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.1.dmg) |
+| Windows 64 bits (v2.2.1) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.1.exe) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.1.exe) |
 | macOS (v2.2.0) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) |
 | macOS avec puce Apple (M1) (v2.2.0) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) |
 | Windows 64 bits (v2.2.0) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) |
@@ -79,6 +84,12 @@ Cette fonctionnalité est prise en charge avec les versions 2018 d’[!DNL Adob
 ## Nouvelles fonctionnalités, améliorations et corrections de bogues {#what-is-new}
 
 Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#whats-new-v2).
+
+**Mises à jour dans la version v2.2.0 de l’application**
+
+* Prise en charge de la puce Apple (M1).
+
+* Possibilité de mémoriser la chaîne de connexion lors de la connexion à l’application de bureau.
 
 **Mises à jour dans la version v2.1.5.0 de l’application**
 
