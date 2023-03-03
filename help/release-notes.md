@@ -5,23 +5,23 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: 6dfbfc6d0a1f1947ef03ebde73a5601b790a5d18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2368'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-Les informations de mise à jour de la dernière version de l’application de bureau 2.2.1 sont les suivantes. La date de publication est le 10 février 2023.
+Les informations de mise à jour de la dernière version de l’application de bureau 2.2.1 sont les suivantes. La date de publication est le 10 février 2023.
 
-La dernière version de l’appli de bureau contient les correctifs suivants :
+La dernière version de l’application de bureau contient les correctifs suivants :
 
-* L’appli de bureau affiche un message d’erreur de délai d’expiration de session lorsque vous cliquez sur **[!UICONTROL Sign In]**.
+* L’application de bureau affiche un message d’erreur de délai d’expiration lorsque vous cliquez sur **[!UICONTROL Sign In]**.
 
-* Problèmes lors de l’accès à l’appli de bureau v2.2.0 sur macOS.
+* Problèmes lors de l’accès à l’application de bureau v2.2.0 sur macOS.
 
-* L’appli de bureau affiche un message d’erreur lorsque vous triez des ressources en cliquant sur **[!UICONTROL Edited Locally]**.
+* L’application de bureau affiche un message d’erreur lorsque vous triez des ressources en cliquant sur **[!UICONTROL Edited Locally]**.
 
 Les **versions de [!DNL Experience Manager] prises en charge** sont les suivantes :
 
