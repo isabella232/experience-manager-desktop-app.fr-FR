@@ -1,12 +1,12 @@
 ---
-title: 'Présentation de l’appli de bureau [!DNL Experience Manager] '
-description: Apprenez à utiliser [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] directement à partir de leur bureau.
+title: Présentation de l’appli de bureau [!DNL Experience Manager]
+description: Découvrez comment utiliser [!DNL Adobe Experience Manager] application de bureau pour optimiser les workflows de gestion des ressources pour les utilisateurs créatifs lors de l’utilisation de [!DNL Adobe Experience Manager Assets] directement depuis leur bureau.
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
-source-git-commit: b661fedb6e33599921d39c0597c7d9f8e576798b
-workflow-type: ht
-source-wordcount: '619'
-ht-degree: 100%
+source-git-commit: bc188db916eaa2d45f68849bb1527acd27e03db9
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 96%
 
 ---
 
@@ -40,11 +40,8 @@ La version 2.0 de l’application a été conçue de A à Z afin de fournir de 
 La nouvelle application apporte des améliorations substantielles à l’expérience utilisateur, tout en prenant en charge les mêmes cas d’utilisation qu’auparavant. Vous trouverez ci-dessous les améliorations principales de l’application.
 
 * Les utilisateurs découvrent les ressources en naviguant et en effectuant des recherches dans l’application dans un navigateur intégré, au lieu de faire appel au Finder de Mac ou à Windows Explorer pour afficher un partage réseau virtuel.
-
 * Des conseils clairs sur les actions sont à la disposition des utilisateurs.
-
 * Les performances sont améliorées par la réduction de l’utilisation de la bande passante. Les fichiers binaires d’origine ne sont téléchargés que si cela est nécessaire. Pour la navigation et la recherche au sein des ressources, seules les petites vignettes sont transférées.
-
 * Optimisation pour les opérations en masse, telles que le chargement en masse.
 
 L’illustration suivante relie les cas d’utilisation et les améliorations principaux de la nouvelle application au parcours du client.
