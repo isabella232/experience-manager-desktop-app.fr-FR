@@ -5,19 +5,19 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: caedeb988f1a2f4666a1ec73db390452914caf4d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2530'
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-Les informations de mise à jour de la dernière version de l’application de bureau 2.2.2 sont les suivantes. La date de publication est le 9 mars 2023.
+Les informations de mise à jour de la dernière version de l’application de bureau 2.2.2 sont les suivantes. La date de publication est le 9 mars 2023.
 
 La dernière version de l’application de bureau contient les correctifs suivants :
 
-* [Windows uniquement] L’appli de bureau affiche un écran vide après l’installation des versions 2.2.0 et 2.2.1.
+* L’application de bureau [Windows uniquement] affiche un écran vide après l’installation des versions 2.2.0 et 2.2.1.
 
 Les **versions de [!DNL Experience Manager] prises en charge** sont les suivantes :
 
