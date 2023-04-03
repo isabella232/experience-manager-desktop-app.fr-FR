@@ -1,12 +1,12 @@
 ---
 title: Présentation de l’appli de bureau [!DNL Experience Manager]
-description: Découvrez comment utiliser [!DNL Adobe Experience Manager] application de bureau pour optimiser les workflows de gestion des ressources pour les utilisateurs créatifs lors de l’utilisation de [!DNL Adobe Experience Manager Assets] directement depuis leur bureau.
+description: Découvrez comment utiliser l’application de bureau [!DNL Adobe Experience Manager] pour optimiser les workflows de gestion des ressources numériques pour les utilisateurs créatifs ou les utilisatrices créatives lorsqu’ils utilisent [!DNL Adobe Experience Manager Assets] directement depuis leur poste de travail.
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
 source-git-commit: bc188db916eaa2d45f68849bb1527acd27e03db9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
