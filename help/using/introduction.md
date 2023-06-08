@@ -4,7 +4,7 @@ description: Découvrez comment utiliser l’application de bureau [!DNL Adobe E
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
 source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 

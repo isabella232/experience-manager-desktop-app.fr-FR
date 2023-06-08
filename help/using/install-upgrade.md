@@ -4,7 +4,7 @@ description: Installez et configurez l’application de bureau  [!DNL Adobe Expe
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1426'
 ht-degree: 100%
 
