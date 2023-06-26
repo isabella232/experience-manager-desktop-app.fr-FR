@@ -3,9 +3,9 @@ title: Bonnes pratiques et résolution des problèmes liés à l’appli de bure
 description: Suivez les bonnes pratiques et les solutions de dépannage pour résoudre les problèmes occasionnels liés à l’installation, à la mise à niveau, à la configuration, etc.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2260'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
