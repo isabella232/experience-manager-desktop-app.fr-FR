@@ -3,9 +3,9 @@ title: Résolution de problèmes dans l’appli de bureau version 1.10.
 description: Cette section vous explique comment résoudre les problèmes occasionnels pouvant affecter, notamment, l’installation, la mise à niveau et la configuration de l’appli de bureau [!DNL Adobe Experience Manager] version 1.10
 exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
 source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3291'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -25,25 +25,25 @@ L’appli de bureau AEM comprend les composants suivants :
 
 * **Appli de bureau** : monte/démonte DAM en tant que système de fichiers distant, et convertit les appels du système de fichiers entre le partage réseau monté en local et l’instance AEM distante à laquelle l’appli de bureau AEM se connecte.
 * **Client WebDAV/SMB du système d’exploitation** : gère les communications entre l’Explorateur Windows/le Finder et l’appli de bureau AEM. Si un fichier est récupéré, créé, modifié, supprimé, déplacé ou copié, le client WebDAV/SMB du système d’exploitation communique cette opération à l’appli de bureau AEM. Après réception de la communication, l’appli de bureau AEM la convertit en appels d’API distants AEM natifs. Par exemple, si un utilisateur crée un fichier dans le répertoire monté, le client WebDAV/SMB lance une requête que l’appli de bureau AEM convertit en requête HTTP qui crée le fichier dans DAM. Le client WebDAV/SMB est un composant intégré du système d’exploitation. Il n’est affilié, en aucune manière, à l’appli de bureau AEM, à AEM ou à Adobe.
-* **Instance Adobe Experience Manager** : permet d’accéder aux ressources stockées dans le référentiel DAM d’AEM Assets. Elle exécute, en outre, les actions demandées par l’appli de bureau AEM pour le compte des applications de bureau locales qui interagissent avec le partage réseau monté. L’instance AEM cible doit exécuter AEM version 6.1 ou ultérieure. AEM instances exécutant les versions précédentes d’AEM peuvent nécessiter l’installation de Feature Packs et de correctifs logiciels supplémentaires pour devenir entièrement fonctionnelles.
+* **Instance Adobe Experience Manager** : permet d’accéder aux ressources stockées dans le référentiel DAM d’AEM Assets. Elle exécute, en outre, les actions demandées par l’appli de bureau AEM pour le compte des applications de bureau locales qui interagissent avec le partage réseau monté. L’instance AEM cible doit exécuter AEM version 6.1 ou ultérieure. Les instances AEM exécutant les versions précédentes d’AEM peuvent nécessiter l’installation de Feature Packs et de correctifs logiciels supplémentaires pour devenir entièrement fonctionnelles.
 
 ## Cas d’utilisation prévus pour l’appli de bureau AEM {#intended-use-cases-for-aem-desktop-app}
 
-L’appli de bureau AEM utilise la technologie de partage réseau pour mapper un référentiel AEM distant sur un ordinateur local. Toutefois, il n’est pas conçu comme un remplacement d’un partage réseau contenant des ressources, où les utilisateurs effectuent des opérations de gestion des ressources numériques directement depuis leur bureau local. Il s’agit notamment du déplacement ou de la copie de plusieurs fichiers, ou du déplacement de structures de dossiers volumineuses vers le partage réseau AEM Assets directement dans le Finder/l’Explorateur.
+L’appli de bureau AEM utilise la technologie de partage réseau pour mapper un référentiel AEM distant sur un ordinateur local. Toutefois, elle n’est pas conçue comme se substituant à un partage réseau contenant des ressources, où les utilisateurs et utilisatrices effectuent des opérations de gestion des ressources numériques directement depuis leur bureau local. Elle permet notamment le déplacement ou la copie de plusieurs fichiers, ou encore le déplacement de structures de dossiers volumineuses vers le partage réseau d’AEM Assets directement dans le Finder/l’Explorateur.
 
 L’appli de bureau AEM fournit une méthode pratique pour accéder à des ressources DAM (ouverture) et les modifier (enregistrement) entre l’interface utilisateur tactile d’AEM Assets et le poste de travail local. L’application lie les ressources stockées sur le serveur AEM Assets à vos workflows de bureau.
 
 Le scénario suivant illustre l’utilisation de l’appli de bureau AEM :
 
-* Un utilisateur se connecte à AEM et utilise l’interface utilisateur web pour localiser une ressource.
-* Grâce aux fonctionnalités d’action de bureau de l’interface utilisateur web d’AEM, l’utilisateur ouvre, affiche ou modifie la ressource sur le bureau, selon les besoins.
+* Une personne se connecte à AEM et utilise l’interface utilisateur web pour localiser une ressource.
+* Grâce aux fonctionnalités d’action de bureau de l’interface utilisateur web d’AEM, la personne ouvre, affiche ou modifie la ressource sur le bureau, selon les besoins.
 * L’appli de bureau AEM ouvre la ressource dans l’éditeur par défaut en fonction du type de fichier.
-* L’utilisateur apporte les modifications souhaitées à la ressource.
+* La personne apporte les modifications souhaitées à la ressource.
 * Une fois qu’un fichier a été modifié, l’utilisateur peut afficher son état de synchronisation à l’aide de la fenêtre d’état de synchronisation en arrière-plan de l’appli de bureau AEM.
 * Il peut utiliser le menu contextuel de l’appli de bureau AEM pour archiver/extraire la ressource ou revenir à l’interface utilisateur de la gestion des actifs numériques (DAM).
-* Une fois les modifications apportées au fichier, l’utilisateur revient à l’interface utilisateur web AEM
+* Une fois les modifications apportées au fichier, la personne revient à l’interface utilisateur web AEM.
 
-Ce n’est pas le seul cas d’utilisation. Toutefois, il illustre à quel point l’appli de bureau AEM constitue un mécanisme pratique pour modifier des ressources et y accéder en local. Nous vous recommandons d’utiliser autant que possible l’interface utilisateur web de la gestion des actifs numériques, car elle offre une meilleure expérience. Il offre une plus grande flexibilité Adobe pour répondre aux besoins des clients.
+Ce n’est pas le seul cas d’utilisation. Toutefois, il illustre à quel point l’appli de bureau AEM constitue un mécanisme pratique pour modifier des ressources et y accéder en local. Nous vous recommandons d’utiliser autant que possible l’interface utilisateur web de la gestion des ressources numériques, car elle offre une meilleure expérience. Elle offre à Adobe une plus grande flexibilité pour répondre aux besoins des clients et des clientes.
 
 ## Restrictions {#limitations}
 
@@ -66,7 +66,7 @@ L’appli de bureau [!DNL Experience Manager] ne dispose pas d’une valeur de d
 
 ## Mise en cache et communication avec AEM {#caching-and-communication-with-aem}
 
-L’appli de bureau AEM fournit des fonctions de chargement en arrière-plan et de mise en cache interne afin d’améliorer l’expérience de l’utilisateur final. Lorsque vous enregistrez un fichier volumineux, il est d’abord enregistré localement pour vous permettre de continuer à travailler. Au bout d’un certain temps (actuellement 30 secondes), le fichier est alors envoyé au serveur AEM en arrière-plan.
+L’appli de bureau AEM fournit des fonctions de chargement en arrière-plan et de mise en cache interne afin d’améliorer l’expérience de l’utilisateur final. Lorsque vous enregistrez un fichier volumineux, il est d’abord enregistré localement pour vous permettre de continuer à travailler. Au bout d’un certain temps (actuellement 30 secondes), le fichier est alors envoyé au serveur AEM en arrière-plan.
 
 Contrairement à Creative Cloud Desktop ou à d’autres solutions de synchronisation de fichiers, telles que Microsoft One Drive, l’appli de bureau AEM n’est pas un client de synchronisation de bureau complet. En effet, cette application permet d’accéder au référentiel AEM Assets dans son intégralité, lequel peut être extrêmement volumineux (de l’ordre de plusieurs centaines de gigaoctets ou de téraoctets) pour une synchronisation complète.
 
@@ -79,9 +79,9 @@ La mise en cache offre la possibilité de limiter la surcharge de stockage/rése
 Pour effectuer la mise en cache, l’appli de bureau AEM procède comme suit :
 
 * Lorsque vous ouvrez un dossier dans le Finder et que des vignettes/aperçus de fichiers sont affichés, ou lorsque vous ouvrez un fichier dans une application, l’appli de bureau AEM met en cache le binaire du fichier.
-* Lorsque vous stockez des fichiers via le Finder ou d’autres applications de bureau, ils sont d’abord stockés en local (mis en cache) et le système d’exploitation en est informé. Le fichier est ensuite mis en file d’attente pour être téléchargé sur le serveur en arrière-plan, puis téléchargé sur le réseau. En cas d’erreur réseau, l’appli de bureau AEM effectue, au maximum, trois nouvelles tentatives de chargement de l’intégralité du fichier. Si le chargement s’avère toujours impossible après ces trois tentatives, le fichier est marqué comme étant en conflit et le statut est affiché dans la fenêtre Background Upload Queue Status (Statut de la file d’attente de chargement en arrière-plan). L’appli de bureau AEM n’essaie plus de mettre à jour le fichier. L’utilisateur doit mettre à jour le fichier et le charger à nouveau une fois la connectivité restaurée.
+* Lorsque vous stockez des fichiers via le Finder ou d’autres applications de bureau, ces derniers sont d’abord stockés localement (mis en cache) et le système d’exploitation en est informé. Le fichier est ensuite mis en file d’attente pour être téléchargé sur le serveur en arrière-plan, puis téléchargé sur le réseau. En cas d’erreur réseau, l’appli de bureau AEM effectue, au maximum, trois nouvelles tentatives de chargement de l’intégralité du fichier. Si le chargement s’avère toujours impossible après ces trois tentatives, le fichier est marqué comme étant en conflit et le statut est affiché dans la fenêtre Background Upload Queue Status (Statut de la file d’attente de chargement en arrière-plan). L’appli de bureau AEM n’essaie plus de mettre à jour le fichier. L’utilisateur ou l’utilisatrice doit mettre à jour le fichier et le charger à nouveau, une fois la connectivité restaurée.
 
-Chaque opération n’est pas mise en cache localement. Les éléments suivants sont transmis immédiatement au serveur AEM sans mise en cache locale :
+Chaque opération n’est pas mise en cache localement. Les éléments suivants sont transmis immédiatement au serveur AEM, sans mise en cache locale :
 
 * Toutes les opérations sur des dossiers, par exemple créer, supprimer, etc.
 * La fonctionnalité de transfert de dossiers introduite dans la version 1.4 télécharge une hiérarchie de dossiers locale sans mettre en cache les fichiers localement
@@ -92,9 +92,9 @@ Pour résoudre des problèmes de performances affectant les utilisateurs individ
 
 ## Recommandations en termes de bande passante {#bandwidth-recommendations}
 
-La bande passante disponible pour un utilisateur individuel joue un rôle essentiel dans les performances du client WebDAV/SMB.
+La bande passante disponible pour une seule personne joue un rôle essentiel dans les performances du client WebDAV/SMB.
 
-Adobe recommande que la vitesse de chargement d’un utilisateur individuel soit proche de 10 Mbit/s. Pour les connexions sans fil, la bande passante est souvent partagée entre plusieurs utilisateurs. Si plusieurs utilisateurs effectuent simultanément des tâches qui consomment de la bande passante du réseau, les performances peuvent se dégrader encore plus. Pour éviter de tels problèmes, utilisez une connexion câblée.
+Adobe recommande que la vitesse de chargement d’une personne unique soit proche de 10 Mbit/s. Pour les connexions sans fil, la bande passante est souvent partagée entre plusieurs personnes. Si plusieurs utilisateurs et utilisatrices effectuent simultanément des tâches qui consomment de la bande passante du réseau, les performances peuvent se dégrader davantage encore. Pour éviter de tels problèmes, utilisez une connexion câblée.
 
 <!-- AG, 8/18: The Windows KB article is removed by MS now. Giving 404. Also, Win 7 support is gone and the desktop app is also not supported on Win 7. Hiding this content for now.
 
@@ -109,17 +109,17 @@ On Windows 7, modifying IE settings can improve the performance of WebDAV. For d
 
 Lorsque vous interagissez avec un fichier en local, l’appli de bureau AEM vérifie si une version plus récente du fichier est disponible dans AEM. Si une nouvelle version est disponible, l’application télécharge une nouvelle copie du fichier dans le cache local. Toutefois, l’appli de bureau AEM n’écrase pas un fichier mis en cache localement s’il a été modifié. Cette fonctionnalité empêche tout écrasement accidentel de votre travail.
 
-Lorsque le même fichier est modifié localement et en AEM, la version modifiée localement remplace la version dans AEM. Dans ce cas, la version précédente est disponible dans la chronologie de la ressource. Vous pouvez vérifier les deux versions et résoudre les conflits.
+Lorsque le même fichier est modifié localement et dans AEM, la version modifiée localement remplace la version dans AEM. Dans ce cas, la version précédente est disponible dans le journal de la ressource. Vous pouvez vérifier les deux versions et résoudre les conflits.
 
-Si un fichier local n’est pas cohérent avec la version disponible sur le serveur, la boîte de dialogue d’état du téléchargement en arrière-plan vous informe du conflit. Pour résoudre le problème, ouvrez le fichier en conflit et enregistrez-le. L’enregistrement du fichier force l’appli de bureau AEM à synchroniser vos dernières modifications locales avec AEM. Vous pouvez afficher les versions précédentes de la ressource dans la chronologie et résoudre les conflits.
+Si un fichier local n’est pas cohérent avec la version disponible sur le serveur, la boîte de dialogue de statut du chargement en arrière-plan vous informe du conflit. Pour résoudre le problème, ouvrez le fichier en conflit et enregistrez-le. L’enregistrement du fichier force l’appli de bureau AEM à synchroniser vos dernières modifications locales avec AEM. Vous pouvez afficher les versions précédentes de la ressource dans le journal et résoudre les conflits.
 
-Vous devez tenir compte de facteurs supplémentaires lorsque plusieurs utilisateurs tentent de travailler dans des répertoires montés distincts ciblant la même instance AEM. En particulier, les facteurs suivants sont importants :
+Vous devez tenir compte de facteurs supplémentaires lorsque plusieurs personnes tentent de travailler dans des répertoires montés distincts ciblant la même instance AEM. En particulier, les facteurs suivants sont importants :
 
-* La quantité de bande passante disponible sur le réseau d’origine des utilisateurs
+* Quantité de bande passante disponible sur le réseau d’origine des utilisateurs et utilisatrices
 * Configuration réseau, telle que les pare-feu ou les proxies, du réseau d’origine
-* Quantité de bande passante disponible dans le réseau de l’instance AEM cible
-* Si un dispatcher est présent avant l’instance AEM cible
-* Charge actuelle sur l’instance AEM cible
+* Quantité de bande passante disponible dans le réseau de l’instance AEM cible
+* Présence ou non d’un Dispatcher avant l’instance AEM cible
+* Charge actuelle sur l’instance AEM cible
 
 ## Configurations AEM supplémentaires {#additional-aem-configurations}
 
@@ -132,8 +132,8 @@ Vous pouvez améliorer les performances du côté AEM en activant les workflows 
 1. Accédez à `/miscadmin` dans l’instance Experience Manager (`https://[aem_server]:[port]/miscadmin`).
 1. Dans l’arborescence de navigation, développez **Outils** > **Workflow** > **Modèles** > **dam**.
 1. Double-cliquez sur **Ressources de mise à jour de gestion des actifs numériques** (DAM).
-1. Dans le panneau des outils flottants, passez à la **Page** puis cliquez sur **Propriétés de la page**.
-1. Sélectionnez la **Processus transitoire** puis cliquez sur **OK**.
+1. Depuis le panneau d’outils flottant, basculez vers l’onglet **Page**, puis cliquez sur **Propriétés de la page**.
+1. Sélectionnez la fenêtre **Workflow transitoire**, puis cliquez sur **OK**.
 
 ### Ajuster la file d’attente des workflows transitoires Granite {#adjust-granite-transient-workflow-queue}
 
@@ -145,62 +145,62 @@ Pour améliorer les performances d’AEM, une autre méthode consiste à configu
 
 ## Configuration AWS {#aws-configuration}
 
-En raison des limitations de bande passante du réseau, les performances de WebDAV/SMB peuvent se dégrader lorsque plusieurs utilisateurs travaillent simultanément. Adobe recommande d’augmenter la taille de l’instance AWS pour une instance AEM cible qui s’exécute sur AWS afin d’améliorer les performances de WebDAV/SMB.
+En raison des limitations de bande passante du réseau, les performances de WebDAV/SMB peuvent se dégrader lorsque plusieurs personnes travaillent simultanément. Adobe recommande d’augmenter la taille de l’instance AWS pour une instance AEM cible qui s’exécute sur AWS afin d’améliorer les performances de WebDAV/SMB.
 
-Cette mesure augmente spécifiquement la bande passante du réseau disponible pour le serveur. Voici quelques détails :
+Cette mesure augmente spécifiquement la bande passante du réseau disponible pour le serveur. Voici quelques détails :
 
-* La quantité de bande passante réseau dédiée à une instance AWS augmente à mesure que la taille de l’instance augmente. Pour plus d’informations sur la bande passante disponible pour chaque taille d’instance, voir [Documentation AWS](https://aws.amazon.com/ec2/instance-types/).
-* Lors de la résolution des problèmes pour un client de grande taille, Adobe a configuré la taille de son instance AEM sur c4.8xlarge, principalement pour la bande passante dédiée de 4 000 Mbit/s qu’il fournit.
-* S’il existe un dispatcher en amont de l’instance AEM, assurez-vous qu’il a la taille appropriée. Si l’instance d’AEM fournit 4 000 Mbit/s, mais que le Dispatcher ne fournit que 500 Mbit/s, la bande passante effective est seulement de 500 Mbit/s. En effet, le Dispatcher crée un goulot d’étranglement réseau.
+* La quantité de bande passante réseau dédiée à une instance AWS augmente à mesure que la taille de l’instance augmente. Pour plus d’informations sur la bande passante disponible pour chaque taille d’instance, voir la [Documentation AWS](https://aws.amazon.com/ec2/instance-types/).
+* Lors de la résolution des problèmes d’un client volumineux, Adobe a configuré la taille de son instance AEM sur c4.8xlarge, principalement pour la bande passante dédiée de 4 000 Mbit/s dédiée.
+* S’il existe un Dispatcher en amont de l’instance AEM, assurez-vous qu’il a la taille appropriée. Si l’instance d’AEM fournit 4 000 Mbit/s, mais que le Dispatcher ne fournit que 500 Mbit/s, la bande passante effective est seulement de 500 Mbit/s. En effet, le Dispatcher crée un goulot d’étranglement réseau.
 
 ## Restrictions liées aux fichiers extraits {#checked-out-file-limitations}
 
-Il existe quelques limites connues dans la manière dont vous pouvez interagir avec les fichiers extraits via l’Explorateur/le Finder. Si un fichier est extrait, il doit être en lecture seule pour toute personne, à l’exception de l’utilisateur qui l’a extrait. La mise en oeuvre du protocole WebDAV/SMB1 dans AEM applique cette règle. Toutefois, les clients WebDAV/SMB du système d’exploitation n’interagissent souvent pas avec les fichiers extraits. Certaines bizarreries sont décrites ci-dessous.
+Il existe quelques limites connues dans la manière dont vous pouvez interagir avec les fichiers extraits via l’Explorateur/le Finder. Si un fichier est extrait, il doit être en lecture seule pour toute personne, à l’exception de celle qui l’a extrait. La mise en œuvre du protocole WebDAV/SMB1 dans AEM applique cette règle. Toutefois, les clients WebDAV/SMB du système d’exploitation interagissent souvent mal avec les fichiers extraits. Certains de ces faits étranges sont décrits ci-dessous.
 
 ### Général {#general}
 
-Si vous écrivez dans un fichier extrait, le verrouillage n’est appliqué que dans l’implémentation WebDAV d’AEM. Par conséquent, le verrouillage n’est appliqué que par les clients qui utilisent WebDAV, comme l’appli de bureau. Le verrouillage n’est pas appliqué par le biais de l’interface web AEM. L’interface AEM affiche simplement une icône de verrouillage dans le mode Carte pour les ressources extraites. L’icône est cosmétique et n’a aucun effet sur le comportement de l’AEM.
+Si vous écrivez dans un fichier extrait, le verrouillage n’est appliqué que dans l’implémentation WebDAV d’AEM. Par conséquent, le verrouillage n’est appliqué que par les clients qui utilisent WebDAV, comme l’appli de bureau. Le verrouillage n’est pas appliqué par le biais de l’interface web AEM. L’interface AEM affiche simplement une icône de verrouillage dans le mode Carte pour les ressources extraites. L’icône est simplement visuelle et n’a aucun effet sur le comportement d’AEM.
 
-En général, les clients WebDAV ne se comportent pas toujours comme prévu. Il peut y avoir d’autres problèmes. Toutefois, l’actualisation ou la vérification de la ressource dans AEM est un bon moyen de vérifier qu’une ressource n’est pas en cours de modification. Ce comportement est typique des clients WebDAV du système d’exploitation, qui ne sont pas contrôlés par l’Adobe.
+En général, les clients WebDAV ne se comportent pas toujours comme prévu. Il peut y avoir d’autres problèmes. Toutefois, l’actualisation ou la vérification de la ressource dans AEM est un bon moyen de vérifier qu’elle n’est pas en cours de modification. Ce comportement est typique des clients OS WebDAV, qui ne sont pas contrôlés par Adobe.
 
 ### Windows {#windows}
 
-La suppression d’un fichier semble réussir car le fichier disparaît de l’explorateur de fichiers sous Windows. Toutefois, l’actualisation du répertoire et l’archivage AEM ressources indique que le fichier est toujours présent. En outre, la modification des fichiers semble réussir (aucune boîte de dialogue d’avertissement ou message d’erreur ne s’affiche). Toutefois, la réouverture du fichier ou l’archivage de AEM ressources révèle que le fichier reste inchangé.
+La suppression d’un fichier semble réussir, car le fichier disparaît de l’explorateur de fichiers sous Windows. Toutefois, l’actualisation du répertoire et l’archivage dans AEM Assets indique que le fichier est toujours présent. En outre, la modification des fichiers semble réussir (aucune boîte de dialogue d’avertissement ou message d’erreur ne s’affiche). Toutefois, la réouverture du fichier ou l’archivage dans AEM Assets révèle que le fichier reste inchangé.
 
 #### Mac OS X {#mac-os-x}
 
-Le remplacement d’un fichier n’affiche pas d’avertissement ou d’erreur, mais la vérification de la ressource dans AEM révèle qu’elle reste inchangée. Actualisez ou vérifiez la ressource dans AEM pour vérifier qu’elle n’est pas en cours de modification.
+Le remplacement d’un fichier n’affiche pas d’avertissement ou d’erreur, mais l’archivage de la ressource dans AEM révèle qu’elle reste inchangée. Actualisez ou vérifiez la ressource dans AEM pour vous assurer qu’elle n’est pas en cours de modification.
 
 ## Résolution des problèmes d’icône de l’appli de bureau AEM (Mac OS X) {#troubleshooting-desktop-app-icon-issues-mac-os-x}
 
-Une fois que vous avez installé l’appli de bureau AEM, l’icône de menu de l’application s’affiche dans la barre de menus. Si l’icône n’apparaît pas, procédez comme suit pour résoudre le problème :
+Une fois que vous avez installé l’appli de bureau AEM, l’icône de menu de l’application s’affiche dans la barre de menus. Si l’icône n’apparaît pas, procédez comme suit pour résoudre le problème :
 
 1. Ouvrez la fenêtre du terminal du système d’exploitation.
-1. Saisissez la commande suivante à l’invite de commande, puis appuyez sur Entrée :
+1. Saisissez la commande suivante à l’invite de commande, puis appuyez sur Entrée :
 
    ```shell
     cd ../Library/Caches.
    ```
 
-1. Saisissez la commande suivante, puis appuyez sur Entrée :
+1. Saisissez la commande suivante, puis appuyez sur Entrée :
 
    ```shell
    rm -r com.adobe.aem.assetscompanion
    ```
 
-1. Saisissez la commande suivante, puis appuyez sur Entrée :
+1. Saisissez la commande suivante, puis appuyez sur Entrée :
 
    ```shell
    cd ~/Library/Preferences
    ```
 
-1. Saisissez la commande suivante, puis appuyez sur Entrée :
+1. Saisissez la commande suivante, puis appuyez sur Entrée :
 
    ```shell
    rm com.adobe.aem.assetscompanion.plist
    ```
 
-1. Saisissez la commande suivante, puis appuyez sur Entrée :
+1. Saisissez la commande suivante, puis appuyez sur Entrée :
 
    ```shell
    rm ~/Library/Group\ Containers/group.com.adobe.aem.desktop/*
@@ -223,7 +223,7 @@ Sous Mac, `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 
 Toutefois, l’emplacement peut varier en fonction du point d’entrée AEM configuré de l’appli de bureau AEM. La valeur est une version codée de l’URL ciblée. Par exemple, si l’application cible est `http://localhost:4502`, le nom du répertoire est `http%3A%2F%2Flocalhost%3A4502%2F`.
 
-Pour effacer le cache, supprimez la variable &lt;encoded aem=&quot;&quot; endpoint=&quot;&quot;> répertoire .
+Pour effacer le cache, supprimez le répertoire &lt;Encoded AEM Endpoint>.
 
 >[!NOTE]
 >
@@ -256,7 +256,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ## Enregistrement d’un fichier extrait par d’autres utilisateurs {#saving-a-file-checked-out-by-others}
 
-Les limitations techniques du système d’exploitation empêchent les utilisateurs d’avoir une expérience cohérente lorsqu’ils tentent de remplacer un fichier extrait par d’autres utilisateurs. L’expérience varie en fonction de l’application utilisée pour modifier le fichier extrait. Parfois, l’application affiche un message d’erreur indiquant une erreur d’écriture de disque ou affiche une erreur apparemment sans rapport ou générique. Dans d’autres cas, aucun message d’erreur ne s’affiche et l’opération semble réussir.
+Les limitations techniques du système d’exploitation empêchent les utilisateurs et utilisatrices d’avoir une expérience cohérente lorsqu’ils tentent de remplacer un fichier extrait par d’autres personnes. L’expérience varie en fonction de l’application utilisée pour modifier le fichier extrait. Parfois, l’application affiche un message d’erreur indiquant une erreur d’écriture de disque ou affiche une erreur apparemment sans rapport ou générique. Dans d’autres cas, aucun message d’erreur ne s’affiche et l’opération semble réussir.
 
 Dans ce cas, la fermeture et la réouverture du fichier peut indiquer que le contenu n’a pas été modifié. Cependant, certaines applications peuvent stocker une sauvegarde du fichier afin que vos modifications puissent être appliquées.
 
@@ -270,13 +270,13 @@ L’API du serveur requiert la transmission d’en-têtes supplémentaires, X-De
 
 ### Problème de redirection SAML {#saml-redirect-issue}
 
-Dans la majorité des cas, les problèmes de connexion de l’appli de bureau AEM à votre instance AEM compatible SSO (SAML) sont dus au fait que le processus SAML n’effectue pas de redirection vers le chemin demandé initialement. Sinon, la connexion peut être redirigée vers un hôte qui n’est pas configuré dans l’appli de bureau AEM. Effectuez les étapes suivantes pour vérifier le processus de connexion :
+Dans la majorité des cas, les problèmes de connexion de l’appli de bureau AEM à votre instance AEM compatible SSO (SAML) sont dus au fait que le processus SAML n’effectue pas de redirection vers le chemin demandé initialement. Sinon, la connexion peut être redirigée vers un hôte qui n’est pas configuré dans l’appli de bureau AEM. Effectuez les étapes suivantes pour vérifier le processus de connexion :
 
 1. Ouvrez un navigateur web.
 1. Dans la barre d’adresse, indiquez l’URL `/content/dam.json`.
 1. Remplacez l’URL par l’instance AEM cible ; par exemple, `https://localhost:4502/content/dam.json`.
 1. Connectez-vous à AEM.
-1. Une fois connecté, vérifiez l’adresse actuelle du navigateur dans la barre d’adresse. Il doit correspondre à l’URL que vous avez saisie initialement.
+1. Une fois connecté, vérifiez l’adresse actuelle du navigateur dans la barre d’adresse. Elle doit correspondre exactement à l’URL que vous avez saisie initialement.
 1. Vérifiez que tous les éléments qui précèdent `/content/dam.json` correspondent à la valeur AEM configurée dans l’appli de bureau AEM.
 
 ### Problème de configuration SSL {#ssl-configuration-issue}
@@ -285,7 +285,7 @@ Les bibliothèques utilisées par l’appli de bureau AEM pour les communication
 
 ## Utilisation de l’appli de bureau AEM avec le Dispatcher {#using-aem-desktop-with-dispatcher}
 
-L’appli de bureau AEM fonctionne avec des déploiements situés derrière un Dispatcher ; il s’agit de la configuration par défaut, recommandée pour les serveurs AEM. AEM dispatchers situés en face d’AEM environnements de création sont généralement configurés pour ignorer la mise en cache des ressources DAM. Par conséquent, ils ne fournissent pas de mise en cache supplémentaire du point de vue de l’appli de bureau AEM. Assurez-vous que la configuration du Dispatcher a été adaptée pour fonctionner avec l’appli de bureau AEM. Pour plus d’informations, voir [Connexion à AEM derrière un Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
+L’appli de bureau AEM fonctionne avec des déploiements situés derrière un Dispatcher ; il s’agit de la configuration par défaut, recommandée pour les serveurs AEM. Les Dispatchers AEM situés devant les environnements de création d’AEM sont généralement configurés de sorte à ignorer la mise en cache des ressources DAM. Par conséquent, ils ne fournissent pas de mise en cache supplémentaire du point de vue de l’appli de bureau AEM. Assurez-vous que la configuration du Dispatcher a été adaptée pour fonctionner avec l’appli de bureau AEM. Pour plus d’informations, voir [Connexion à AEM derrière un Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
 ## Recherche des fichiers journaux {#checking-for-log-files}
 
