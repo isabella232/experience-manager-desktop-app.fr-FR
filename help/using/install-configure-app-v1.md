@@ -1,15 +1,15 @@
 ---
 title: Installation et configuration de l’appli de bureau v1.10
-description: Installation et configuration [!DNL Experience Manager] version 1.10 de l’appli de bureau pour utiliser [!DNL Assets] serveurs et mappez les ressources à monter en tant que lecteur sur votre bureau.
+description: Installez et configurez l’application de bureau [!DNL Experience Manager] version 1.10 pour qu’elle fonctionne avec les serveurs [!DNL Assets] et mappez les ressources à monter en tant que lecteur sur votre bureau.
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
 source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Installation et configuration de l’appli de bureau [!DNL Experience Manager] v1.10 {#install-and-configure-aem-desktop-app}
+# Installer et configurer l’appli de bureau [!DNL Experience Manager] v1.10 {#install-and-configure-aem-desktop-app}
 
 Grâce à l’appli de bureau [!DNL Experience Manager], les ressources d’[!DNL Experience Manager] sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources sont aisément affichées dans le Finder de Mac ou l’Explorateur Windows, ouvertes dans des applications de bureau et modifiées en local ; les modifications sont réenregistrées dans [!DNL Experience Manager] lors du chargement et une nouvelle version est créée dans le référentiel.
 
@@ -27,9 +27,9 @@ Pour utiliser l’appli de bureau [!DNL Experience Manager],
 
 Pour plus d’informations, voir les [[!DNL Experience Manager] Notes de mise à jour de l’appli de bureau](release-notes-of-v1.md).
 
-## Installation et connexion de l’appli au serveur [!DNL Experience Manager] {#install-and-connect-aem-desktop-app-to-aem-server}
+## Installer et connecter l’appli au serveur [!DNL Experience Manager] {#install-and-connect-aem-desktop-app-to-aem-server}
 
-Pour plus d’informations, voir [ [!DNL Experience Manager]  [!DNL Experience Manager] Installation de l’appli de bureau  et connexion de l’application au serveur ](use-app-v1.md#installandconnect).
+Pour plus d’informations, voir [Installation et connexion de l’appli de bureau [!DNL Experience Manager] au serveur [!DNL Experience Manager] ](use-app-v1.md#installandconnect).
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Pour plus d’informations, voir [ [!DNL Experience Manager]  [!DNL Experience M
 
 ## Gestion des fichiers {#file-handling}
 
-Lorsque vous modifiez des fichiers à partir d’un partage réseau monté par l’appli de bureau AEM, les fichiers sont enregistrés à cet emplacement en deux phases. Dans la première phase, un fichier est enregistré localement. Un utilisateur peut enregistrer le fichier et continuer à travailler sur le fichier, sans attendre que le transfert soit terminé.
+Lorsque vous modifiez des fichiers à partir d’un partage réseau monté par l’appli de bureau AEM, les fichiers sont enregistrés à cet emplacement en deux phases. Dans la première phase, un fichier est enregistré localement. L’utilisateur ou l’utilisatrice peut enregistrer le fichier et continuer à travailler sur ce dernier, sans attendre que le transfert soit terminé.
 
 Dans la seconde phase, l’appli de bureau charge le fichier mis à jour sur le serveur [!DNL Experience Manager] après une période prédéfinie (par exemple, 30 s). Cette opération s’effectue en arrière-plan. Utilisez l’option View Asset Status (Afficher l’état des ressources) pour afficher l’état de l’opération de chargement.
 
@@ -77,7 +77,7 @@ Si vous configurez ou modifiez les paramètres du serveur proxy pour Windows (Op
 
 Si votre proxy nécessite une authentification, l’équipe informatique peut autoriser l’URL d’Experience Manager Assets dans les paramètres du serveur proxy afin d’autoriser le trafic de l’application.
 
-## Personnalisation de la boîte de dialogue Asset Info (Informations sur les ressources)  {#customize-the-asset-info-dialog}
+## Personnaliser la boîte de dialogue Asset Info (Informations sur les ressources) {#customize-the-asset-info-dialog}
 
 Vous pouvez personnaliser la boîte de dialogue Asset Info (Informations sur les ressources) en recouvrant l’un de ces composants, ou les deux :
 
@@ -85,7 +85,7 @@ Vous pouvez personnaliser la boîte de dialogue Asset Info (Informations sur les
 
 * Le composant `/css/javascript` HTL, situé à l’adresse `/libs/dam/gui/components/admin/moreinfo`.
 
-Le composant qui est superposé dépend de la nature de la personnalisation. Pour modifier les composants qui s’affichent dans la boîte de dialogue Asset Info (Informations sur les ressources), recouvrez la page de l’interface utilisateur Granite. Pour modifier le contenu HTML/CSS ou JavaScript de la boîte de dialogue, recouvrez le composant HTL.
+Le composant qui est superposé dépend de la nature de la personnalisation. Pour modifier les composants qui s’affichent dans la boîte de dialogue Informations sur les ressources, superposez la page de l’interface utilisateur Granite. Pour modifier le contenu HTML/CSS ou JavaScript de la boîte de dialogue, recouvrez le composant HTL.
 
 ## Gestion du cache {#manage-cache}
 
@@ -93,7 +93,7 @@ Sous Windows, le cache se situe à l’emplacement `%LOCALAPPDATA%\Adobe\AssetsC
 
 Sous Mac OS X, un répertoire semblable est situé à l’emplacement suivant : `~/Library/Group Containers/group.com.adobe.aem.desktop/cache`
 
-### Option dans l’application pour gérer le cache {#in-app-option-to-manage-cache}
+### Option in-app pour gérer le cache {#in-app-option-to-manage-cache}
 
 Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les valeurs par défaut en fonction de vos besoins. Vous pouvez également vider le cache pour récupérer à nouveau toutes les ressources. Pour définir les options de votre choix, cliquez sur l’icône de l’application, puis sur **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**.
 
