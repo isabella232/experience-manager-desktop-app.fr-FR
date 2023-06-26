@@ -3,9 +3,9 @@ title: Notes de mise à jour de l’appli de bureau v1.10
 description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’appli de bureau AEM version 1.10.
 exl-id: 886864e0-016a-4a17-b3ba-4b18a514214a
 source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3898'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ L’appli de bureau [!DNL Adobe Experience Manager] est compatible avec les syst
 
 Adobe recommande vivement d’utiliser la version la plus récente de l’appli de bureau AEM pour bénéficier des dernières fonctionnalités, des correctifs de bogues les plus récents et d’un niveau de performance optimal.
 
-La version de l’appli de bureau AEM que vous prévoyez d’installer sur votre ordinateur local nécessite une version spécifique du serveur AEM/des composants supplémentaires côté serveur (Service Packs, correctifs logiciels ou Feature Packs). Assurez-vous que le serveur AEM est correctement configuré avant de vous y connecter pour la première fois. Si vous avez besoin d’aide, contactez votre administrateur AEM.
+La version de l’appli de bureau AEM que vous prévoyez d’installer sur votre ordinateur local nécessite une version spécifique du serveur AEM/des composants supplémentaires côté serveur (Service Packs, correctifs logiciels ou Feature Packs). Assurez-vous que le serveur AEM est correctement configuré avant de vous y connecter pour la première fois. Si vous avez besoin d’aide, contactez votre administrateur ou administratrice AEM.
 
 Consultez le [tableau de compatibilité détaillé](#compatibilitymatrix) à la fin de ce document pour évaluer les conditions préalables à la configuration.
 
@@ -51,13 +51,13 @@ L’appli de bureau AEM 1.10 vise à améliorer l’expérience utilisateur en 
 >
 >Si vous utilisez macOS 10.15.4 ou version ultérieure, utilisez au moins la version 1.10.0.6 de l’application. Cette version de correctif est conforme aux [exigences de certification d’Apple](https://developer.apple.com/news/?id=04102019a).
 
-**Modification/extraction locale** : les chargements automatiques des modifications enregistrées dans les ressources peuvent être désactivés dans la fenêtre de statut. Ainsi, l’utilisateur peut continuer à travailler sur les fichiers et à enregistrer les modifications, puis, lorsqu’il est prêt, décider de charger toutes les modifications.
+**Modification/extraction locale** : les chargements automatiques des modifications enregistrées dans les ressources peuvent être désactivés dans la fenêtre de statut. Ainsi, l’utilisateur ou l’utilisatrice peut continuer à travailler sur les fichiers et à enregistrer les modifications. Ensuite, lorsque tout est prêt, toutes les modifications peuvent être chargées.
 
-**Fenêtre d’état des ressources simplifiée**. la fenêtre de statut a été simplifiée. L’onglet [!UICONTROL Uploads] affiche désormais à la fois les ressources individuelles et les téléchargements de dossiers ou massifs. L’onglet Téléchargements en bloc précédent a été supprimé.
+**Fenêtre simplifiée de statut des ressources**. la fenêtre de statut a été simplifiée. L’onglet [!UICONTROL Uploads] affiche désormais à la fois les ressources individuelles et les téléchargements de dossiers ou massifs. L’onglet Chargements en bloc précédent a été supprimé.
 
-**Icône d’application pour indiquer les chargements en bloc**. l’icône d’application affichera une incrustation « transfert » pour indiquer qu’un téléchargement massif est en cours.
+**Icône d’application indiquant les chargements en bloc**. l’icône d’application affichera une incrustation « transfert » pour indiquer qu’un téléchargement massif est en cours.
 
-**Notifications de conflits de mise à jour** : si l’application détecte un conflit en essayant de mettre à jour une ressource, elle affiche une notification, de sorte que l’utilisateur puisse examiner ce conflit sans avoir à surveiller la fenêtre de statut. Lorsque l’application démarre, elle recherche tous les conflits, de sorte que l’utilisateur puisse les résoudre.
+**Notifications de conflits de mise à jour** : si l’application détecte un conflit en essayant de mettre à jour une ressource, elle affiche une notification, de sorte que l’utilisateur puisse examiner ce conflit sans avoir à surveiller la fenêtre de statut. Lorsque l’application démarre, elle recherche tous les conflits pour que l’utilisateur ou l’utilisatrice puisse les résoudre.
 
 **Amélioration de la gestion des pertes de connexion**. les téléchargements massifs sont interrompus en cas de perte de connexion et l’utilisateur est en mesure de reprendre l’opération ultérieurement. Une option [!UICONTROL Retry] est disponible pour effectuer une nouvelle tentative en cas d’échec du téléchargement d’un fichier.
 
@@ -111,7 +111,7 @@ Une fenêtre de statut des ressources améliorée fournit les informations suiva
 
 * Les chargements ayant échoué à trois reprises affichent un message d’erreur.
 
-* Fichiers en conflit affichés avec une icône sur laquelle l’utilisateur peut cliquer. Cliquez sur l’icône pour afficher une boîte de dialogue contenant une explication et deux options :
+* Fichiers en conflit indiqués par une icône sur lequel il est possible de cliquer. Cliquez sur l’icône pour afficher une boîte de dialogue contenant une explication et deux options :
 
    * [!UICONTROL Keep Mine] charge immédiatement le fichier sur le serveur.
 
@@ -137,15 +137,15 @@ Cette boîte de dialogue s’affiche lorsque vous chargez des hiérarchies de do
 
 * Affiche les chargements en cours, y compris une barre de progression et le nom du fichier en cours de transfert.
 
-* Les chargements en cours comprennent une icône qui annule le chargement lorsque l’utilisateur clique dessus. Le transfert s’arrêtera une fois le transfert du fichier en cours terminé.
+* Les chargements en cours comprennent une icône qui annule le chargement lorsque l’utilisateur ou l’utilisatrice clique dessus. Le transfert s’arrêtera une fois le transfert du fichier en cours terminé.
 
 * Les processus de transfert qui ont échoué sont affichés, accompagnés d’un message d’erreur (uniquement si tout le transfert échoue).
 
 * Si le transfert d’un seul fichier échoue, il est affiché sur l’onglet sous la forme d’une erreur. Dans le cas contraire, les fichiers individuels ne sont pas affichés sur l’onglet ; une seule entrée est répertoriée pour l’ensemble du téléchargement.
 
-**Icônes indiquant l’état des opérations en arrière-plan**
+**Icônes indiquant le statut des opérations en arrière-plan**
 
-L’icône de l’application indique l’état des opérations en arrière-plan afin de fournir un meilleur indice visuel aux utilisateurs. Par exemple, lorsque l’application n’est pas connectée à AEM, l’icône est grisée. Lorsqu’un chargement est actif, une incrustation « sync » est affichée, etc.
+L’icône de l’application indique l’état des opérations en arrière-plan, afin de fournir un meilleur repère visuel aux utilisateurs et utilisatrices. Par exemple, lorsque l’application n’est pas connectée à AEM, l’icône est grisée. Lorsqu’un chargement est actif, une incrustation « sync » est affichée, etc.
 
 **Prérécupération des ressources liées**
 
@@ -164,9 +164,9 @@ L’appli de bureau AEM 1.8.1 s’accompagnait d’améliorations au niveau de 
 
    * La taille du cache est vérifiée uniquement au démarrage de l’appli de bureau, et une notification est envoyée si cette taille atteint la limite configurée
 
-   * le bouton effacer le cache est désormais disponible dans la nouvelle interface utilisateur.
+   * Le bouton « Effacer le cache » est désormais disponible dans la nouvelle interface utilisateur.
 
-* Connexion : (Windows) Correction de la connexion à l’instance AEM configurée pour utiliser SAML et SSL (CQ-4216353)
+* Connexion : (Windows) connexion fixe à une instance AEM configurée pour utiliser SAML et SSL (CQ-4216353).
 
 * Réseau :
 
@@ -284,7 +284,7 @@ Remarque concernant les avertissements relatifs aux liens : les applications Cr
 
 Ce comportement est identique pour les ressources du disque local et celles du répertoire monté de l’appli de bureau AEM, avec les exceptions suivantes :
 
-* Si une ressource importée est modifiée par un autre utilisateur, l’icône d’avertissement s’affiche la première fois que d’autres utilisateurs ouvrent un document contenant la ressource importée. Cela se produira uniquement si la ressource importée a déjà été mise en cache localement.
+* Si une ressource placée est modifiée par une autre personne, une icône d’avertissement s’affiche la première fois que d’autres personnes ouvrent un document contenant la ressource placée. Cela se produira uniquement si la ressource importée a déjà été mise en cache localement.
 
 * Si un utilisateur modifie une ressource importée par l’intermédiaire du répertoire monté de l’appli de bureau AEM, puis efface le cache local, la ressource est signalée comme obsolète.
 
@@ -324,30 +324,30 @@ Ces deux cas sont attendus et sont des répercussions secondaires de l’archite
 * Simplification du chargement des dossiers hiérarchiques par l’intermédiaire de la nouvelle opération Create > Upload Folder (Créer > Charger un dossier) de l’interface utilisateur tactile.
    * L’action lance un chargement de dossier effectué par l’appli de bureau
    * L’appli de bureau traverse la hiérarchie de dossiers donnée sur le bureau en arrière-plan et charge les fichiers dans AEM Assets.
-   * L’utilisateur peut surveiller la progression dans la nouvelle fenêtre État de la file d’attente des chargements avec une barre de progression pour les opérations en cours.
+   * La personne peut surveiller la progression dans la nouvelle fenêtre Statut de la file d’attente des chargements, grâce à une barre de progression pour les opérations en cours.
    * Le statut de la file d’attente des chargements fournit également des informations de résolution de problème (par exemple, aucune connexion au serveur)
 * Nouvelle action Modifier de l’interface utilisateur tactile qui combine les opérations Extraction et Ouverture en une seule.
-* Regroupement optimisé des actions liées à l’appli de bureau dans l’interface utilisateur tactile (AEM 6.3)
+* Regroupement optimisé des actions liées à l’application de bureau dans l’interface utilisateur tactile (AEM 6.3).
 * Amélioration de la compatibilité avec les dernières versions du système d’exploitation
-* Correctifs signalés par les clients
+* Correctifs signalés par les clients et ls clientes
 
 ### Améliorations disponibles depuis l’appli de bureau AEM 1.3 {#Enhancements-Available-Since-AEM-Desktop-App-13}
 
-* Plus grande efficacité. Les utilisateurs passent moins de temps à attendre la fin des opérations réseau.
+* Efficacité accrue Les personnes passent moins de temps à attendre la fin des opérations réseau.
 * Amélioration de l’intégration du Finder, qui offre une amélioration de la stabilité et un accès aux fonctionnalités telles que les miniatures.
 * Améliorations de la mise en cache et des performances.
 * Amélioration de la prise en charge de l’enregistrement directement depuis les applications de bureau (PS, ID, AI, etc.).
 * Amélioration de l’intégration avec Mac OS (le protocole du lecteur réseau local est passé de WebDAV à SMB1, plus stable).
 * L’appli de bureau se connecte au serveur AEM à l’aide du protocole HTTP RESTful natif d’AEM.
-* Les fichiers sont d’abord enregistrés localement, puis rechargés en arrière-plan vers AEM après une durée prédéfinie (30 secondes). Cela réduit le temps d’enregistrement des fichiers.
-* Amélioration de la gestion des applications de bureau qui utilisent des opérations de fichiers intermédiaires pour enregistrer un fichier (enregistrements partiels et fichiers temporaires), ce qui permet à la chronologie des ressources AEM d’afficher les informations correctes sur la version et le chargement des ressources.
-* Boîte de dialogue fournie pour effectuer le suivi de l’état des tâches de chargement en arrière-plan.
+* Les fichiers sont d’abord enregistrés localement, puis rechargés en arrière-plan vers AEM après une durée prédéfinie (30 secondes). Cela réduit le temps d’enregistrement des fichiers.
+* Amélioration de la gestion des applications de bureau qui utilisent des opérations de fichiers intermédiaires pour enregistrer un fichier (enregistrements partiels et fichiers temporaires), ce qui permet à la chronologie des ressources AEM d’afficher les informations correctes sur la version et le chargement des ressources.
+* Boîte de dialogue permettant d’effectuer le suivi du statut des tâches de chargement en arrière-plan.
 
 ## Liste des modifications {#list-of-changes}
 
 ### Point de montage sous Mac {#mount-point-on-mac}
 
-Depuis MacOS 10.12 (Sierra), Apple a modifié les autorisations du dossier /Volumes utilisé pour monter les lecteurs et appareils réseau en autorisations plus restrictives. La création d’un nouveau point de montage nécessitait des droits d’administration. Ce problème a été corrigé dans MacOS 10.12.5.
+Depuis MacOS 10.12 (Sierra), Apple a modifié les autorisations du dossier /Volumes utilisé pour monter les lecteurs et appareils réseau de manière plus restrictive. La création d’un nouveau point de montage nécessitait des droits d’administration. Ce problème a été corrigé dans MacOS 10.12.5.
 
 Comme l’appli de bureau AEM doit fonctionner pour les utilisateurs ne disposant pas de droits d’administration pour l’ordinateur local, le point de montage du référentiel AEM Assets a été remplacé dans les versions 1.4 et 1.5 par un sous-dossier DAM du dossier local de l’utilisateur sous MacOS (CQ-104183).
 
@@ -361,7 +361,7 @@ Comme le dossier /Volumes ne nécessite plus de droits d’administration, cette
 * Windows :
    * Le protocole de lecteur réseau local pour les intégrations de bureau Windows reste le même ; AEM est monté en tant que partage WebDAV.
 * Pour les deux plateformes (Windows et Mac) :
-   * Le protocole permettant d’accéder/de télécharger des ressources et de charger des modifications dans AEM a été remplacé par le protocole natif d’AEM, qui est un protocole RESTful basé sur HTTP. Il offre un meilleur contrôle sur les opérations réseau et est plus compatible avec l’infrastructure réseau.
+   * Le protocole permettant d’accéder/de télécharger des ressources et de charger des modifications dans AEM a été remplacé par le protocole natif d’AEM, qui est un protocole RESTful basé sur HTTP. Il offre un meilleur contrôle sur les opérations réseau et est davantage compatible avec l’infrastructure réseau.
 
 >[!NOTE]
 >
@@ -372,24 +372,24 @@ Comme le dossier /Volumes ne nécessite plus de droits d’administration, cette
 * Les fichiers sont automatiquement mis à jour après une période prédéfinie (actuellement, 30 s).
 * Les fichiers extraits par d’autres utilisateurs sont marqués comme étant en lecture seule.
 * Les fichiers sont enregistrés en deux phases dans un emplacement de lecteur réseau monté par l’intermédiaire de l’appli de bureau.
-* Dans la première phase, un fichier est enregistré localement. Ainsi, l’utilisateur qui enregistre le fichier n’a pas besoin d’attendre que le fichier soit entièrement transféré vers AEM et peut reprendre le travail dès que le fichier est enregistré.
+* Dans la première phase, un fichier est enregistré localement. Ainsi, la personne enregistrant le fichier n’a pas besoin d’attendre que ce dernier soit entièrement transféré vers AEM et peut reprendre le travail dès que le fichier est enregistré.
 * Dans la seconde phase, l’appli de bureau charge le fichier mis à jour vers le serveur AEM après une période prédéfinie (par exemple, 30 s). Cette opération s’effectue en arrière-plan. Utilisez l’option **Show Background File Sync Status** (Afficher le statut de synchronisation du fichier en arrière-plan) pour afficher le statut de l’opération de chargement.
 
 ## Remarques importantes {#important-notices}
 
-**Chargement des dossiers :** Il est recommandé d’utiliser la nouvelle fonctionnalité de chargement de dossiers pour charger des dossiers hiérarchiques plus volumineux dans AEM plutôt que d’utiliser une opération de copie/glisser-déposer dans un référentiel AEM monté à partir du niveau du Finder/de l’Explorateur. Lors de l’utilisation de la fonctionnalité de chargement de dossiers, l’appli de bureau communique directement avec AEM et dispose ainsi d’un meilleur contrôle sur l’ensemble du processus.
+**Chargement des dossiers :** Il est recommandé d’utiliser la nouvelle fonctionnalité de chargement de dossiers pour charger des dossiers hiérarchiques plus volumineux dans AEM, plutôt que d’utiliser une opération de copie/glisser-déposer dans un référentiel AEM monté à partir du Finder/de l’Explorateur. Lors de l’utilisation de la fonctionnalité de chargement de dossiers, l’appli de bureau communique directement avec AEM et dispose ainsi d’un meilleur contrôle sur l’ensemble du processus.
 
 **Maintenir la session AEM disponible :** L’appli de bureau AEM dépend d’une session ouverte sur le serveur AEM Assets pour garantir son bon fonctionnement. Il est recommandé aux utilisateurs travaillant quotidiennement avec l’appli de bureau de démonter AEM Assets à la fin de leur journée pour forcer la déconnexion, puis de « monter AEM Assets » le matin pour s’assurer qu’ils sont connectés et que le partage réseau est opérationnel.
 
-**Désactiver l’option « Aperçu de l’icône » dans le Finder :** Pour une navigation performante des dossiers volumineux avec le Finder, en particulier avec une mauvaise connectivité réseau, assurez-vous que les options &quot;Icône&quot; et &quot;Aperçu de l’icône&quot; sont désactivées. Sinon, le Finder commence à télécharger chaque ressource dans un dossier afin de générer un petit aperçu, ce qui peut entraîner des performances médiocres et une utilisation élevée de la bande passante (CQ-4219779).
+**Désactiver l’option « Aperçu de l’icône » dans le Finder :** Pour une navigation performante dans les dossiers volumineux avec le Finder, en particulier avec une mauvaise connectivité réseau, assurez-vous que les options Icône et Aperçu de l’icône sont désactivées. Sinon, le Finder commence à télécharger chaque ressource dans un dossier afin de générer un petit aperçu, ce qui peut entraîner des performances médiocres et une utilisation élevée de la bande passante (CQ-4219779).
 
-* Dans le Finder, accédez au dossier réseau partagé AEM Assets
-* Clic droit sur le point de montage DAM
-* Sélectionnez Afficher les options d’affichage
-* Désélectionnez &quot;Afficher l’aperçu de l’icône&quot;.
-* Cliquez sur &quot;Utiliser comme valeurs par défaut&quot;.
+* Dans le Finder, accédez au dossier réseau partagé AEM Assets.
+* Effectuez un clic droit sur le point de montage DAM.
+* Sélectionnez Afficher les options d’affichage.
+* Désélectionnez Afficher l’aperçu de l’icône.
+* Cliquez sur Utiliser comme valeurs par défaut.
 
-**Nettoyer le cache lors de la connexion à un nouveau serveur AEM :** Si l’appli de bureau se connecte à un autre serveur AEM doté de la même URL, le cache n’est pas effacé automatiquement. Effacez manuellement le cache pour garantir les opérations correctes. Notez que cela se produit généralement lors du test, lorsque AEM installations peuvent être remplacées lors de l’exécution sur la même URL (CQ-4216982).
+**Nettoyer le cache lors de la connexion à un nouveau serveur AEM :** Si l’appli de bureau se connecte à un autre serveur AEM doté de la même URL, le cache n’est pas effacé automatiquement. Effacez manuellement le cache pour garantir des opérations correctes. Notez que cela se produit généralement lors du test, lorsque les installations AEM peuvent être remplacées lors de l’exécution sur la même URL (CQ-4216982).
 
 **Utiliser des certificats SSL signés par une autorité de certification :** Veuillez noter que l’appli de bureau AEM ne prend pas en charge les certificats SSL auto-signés lors de la connexion à AEM via une connexion sécurisée HTTPS. Un certificat signé par une autorité de certification est requis sur le serveur pour ce type de connexion (CQ-87941).
 
@@ -404,15 +404,15 @@ Comme le dossier /Volumes ne nécessite plus de droits d’administration, cette
 * Archivage et extraction :
    * Une ressource extraite par un utilisateur ne peut pas être ouverte pour un autre utilisateur, que ce soit par l’option Open (Ouvrir) de l’interface utilisateur tactile ou directement sur le bureau. Certaines applications peuvent la signaler comme verrouillée, mais aussi corrompue ou même bloquée lors d’une tentative d’ouverture. (CQ-4199234).
    * La modification simultanée de fichiers par plusieurs utilisateurs peut entraîner la perte de certaines modifications. La solution consiste à utiliser la fonctionnalité  d’archivage/d’extraction pour empêcher plusieurs utilisateurs de modifier le même fichier (CQ-97035).
-   * Certaines applications ne prennent pas correctement en charge l’indicateur en lecture seule qui permet à un utilisateur d’enregistrer un fichier extrait par un autre utilisateur. Le fichier modifié n’est pas transféré tant que l’autre utilisateur n’a pas archivé le fichier. Les deux modifications sont disponibles dans AEM sous la forme de versions différentes de la ressource (CQ-89551, CQ-87572, CQ-89615).
-   * Les états « extrait » et « en lecture seule » sont signalés indépendamment dans le Finder. Cela se traduit par 2 icônes de verrouillage lorsqu’un utilisateur extrait une ressource (CQ-89507).
-* Intégration du Finder :
-   * Lorsque vous effectuer un glisser/déplacer de fichiers volumineux, le Finder peut expirer pendant le transfert des fichiers en arrière-plan. Cela provoque une `Error - 36`. La solution consiste à faire glisser/déposer ou ouvrir à nouveau la ressource (CQ-4219628).
+   * Certaines applications ne prennent pas correctement en charge l’indicateur en lecture seule qui permet d’enregistrer un fichier extrait par une autre personne. Le fichier modifié n’est pas transféré tant que l’autre personne n’a pas archivé le fichier. Les deux modifications sont disponibles dans AEM sous la forme de versions différentes de la ressource (CQ-89551, CQ-87572, CQ-89615).
+   * Les états « extrait » et « en lecture seule » sont signalés indépendamment dans le Finder. Il s’affiche ainsi 2 icônes de verrouillage lorsqu’une personne extrait une ressource (CQ-89507).
+* Intégration du Finder :
+   * Lorsque vous effectuer un glisser/déplacer de fichiers volumineux, le Finder peut expirer pendant le transfert des fichiers en arrière-plan. Cela provoque une `Error - 36`. La solution consiste à faire un glisser/déposer ou à ouvrir de nouveau la ressource (CQ-4219628).
    * Le rechargement manuel de dossier ne fonctionne pas toujours. Solution : patientez 30 secondes pour que le dossier soit automatiquement mis à jour (CQ-97389).
    * L’option More Asset Info... (Plus d’informations sur la ressource...) est limitée aux sélections de fichiers uniques (CQ-89542, CQ-87656).
-   * L’ouverture dans AEM Assets... est limitée aux sélections de fichiers et de dossiers uniques (CQ-83382).
+   * L’option Ouvrir dans AEM Assets... est limitée aux sélections de fichiers et de dossiers uniques (CQ-83382).
    * Erreur lors du changement de nom des ressources sans extension (CQ-4218971)
-* Fonctionnalité Copier/Coller : Le collage est disponible lorsqu’aucune ressource n’a été copiée dans le Presse-papiers.
+* Fonctionnalité Copier/coller : la fonctionnalité Coller est disponible lorsqu’aucune ressource n’a été copiée dans le presse-papiers.
 * Windows :
    * Les fichiers avec des flux de données alternatifs (ADS, Alternate Data Streams) ne sont entièrement pris en charge que par NTFS. Si vous copiez ces fichiers sur le partage WebDAV fourni par l’appli de bureau, une boîte de dialogue d’avertissement indique à l’utilisateur que le fichier contient des propriétés ne pouvant pas être copiées vers le nouvel emplacement. Cela ne pose généralement pas problème puisque les propriétés ne sont pertinentes que pour une application spécifique du bureau de l’utilisateur et n’ont rien à voir avec le contenu réel du fichier (CQ-103770) (Windows).
    * L’appli de bureau sous Windows doit être installée par l’utilisateur qui l’utilise (CQ-4216389) (Windows).
