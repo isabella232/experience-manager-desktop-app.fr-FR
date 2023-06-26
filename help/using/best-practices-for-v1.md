@@ -3,9 +3,9 @@ title: Bonnes pratiques relatives à l’appli de bureau v1.10
 description: Fonctionnalités essentielles et utilisation recommandée de l’appli de bureau [!DNL Adobe Experience Manager] version 1.10.
 exl-id: 5de06b33-c05c-47eb-b884-408b6f9afc94
 source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1676'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ L’appli de bureau AEM utilise des partages réseau WebDAV (Windows) ou SMB (M
 
 *Figure : Architecture de l’appli de bureau AEM*
 
-La mise en cache supplémentaire à l’écriture lors de l’enregistrement d’un fichier entraîne tout d’abord l’enregistrement local du fichier (de sorte que l’utilisateur n’attend pas le transfert réseau). Ensuite, après un délai prédéfini (30 s), le fichier est chargé en AEM en arrière-plan, puis la ressource est chargée dans AEM. L’appli de bureau AEM fournit une interface utilisateur permettant de surveiller le statut des téléchargements de fichiers en arrière-plan.
+La mise en cache supplémentaire à l’écriture lors de l’enregistrement d’un fichier entraîne tout d’abord l’enregistrement local du fichier (de sorte que l’utilisateur ou l’utilisatrice n’attend pas le transfert réseau). Ensuite, après un délai prédéfini (30 secondes), le fichier est chargé vers AEM en arrière-plan, puis la ressource est chargée dans AEM. L’appli de bureau AEM fournit une interface utilisateur permettant de surveiller le statut des téléchargements de fichiers en arrière-plan.
 
 ## Utilisation recommandée de l’application de bureau AEM {#recommended-use-of-aem-desktop-app}
 
