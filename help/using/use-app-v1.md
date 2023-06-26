@@ -4,9 +4,9 @@ description: Découvrez comment utiliser l’appli de bureau Adobe Experience 
 feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
 source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2367'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ L’application accepte des paramètres pour se connecter aux serveurs [!DNL Exp
 
 ### Connexion à un serveur [!DNL Experience Manager] {#connect}
 
-L’application prend en charge la configuration du proxy sous Mac et Windows. La configuration est lue au démarrage de l’application. Si vous modifiez les paramètres du proxy, redémarrez l’application pour que les modifications prennent effet.
+L’application prend en charge la configuration du proxy sous Mac et Windows. La configuration est lue au démarrage de l’application. Si vous modifiez les paramètres du proxy, redémarrez l’application pour que les modifications soient prises en compte.
 
 >[!NOTE]
 >
@@ -211,7 +211,7 @@ L’application permet d’extraire des fichiers de ressource pour empêcher d�
 1. Dans le menu contextuel, sélectionnez Explorer les ressources pour ouvrir l’Explorateur.
 1. Dans l’Explorateur, accédez à l’emplacement de la ressource à extraire.
 1. Cliquez avec le bouton droit de la souris sur la ressource et sélectionnez Ouvrir sur le Web dans le menu contextuel.
-1. Dans la boîte de dialogue Asset Info (Informations sur les ressources), cliquez/appuyez sur l’icône Checkout (Extraire). L’icône Checkout (Extraire) se change en icône Check-in (Archiver).
+1. Dans la boîte de dialogue Informations sur les ressources, cliquez/appuyez sur l’icône Extraire. L’icône Checkout (Extraire) se change en icône Check-in (Archiver).
 
    ![Changement de l’icône Checkout (Extraire)](assets/checkout_icon_toggles.png)
 
@@ -233,9 +233,9 @@ Une ressource est automatiquement chargée dans [!DNL Experience Manager] après
 
 ### Chargement groupé de ressources et de dossiers vers le serveur [!DNL Experience Manager] {#bulkupload}
 
-L’appli de bureau [!DNL Experience Manager] permet de télécharger un dossier entier de ressources à partir de votre répertoire de fichiers local vers [!DNL Assets]. Ainsi, toutes les ressources du dossier sont chargées en bloc au lieu de devoir les charger une par une.
+L’appli de bureau [!DNL Experience Manager] permet de télécharger un dossier entier de ressources à partir de votre répertoire de fichiers local vers [!DNL Assets]. Ainsi, toutes les ressources du dossier sont chargées en bloc et non une par une.
 
-1. Dans l’interface utilisateur d’Assets, cliquez/appuyez sur . **Créer** dans la barre d’outils, puis choisissez **Dossier de chargement** dans le menu.
+1. Dans l’interface utilisateur d’Assets, cliquez/appuyez sur **Créer** dans la barre d’outils, puis choisissez **Charger le dossier** dans le menu.
 1. Accédez au dossier à charger et sélectionnez-le.
 1. Cliquez/appuyez sur OK. La boîte de dialogue Assets Status (Statut des ressources) affiche le statut du chargement.
 
@@ -247,7 +247,7 @@ L’appli de bureau [!DNL Experience Manager] permet de télécharger un dossier
    >
    >Vous pouvez suspendre ou annuler manuellement le chargement en cliquant/appuyant sur l’icône appropriée.
 
-1. Une fois le dossier chargé, fermez la boîte de dialogue et accédez à l’interface utilisateur d’Assets. Le dossier chargé s’affiche dans l’interface web d’ .
+1. Une fois le dossier chargé, fermez la boîte de dialogue et accédez à l’interface utilisateur d’Assets. Le dossier chargé s’affiche dans l’interface web.
 
 Adobe recommande de ne pas copier-coller ni faire glisser un grand nombre de fichiers, ou de dossiers imbriqués, du système de fichiers local vers la zone de partage réseau. L’application ne peut pas contrôler le processus de chargement en raison de limitations techniques et de faibles performances.
 
