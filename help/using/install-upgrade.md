@@ -3,9 +3,9 @@ title: Installation et configuration de l’appli de bureau
 description: Installez et configurez l’application de bureau  [!DNL Adobe Experience Manager]  pour travailler avec les serveurs  [!DNL Adobe Experience Manager Assets] , et téléchargez les ressources sur votre système de fichiers local.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 0f366e07b9d220cf04286b24e4bb45ce0b385e5c
+source-git-commit: e51547496b03ac42d13e7bee5e2e3d20e520d0ad
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1481'
 ht-degree: 96%
 
 ---
@@ -82,7 +82,7 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute ve
    >
    >Vérifiez qu’il n’existe aucun espace avant ou après l’adresse du serveur [!DNL Experience Manager]. En effet, la présence d’un espace empêchera l’application de se connecter au serveur [!DNL Experience Manager].
 
-1. Cliquez sur **[!UICONTROL I want to connect a different way]** et cliquez sur **[!UICONTROL Adobe login]** pour vous connecter au serveur Experience Manager Assets à l’aide d’Adobe Identity Management Service (IMS). La connexion IMS permet à l’application de bureau d’effectuer une actualisation automatique du jeton d’accès, ce qui permet à l’utilisateur de rester connecté pendant 14 jours au maximum. Cliquez sur **[!UICONTROL Direct login]** pour vous connecter au [!DNL Experience Manager] à l’aide des informations d’identification.
+1. [Facultatif] Cliquez sur **[!UICONTROL I want to connect a different way]** et cliquez sur **[!UICONTROL Adobe login]** pour vous connecter au serveur Experience Manager Assets à l’aide d’Adobe Identity Management Service (IMS). La connexion IMS permet à l’application de bureau d’effectuer une actualisation automatique du jeton d’accès, ce qui permet à l’utilisateur de rester connecté pendant 14 jours au maximum. Cliquez sur **[!UICONTROL Direct login]** pour ouvrir une session standard à la fonction [!DNL Experience Manager] à l’aide des informations d’identification de l’utilisateur.
 
    ![Connexion à l’Adobe](assets/adobe-login.png)
 
