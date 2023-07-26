@@ -5,19 +5,19 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: 0f366e07b9d220cf04286b24e4bb45ce0b385e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2624'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-Les informations de mise à jour de la dernière version de l’application de bureau 2.3.0 sont les suivantes. La date de publication est le 14 juillet 2023.
+Les informations de mise à jour de la dernière version de l’application de bureau 2.3.0 sont les suivantes. La date de publication est le 14 juillet 2023.
 
-La dernière version de l’appli de bureau contient les correctifs et améliorations suivants :
+La dernière version de l’application de bureau contient les améliorations et correctifs suivants :
 
-* Ajout de la prise en charge de la connexion IMS. L’intégration IMS permet à l’application de bureau d’effectuer automatiquement une actualisation du jeton d’accès, ce qui permet à l’utilisateur de rester connecté pendant 14 jours au maximum.
+* Ajout de la prise en charge de la connexion IMS. L’intégration IMS permet à l’application de bureau d’effectuer automatiquement une actualisation du jeton d’accès, ce qui permet à l’utilisateur ou l’utilisatrice de maintenir sa connexion pendant une durée de 14 jours au maximum.
 
 * Amélioration de la prise en charge des proxies d’entreprise et du filtrage web.
 
@@ -88,7 +88,7 @@ Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#what
 
 **Mises à jour dans la version v2.2.2 de l’application**
 
-* L’application de bureau [Windows uniquement] affiche un écran vide après l’installation des versions 2.2.0 et 2.2.1.
+* [Windows uniquement] L’application de bureau affiche un écran vide après l’installation des versions 2.2.0 et 2.2.1.
 
 **Mises à jour dans la version v2.2.1 de l’application**
 
