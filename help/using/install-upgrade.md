@@ -6,7 +6,7 @@ exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: 2382f615ae3a8b9c076d4037e1644233a2363677
 workflow-type: tm+mt
 source-wordcount: '1482'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -82,9 +82,9 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute ve
    >
    >Vérifiez qu’il n’existe aucun espace avant ou après l’adresse du serveur [!DNL Experience Manager]. En effet, la présence d’un espace empêchera l’application de se connecter au serveur [!DNL Experience Manager].
 
-1. [Facultatif] Cliquez sur **[!UICONTROL I want to connect a different way]** et cliquez sur **[!UICONTROL Adobe login]** pour vous connecter au serveur Experience Manager Assets à l’aide d’Adobe Identity Management Service (IMS). La connexion IMS permet à l’application de bureau d’effectuer une actualisation automatique du jeton d’accès, ce qui permet à l’utilisateur de rester connecté pendant 14 jours au maximum. Cliquez sur **[!UICONTROL Direct login]** pour ouvrir une session standard à la fonction [!DNL Experience Manager] à l’aide des informations d’identification de l’utilisateur.
+1. [Facultatif] Cliquez sur **[!UICONTROL I want to connect a different way]** et cliquez sur **[!UICONTROL Adobe login]** pour vous connecter au serveur Experience Manager Assets à l’aide d’Adobe Identity Management Service (IMS). La connexion IMS permet à l’application de bureau d’effectuer une actualisation automatique du jeton d’accès, ce qui permet à l’utilisateur ou l’utilisatrice demaintenir sa connexion pendant une durée de 14 jours au maximum. Cliquez sur **[!UICONTROL Direct login]** pour ouvrir une session standard à la fonction [!DNL Experience Manager] à l’aide des informations d’identification de l’utilisateur.
 
-   ![Connexion à l’Adobe](assets/adobe-login.png)
+   ![Connexion à Adobe](assets/adobe-login.png)
 
 1. Une fois la connexion établie, vous pouvez afficher la liste des dossiers et des ressources disponibles dans le dossier racine de la gestion des ressources numériques (DAM) [!DNL Experience Manager]. Vous pouvez parcourir les dossiers depuis l’application.
 
