@@ -1,12 +1,12 @@
 ---
 title: Installation et configuration de l’appli de bureau
-description: Installez et configurez l’application de bureau  [!DNL Adobe Experience Manager]  pour travailler avec les serveurs  [!DNL Adobe Experience Manager Assets] , et téléchargez les ressources sur votre système de fichiers local.
+description: Installez et configurez l’application de bureau  [!DNL Adobe Experience Manager] pour travailler avec les serveurs  [!DNL Adobe Experience Manager Assets] , et téléchargez les ressources sur votre système de fichiers local.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: 2382f615ae3a8b9c076d4037e1644233a2363677
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1482'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Pour plus d’informations, voir les [[!DNL Experience Manager] Notes de mise à
 
 ## Mise à niveau depuis une version antérieure {#upgrade-from-previous-version}
 
-Si vous utilisez la version 1.x de l’application de bureau, vous devez comprendre les différences et les similitudes existant entre la version précédente et la version la plus récente. Découvrez les [nouveautés de l’application de bureau](introduction.md#whats-new-v2) et son [fonctionnement](release-notes.md#how-app-works)..
+Si vous utilisez la version 1.x de l’application de bureau, vous devez comprendre les différences et les similitudes existant entre la version précédente et la version la plus récente. Découvrez les [nouveautés de l’application de bureau](introduction.md#whats-new-v2) et son [fonctionnement](release-notes.md#how-app-works).
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute ve
    >
    >Vérifiez qu’il n’existe aucun espace avant ou après l’adresse du serveur [!DNL Experience Manager]. En effet, la présence d’un espace empêchera l’application de se connecter au serveur [!DNL Experience Manager].
 
-1. [Facultatif] Cliquez sur **[!UICONTROL I want to connect a different way]** et cliquez sur **[!UICONTROL Adobe login]** pour vous connecter au serveur Experience Manager Assets à l’aide d’Adobe Identity Management Service (IMS). La connexion IMS permet à l’application de bureau d’effectuer une actualisation automatique du jeton d’accès, ce qui permet à l’utilisateur ou l’utilisatrice demaintenir sa connexion pendant une durée de 14 jours au maximum. Cliquez sur **[!UICONTROL Direct login]** pour ouvrir une session standard à la fonction [!DNL Experience Manager] à l’aide des informations d’identification de l’utilisateur.
+1. [Facultatif] Cliquez sur **[!UICONTROL I want to connect a different way]**, puis sur **[!UICONTROL Adobe login]** pour vous connecter au serveur Experience Manager Assets à l’aide du service Identity Management (IMS) d’Adobe. La connexion IMS permet à l’application de bureau d’effectuer une actualisation automatique du jeton d’accès, ce qui permet à l’utilisateur ou l’utilisatrice de maintenir sa connexion pendant une durée de 14 jours au maximum. Cliquez sur **[!UICONTROL Direct login]** pour ouvrir une session standard sur le serveur [!DNL Experience Manager] à l’aide des informations d’identification utilisateur.
 
    ![Connexion à Adobe](assets/adobe-login.png)
 
