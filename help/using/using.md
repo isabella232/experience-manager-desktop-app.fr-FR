@@ -5,9 +5,9 @@ mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 source-git-commit: 98e99ee48d835cea0098c4acfe49f6b247ccf658
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4054'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Lorsque vous ouvrez l’application après vous être déconnecté ou lorsque vo
 
 L’application de bureau [!DNL Adobe Experience Manager] vous permet d’effectuer les tâches clés suivantes :
 
-![Workflows et tâches pouvant être effectués à l’aide de [!DNL Experience Manager] application de bureau](assets/aem_desktop_app_usecases_v2.png "Workflows et tâches pouvant être effectués à l’aide de [!DNL Adobe Experience Manager] application de bureau")
+![Workflows et tâches pouvant être effectués avec les workflows de l’application de bureau [!DNL Experience Manager]](assets/aem_desktop_app_usecases_v2.png "Workflows et tâches pouvant être effectués avec l’appli de bureau  [!DNL Adobe Experience Manager] ")
 
-Télécharger [this](assets/aem_desktop_app_usecases_print.pdf) fichier de PDF prêt à imprimer.
+Télécharger [ce](assets/aem_desktop_app_usecases_print.pdf) fichier PDF prêt à imprimer.
 
 ## Fonctionnement de l’appli de bureau {#how-app-works2}
 
