@@ -5,9 +5,9 @@ mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 source-git-commit: 1139b3359042a134d86900e3b7b7f03d8d920cdc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4032'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ Vous pouvez parcourir, rechercher et prévisualiser les ressources disponibles d
 
 >[!NOTE]
 >
->L’application affiche les ressources en faisant correspondre les critères de recherche dans plusieurs champs de métadonnées et pas seulement le titre ou le nom de fichier de la ressource.
+>L’application affiche les ressources en faisant correspondre les critères de recherche de plusieurs champs de métadonnées et pas uniquement le titre ou le nom de fichier de la ressource.
 
 ## Téléchargement de ressources {#download-assets}
 
@@ -158,7 +158,7 @@ Utilisez **[!UICONTROL Toggle Check-out]** pour verrouiller la ressource afin d�
 * Vous avez commencé à modifier une ressource sans d’abord l’extraire (vous l’avez simplement ouverte).
 * Vous vous préparez à modifier une ressource et ne souhaitez pas que d’autres personnes le fassent.
 
-Une fois les modifications effectuées, l’application affiche la variable **[!UICONTROL Edited Locally]** état des ressources modifiées. Toutes les modifications enregistrées dans les ressources sont en local uniquement jusqu’à ce que vous les chargiez dans [!DNL Experience Manager]. Pour charger une ressource spécifique ou quelques ressources une par une, cliquez sur **[!UICONTROL Upload Changes]** dans les options d’une ressource. Une version de la ressource est alors créée dans [!DNL Experience Manager]. L’interface web d’[!DNL Assets] vous permet d’afficher l’historique des ressources dans la [vue de journal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html?lang=fr).
+Une fois les modifications effectuées, l’application affiche le statut **[!UICONTROL Edited Locally]** pour les ressources modifiées. Toutes les modifications enregistrées dans les ressources sont en local uniquement jusqu’à ce que vous les chargiez dans [!DNL Experience Manager]. Pour charger une ressource spécifique ou quelques ressources une par une, cliquez sur **[!UICONTROL Upload Changes]** dans les options d’une ressource. Une version de la ressource est alors créée dans [!DNL Experience Manager]. L’interface web d’[!DNL Assets] vous permet d’afficher l’historique des ressources dans la [vue de journal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html?lang=fr).
 
 ![Option de chargement des modifications dans l’appli](assets/upload_changes_single1_da2.png "Option de chargement des modifications dans l’appli")
 
@@ -181,7 +181,7 @@ Les utilisateurs peuvent ajouter de nouvelles ressources au référentiel DAM. P
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
-Vous pouvez charger des dossiers ou des fichiers spécifiques depuis votre système de fichiers local. La hiérarchie d’un dossier est conservée lors de son chargement. Avant de charger des ressources en masse, reportez-vous à [Chargements en masse](#bulk-upload-assets).
+Vous pouvez charger des dossiers ou des fichiers spécifiques depuis votre système de fichiers local. La hiérarchie d’un dossier est conservée lorsque ce dossier est chargé. Avant de charger des ressources en masse, reportez-vous à [Chargements en masse](#bulk-upload-assets).
 
 Pour afficher la liste des ressources transférées au cours d’une session donnée, cliquez sur **[!UICONTROL View]** > **[!UICONTROL Assets transfers]**. La liste vous permet d’afficher et de vérifier rapidement les transferts de fichiers de la session en cours.
 
@@ -349,7 +349,7 @@ Si une ressource téléchargée localement est mise à jour sur le serveur [!DNL
 
 ![Options pour résoudre le conflit lorsque la ressource est modifiée à distance](assets/modified_remotely_dialog_da2.png "Options pour résoudre le conflit lorsque la ressource est modifiée à distance")
 
-Si une ressource que vous modifiez localement est également mise à jour sur le serveur à votre insu, l’application affiche le statut **[!UICONTROL Editing Conflict]**. Vous pouvez conserver un jeu de modifications, ou conserver vos mises à jour (cliquez sur **[!UICONTROL Keep Mine]**) et de supprimer les modifications de l’autre utilisateur, ou de respecter les mises à jour de l’autre utilisateur, et de supprimer les vôtres (**[!UICONTROL Overwrite Mine]**).
+Si une ressource que vous modifiez localement est également mise à jour sur le serveur à votre insu, l’application affiche le statut **[!UICONTROL Editing Conflict]**. Vous pouvez conserver un jeu de modifications : conservez vos mises à jour (cliquez sur **[!UICONTROL Keep Mine]**) et supprimez les modifications de l’autre utilisateur ou utilisatrice, ou conservez les modifications de l’autre utilisateur ou utilisatrice et supprimez les vôtres (cliquez sur **[!UICONTROL Overwrite Mine]**).
 
 ![Options pour résoudre un conflit de modification](assets/editing_conflict_dialog_da2.png "Options pour résoudre un conflit de modification")
 
